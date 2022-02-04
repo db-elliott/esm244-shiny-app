@@ -56,6 +56,8 @@ ui <- fluidPage(
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
+    
+    output$range <- renderPrint({ input$slider1 })
 
     output$distPlot <- renderPlot({
         # generate bins based on input$bins from ui.R
