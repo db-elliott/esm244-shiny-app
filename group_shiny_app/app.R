@@ -38,7 +38,7 @@ ui <- fluidPage(
                                                label = h3("Select date range"))
                             ), #end of sidebarPanel
                             mainPanel(
-                                "OUTPUT"
+                                
                             ) #end of mainPanel
                         )), #end of sidePanel, W3
                tabPanel("Timescale for bleaching and recovery",
@@ -57,14 +57,8 @@ ui <- fluidPage(
 # Define server logic required to draw a histogram
 server <- function(input, output) {
 
-    output$distPlot <- renderPlot({
-        # generate bins based on input$bins from ui.R
-        x    <- faithful[, 2]
-        bins <- seq(min(x), max(x), length.out = input$bins + 1)
-
-        # draw the histogram with the specified number of bins
-        hist(x, breaks = bins, col = 'darkgray', border = 'white')
-    })
+    # widget 3 output
+    output$value <- renderPrint({ input$dates })
 }
 
 # Run the application 
