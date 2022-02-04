@@ -4,7 +4,7 @@ library(shiny)
 ui <- fluidPage(
     navbarPage("Morea Coral Reef LTER",
                tabPanel("About",
-                        sidebarLayout(
+                       sidebarLayout(
                             sidebarPanel("This is where words about us will go."
                                          ),
                             mainPanel(
@@ -22,33 +22,36 @@ ui <- fluidPage(
                                 "OUTPUT GOES HERE"
                             ) # end of mainPanel
                         )),  # end of sidebarLayout, tabPanel W1
-               tabPanel("Fish Abundance By Year",
+               tabPanel("Yearly Fish Abundance",
                         sidebarLayout(
                             sidebarPanel(
-                                "Yearly Fish Abundance",
                                 selectInput("select",
                                             inputId = "year",
-                                            label = "Select year",
-                                            choices = list("x" = "x", "y" = "y", "z" = "z"),
-                                            multiple = TRUE)
+                                            label = h3("Select year"),
+                                            choices = list("x" = "x", "y" = "y", "z" = "z"))
                             ),  # end of sidebarPanel
                             mainPanel(
                                 "OUTPUT GOES HERE"
                             ) #end of mainPanel
                         )), #end of sidebarLayout, tabPanel W2
-               tabPanel("Widget 3",
+               tabPanel("Comparative Yearly Species Abundance",
                         sidebarLayout(
                             sidebarPanel(
-                                "Select buttons for pie chart"
+                                radioButtons("radio",
+                                             label = h3("Fish or Coral?"),
+                                             choices = list("Fish", "Coral")),
+                                dateRangeInput("dates",
+                                               label = h3("Select date range"))
                             ), #end of sidebarPanel
                             mainPanel(
                                 "OUTPUT"
                             ) #end of mainPanel
                         )), #end of sidePanel, W3
-               tabPanel("Widget 4",
+               tabPanel("Timescale - Bleaching & Recovery",
                         sidebarLayout(
                             sidebarPanel(
-                                "Timescale slider for bleaching/recovery"
+                                sliderInput("slider1", label = h3("Select time scale"), min = 0, 
+                                            max = 100, value = c(40, 60))
                             ),  #end of sidebarPanel
                             mainPanel(
                                 "OUTPUT"
