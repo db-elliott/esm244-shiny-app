@@ -1,16 +1,17 @@
 library(shiny)
+library(bslib)
 library(palmerpenguins)
 library(tidyverse)
 
-# Define UI for application that draws a histogram
 ui <- fluidPage(
-    navbarPage("Morea Coral Reef LTER",
+    navbarPage(theme = bs_theme(bootswatch = "darkly"),
+               "Morea Coral Reef LTER",
                tabPanel("About",
-                       sidebarLayout(
+                        sidebarLayout(
                             sidebarPanel("This is where words about us will go."
-                                         ),
+                            ),
                             mainPanel(
-                            "This is where words about our app will go.")
+                                "This is where words about our app will go.")
                         )),
                tabPanel("Coral Cover By Year",
                         sidebarLayout(
