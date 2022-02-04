@@ -16,24 +16,26 @@ ui <- fluidPage(
                                 "OUTPUT GOES HERE"
                             ) # end of mainPanel
                         )),  # end of sidebarLayout, tabPanel W1
-               tabPanel("Widget 2",
+               tabPanel("Yearly Fish Abundance",
                         sidebarLayout(
                             sidebarPanel(
-                                "Yearly Fish Abundance",
                                 selectInput("select",
                                             inputId = "year",
-                                            label = "Select year",
-                                            choices = list("x" = "x", "y" = "y", "z" = "z"),
-                                            multiple = TRUE)
+                                            label = h3("Select year"),
+                                            choices = list("x" = "x", "y" = "y", "z" = "z"))
                             ),  # end of sidebarPanel
                             mainPanel(
                                 "OUTPUT GOES HERE"
                             ) #end of mainPanel
                         )), #end of sidebarLayout, tabPanel W2
-               tabPanel("Widget 3",
+               tabPanel("Comparative Yearly Species Abundance",
                         sidebarLayout(
                             sidebarPanel(
-                                "Select buttons for pie chart"
+                                radioButtons("radio",
+                                             label = h3("Fish or Coral?"),
+                                             choices = list("Fish", "Coral")),
+                                dateRangeInput("dates",
+                                               label = h3("Select date range"))
                             ), #end of sidebarPanel
                             mainPanel(
                                 "OUTPUT"
