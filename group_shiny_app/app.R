@@ -54,7 +54,8 @@ ui <- fluidPage(
                                             max = 100, value = c(40, 60))
                             ),  #end of sidebarPanel
                             mainPanel(
-                                "OUTPUT"
+                                "OUTPUT",
+                                verbatimTextOutput("range")
                             ) #end of mainPanel
                         )) #end of sidePanel, W4
     )  # end of navbarPage
@@ -62,6 +63,8 @@ ui <- fluidPage(
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
+    
+    output$range <- renderPrint({ input$slider1 })
 
     output$distPlot <- renderPlot({
         # generate bins based on input$bins from ui.R
