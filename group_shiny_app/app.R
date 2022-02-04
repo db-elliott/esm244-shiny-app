@@ -39,7 +39,7 @@ ui <- fluidPage(
                             mainPanel(
                                 "OUTPUT"
                             ) #end of mainPanel
-                        )) #end of sidePanel, W4)
+                        )) #end of sidePanel, W4
     )  # end of navbarPage
 )
 
