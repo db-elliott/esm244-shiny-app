@@ -4,7 +4,7 @@ library(shiny)
 ui <- fluidPage(
     navbarPage("Morea Coral Reef LTER",
                tabPanel("About"),
-               tabPanel("Coral cover per year",
+               tabPanel("Coral Cover per year",
                         sidebarLayout(
                             sidebarPanel(
                                 selectInput("select", 
@@ -19,12 +19,7 @@ ui <- fluidPage(
                tabPanel("Widget 2",
                         sidebarLayout(
                             sidebarPanel(
-                                "Yearly Fish Abundance",
-                                selectInput("select",
-                                            inputId = "year",
-                                            label = "Select year",
-                                            choices = list("x" = "x", "y" = "y", "z" = "z"),
-                                            multiple = TRUE)
+                                "Dropdown for fish abundance/year"
                             ),  # end of sidebarPanel
                             mainPanel(
                                 "OUTPUT GOES HERE"
