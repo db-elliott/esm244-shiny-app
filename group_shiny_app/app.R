@@ -2,12 +2,16 @@ library(shiny)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
-    navbarPage("About",
-               tabPanel("Widget 1",
+    navbarPage("Morea Coral Reef LTER",
+               tabPanel("About"),
+               tabPanel("Coral cover per year",
                         sidebarLayout(
                             sidebarPanel(
-                                "Dropdown for coral cover/year"
-                            ), # end of sidebarPanel
+                                selectInput("select", 
+                                            label = h3("Select Year"), 
+                                            choices = list("Choice 1" = 1, "Choice 2" = 2, "Choice 3" = 3), 
+                                            selected = 1)
+                            ), # end of sidebarLayout
                             mainPanel(
                                 "OUTPUT GOES HERE"
                             ) # end of mainPanel
@@ -26,7 +30,24 @@ ui <- fluidPage(
                                 "OUTPUT GOES HERE"
                             ) #end of mainPanel
                         )), #end of sidebarLayout, tabPanel W2
-               tabPanel("Thing 3")
+               tabPanel("Widget 3",
+                        sidebarLayout(
+                            sidebarPanel(
+                                "Select buttons for pie chart"
+                            ), #end of sidebarPanel
+                            mainPanel(
+                                "OUTPUT"
+                            ) #end of mainPanel
+                        )), #end of sidePanel, W3
+               tabPanel("Widget 4",
+                        sidebarLayout(
+                            sidebarPanel(
+                                "Timescale slider for bleaching/recovery"
+                            ),  #end of sidebarPanel
+                            mainPanel(
+                                "OUTPUT"
+                            ) #end of mainPanel
+                        )) #end of sidePanel, W4
     )  # end of navbarPage
 )
 
