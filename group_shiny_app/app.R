@@ -3,7 +3,13 @@ library(shiny)
 # Define UI for application that draws a histogram
 ui <- fluidPage(
     navbarPage("Morea Coral Reef LTER",
-               tabPanel("About"),
+               tabPanel("About",
+                       sidebarLayout(
+                            sidebarPanel("This is where words about us will go."
+                                         ),
+                            mainPanel(
+                            "This is where words about our app will go.")
+                        )),
                tabPanel("Coral Cover By Year",
                         sidebarLayout(
                             sidebarPanel(
