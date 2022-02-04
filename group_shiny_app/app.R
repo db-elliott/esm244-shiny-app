@@ -21,8 +21,9 @@ ui <- fluidPage(
                                             selected = 1)
                             ), # end of sidebarLayout
                             mainPanel(
-                                "OUTPUT GOES HERE"
-                            ) # end of mainPanel
+                                "OUTPUT GOES HERE",
+                                verbatimTextOutput("value"), #widget 2 output
+                            ) # end of mainPanel2
                         )),  # end of sidebarLayout, tabPanel W1
                tabPanel("Yearly Fish Abundance",
                         sidebarLayout(
@@ -34,7 +35,7 @@ ui <- fluidPage(
                             ),  # end of sidebarPanel
                             mainPanel(
                                 "OUTPUT GOES HERE"
-                            ) #end of mainPanel
+                            ) #end of mainPanel 3
                         )), #end of sidebarLayout, tabPanel W2
                tabPanel("Comparative Yearly Species Abundance",
                         sidebarLayout(
@@ -59,26 +60,36 @@ ui <- fluidPage(
                                             max = 100, value = c(40, 60))
                             ),  #end of sidebarPanel
                             mainPanel(
-                                "OUTPUT"
-                            ) #end of mainPanel
+                                "OUTPUT",
+                                verbatimTextOutput("range") #widget 4 output
+                            ) #end of mainPanel 4
                         )) #end of sidePanel, W4
     )  # end of navbarPage
 )
 
+
 # Define server logic required to draw a histogram
 server <- function(input, output) {
-
+    
+    #output widget 2
+    output$value <- renderPrint({ input$select })
+    
+    # widget 3 output
     penguin_select <- reactive ({
         penguins %>%
             filter(year == input$pg_year) %>%
             filter(sex == input$pg_sex)
     })
     
-    # widget 3 output
     output$pg_plot <- renderPlot({
         ggplot(data = penguin_select(), aes(x = flipper_length_mm, y = body_mass_g)) +
             geom_jitter(aes(color = species))
     })
+    
+    #output widget 4
+    output$range <- renderPrint({ input$slider1 })
+    
+
 }
 
 # Run the application 
