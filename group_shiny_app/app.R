@@ -4,7 +4,7 @@ library(shiny)
 ui <- fluidPage(
     navbarPage("Morea Coral Reef LTER",
                tabPanel("About"),
-               tabPanel("Coral cover per year",
+               tabPanel("Coral Cover By Year",
                         sidebarLayout(
                             sidebarPanel(
                                 selectInput("select", 
@@ -41,7 +41,7 @@ ui <- fluidPage(
                                 "OUTPUT"
                             ) #end of mainPanel
                         )), #end of sidePanel, W3
-               tabPanel("Timescale for bleaching and recovery",
+               tabPanel("Timescale - Bleaching & Recovery",
                         sidebarLayout(
                             sidebarPanel(
                                 sliderInput("slider1", label = h3("Select time scale"), min = 0, 
