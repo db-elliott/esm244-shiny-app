@@ -41,10 +41,11 @@ ui <- fluidPage(
                                 "OUTPUT"
                             ) #end of mainPanel
                         )), #end of sidePanel, W3
-               tabPanel("Widget 4",
+               tabPanel("Timescale for bleaching and recovery",
                         sidebarLayout(
                             sidebarPanel(
-                                "Timescale slider for bleaching/recovery"
+                                sliderInput("slider1", label = h3("Select time scale"), min = 0, 
+                                            max = 100, value = c(40, 60))
                             ),  #end of sidebarPanel
                             mainPanel(
                                 "OUTPUT"
