@@ -15,7 +15,12 @@ ui <- fluidPage(
                tabPanel("Widget 2",
                         sidebarLayout(
                             sidebarPanel(
-                                "Dropdown for fish abundance/year"
+                                "Yearly Fish Abundance",
+                                selectInput("select",
+                                            inputId = "year",
+                                            label = "Select year",
+                                            choices = list("x" = "x", "y" = "y", "z" = "z"),
+                                            multiple = TRUE)
                             ),  # end of sidebarPanel
                             mainPanel(
                                 "OUTPUT GOES HERE"
