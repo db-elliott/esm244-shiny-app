@@ -22,10 +22,15 @@ ui <- fluidPage(
                                 "OUTPUT GOES HERE"
                             ) # end of mainPanel
                         )),  # end of sidebarLayout, tabPanel W1
-               tabPanel("Widget 2",
+               tabPanel("Fish Abundance By Year",
                         sidebarLayout(
                             sidebarPanel(
-                                "Dropdown for fish abundance/year"
+                                "Yearly Fish Abundance",
+                                selectInput("select",
+                                            inputId = "year",
+                                            label = "Select year",
+                                            choices = list("x" = "x", "y" = "y", "z" = "z"),
+                                            multiple = TRUE)
                             ),  # end of sidebarPanel
                             mainPanel(
                                 "OUTPUT GOES HERE"
