@@ -1,14 +1,16 @@
 library(shiny)
+library(bslib)
 
-# Define UI for application that draws a histogram
+
 ui <- fluidPage(
-    navbarPage("Morea Coral Reef LTER",
+    navbarPage(theme = bs_theme(bootswatch = "darkly"),
+               "Morea Coral Reef LTER",
                tabPanel("About",
-                       sidebarLayout(
+                        sidebarLayout(
                             sidebarPanel("This is where words about us will go."
-                                         ),
+                            ),
                             mainPanel(
-                            "This is where words about our app will go.")
+                                "This is where words about our app will go.")
                         )),
                tabPanel("Coral Cover By Year",
                         sidebarLayout(
@@ -19,8 +21,9 @@ ui <- fluidPage(
                                             selected = 1)
                             ), # end of sidebarLayout
                             mainPanel(
-                                "OUTPUT GOES HERE"
-                            ) # end of mainPanel
+                                "OUTPUT GOES HERE",
+                                verbatimTextOutput("value"), #widget 2 output
+                            ) # end of mainPanel2
                         )),  # end of sidebarLayout, tabPanel W1
                tabPanel("Yearly Fish Abundance",
                         sidebarLayout(
@@ -32,7 +35,7 @@ ui <- fluidPage(
                             ),  # end of sidebarPanel
                             mainPanel(
                                 "OUTPUT GOES HERE"
-                            ) #end of mainPanel
+                            ) #end of mainPanel 3
                         )), #end of sidebarLayout, tabPanel W2
                tabPanel("Comparative Yearly Species Abundance",
                         sidebarLayout(
@@ -54,15 +57,23 @@ ui <- fluidPage(
                                             max = 100, value = c(40, 60))
                             ),  #end of sidebarPanel
                             mainPanel(
-                                "OUTPUT"
-                            ) #end of mainPanel
+                                "OUTPUT",
+                                verbatimTextOutput("range") #widget 4 output
+                            ) #end of mainPanel 4
                         )) #end of sidePanel, W4
     )  # end of navbarPage
 )
 
+
 # Define server logic required to draw a histogram
 server <- function(input, output) {
-
+    
+    #output widget 2
+    output$value <- renderPrint({ input$select })
+    
+    #output widget 4
+    output$range <- renderPrint({ input$slider1 })
+    
     #output widget 2
     output$value <- renderPrint({ input$select })
     
