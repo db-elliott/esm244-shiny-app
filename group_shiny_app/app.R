@@ -11,7 +11,7 @@ ui <- fluidPage(
                             sidebarPanel("This is where words about us will go."
                             ),
                             mainPanel(
-                                "This is where words about our app will go.")
+                                "This app aims to visualize data on coral cover and reef fish species abundance during 4 'normal' years and two years with bleaching events in the Morea Coral Reef LTER.")
                         )),
                tabPanel("Coral Cover By Year",
                         sidebarLayout(
