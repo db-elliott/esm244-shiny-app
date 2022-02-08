@@ -5,13 +5,23 @@ library(tidyverse)
 
 ui <- fluidPage(
     navbarPage(theme = bs_theme(bootswatch = "darkly"),
-               "Morea Coral Reef LTER",
+               "Mo'orea Coral Reef LTER",
                tabPanel("About",
                         sidebarLayout(
-                            sidebarPanel("This is where words about us will go."
+                            sidebarPanel(
                             ),
-                            mainPanel(
-                                "This app aims to visualize data on coral cover and reef fish species abundance during 4 'normal' years and two years with bleaching events in the Morea Coral Reef LTER.")
+                            mainPanel("This app visualizes data on coral cover and reef fish species abundance 
+                                during four 'normal' years and two years when bleaching events occured in the 
+                                Mo'orea Coral Reef LTER site.",
+                                br(),
+                                " ",
+                                br(),
+                               "The Mo'orea Coral Reef Long-Term Ecological Research site in French Polynesia
+                                was established by the National Science Foundation in 2004. It is a research 
+                                partner to the University of California, Santa Barbara and the University of
+                                California, Northridge. Its purpose is as a model for exploring factors that 
+                                mediate coral community structure and function, particularly external, 
+                                anthropogenic drivers of disturbance.")
                         )),
                tabPanel("Coral Cover By Year",
                         sidebarLayout(
@@ -95,3 +105,4 @@ server <- function(input, output) {
 
 # Run the application 
 shinyApp(ui = ui, server = server)
+
