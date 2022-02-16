@@ -1,0 +1,7 @@
+Manifest file for knb-lter-mcr.4.38-4c9184f37cff01bcdc32dc486ec36961.zip created on Thu Aug 20 13:07:38 MDT 2020
+knb-lter-mcr.4_1_20191119.csv (28767241 bytes)
+knb-lter-mcr.4_2_20190321.csv (1405617 bytes)
+knb-lter-mcr.4_3_20200604.csv (8726 bytes)
+knb-lter-mcr.4.38.xml (107078 bytes)
+knb-lter-mcr.4.38.txt (55651 bytes)
+knb-lter-mcr.4.38.report.xml (72563 bytes)

@@ -1,0 +1,2130 @@
+
+  
+    
+      uid=MCR,o=lter,dc=ecoinformatics,dc=org
+      all
+    
+    
+      public
+      read
+    
+  
+  
+    
+    knb-lter-mcr.4
+    doi:10.6073/pasta/10ee808a046cb63c0b8e3bc3c9799806
+    Annual Coral Survey
+    MCR LTER: Coral Reef: Long-term Population and Community Dynamics: Corals, ongoing since 2005
+    
+      Moorea Coral Reef LTER
+      			Marine Science Institute
+			University of California
+			Santa Barbara, CA 93106-6150  USA
+      http://mcr.lternet.edu/
+    
+    
+      Peter Edmunds
+      Moorea Coral Reef LTER
+      			Department of Biology
+			California State University
+			18111 Nordhoff Street
+			Northridge, CA 91330-8303  USA
+      +1(818)677-2502
+      +1(818)677-2034
+      peter.edmunds@csun.edu
+      http://www.csun.edu/biology/faculty/edmunds.htm
+      http://orcid.org/0000-0002-9039-9347
+      
+    
+    
+      Vincent Moriarty
+      Moorea Coral Reef LTER
+      Field Technician
+      http://orcid.org/0000-0002-7851-156X
+      
+      Field Technician
+    
+    
+      Sam Ginther
+      Moorea Coral Reef LTER
+      Field Technician
+      http://orcid.org/0000-0003-3263-8546
+      
+      Field Technician
+    
+    2020-06-04
+    english
+    
+      This dataset contains the percentage cover of the stony corals (Scleractinia) and other
+        major groups analyzed from 0.5 x 0.5 m photographic quadrats in several reef habitats at the
+        Moorea Coral Reef LTER, French Polynesia. This survey has been repeated annually in April
+        since 2005. There are two tables available, providing different views of the same data: a
+        long table having all values in one column and a wide table having a separate column for
+        each dependent variable. Functional groups (i.e., dependent variables) counted are: Scleractinian Corals (by genus where
+        appropriate, see methods), Macroalgae, Crustose Coralline Algae / Bare Space, Soft Corals,
+        Hydrocorals (Millepora), Algal Turf and Sand. The coral community was sampled
+        photographically in all habitats surrounding the island: Fringing Reef, Lagoon (Backreef),
+        and Outer Reef (Forereef.) The sampling regime consists of a repeated-measures protocol in each
+        habitat, and is structured by habitat to allow a statistical contrast of sites, shores,
+        times, and in the case of the outer reef, depths. Detailed methods are available in the
+        protocols section.
+       This material is based upon work supported by the U.S. National Science Foundation under
+        Grant No. OCE 16-37396 (and earlier awards) as well as a generous gift from the Gordon and
+        Betty Moore Foundation. Research was completed under permits issued by the French Polynesian
+        Government (Délégation à la Recherche) and the Haut-commissariat de la République en
+        Polynésie Francaise (DTRT) (Protocole d'Accueil 2005-2020). This work represents a
+        contribution of the Moorea Coral Reef (MCR) LTER Site. 
+    
+    
+      Demographics
+      Long-term Time Series
+      LTER
+      MCR
+      Moorea Coral Reef
+      Scleractinian Coral
+    
+    
+      California State University Northridge
+      Gordon and Betty Moore Foundation
+      NSF
+      Richard B. Gump South Pacific Research Station
+      University of California Santa Barbara
+      Institute, Organization, or Funding Agency
+    
+    
+      French Polynesia
+      Moorea
+    
+    
+      Scleractinia
+    
+    
+      Carbonate rocks
+      Coral Reefs
+      Corals
+      Lagoons
+      Marine environments
+      Polyps (organisms)
+      Populations
+      Shallow water
+      NBII Biocomplexity Thesaurus
+    
+    
+      communities
+      coral reefs
+      corals
+      habitats
+      marine
+      LTER Network Controlled Vocabulary
+    
+    
+      Populations
+      LTER Core Research Area
+    
+    
+      Time Series Program
+      MCR Core Activity
+    
+    
+      Ocean Acidification
+      Reef Resistance and Resilience
+      MCR Research Theme
+    
+    
+      Population and Community Dynamics
+      MCR-LTER Working Group
+    
+    
+
+      
+  This data package is released under the Creative Commons license
+  Attribution 4.0 International (CC BY 4.0 , see
+  https://creativecommons.org/licenses/by/4.0/).
+  This license states that consumers ("Data Users" herein) may
+  distribute, adapt, reuse, remix, and build upon this work, as long as
+  they give appropriate credit, provide a link to the license, and
+  indicate if changes were made. If redistributed, a Data User may not
+  apply additional restrictions or technological measures that prevent
+  access.
+
+      
+  The Data User has an ethical obligation to cite the data source
+  appropriately in any publication or product that results from its use,
+  and notify the data contact or creator. Communication, collaboration,
+  or co-authorship (as appropriate) with the creators of this data
+  package is encouraged to prevent duplicate research or publication.
+  The Data User is urged to contact the authors of these data if any
+  questions about methodology or results occur. The Data User should
+  realize that these data may be actively used by others for ongoing
+  research and that coordination may be necessary to prevent duplication
+  or inappropriate use. The Data User should realize that
+  misinterpretation may occur if data are used outside of the context of
+  the original study. The Data User should be aware that data are
+  updated periodically and it is the responsibility of the Data User to
+  check for new versions of the data.
+
+      
+  While substantial efforts are made to ensure the accuracy of data and
+  associated documentation, complete accuracy of data sets cannot be
+  guaranteed. This data package (with its components) is made available
+  "as is" and with no warranty of accuracy or fitness for use. The
+  creators of this data package and the repository where these data were
+  obtained shall not be liable for any damages resulting from
+  misinterpretation, use or misuse of the data package or its
+  components.
+
+    
+    
+      
+        To view photographs interactively
+        http://mcrlter.msi.ucsb.edu/data/db/census/coralImage.php
+      
+    
+    
+      
+        Moorea, French Polynesia
+        
+          -150
+          -149.67
+          -17.45
+          -17.62
+        
+      
+      
+        LTER 1 polygon including LTER 0 on north shore
+        
+          -149.8455917
+          -149.829821
+          -17.47185366
+          -17.48641792
+        
+        
+          
+            -149.845591714532,-17.47414056509442 -149.8444519643552,-17.48505989649701 -149.8383270457441,-17.48426840091165 -149.8338147432263,-17.48641791890627 -149.829821007306,-17.48494822551147 -149.8320709284201,-17.4740284807948 -149.832080184047,-17.47322775964911 -149.8320960734944,-17.47185366062079 -149.8453810009447,-17.47265313575251 -149.845591714532,-17.47414056509442
+          
+        
+      
+      
+        LTER 2 polygon on north shore
+        
+          -149.8116849
+          -149.7961685
+          -17.46576169
+          -17.48131958
+        
+        
+          
+            -149.8116848616027,-17.46714573056912 -149.8098855542298,-17.48075290854079 -149.8077576500829,-17.48063908230724 -149.8051572586888,-17.48109313281079 -149.8032635045001,-17.47984289373148 -149.802788348976,-17.47893280566117 -149.800666445604,-17.48131957607722 -149.7967627437853,-17.48063739528508 -149.7961685287123,-17.48006903867057 -149.7977614186906,-17.4665681148313 -149.7978767224803,-17.4657616891053 -149.8115671676133,-17.46645490408906 -149.8116848616027,-17.46714573056912
+          
+        
+      
+      
+        LTER 3 polygon on southeast shore
+        
+          -149.7708619
+          -149.7519968
+          -17.50382025
+          -17.52087158
+        
+        
+          
+            -149.7651175463783,-17.50382025297242 -149.7678423598084,-17.50875380773254 -149.7667902177228,-17.51063544149844 -149.7669457242864,-17.51352653327354 -149.7680022773823,-17.51554750188549 -149.7696581238419,-17.51655737992495 -149.7708619294637,-17.51771051529938 -149.7570438798842,-17.52087157901452 -149.7519967916629,-17.50642816971748 -149.7651175463783,-17.50382025297242
+          
+        
+      
+      
+        LTER 4 polygon on southeast shore
+        
+          -149.7772857
+          -149.7566866
+          -17.53305021
+          -17.55064263
+        
+        
+          
+            -149.7622436536396,-17.55064263311045 -149.7566865755679,-17.54030521526718 -149.7725152866376,-17.53305020659341 -149.7738607602216,-17.53618639472932 -149.7729632073118,-17.53903159324447 -149.7772857215906,-17.54541678116018 -149.7622436536396,-17.55064263311045
+          
+        
+      
+      
+        LTER 5 polygon on southwest shore
+        
+          -149.8869755
+          -149.8561009
+          -17.56818162
+          -17.59182383
+        
+        
+          
+            -149.8869754806263,-17.5791218519215 -149.8721550223573,-17.59182383151219 -149.8561009265408,-17.58082674989516 -149.857889567124,-17.57926925045853 -149.8629652034573,-17.57586562315693 -149.8697101743941,-17.56818162129872 -149.8869754806263,-17.5791218519215
+          
+        
+      
+      
+        LTER 6 polygon on southwest shore
+        
+          -149.934537
+          -149.9115336
+          -17.50735955
+          -17.52839766
+        
+        
+          
+            -149.9345370155986,-17.51082689018308 -149.926650263849,-17.52839766454106 -149.911533605555,-17.52424708128931 -149.9123038125004,-17.521372978089 -149.9121789695375,-17.51762943552821 -149.9138547197788,-17.51474296559537 -149.9153872941645,-17.5112724943681 -149.9163231743256,-17.50735954783784 -149.9345370155986,-17.51082689018308
+          
+        
+      
+      
+        
+          
+            2005-04-01
+          
+          
+            2019-05-01
+          
+        
+      
+      
+        
+        
+          Phylum
+          Cnidaria
+          
+            Class
+            Anthozoa
+            
+              Order
+              Corallimorpharia
+            
+            
+              Order
+              Scleractinia
+              
+                Family
+                Acroporidae
+                
+                  Genus
+                  Acropora
+                
+                
+                  Genus
+                  Astreopora
+                
+                
+                  Genus
+                  Montipora
+                
+              
+              
+                Family
+                Agariciidae
+                
+                  Genus
+                  Gardineroseris
+                
+                
+                  Genus
+                  Leptoseris
+                
+                
+                  Genus
+                  Pachyseris
+                
+                
+                  Genus
+                  Pavona
+                
+              
+              
+                Family
+                Astrocoeniidae
+                
+                  Genus
+                  Stylocoeniella
+                
+              
+              
+                Family
+                Dendrophyllidae
+                
+                  Genus
+                  Tubastrea
+                
+              
+              
+                Family
+                Faviidae
+                
+                  Genus
+                  Cyphastrea
+                
+                
+                  Genus
+                  Favia
+                
+                
+                  Genus
+                  Leptastrea
+                
+                
+                  Genus
+                  Montastrea
+                
+              
+              
+                Family
+                Fungiidae
+                
+                  Genus
+                  Fungia
+                
+                
+                  Genus
+                  Herpolitha
+                
+                
+                  Genus
+                  Sandolitha
+                
+              
+              
+                Family
+                Mussidae
+                
+                  Genus
+                  Acanthastrea
+                
+                
+                  Genus
+                  Lobophyllia
+                
+              
+              
+                Family
+                Pocilloporidae
+                
+                  Genus
+                  Pocillopora
+                
+              
+              
+                Family
+                Poritidae
+                
+                  Genus
+                  Porites
+                  
+                    Species
+                    Porites irregularis
+                  
+                  
+                    Species
+                    Porites rus
+                  
+                  
+                    Species
+                    Porites spp. Massive
+                  
+                
+              
+              
+                Family
+                Siderastreidae
+                
+                  Genus
+                  Psammocora
+                
+              
+            
+          
+          
+            Class
+            Hydrozoa
+            
+              Order
+              Hyroida
+              
+                Family
+                Milleporidae
+                
+                  Genus
+                  Millepora
+                
+              
+            
+          
+        
+      
+    
+    
+      
+        This is an ongoing dataset. Data are added every year.
+      
+      annually
+      
+        attributeList
+        4 fewer columns
+        2011-09-12
+        In Version 4.25 long format location column split into site, habitat, transect, quadrat 
+					for user convenience, while retaining whole location column as part of primary key. 
+					Only a format change; data unchanged.
+				
+      
+      
+        data
+        na
+        2013-03-28
+        Annual survey 2012 data appended.
+      
+      
+        data
+        na
+        2014-03-04
+        Annual survey 2013 data appended.
+      
+      
+        metadata
+        metadata
+        2014-03-11
+        Revision 31 the only change is correction of spelling of Psammocora.
+      
+      
+        metadata
+        metadata
+        2015-12-09
+        Revision 33 adds 2015 data and revises spelling of Gardineroseris. 
+Caveat about use of repeated location in transect 4 added to methods.
+Methods updated for new coral analysis software used starting in 2015.
+      
+      
+        metadata
+        metadata
+        2018-01-05
+        Revision 34 adds a third dataTable containing taxonomy classification metadata 
+          to document those changes each year.
+      
+      
+        metadata
+        metadata
+        2018-05-31
+        Revision 35 clarified sections of transects wording.
+      
+      
+        metadata
+        data
+        2018-12-20
+        Revision 36 adds 2018 data only to long-format table.
+          Wide-format and taxonomy tables pending.
+      
+      
+        data
+        data
+        2019-04-17
+        Revision 37 has data aligned with the new taxonomy.
+          These tables are further processed beyond the database output normally cataloged.
+          The wide format table columns are significantly different. 
+          The long-format data are lumped and split taxonomically differently than the previous revision. 
+          This has been applied to all years of the time series. 
+          The taxonomicCoverage has not been completely aligned yet with the new taxonomic categories.
+          
+      
+      
+        data
+        data
+        2020-06-04
+        Revision 38 appends 2019 survey results in long format.
+          Wide format update pending. 
+          Next revision is planned to revise some 2007 fringing reef data, esp pertaining to sand. 
+          The usual 2020 April-May annual survey did not occur due to travel restrictions.
+        
+      
+    
+    
+      Moorea Coral Reef LTER
+      Information Manager
+      			Marine Science Institute
+			University of California
+			Santa Barbara, CA 93106-6150  USA
+      805.893.2071
+      mcrlter@msi.ucsb.edu
+      http://mcr.lternet.edu/about/contact
+    
+    
+      Moorea Coral Reef LTER
+      			Marine Science Institute
+			University of California
+			Santa Barbara, CA 93106-6150  USA
+      http://mcr.lternet.edu/
+    
+    
+      
+        
+          
+            Photoquadrats
+            Quantitative high resolution digital images.
+          
+          
+            Sampling
+            The sampling strategy was designed to facilitate tests of the effect of time, shore, 
+              and
+              depth on the coral community structure of the fringing, and outer reef habitats of
+              Moorea. For the purpose of this analysis, fringing communities were defined as reefs
+              adjacent to the shore and within ca. 50 m of the land. Outer reef habitats were
+              censused at 10 and 17 m depth in order to sample habitats that are representative of
+              the outer reefs of Moorea, and within the depth range tractable to diving research.
+              The project was designed with 40 quadrats at each site/depth combination, but
+              sometimes this number was not achieved because all quadrats did not fit in the space
+              measured between markers (a perpetual effect once the site was established in 2005),
+              or quadrats were missed in error on the sampling day (unique to each year). To
+              facilitate field sampling, the 40m transect was recorded in 5 contiguous sectors that
+              are not independent (one begins where the previous ends) and are not intended to be a
+              factor in the statistical design. The original design was based on a 
+               nested, factorial ANOVA model in which Shore (north, southeast, or southwest) is
+              a fixed factor, site (LTER 1-6) a random factor nested within shore, and
+              time a repeated measures factor based on individual quadrats that are relocated
+              annually (at the fringe and outer sites). In the case of the outer reef, depth (10 or
+              17 m) also was used as a fixed factor to contrast the effects of time and
+              shore between depths. All census methods were designed to quantify coral community
+              structure in terms of the dominant constituents of the benthic community -
+              scleractinian corals, macroalgae, crustose coralline algae, algal turf, Millepora, and
+              sand. The scleractinian community structure was classified to genus,
+              or in one case family (Fungidae in the more recent sampling). 
+              
+              In addition to
+              establishing an orthogonal contrast of coral community structure, a subset of the
+              sites and habitats were selected for more detailed analyses of the population density
+              of coral recruits and juvenile corals, as well as the demographic analysis of selected
+              coral species. The time-consuming nature of these analyses prevented them from being
+              measured in all site/habitat combinations.
+          
+          
+             Quality Control issues in benthic community analysis
+             This data set is based on photographic images recorded using a 0.5 x 0. 5 m
+              photoquadrat and a high resolution SLR digital camera. From 2005 to 2018 the raw images have increased in size six-fold in megapixels from 6 to 36, 
+              although images analyzed images are slightly smaller after cropping to the framer size
+              
+              For the outer reef and fringing
+              reef sampling, photoquadrats are repositioned each year at the same spot along the 40
+              m long transect. The corners of the quadrats are not marked. The photoquadrat
+              is placed in the same position along the transect 
+              each year, but currents and waves can result
+              in repositioning errors. To screen for these effects, matched photographs in
+              consecutive years are evaluated using a software routine for detecting changes in coral cover
+              that exceed 20%; such changes are unlikely to occur through biological processes
+              (although they could arise from importation of colonies following storms). All
+              photographs at each site are compared with matched images in the following year, and
+              discrepancies of >20% coral cover are flagged for investigation. Typically <1%
+              of the images require further investigation each year. 
+            Due to site-specific issues at the LTER 4 Fringing Reef site, accurate quadrat
+              relocation has not been consistent over the time series. Thus specific quadrat photos
+              should not be considered as repeated locations from one year to the next at this site. However
+              transect location has remained consistent, allowing for site level time series
+              analysis.
+          
+          
+            Parameters for Photoquadrat Analysis
+            Prior to 2008, the area of benthic taxa was quantified by superimposing a matrix
+              of 200 randomly located dots on the image and counting the dots landing on the
+              substratum category of interest. From 2008-2014 CPCe software was used to quantify the
+              area of benthic taxa using a matrix of 200 randomly spaced dots that were 15 pixels in
+              diameter. From 2015-present, image analysis was done using the CoralNet web based
+              application developed by researches at UCSD (http://coralnet.ucsd.edu/about/), without
+              automated annotations. A matrix of 200 randomly spaced dots generated by CoralNet were
+              overlaid on the area of benthic taxa. Points were classified without alleviate mode so
+              that 100% classification is done by human decision. Each dot was classified by one individual
+              technician from 2005-2007, a second individual from 2008-2015, and a third individual
+              from 2016-present.
+          
+          
+            Classification Change History
+            A data table is provided to inform data users of various taxonomic or functional
+              group changes to the classification. A row for each cover category (genus, species, or
+              functional group) has one column added for each year of this time series, and entries
+              in this column indicate the category used and whether it has changed. Examples of
+              changes include simple name changes such as Dipsastrea to Goniastrea in 2016, or more
+              profound changes such as resolving Porites into 3 different Porites taxa or functional
+              groups in 2010. The attached metadata file will allow users to distinguish how
+              groupings changed over time. Users may wish to keep the resolution provided or may
+              choose to pool categories as appropriate for their analyses.
+          
+        
+      
+      
+        
+          
+             References for taxonomy:
+            Budd A.F., H. Fukami, N.D. Smith and N. Knowlton N, 2012. Taxonomic classification
+              of the reef coral family Mussidae (Cnidaria: Anozoa: Scleractinia). Zoological Journal
+              of the Linnean Society, Vol. 166, No. 3, pp. 465-529,
+              DOI.10.1111/j.1096-3642.2012.00855
+            Gittenberger A., B.T. Reijnen, and B.W. Hoeksema BW, 2011. A molecularly based
+              phylogeny reconstruction of mushroom corals (Scleractinia: Fungiidae) with taxonomic
+              consequences and evolutionary implications for life history traits, Contributions to
+              Zoology, Vol. 80, No. 2, pp. 107-132.
+            Huang D., F. Benzoni, H. Fukami, N. Knowlton, N.D. Smith ND, and A.F. Budd, 2014.
+              Taxonomic classification of the reef coral families Merulinidae, Montastraeidae, and
+              Diploastraeidae (Cnidaria: Anthozoa: Scleractinia), Zoological Journal of Linnean
+              Society, Vol. 171, pp. 277-355. DOI.10.1111/zoj.12140
+             Veron JEN (2000) Corals of the World - Volumes 1, 2, 3. Australian Institute of
+              Marine Science, Townsville, Australia. 1382pp 
+          
+        
+      
+      
+        
+          
+             References for software: 
+            Beijbom O., P.J. Edmunds, D.I. Kline, B.G. Mitchell, D. Kriegman, 2012. Automated
+              annotation of coral reef survey images. IEEE Conference on Computer Vision and Pattern
+              Recognition (CVPR), Vol. 1, pp. 1170-1177.
+            Beijbom, O, 2015. Automated annotation of coral reef survey images. PhD Thesis
+              UCSD, June 2015.
+            Beijbom O., P.J. Edmunds, C. Roelfsema, J. Smith, D.I. Kine, B.P. Neal, M.J.
+              Dunlap, V. Moriarity, T. Fan, C. Tan, S. Chan, T. Treibitz, A. Gamst, B.G. Mitchell,
+              and D. Kriegman, 2015. Towards automated annotation of benthic survey images:
+              variability of human experts and operational modes of automation. PLoS ONE, Vol. 10,
+              No. 7, pp. 1-22, DOI:10.1371/journal.pone.0130312
+            Kohler, K.E. and S.M. Gill, 2006. Coral Point Count with Excel extensions (CPCe):
+              A Visual Basic program for the determination of coral and substrate coverage using
+              random point count methodology. Computers and Geosciences, Vol. 32, No. 9, pp.
+              1259-1269, DOI:10.1016/j.cageo.2005.11.009. 
+          
+        
+        
+          Coral Point Count with Excel extensions (CPCe)
+          
+             Kevin E. Kohler
+          
+          
+            
+              http://www.nova.edu/ocean/cpce/
+            
+          
+        
+        
+          CoralNet
+          
+             Oscar Beijbom
+          
+          
+            
+              https://coralnet.ucsd.edu/
+            
+          
+        
+      
+    
+    
+      The Moorea Coral Reef (MCR) LTER
+      
+        Russell Schmitt
+        Moorea Coral Reef LTER
+        Lead Principal Investigator
+        			Marine Science Institute
+			University of California
+			Santa Barbara, CA 93106-6150  USA
+        schmitt@lifesci.ucsb.edu
+        http://mcr.lternet.edu/people/russell-j-schmitt
+        Principal Investigator
+      
+      
+        Sally Holbrook
+        Moorea Coral Reef LTER
+        Principal Investigator
+        			Marine Science Institute
+			University of California
+			Santa Barbara, CA 93106-6150  USA
+        holbrook@lifesci.ucsb.edu
+        http://mcr.lternet.edu/people/sally-holbrook
+        Principal Investigator
+      
+      
+        Peter Edmunds
+        Moorea Coral Reef LTER
+        Principal  Investigator
+        			Department of Biological Sciences, California State University
+			18111 Nordhoff Street
+			Northridge, CA 91330-8303  USA
+        818.677.2502
+        peter.edmunds@csun.edu
+        http://mcr.lternet.edu/people/peter-edmunds
+        Principal Investigator
+      
+      
+        Robert Carpenter
+        Moorea Coral Reef LTER
+        Principal  Investigator
+        			Department of Biological Sciences, California State University
+			18111 Nordhoff Street
+			Northridge, CA 91330-8303  USA
+        818-677-3256
+        robert.carpenter@csun.edu
+        http://mcr.lternet.edu/people/robert-carpenter
+        Principal Investigator
+      
+      
+        NSF (LTER) MCR I #OCE-0417412, MCR II #OCE-1026851, MCR IIb #OCE-1236905, and MCR III #OCE-1637396
+      
+    
+    
+      Percent cover - Long Table
+      Photoquadrat analysis results: Percent cover of benthic taxa including corals by genus. (Some quadrats have Porites split into species.)
+      
+        knb-lter-mcr.4_1_20191119.csv
+        28767241
+        260ed19432220e7b8043042be451ace3
+        ASCII
+        
+          
+            1
+            1
+            \n
+            column
+            
+              ,
+              no
+              "
+            
+          
+        
+        
+          
+            
+            https://pasta.lternet.edu/package/data/eml/knb-lter-mcr/4/38/b9c4dfea5bdc34f290a1d01a9d1984aa
+          
+          
+            
+              uid=MCR,o=lter,dc=ecoinformatics,dc=org
+              all
+            
+            
+              public
+              read
+            
+          
+        
+      
+      
+        
+          Date
+          Date
+          Year and Month of Observation as YYYY-MM.
+          date
+          
+            
+              YYYY-MM
+              1 Month
+            
+          
+        
+        
+          Location
+          Location
+          Name of the unique quadrat at which the observation was made.
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+        
+          Site
+          Site
+          Name of the site.
+          string
+          
+            
+              
+                
+                  
+                    LTER 1
+                    LTER 1
+                  
+                  
+                    LTER 2
+                    LTER 2
+                  
+                  
+                    LTER 3
+                    LTER 3
+                  
+                  
+                    LTER 4
+                    LTER 4
+                  
+                  
+                    LTER 5
+                    LTER 5
+                  
+                  
+                    LTER 6
+                    LTER 6
+                  
+                
+              
+            
+          
+        
+        
+          Habitat
+          Habitat
+          Name of the habitat.
+          string
+          
+            
+              
+                
+                  
+                    Fringing
+                    Fringing Reef
+                  
+                  
+                    Backreef
+                    Backreef
+                  
+                  
+                    Outer 10
+                    Forereef at 10 m depth
+                  
+                  
+                    Outer 17
+                    Forereef at 17 m depth
+                  
+                
+              
+            
+          
+        
+        
+          Section_of_Transect
+          Section of Transect
+          Pole number at start of a section of transect. NOT a transect, only a section of a transect composed of five sections end-to-end.
+          string
+          
+            
+              
+                
+                  
+                    1
+                    Pole 1-2 is the first section of a given transect.
+                  
+                  
+                    2
+                    Pole 2-3 is the second section of a given transect.
+                  
+                  
+                    3
+                    Pole 3-4 is the third section of a given transect.
+                  
+                  
+                    4
+                    Pole 4-5 is the fourth section of a given transect.
+                  
+                  
+                    5
+                    Pole 5-6 is the fifth section of a given transect.
+                  
+                
+              
+            
+          
+        
+        
+          Quadrat
+          Quadrat
+          Quadrat number identifies the quadrat within one of five pole-to-pole sections of a transect. There are 40 quadrats per transect.
+          string
+          
+            
+              
+                
+                  
+                    1
+                    Quad 1 in this section is quad (this + Pole# x 8)
+                  
+                  
+                    2
+                    Quad 2 in this section is quad (this + Pole# x 8)
+                  
+                  
+                    3
+                    Quad 3 in this section is quad (this + Pole# x 8)
+                  
+                  
+                    4
+                    Quad 4 in this section is quad (this + Pole# x 8)
+                  
+                  
+                    5
+                    Quad 5 in this section is quad (this + Pole# x 8)
+                  
+                  
+                    6
+                    Quad 6 in this section is quad (this + Pole# x 8)
+                  
+                  
+                    7
+                    Quad 7 in this section is quad (this + Pole# x 8)
+                  
+                  
+                    8
+                    Quad 8 in this section is quad (this + Pole# x 8)
+                  
+                
+              
+            
+          
+        
+        
+          Taxonomy_Substrate_or_Functional_Group
+          Taxonomy / Substrate / Functional Group
+          Either the Taxonomy of the observed Coral, or the Name of the observed Substrate or Functional Group.
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+        
+          Percent_Cover
+          Percent Cover
+          Percent cover in photoquadrat.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0.00
+                  100.00
+                
+              
+            
+          
+        
+      
+      
+        
+          coral_long_pk
+          
+            date
+            location
+            taxonomy
+          
+        
+      
+      285403
+    
+    
+      
+      Percent cover - Wide Table
+      Photoquadrat analysis results: Percent cover of benthic taxa including corals mostly by genus.
+        Unlike the long-format table, the columns of this wide-format table change to reflect changes in taxonomy.        
+        This table contains the same data as the long-format table, reformatted.
+      
+        knb-lter-mcr.4_2_20190321.csv
+        1405617
+        0842a87325b412de31d76f18786bd444
+        ASCII
+        
+          
+            1
+            0
+            
+            \n
+            column
+            
+              ,
+              no
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-mcr/4/38/a9ab92632442657c64a6d96791a03fee
+          
+          
+            
+              uid=MCR,o=lter,dc=ecoinformatics,dc=org
+              all
+            
+            
+              public
+              read
+            
+          
+        
+      
+      
+        
+          Date
+          Date
+          Year and Month of Observation as YYYY-MM.
+          date
+          
+            
+              YYYY-MM
+              
+              1 Month
+            
+          
+        
+        
+          Location
+          Location
+          Name of the unique quadrat at which the observation was made. Each transect has 40 quadrats named by one of five pole-to-pole sections and quadrat 1 to 8 within that section.
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+        
+          Acanthastrea
+          Acanthastrea
+          Percent cover of Acanthastrea in photoquadrat. Acanthastrea is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Acropora
+          Acropora
+          Percent cover of Acropora in photoquadrat. Acropora is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Astrea
+          Astrea
+          Percent cover of Astrea in photoquadrat. Astrea is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Astreopora
+          Astreopora
+          Percent cover of Astreopora in photoquadrat. Astreopora is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Crustose_Coralline_Algae_or_Bare_Space
+          Crustose Coralline Algae / Bare Space
+          Percent cover of Crustose Coralline Algae or Bare Space in photoquadrat. Crustose Coralline Algae / Bare Space is a functional group.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Cyphastrea
+          Cyphastrea
+          Percent cover of Cyphastrea in photoquadrat. Cyphastrea is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Fungiidae_unidentified
+          Fungiidae unidentified
+          Percent cover of Fungiidae in photoquadrat. Fungiidae is a family.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Gardinoseris
+          Gardinoseris
+          Percent cover of Gardinoseris in photoquadrat. Gardinoseris is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Goniastrea
+          Goniastrea
+          Percent cover of Goniastrea in photoquadrat. Goniastrea is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Herpolitha
+          Herpolitha
+          Percent cover of Herpolitha in photoquadrat. Herpolitha is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Leptastrea
+          Leptastrea
+          Percent cover of Leptastrea in photoquadrat. Leptastrea is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Leptoseris
+          Leptoseris
+          Percent cover of Leptoseris in photoquadrat. Leptoseris is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Lobophyllia
+          Lobophyllia
+          Percent cover of Lobophyllia in photoquadrat. Lobophyllia is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Macroalgae
+          Macroalgae
+          Percent cover of Macroalgae in photoquadrat. Macroalgae is a functional group.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Millepora
+          Millepora
+          Percent cover of Millepora in photoquadrat. Millepora is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Montipora
+          Montipora
+          Percent cover of Montipora in photoquadrat. Montipora is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Non_coralline_Crustose_Algae
+          Non_coralline_Crustose_Algae
+          Percent cover of Non-coralline Crustose Algae in photoquadrat. Non-coralline Crustose Algae is a functional group.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Pachyseris
+          Pachyseris
+          Percent cover of Pachyseris in photoquadrat. Pachyseris is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Pavona
+          Pavona
+          Percent cover of Pavona in photoquadrat. Pavona is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Plesiastrea
+          Plesiastrea
+          Percent cover of Plesiastrea in photoquadrat. Plesiastrea is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Pocillopora
+          Pocillopora
+          Percent cover of Pocillopora in photoquadrat. Pocillopora is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Porites
+          Porites
+          Percent cover of Porites in photoquadrat. Porites is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Porites_irregularis
+          Porites irregularis
+          Percent cover of Porites irregularis in photoquadrat. Porites irregularis is a species.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Porites_rus
+          Porites rus
+          Percent cover of Porites rus in photoquadrat. Porites rus is a species.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Porites_spp_Massive
+          Porites spp. Massive
+          Percent cover of Porites spp. Massive in photoquadrat. Porites spp. Massive is multiple species.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Psammacora
+          Psammacora
+          Percent cover of Psammacora in photoquadrat. Psammacora is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Sand
+          Sand
+          Percent cover of Sand in photoquadrat. Sand is a substrate.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Sandolitha
+          Sandolitha
+          Percent cover of Sandolitha in photoquadrat. Sandolitha is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Soft_Coral
+          Soft Coral
+          Percent cover of Soft Coral in photoquadrat. Soft Coral is a functional group.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Stylocoeniella
+          Stylocoeniella
+          Percent cover of Stylocoeniella in photoquadrat. Stylocoeniella is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Tubastrea
+          Tubastrea
+          Percent cover of Tubastrea in photoquadrat. Tubastrea is a genus.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Turf
+          Turf
+          Percent cover of Turf in photoquadrat. Turf is a substrate.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Unknown_or_Other
+          Unknown or Other
+          Percent cover of Unknown or Other in photoquadrat. Unknown and Other do not have well defined categories.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+        
+          Stony_Coral
+          Stony Coral
+          Percent cover of Stony Coral in photoquadrat. Stony Coral is the sum of Acanthastrea, Acropora, Astreopora, Cyphastrea, Favia, Fungia, Gardineroseris, Herpolitha, Leptastrea, Leptoseris, Lobophyllia, Montastrea, Montipora, Pachyseris, Pavona, Pocillopora, Porites, Psammacora, Sandolitha, Stylocoeniella and Tubastrea.
+          double precision
+          
+            
+              
+                dimensionless
+              
+              0.1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+        
+      
+      9707
+    
+    
+      Coral Taxonomy change history
+      This table defines the changes that have been made each year to the coral taxonomy or functional groups classification, 
+        based on contemporary literature. The table shows in which years names changed or classification was redefined 
+        and it is intended to be used to convert the coral 
+        cover data tables into the classification scheme used any given year as each data user may need. 
+        This table may be considered as metadata.
+      
+        knb-lter-mcr.4_3_20200604.csv
+        8726
+        263b538f378462c48570a1d07a8198a1
+        ASCII
+        
+          
+            1
+            0
+            \r\n
+            column
+            
+              ,
+              no
+              "
+              
+            
+          
+        
+        
+          
+            
+            https://pasta.lternet.edu/package/data/eml/knb-lter-mcr/4/38/ada0df70c15f96a6ab38fd4e1eda89d4
+          
+          
+            
+              uid=MCR,o=lter,dc=ecoinformatics,dc=org
+              all
+            
+            
+              public
+              read
+            
+          
+        
+      
+      
+        
+          Family
+          Family
+          Taxonomic family
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+        
+          2005
+          2005
+          Year of these taxonomic classification categories
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+        
+          2006
+          2006
+          Year of these taxonomic classification categories
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+        
+          2007
+          2007
+          Year of these taxonomic classification categories
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+        
+          2008
+          2008
+          Year of these taxonomic classification categories
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+        
+          2009
+          2009
+          Year of these taxonomic classification categories
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+        
+          2010
+          2010
+          Year of these taxonomic classification categories
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+        
+          2011
+          2011
+          Year of these taxonomic classification categories
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+        
+          2012
+          2012
+          Year of these taxonomic classification categories
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+        
+          2013
+          2013
+          Year of these taxonomic classification categories
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+        
+          2014
+          2014
+          Year of these taxonomic classification categories
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+        
+          2015
+          2015
+          Year of these taxonomic classification categories
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+        
+          2016
+          2016
+          Year of these taxonomic classification categories
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+        
+          2017
+          2017
+          Year of these taxonomic classification categories
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+        
+          2018
+          2018
+          Year of these taxonomic classification categories
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+        
+          2019
+          2019
+          Year of these taxonomic classification categories
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+        
+        
+          NOTES
+          Notes
+          Clarification about changes in this row.
+          string
+          
+            
+              
+                
+                  text
+                
+              
+            
+          
+        
+      
+      33
+    
+  
+  
+    
+      
+        
+          a designation asserting the absence of an associated unit
+        
+      
+    
+  
