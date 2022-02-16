@@ -2,6 +2,20 @@ library(shiny)
 library(bslib)
 library(palmerpenguins)
 library(tidyverse)
+library(here)
+library(janitor)
+
+"%!in%" <- Negate("%in%")
+
+coral <- read_csv(here("data", "coral_data", "perc_cover_long.csv")) %>% 
+  clean_names() %>% 
+  mutate(tax = taxonomy_substrate_functional_group) %>% 
+  select( - taxonomy_substrate_functional_group) %>% 
+  filter(tax %!in% c("Sand", "Turf", "Macroalgae", "Crustose Coralline Algae / Bare Space")) 
+
+fish <- read_csv(here("data", "fish_data", "annual_fish_survey.csv")) %>% 
+  clean_names() %>% 
+  select("year", "location", "taxonomy", "family", "count")
 
 ui <- fluidPage(
     navbarPage(theme = bs_theme(bootswatch = "darkly"),
