@@ -5,18 +5,37 @@ library(tidyverse)
 
 ui <- fluidPage(
     navbarPage(theme = bs_theme(bootswatch = "darkly"),
-               "Morea Coral Reef LTER",
+               "Mo'orea Coral Reef LTER",
                tabPanel("About",
                         sidebarLayout(
+<<<<<<< HEAD
                             sidebarPanel("App Developers:
                                          - Deanna Elliot
                                          - Mia Guarnieri
                                          - Mari Herbst de Cortina
                                          
                                          Developed 2022 for ESM 244
+=======
+                            sidebarPanel("Authors: Deanna Elliott, Mia Guarnieri, Mari Herbst De Cortina",
+                                         br(),
+                                         " ",
+                                         br(),
+                                         "We are current graduate students at the Bren School of Environmental Science
+                                         & Management, working towards Master's of Environmental Science and Management."
+>>>>>>> 28c8399d7a95cda802269f39684a03a665a9e92c
                             ),
-                            mainPanel(
-                                "This is where words about our app will go.")
+                            mainPanel("This app visualizes data on coral cover and reef fish species abundance 
+                                during four 'normal' years and two years when bleaching events occured in the 
+                                Mo'orea Coral Reef LTER site.",
+                                br(),
+                                " ",
+                                br(),
+                               "The Mo'orea Coral Reef Long-Term Ecological Research site in French Polynesia
+                                was established by the National Science Foundation in 2004. It is a research 
+                                partner to the University of California, Santa Barbara and the University of
+                                California, Northridge. Its purpose is as a model for exploring factors that 
+                                mediate coral community structure and function, particularly external, 
+                                anthropogenic drivers of disturbance.")
                         )),
                tabPanel("Coral Cover By Year",
                         sidebarLayout(
@@ -110,3 +129,4 @@ server <- function(input, output) {
 
 # Run the application 
 shinyApp(ui = ui, server = server)
+
