@@ -13,7 +13,7 @@ ui <- fluidPage(
                                          " ",
                                          br(),
                                          "We are current graduate students at the Bren School of Environmental Science
-                                         & Management, working towards Master's of Environmental Science and Management."
+                                         & Management, working towards Masters of Environmental Science and Management."
                             ),
                             mainPanel("This app visualizes data on coral cover and reef fish species abundance 
                                 during four 'normal' years and two years when bleaching events occured in the 
@@ -33,7 +33,10 @@ ui <- fluidPage(
                             sidebarPanel(
                                 selectInput("select", 
                                             label = h3("Select Year"), 
-                                            choices = list("Choice 1" = 1, "Choice 2" = 2, "Choice 3" = 3), 
+                                            choices = list("2005" = 1, "2006" = 2, "2007" = 3, "2008" = 4,
+                                                           "2009" = 5, "2010" = 6, "2011" = 7, "2012" = 8,
+                                                           "2013" = 9, "2014" = 10, "2015" = 11, "2016" = 12,
+                                                           "2017" = 13, "2018" = 14, "2019" = 15, "2020" = 16), 
                                             selected = 1)
                             ), # end of sidebarLayout
                             mainPanel(
