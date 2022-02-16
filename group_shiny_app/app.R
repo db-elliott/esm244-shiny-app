@@ -22,7 +22,7 @@ ui <- fluidPage(
                "Mo'orea Coral Reef LTER",
                tabPanel("About",
                         sidebarLayout(
-                            sidebarPanel("Developers: Deanna Elliott, Mia Guarnieri, Mari Herbst De Cortina",
+                            sidebarPanel("Authors: Deanna Elliott, Mia Guarnieri, Mari Herbst De Cortina",
                                          br(),
                                          " ",
                                          br(),
