@@ -8,21 +8,12 @@ ui <- fluidPage(
                "Mo'orea Coral Reef LTER",
                tabPanel("About",
                         sidebarLayout(
-<<<<<<< HEAD
-                            sidebarPanel("App Developers:
-                                         - Deanna Elliot
-                                         - Mia Guarnieri
-                                         - Mari Herbst de Cortina
-                                         
-                                         Developed 2022 for ESM 244
-=======
                             sidebarPanel("Authors: Deanna Elliott, Mia Guarnieri, Mari Herbst De Cortina",
                                          br(),
                                          " ",
                                          br(),
                                          "We are current graduate students at the Bren School of Environmental Science
                                          & Management, working towards Master's of Environmental Science and Management."
->>>>>>> 28c8399d7a95cda802269f39684a03a665a9e92c
                             ),
                             mainPanel("This app visualizes data on coral cover and reef fish species abundance 
                                 during four 'normal' years and two years when bleaching events occured in the 
