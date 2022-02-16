@@ -8,7 +8,21 @@ ui <- fluidPage(
                "Mo'orea Coral Reef LTER",
                tabPanel("About",
                         sidebarLayout(
-                            sidebarPanel(
+<<<<<<< HEAD
+                            sidebarPanel("App Developers:
+                                         - Deanna Elliot
+                                         - Mia Guarnieri
+                                         - Mari Herbst de Cortina
+                                         
+                                         Developed 2022 for ESM 244
+=======
+                            sidebarPanel("Authors: Deanna Elliott, Mia Guarnieri, Mari Herbst De Cortina",
+                                         br(),
+                                         " ",
+                                         br(),
+                                         "We are current graduate students at the Bren School of Environmental Science
+                                         & Management, working towards Master's of Environmental Science and Management."
+>>>>>>> 28c8399d7a95cda802269f39684a03a665a9e92c
                             ),
                             mainPanel("This app visualizes data on coral cover and reef fish species abundance 
                                 during four 'normal' years and two years when bleaching events occured in the 
@@ -40,21 +54,21 @@ ui <- fluidPage(
                         sidebarLayout(
                             sidebarPanel(
                                 selectInput("select",
-                                            inputId = "year",
+                                            inputId = "fish_year_select",
                                             label = h3("Select year"),
-                                            choices = list("x" = "x", "y" = "y", "z" = "z"))
+                                            choices = list("2007" = 2007, "2008" = 2008, "2009" = 2009))
                             ),  # end of sidebarPanel
                             mainPanel(
-                                "OUTPUT GOES HERE"
+                                plotOutput(outputId = "pg_abun")
                             ) #end of mainPanel 3
                         )), #end of sidebarLayout, tabPanel W2
                tabPanel("Comparative Yearly Species Abundance",
                         sidebarLayout(
                             sidebarPanel(
-                                radioButtons("radio",
+                                checkboxGroupInput("checkGroup",
                                              inputId = "pg_sex",
                                              label = h3("Fish or Coral?"),
-                                             choices = list("male", "female")),
+                                             choices = list("male" = "male", "female" = "female")),
                                 selectInput("select",
                                             inputId = "pg_year",
                                             label = h3("Select year"),
@@ -83,7 +97,17 @@ ui <- fluidPage(
 server <- function(input, output) {
     
     #output widget 2
-    output$value <- renderPrint({ input$select })
+    penguin_abun <- reactive ({
+        penguins %>%
+            filter(year == input$fish_year_select) %>%
+            group_by(species) %>%
+            summarize(count = n())
+    })
+    
+    output$pg_abun <- renderPlot({
+        ggplot(data = penguin_abun(), aes(x = species, y = count)) +
+                   geom_col()
+    })
     
     # widget 3 output
     penguin_select <- reactive ({
@@ -95,7 +119,7 @@ server <- function(input, output) {
     output$pg_plot <- renderPlot({
         ggplot(data = penguin_select(), aes(x = flipper_length_mm, y = body_mass_g)) +
             geom_jitter(aes(color = species))
-    })
+    }) # end output widget 3
     
     #output widget 4
     output$range <- renderPrint({ input$slider1 })
