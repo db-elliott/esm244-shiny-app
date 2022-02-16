@@ -8,7 +8,12 @@ ui <- fluidPage(
                "Morea Coral Reef LTER",
                tabPanel("About",
                         sidebarLayout(
-                            sidebarPanel("This is where words about us will go."
+                            sidebarPanel("App Developers:
+                                         - Deanna Elliot
+                                         - Mia Guarnieri
+                                         - Mari Herbst de Cortina
+                                         
+                                         Developed 2022 for ESM 244
                             ),
                             mainPanel(
                                 "This is where words about our app will go.")
