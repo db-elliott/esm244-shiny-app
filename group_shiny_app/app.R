@@ -15,7 +15,11 @@ coral <- read_csv(here("data", "coral_data", "perc_cover_long.csv")) %>%
 
 fish <- read_csv(here("data", "fish_data", "annual_fish_survey.csv")) %>% 
   clean_names() %>% 
-  select("year", "location", "taxonomy", "family", "count")
+  select("year", "location", "taxonomy", "family", "count") %>% 
+  mutate(count = as.numeric(count))
+
+counts <- fish %>% 
+  count(taxonomy, wt = count)
 
 ui <- fluidPage(
     navbarPage(theme = bs_theme(bootswatch = "darkly"),
@@ -58,32 +62,27 @@ ui <- fluidPage(
                                 verbatimTextOutput("value"), #widget 2 output
                             ) # end of mainPanel2
                         )),  # end of sidebarLayout, tabPanel W1
-               tabPanel("Yearly Fish Abundance",
+               tabPanel("Comparative Yearly Species Abundance",
                         sidebarLayout(
                             sidebarPanel(
                                 selectInput("select",
                                             inputId = "fish_year_select",
                                             label = h3("Select year"),
-                                            choices = list("2007" = 2007, "2008" = 2008, "2009" = 2009))
+                                            choices = list("2007" = 2007, "2008" = 2008, "2009" = 2009, 
+                                                           "2010" = 2010))
                             ),  # end of sidebarPanel
                             mainPanel(
                                 plotOutput(outputId = "pg_abun")
                             ) #end of mainPanel 3
                         )), #end of sidebarLayout, tabPanel W2
-               tabPanel("Comparative Yearly Species Abundance",
+               tabPanel("Yearly Fish Abundance",
                         sidebarLayout(
                             sidebarPanel(
-                                checkboxGroupInput("checkGroup",
-                                             inputId = "pg_sex",
-                                             label = h3("Fish or Coral?"),
-                                             choices = list("male" = "male", "female" = "female")),
-                                selectInput("select",
-                                            inputId = "pg_year",
-                                            label = h3("Select year"),
-                                            choices = list("2007" = 2007, "2008" = 2008, "2009" = 2009))
+                              sliderInput("yr_slider", label = h3("Select time scale"), min = 2006, 
+                                          max = 2020, value = c(2010, 2011), sep = NULL)
                             ), #end of sidebarPanel
                             mainPanel(
-                                plotOutput(outputId = "pg_plot")
+                                plotOutput(outputId = "fish_ab")
                             ) #end of mainPanel
                         )), #end of sidePanel, W3
                tabPanel("Timescale - Bleaching & Recovery",
@@ -118,16 +117,18 @@ server <- function(input, output) {
     })
     
     # widget 3 output
-    penguin_select <- reactive ({
-        penguins %>%
-            filter(year == input$pg_year) %>%
-            filter(sex == input$pg_sex)
+    year_select <- reactive ({
+        fish %>%
+        filter(year %in% input$yr_slider[1]:input$yr_slider[2]) %>% 
+        group_by(year) %>% 
+        count(taxonomy, wt = count) %>% 
+        slice_max(order_by = n, n = 10)
     })
     
-    output$pg_plot <- renderPlot({
-        ggplot(data = penguin_select(), aes(x = flipper_length_mm, y = body_mass_g)) +
-            geom_jitter(aes(color = species))
-    }) # end output widget 3
+    output$fish_ab <- renderPlot({
+        ggplot(data = year_select(), aes(x = year, y = n)) +
+            geom_point(aes(color = taxonomy))
+            }) # end output widget 3
     
     #output widget 4
     output$range <- renderPrint({ input$slider1 })
