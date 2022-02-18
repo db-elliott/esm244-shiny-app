@@ -158,9 +158,10 @@ server <- function(input, output) {
         slice_max(order_by = n, n = 10)
     
     fish_count <- fish %>% 
-        filter(taxonomy %in% top_fish$taxonomy) %>% 
-        group_by(year) %>% 
-        count(taxonomy, wt = count)
+      filter(taxonomy %in% top_fish$taxonomy) %>%
+      filter(year %in% input$yr_slider[1]:input$yr_slider[2]) %>% 
+      group_by(year) %>% 
+      count(taxonomy, wt = count)
     
     return(fish_count)
     })
