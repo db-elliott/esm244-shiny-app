@@ -151,17 +151,26 @@ server <- function(input, output) {
     })
     
     # widget 3 output
-    year_select <- reactive ({
-        fish %>%
+    fish_select <- reactive ({
+        top_fish <- fish %>%
         filter(year %in% input$yr_slider[1]:input$yr_slider[2]) %>% 
-        group_by(year) %>% 
         count(taxonomy, wt = count) %>% 
         slice_max(order_by = n, n = 10)
+    
+    fish_count <- fish %>% 
+      filter(taxonomy %in% top_fish$taxonomy) %>%
+      filter(year %in% input$yr_slider[1]:input$yr_slider[2]) %>% 
+      group_by(year) %>% 
+      count(taxonomy, wt = count)
+    
+    return(fish_count)
     })
     
+    
     output$fish_ab <- renderPlot({
-        ggplot(data = year_select(), aes(x = year, y = n)) +
-            geom_point(aes(color = taxonomy))
+        ggplot(data = fish_select(), aes(x = year, y = n)) + 
+        geom_line(aes(color = taxonomy, group = taxonomy)) +
+        geom_point(aes(color = taxonomy)) 
             }) # end output widget 3
     
     #output widget 4
