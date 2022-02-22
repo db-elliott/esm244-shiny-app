@@ -34,7 +34,7 @@ ui <- fluidPage(
                "Mo'orea Coral Reef LTER",
                tabPanel("About",
                         sidebarLayout(
-                            sidebarPanel("Authors: Deanna Elliott, Mia Guarnieri, Mari Herbst De Cortina",
+                            sidebarPanel("Developers: Deanna Elliott, Mia Guarnieri, Mari Herbst De Cortina",
                                          br(),
                                          " ",
                                          br(),
@@ -75,17 +75,17 @@ ui <- fluidPage(
                             sidebarPanel(
                                 selectInput("select",
                                             inputId = "coral_site_select",
-                                            label = h3("Select site"),
+                                            label = h3("Select Site"),
                                             choices = list("LTER 1" = "LTER 1", "LTER 2" = "LTER 2", "LTER 3" = "LTER 3",
                                                            "LTER 4" = "LTER 4", "LTER 5" = "LTER 5", "LTER 6" = "LTER 6")),
                                 selectInput("select",
                                             inputId = "coral_transect_select",
-                                            label = h3("Select transect"),
+                                            label = h3("Select Transect"),
                                             choices = list("1" = 1, "2" = 2, "3" = 3,
                                                            "4" = 4, "5" = 5)),
                                 selectInput("select",
                                             inputId = "coral_quadrat_select",
-                                            label = h3("Select quadrat"),
+                                            label = h3("Select Quadrat"),
                                             choices = list("1" = 1, "2" = 2, "3" = 3,
                                                            "4" = 4, "5" = 5, "6" = 6,
                                                            "7" = 7, "8" = 8)),
@@ -112,7 +112,7 @@ ui <- fluidPage(
                tabPanel("Yearly Fish Abundance",
                         sidebarLayout(
                             sidebarPanel(
-                              sliderInput("yr_slider", label = h3("Select time scale"), min = 2006, 
+                              sliderInput("yr_slider", label = h3("Select Time Scale"), min = 2005, 
                                           max = 2020, value = c(2010, 2011), sep = NULL)
                             ), #end of sidebarPanel
                             mainPanel(
@@ -122,7 +122,7 @@ ui <- fluidPage(
                tabPanel("Timescale - Bleaching & Recovery",
                         sidebarLayout(
                             sidebarPanel(
-                                sliderInput("slider1", label = h3("Select time scale"), min = 0, 
+                                sliderInput("slider1", label = h3("Select Time Scale"), min = 0, 
                                             max = 100, value = c(40, 60))
                             ),  #end of sidebarPanel
                             mainPanel(
