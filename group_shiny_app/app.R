@@ -17,9 +17,8 @@ coral <- read_csv(here("data", "coral_data", "perc_cover_long.csv")) %>%
              into = c("year", "month"),
              sep = "-",
              extra = "merge",
-             remove = TRUE)
-  
-# HOW TO CHANGE YEAR TO DATE CLASS
+             remove = TRUE) %>%
+  mutate(year = as.character(year))
     
 
 fish <- read_csv(here("data", "fish_data", "annual_fish_survey.csv")) %>% 
@@ -95,11 +94,19 @@ ui <- fluidPage(
                                                    label = h3("Select years"), 
                                                    choices = list("2005" = 2005, "2006" = 2006, "2007" = 2007, "2008" = 2008, "2009" = 2009,
                                                                   "2010" = 2010, "2011" = 2011, "2012" = 2012, "2013" = 2013, "2014" = 2014,
-                                                                  "2015" = 2015, "2016" = 2016, "2017" = 2017, "2018" = 2018, "2019" = 2019)) #,
-                                                   # selected = 2005) # WHY IS SELECTED BROKEN
+                                                                  "2015" = 2015, "2016" = 2016, "2017" = 2017, "2018" = 2018, "2019" = 2019))
+                                                  # selected = "2005") # WHY IS SELECTED BROKEN
                             ),  # end of sidebarPanel
-                            mainPanel(
-                                plotOutput(outputId = "coral_abun")
+                            mainPanel("Use this tool to visualize differences in coral species abundance at research sites between years. Non-coral species or substrates are not included in the data,
+                                      so percent cover may not combine to 100%.",
+                                      br(), " ",
+                                      br(), " ",
+                                      "Select a year to remove error message and view graph!",
+                                      br(), " ",
+                                      br(), " ",
+                                plotOutput(outputId = "coral_abun"),
+                                br(), " ", br(), " ",
+                                "Data Citation: Moorea Coral Reef LTER and P. Edmunds. 2020. MCR LTER: Coral Reef: Long-term Population and Community Dynamics: Corals, ongoing since 2005 ver 38. Environmental Data Initiative. https://doi.org/10.6073/pasta/10ee808a046cb63c0b8e3bc3c9799806 (Accessed 2022-02-22)."
                             ) #end of mainPanel 3
                         )), #end of sidebarLayout, tabPanel W2
                tabPanel("Yearly Fish Abundance",
@@ -134,7 +141,7 @@ server <- function(input, output) {
     coral_abun <- reactive ({
         coral %>%
             filter(site == input$coral_site_select) %>%
-            filter(year == input$coral_year) %>%
+            filter(year == as.numeric(input$coral_year)) %>%
         filter(transect == input$coral_transect_select) %>%
         filter(quadrat == input$coral_quadrat_select)
     })
@@ -143,11 +150,12 @@ server <- function(input, output) {
         ggplot(data = coral_abun(), aes(x = year, y = percent_cover)) +
                    geom_col(aes(fill = tax)) +
         facet_wrap(~ year) +
-            theme(axis.title.x=element_blank(),
-                  axis.text.x=element_blank(),
-                  axis.ticks.x=element_blank()) +
+           # theme(axis.title.x=element_blank(),
+            #      axis.text.x=element_blank(),
+            #      axis.ticks.x=element_blank()) +
         labs(x = "Year", y = "Percent cover",
-             fill = "Species")
+             fill = "Species") +
+        theme_minimal()
     })
     
     # widget 3 output
