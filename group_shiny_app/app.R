@@ -97,10 +97,16 @@ ui <- fluidPage(
                                                                   "2015" = 2015, "2016" = 2016, "2017" = 2017, "2018" = 2018, "2019" = 2019))
                                                   # selected = "2005") # WHY IS SELECTED BROKEN
                             ),  # end of sidebarPanel
-                            mainPanel("Use this tool to visualize differences in coral species abundance at research sites between years.",
+                            mainPanel("Use this tool to visualize differences in coral species abundance at research sites between years. Non-coral species or substrates are not included in the data,
+                                      so percent cover may not combine to 100%.",
                                       br(), " ",
-                                      "Select a year to remove error message!",
-                                plotOutput(outputId = "coral_abun")
+                                      br(), " ",
+                                      "Select a year to remove error message and view graph!",
+                                      br(), " ",
+                                      br(), " ",
+                                plotOutput(outputId = "coral_abun"),
+                                br(), " ", br(), " ",
+                                "Data Citation: Moorea Coral Reef LTER and P. Edmunds. 2020. MCR LTER: Coral Reef: Long-term Population and Community Dynamics: Corals, ongoing since 2005 ver 38. Environmental Data Initiative. https://doi.org/10.6073/pasta/10ee808a046cb63c0b8e3bc3c9799806 (Accessed 2022-02-22)."
                             ) #end of mainPanel 3
                         )), #end of sidebarLayout, tabPanel W2
                tabPanel("Yearly Fish Abundance",
