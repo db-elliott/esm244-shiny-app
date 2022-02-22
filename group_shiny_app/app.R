@@ -101,7 +101,9 @@ ui <- fluidPage(
                                       so percent cover may not combine to 100%.",
                                       br(), " ",
                                       br(), " ",
-                                      "Select a year to remove error message!",
+                                      "Select a year to remove error message and view graph!",
+                                      br(), " ",
+                                      br(), " ",
                                 plotOutput(outputId = "coral_abun"),
                                 br(), " ", br(), " ",
                                 "Data Citation: Moorea Coral Reef LTER and P. Edmunds. 2020. MCR LTER: Coral Reef: Long-term Population and Community Dynamics: Corals, ongoing since 2005 ver 38. Environmental Data Initiative. https://doi.org/10.6073/pasta/10ee808a046cb63c0b8e3bc3c9799806 (Accessed 2022-02-22)."
