@@ -19,6 +19,11 @@ coral <- read_csv(here("data", "coral_data", "perc_cover_long.csv")) %>%
              extra = "merge",
              remove = TRUE) %>%
   mutate(year = as.character(year))
+
+coral_cov_mean <- coral %>% 
+  select(year, site:tax) %>% 
+  group_by(year, site) %>% 
+  summarize(percent_cover_mean = sum(percent_cover)/120)
     
 
 fish <- read_csv(here("data", "fish_data", "annual_fish_survey.csv")) %>% 
@@ -58,19 +63,21 @@ ui <- fluidPage(
                         sidebarLayout(
                             sidebarPanel(
                                 selectInput("select", 
+                                            inputId = "cor_year",
                                             label = h3("Select Year"), 
                                             choices = list("2005" = 1, "2006" = 2, "2007" = 3, "2008" = 4,
                                                            "2009" = 5, "2010" = 6, "2011" = 7, "2012" = 8,
                                                            "2013" = 9, "2014" = 10, "2015" = 11, "2016" = 12,
                                                            "2017" = 13, "2018" = 14, "2019" = 15, "2020" = 16), 
                                             selected = 1)
-                            ), # end of sidebarLayout
+                            )), # end of sidebarLayout
                             mainPanel(
-                                "OUTPUT GOES HERE",
-                                verbatimTextOutput("value") #widget 2 output
+                                "Use this tool to visualize differences in average coral cover at research sites between years.",
+                                mainPanel(
+                                  plotOutput(outputId = "cor_cov") #widget 2 output
                             ) # end of mainPanel2
                         )),  # end of sidebarLayout, tabPanel W1
-               tabPanel("Coral Coverage Differences Between Years",
+               tabPanel("Coral Species Differences Between Years",
                         sidebarLayout(
                             sidebarPanel(
                                 selectInput("select",
@@ -136,6 +143,20 @@ ui <- fluidPage(
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
+  
+    # output widget 1
+     coral_cov <- reactive ({
+       coral_cov_mean %>%
+         filter(year == input$cor_year)
+    
+  })
+  
+  output$coral_ <- renderPlot({
+    ggplot(data = coral_abun, 
+           aes(x="", y=percent_cover, fill=site)) +
+      geom_bar(width = 1, stat = "identify")
+    })
+
     
     #output widget 2
     coral_abun <- reactive ({
@@ -178,7 +199,8 @@ server <- function(input, output) {
     output$fish_ab <- renderPlot({
         ggplot(data = fish_select(), aes(x = year, y = n)) + 
         geom_line(aes(color = taxonomy, group = taxonomy)) +
-        geom_point(aes(color = taxonomy)) 
+        geom_point(aes(color = taxonomy)) %>% 
+        labs(x = "Year", y = "Abundance", color = "Species")
             }) # end output widget 3
     
     #output widget 4
