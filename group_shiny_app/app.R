@@ -24,7 +24,8 @@ coral <- read_csv(here("data", "coral_data", "perc_cover_long.csv")) %>%
 coral_cov_mean <- coral %>% 
  select(year, site:tax) %>% 
   group_by(year, site) %>% 
-  summarize(percent_cover_mean = sum(percent_cover)/120)
+  summarize(percent_cover_mean = sum(percent_cover)/120) %>% 
+  filter(year != "2854")
 
 fish <- read_csv(here("data", "fish_data", "annual_fish_survey.csv")) %>% 
   clean_names() %>% 
@@ -184,8 +185,13 @@ server <- function(input, output) {
   
   output$coral_cov <- renderPlot({
     ggplot(data = coral_cov(), 
-           aes(x= site, y=percent_cover_mean)) +
-      geom_col()
+           aes(x= site, y=percent_cover_mean, fill = site)) +
+      geom_col(color = "black", show.legend = FALSE) +
+      scale_fill_manual(values = c("chocolate1", "darkturquoise", 
+                                    "indianred1", "goldenrod1", 
+                                    "mediumspringgreen", "mediumorchid3")) +
+      labs(x = "Site", y = "Average % Cover") +
+      theme_classic()
   })
     
     #output widget 2
