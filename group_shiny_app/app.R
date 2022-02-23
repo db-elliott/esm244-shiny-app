@@ -4,6 +4,7 @@ library(tidyverse)
 library(here)
 library(janitor)
 library(lubridate)
+library(calecopal)
 
 "%!in%" <- Negate("%in%")
 
