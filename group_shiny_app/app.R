@@ -4,6 +4,7 @@ library(tidyverse)
 library(here)
 library(janitor)
 library(lubridate)
+library(calecopal)
 
 "%!in%" <- Negate("%in%")
 
@@ -23,6 +24,11 @@ coral <- read_csv(here("data", "coral_data", "perc_cover_long.csv")) %>%
 coral_cov_mean <- coral %>% 
  select(year, site:tax) %>% 
   group_by(year, site) %>% 
+  summarize(percent_cover_mean = sum(percent_cover)/120)
+
+coral_spp_cov <- coral %>% 
+  select(year, site:tax) %>% 
+  group_by(year, tax) %>% 
   summarize(percent_cover_mean = sum(percent_cover)/120)
     
 
