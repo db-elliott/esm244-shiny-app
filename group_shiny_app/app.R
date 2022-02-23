@@ -21,7 +21,7 @@ coral <- read_csv(here("data", "coral_data", "perc_cover_long.csv")) %>%
   mutate(year = as.character(year))
 
 coral_cov_mean <- coral %>% 
-  select(year, site:tax) %>% 
+ select(year, site:tax) %>% 
   group_by(year, site) %>% 
   summarize(percent_cover_mean = sum(percent_cover)/120)
     
@@ -40,12 +40,41 @@ ui <- fluidPage(
                tabPanel("About",
                         sidebarLayout(
                             sidebarPanel("Developers: Deanna Elliott, Mia Guarnieri, Mari Herbst De Cortina",
-                                         br(),
-                                         " ",
+                                         br(), " ",
                                          br(),
                                          "We are current graduate students at the Bren School of Environmental Science
-                                         & Management, working towards Masters of Environmental Science and Management."
-                            ),
+                                         & Management, working towards Masters of Environmental Science and Management.",
+                                         br(), " ",
+                                         br(), " ",
+                                         br(), " ",
+                                         br(), " ",
+                                         br(), " ",
+                                         br(),
+                                         "Data Citations:",
+                                         br(), " ",
+                                         br(),
+                                         "Moorea Coral Reef LTER and P. Edmunds. 2020. MCR LTER: Coral Reef: 
+                                         Long-term Population and Community Dynamics: Corals, ongoing since 2005 ver 38.
+                                         Environmental Data Initiative. https://doi.org/10.6073/pasta/10ee808a046cb63c0b8e3bc3c9799806 
+                                         (Accessed 2022-02-22).",
+                                         br(), " ",
+                                         br(),
+                                         "Moorea Coral Reef LTER and A. Brooks. 2022. MCR LTER: Coral Reef: Long-term Population 
+                                         and Community Dynamics: Fishes, ongoing since 2005 ver 61. Environmental Data Initiative. 
+                                         https://doi.org/10.6073/pasta/ad17fdfd89064fb57e1ac0cf26b32483 (Accessed 2022-02-22).",
+                                         br(), " ",
+                                         br(),
+                                         "Moorea Coral Reef LTER, D. Burkepile, and T. Adam. 2019. MCR LTER: Coral Reef: Coral 
+                                         bleaching with nitrogen and heat stress: 2016 data in support of Donovan et al. 
+                                         submitted to PNAS ver 10. Environmental Data Initiative. https://doi.org/10.6073/pasta/
+                                         57108aaeede00e77cac110bc5366a92b (Accessed 2022-02-22).",
+                                         br(), " ",
+                                         br(),
+                                         "Moorea Coral Reef LTER, K.E. Speare, T.C. Adam, E.M. Winslow, H.S. Lenihan, and D.E. 
+                                         Burkepile. 2021. MCR LTER: Coral Reefs: Coral bleaching and mortality in July 2019; 
+                                         data for Speare et al. 2021 Global Change Biology ver 10. Environmental Data Initiative.
+                                         https://doi.org/10.6073/pasta/f59968d039de006909c5c92c51c3919c (Accessed 2022-02-22)."
+                            ), #end sidebarPanel
                             mainPanel("This app visualizes data on coral cover and reef fish species abundance 
                                 during four 'normal' years and two years when bleaching events occured in the 
                                 Mo'orea Coral Reef LTER site.",
@@ -57,27 +86,29 @@ ui <- fluidPage(
                                 partner to the University of California, Santa Barbara and the University of
                                 California, Northridge. Its purpose is as a model for exploring factors that 
                                 mediate coral community structure and function, particularly external, 
-                                anthropogenic drivers of disturbance.")
-                        )),
+                                anthropogenic drivers of disturbance.",
+                               br(), " ",
+                               br(),
+                              div(img(src = "mcr_coral.jpg", height = 400, width = 500), style="text-align: center;"),
+                               br(), " ",
+                              br(),
+                               div(img(src = "mcr_lter_map.png", height = 600, width = 500), style="text-align: center;") 
+                            )
+                        )), 
                tabPanel("Coral Cover By Year",
                         sidebarLayout(
                             sidebarPanel(
                                 selectInput("select", 
                                             inputId = "cor_year",
                                             label = h3("Select Year"), 
-                                            choices = list("2005" = 1, "2006" = 2, "2007" = 3, "2008" = 4,
-                                                           "2009" = 5, "2010" = 6, "2011" = 7, "2012" = 8,
-                                                           "2013" = 9, "2014" = 10, "2015" = 11, "2016" = 12,
-                                                           "2017" = 13, "2018" = 14, "2019" = 15, "2020" = 16), 
-                                            selected = 1)
-                            )), # end of sidebarLayout
+                                            choices = unique(coral_cov_mean$year))
+                            ), # end of sidebarLayout
                             mainPanel(
                                 "Use this tool to visualize differences in average coral cover at research sites between years.",
-                                mainPanel(
-                                  plotOutput(outputId = "cor_cov") #widget 2 output
+                                plotOutput(outputId = "coral_cov")
                             ) # end of mainPanel2
                         )),  # end of sidebarLayout, tabPanel W1
-               tabPanel("Coral Species Differences Between Years",
+               tabPanel("Coral Species By Year",
                         sidebarLayout(
                             sidebarPanel(
                                 selectInput("select",
@@ -114,8 +145,7 @@ ui <- fluidPage(
                                       br(), " ",
                                       br(), " ",
                                 plotOutput(outputId = "coral_abun"),
-                                br(), " ", br(), " ",
-                                "Data Citation: Moorea Coral Reef LTER and P. Edmunds. 2020. MCR LTER: Coral Reef: Long-term Population and Community Dynamics: Corals, ongoing since 2005 ver 38. Environmental Data Initiative. https://doi.org/10.6073/pasta/10ee808a046cb63c0b8e3bc3c9799806 (Accessed 2022-02-22)."
+                                br(), " ", br(), " "
                             ) #end of mainPanel 3
                         )), #end of sidebarLayout, tabPanel W2
                tabPanel("Yearly Fish Abundance",
@@ -147,18 +177,17 @@ ui <- fluidPage(
 server <- function(input, output) {
   
     # output widget 1
-     coral_cov <- reactive ({
-       coral_cov_mean %>%
-         filter(year == input$cor_year)
+  coral_cov <- reactive ({
+    coral_cov_mean %>%
+      filter(year == as.numeric(input$cor_year))
     
   })
   
-  output$coral_ <- renderPlot({
-    ggplot(data = coral_abun, 
-           aes(x="", y=percent_cover, fill=site)) +
-      geom_bar(width = 1, stat = "identify")
-    })
-
+  output$coral_cov <- renderPlot({
+    ggplot(data = coral_cov(), 
+           aes(x= site, y=percent_cover_mean)) +
+      geom_col()
+  })
     
     #output widget 2
     coral_abun <- reactive ({
