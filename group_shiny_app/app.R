@@ -26,12 +26,6 @@ coral_cov_mean <- coral %>%
   group_by(year, site) %>% 
   summarize(percent_cover_mean = sum(percent_cover)/120)
 
-coral_spp_cov <- coral %>% 
-  select(year, site:tax) %>% 
-  group_by(year, tax) %>% 
-  summarize(percent_cover_mean = sum(percent_cover)/120)
-    
-
 fish <- read_csv(here("data", "fish_data", "annual_fish_survey.csv")) %>% 
   clean_names() %>% 
   select("year", "location", "taxonomy", "family", "count") %>% 
@@ -139,6 +133,7 @@ ui <- fluidPage(
                                                    choices = list("2005" = 2005, "2006" = 2006, "2007" = 2007, "2008" = 2008, "2009" = 2009,
                                                                   "2010" = 2010, "2011" = 2011, "2012" = 2012, "2013" = 2013, "2014" = 2014,
                                                                   "2015" = 2015, "2016" = 2016, "2017" = 2017, "2018" = 2018, "2019" = 2019))
+                                                   # selected = "2005")
                                                   # selected = "2005") # WHY IS SELECTED BROKEN
                             ),  # end of sidebarPanel
                             mainPanel("Use this tool to visualize differences in coral species abundance at research sites between years. Non-coral species or substrates are not included in the data,
@@ -206,9 +201,6 @@ server <- function(input, output) {
         ggplot(data = coral_abun(), aes(x = year, y = percent_cover)) +
                    geom_col(aes(fill = tax)) +
         facet_wrap(~ year) +
-           # theme(axis.title.x=element_blank(),
-            #      axis.text.x=element_blank(),
-            #      axis.ticks.x=element_blank()) +
         labs(x = "Year", y = "Percent cover",
              fill = "Species") +
         theme_minimal()
