@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-mcr.5033.10"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="5033">
+    <!--<alternateIdentifier system="https://doi.org">10.6073/pasta/TODO</alternateIdentifier>-->
+    <alternateIdentifier>knb-lter-mcr.5033</alternateIdentifier>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/57108aaeede00e77cac110bc5366a92b</alternateIdentifier>
+    <shortName>2016 bleaching data for PNAS</shortName>
+    <title>MCR LTER: Coral Reef: Coral bleaching with nitrogen and heat stress: 2016 data in support of Donovan et al. submitted to PNAS</title>
+    <creator id="MCR">
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <creator id="dburkepile">
+      <individualName>
+        <givenName>Deron</givenName>
+        <surName>Burkepile</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805.893.3067</phone>
+      <electronicMailAddress>dburkepile@ucsb.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">http://orcid.org/0000-0002-0427-0484</userId>
+      <!-- dburkepile -->
+    </creator>
+    <creator id="tadam">
+      <individualName>
+        <givenName>Tom</givenName>
+        <surName>Adam</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>thomas.adam@lifesci.ucsb.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">http://orcid.org/0000-0001-6146-0260</userId>
+      <!-- tadam -->
+    </creator>
+    <metadataProvider>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Information Manager</positionName>
+    </metadataProvider>
+    <pubDate>2019-10-25</pubDate>
+    <language>english</language>
+    <abstract>
+      <para> During 2016, maximum water temperature in the lagoons of Moorea exceeded a threshold for
+        heat stress for 70 straight days from early February through mid-April. In early May 2016,
+        at the peak of accumulated heat stress, coral bleaching surveys were conducted to test the
+        hypothesis that bleaching prevalence and severity were correlated with differences in heat
+        stress and nutrient availability. </para>
+      <para> This material is based upon work supported by the U.S. National Science Foundation under
+        Grant No. OCE 16-37396 (and earlier awards) as well as a generous gift from the Gordon and
+        Betty Moore Foundation. Research was completed under permits issued by the French Polynesian
+        Government (Délégation à la Recherche) and the Haut-commissariat de la République en
+        Polynésie Francaise (DTRT) (Protocole d'Accueil 2005-2019). This work represents a
+        contribution of the Moorea Coral Reef (MCR) LTER Site. </para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">LTER</keyword>
+      <keyword keywordType="theme">MCR</keyword>
+      <keyword keywordType="theme">Moorea Coral Reef</keyword>
+      <keyword keywordType="theme">Thermal stress</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">NSF</keyword>
+      <keyword keywordType="theme">Richard B. Gump South Pacific Research Station</keyword>
+      <keyword keywordType="theme">University of California Santa Barbara</keyword>
+      <keywordThesaurus>Institute, Organization, or Funding Agency</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">Moorea</keyword>
+      <keyword keywordType="place">French Polynesia</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="taxonomic">Acropora</keyword>
+      <keyword keywordType="taxonomic">Pocillopora</keyword>
+      <keyword keywordType="taxonomic">Scleractinia</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Coral bleaching</keyword>
+      <keyword keywordType="theme">Marine environments</keyword>
+      <keyword keywordType="theme">Nutrients</keyword>
+      <keyword keywordType="theme">Temperature</keyword>
+      <keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">coral reefs</keyword>
+      <keyword keywordType="theme">corals</keyword>
+      <keyword keywordType="theme">marine</keyword>
+      <keywordThesaurus>LTER Network Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keywordThesaurus>LTER Core Research Area</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Reef Resistance and Resilience</keyword>
+      <keywordThesaurus>MCR Research Theme</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Population and Community Dynamics</keyword>
+      <keywordThesaurus>MCR-LTER Working Group</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+
+      <para>
+  This data package is released under the Creative Commons license
+  Attribution 4.0 International (CC BY 4.0 , see
+  <ulink url="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ulink>).
+  This license states that consumers ("Data Users" herein) may
+  distribute, adapt, reuse, remix, and build upon this work, as long as
+  they give appropriate credit, provide a link to the license, and
+  indicate if changes were made. If redistributed, a Data User may not
+  apply additional restrictions or technological measures that prevent
+  access.
+</para>
+      <para>
+  The Data User has an ethical obligation to cite the data source
+  appropriately in any publication or product that results from its use,
+  and notify the data contact or creator. Communication, collaboration,
+  or co-authorship (as appropriate) with the creators of this data
+  package is encouraged to prevent duplicate research or publication.
+  The Data User is urged to contact the authors of these data if any
+  questions about methodology or results occur. The Data User should
+  realize that these data may be actively used by others for ongoing
+  research and that coordination may be necessary to prevent duplication
+  or inappropriate use. The Data User should realize that
+  misinterpretation may occur if data are used outside of the context of
+  the original study. The Data User should be aware that data are
+  updated periodically and it is the responsibility of the Data User to
+  check for new versions of the data.
+</para>
+      <para>
+  While substantial efforts are made to ensure the accuracy of data and
+  associated documentation, complete accuracy of data sets cannot be
+  guaranteed. This data package (with its components) is made available
+  "as is" and with no warranty of accuracy or fitness for use. The
+  creators of this data package and the repository where these data were
+  obtained shall not be liable for any damages resulting from
+  misinterpretation, use or misuse of the data package or its
+  components.
+</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <onlineDescription>MCR LTER site data catalog</onlineDescription>
+        <url function="information">http://mcr.lternet.edu/data/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="moorea_generic_box">
+        <geographicDescription>Moorea, French Polynesia</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-150</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.67</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.45</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.62</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2016-01-08</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2016-05-13</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <!-- only Pocillopora and Acropora -->
+        <generalTaxonomicCoverage>Stony corals Pocillopora and Acropora</generalTaxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Phylum</taxonRankName>
+          <taxonRankValue>Cnidaria</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Class</taxonRankName>
+            <taxonRankValue>Anthozoa</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Order</taxonRankName>
+              <taxonRankValue>Corallimorpharia</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>Order</taxonRankName>
+              <taxonRankValue>Scleractinia</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Acroporidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Acropora</taxonRankValue>
+                  <taxonId provider="https://itis.gov">52860</taxonId>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Pocilloporidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Pocillopora</taxonRankValue>
+                  <taxonId provider="https://itis.gov">53017</taxonId>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <annotation>
+      <propertyURI label="is about">http://purl.obolibrary.org/obo/IAO_000136</propertyURI>
+      <valueURI label="coral bleaching process">http://purl.obolibrary.org/obo/ENVO_01000852</valueURI>
+    </annotation>
+    <maintenance>
+      <description>
+        <para>Short term study completed. Revisions start with 10.</para>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805.893.2071</phone>
+      <electronicMailAddress>mcrlter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://mcr.lternet.edu/about/contact</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>We surveyed 167 sites around Moorea and recorded bleaching on colonies of
+                        <emphasis>Pocillopora</emphasis> and <emphasis>Acropora</emphasis>, which
+                    were present at 149 of the sites. Sites were at least 0.5 km apart, and at each
+                    site two snorkelers conducted 10-minute swims in opposite directions recording
+                    all observed colonies of <emphasis>Pocillopora</emphasis> and
+                        <emphasis>Acropora</emphasis>. Sites were distributed around the entire
+                    island, and were categorized by habitat (fringing reef and back reef) and by the
+                    dominant cardinal direction of the coastline (North, East, West). We surveyed
+                    the two most common and widespread genera of branching corals in the system,
+                        <emphasis>Acropora</emphasis> and <emphasis>Pocillopora</emphasis>. The most
+                    common <emphasis>Acropora</emphasis> species were <emphasis>Acropora hyacinthus</emphasis>, 
+                    <emphasis>Acropora retusa</emphasis>, and
+                    <emphasis>Acropora clathrata</emphasis>, while the most common
+                        <emphasis>Pocillopora</emphasis> species were <emphasis>Pocillopora
+                        verrucosa</emphasis>, <emphasis>Pocillopora meandrina</emphasis>, and
+                        <emphasis>Pocillopora eydouxi</emphasis>. <emphasis>Pocillopora
+                        damicornis</emphasis> and <emphasis>Acropora pulchra</emphasis> were present
+                    at some sites but were not included in the surveys since they were largely
+                    restricted to the fringing reef sites. For each colony, we estimated the water
+                    depth (from 0-3 m deep), and its size class (size classes were 0-10 cm diameter,
+                    11-20 cm, 21-30 cm, 31-40 cm, &gt;40 cm). We then recorded whether bleaching was
+                    present (prevalence), and if so, estimated the percentage of the colony surface
+                    area that was bleached (severity). Because corals undergo natural, seasonal
+                    variation in Symbiodiniaceae density that can affect their coloration, we
+                    defined bleached tissue only as tissue that had lost all pigmentation. </para>
+            <para>To assess nitrogen availability at each site, we measured the N content in the
+                    long-lived brown macroalga <emphasis>Turbinaria ornata</emphasis> at each site. The nutrient content
+                    of macroalgae is often used as a proxy for ambient nutrient conditions as these
+                    macroalgae integrate nutrients over a relatively long time frame (i.e., weeks to
+                    months). During January and May 2016, we sampled 10 individual thalli of <emphasis>T.
+                        ornata</emphasis> at each site around the island for analysis of N content while we also
+                    surveyed coral bleaching (there was minimal bleaching in January 2016). Samples
+                    were immediately placed on ice and transported to the lab. One blade from each
+                    thallus was sampled at 5 cm below the apical tip of the thallus. These blades
+                    were scrubbed of epiphytes and briefly rinsed with fresh water before being
+                    dried at 60°C to a constant weight and ground to powder. Total N content was
+                    determined via elemental analysis using a CHN Carlo-Erba elemental analyzer
+                    (NA1500) CN Analyzer at the University of Georgia, Center for Applied Isotope
+                    Studies. We also measured δN15 in the tissues of T. ornata at the Marine Science
+                    Institute Analytical Laboratory at the University of California, Santa Barbara,
+                    using standard elemental analyzer isotope ratio mass spectrometer (EA-IRMS)
+                    procedures. We averaged values from January and May to represent nutrient
+                    conditions throughout the Austral summer.</para>
+            <para>The following is from the <ulink url="https://coralreefwatch.noaa.gov/satellite/methodology/methodology.php#dhw">
+              NOAA Coral Reef Watch Methodology Page
+            </ulink>:
+              Coral Bleaching Degree Heating Weeks (DHW) 
+              accumulates any HotSpots greater than 1 °C over a 12- week window, thus showing how stressful conditions have been for 
+              corals in the last three months. It is a cumulative measurement of the intensity and duration of thermal stress, and is 
+              expressed in the unit °C-weeks. DHWs over 4 °C-weeks have been shown to cause significant coral bleaching; values over 
+              8 °C-weeks have caused widespread bleaching and some mortality.
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>The Moorea Coral Reef (MCR) LTER</title>
+      <personnel id="RussID">
+        <individualName>
+          <givenName>Russell</givenName>
+          <surName>Schmitt</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>USA</country>
+        </address>
+        <electronicMailAddress>schmitt@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/people/russell-j-schmitt</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="SallyID">
+        <individualName>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>USA</country>
+        </address>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/people/sally-holbrook</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="PeteID">
+        <individualName>
+          <givenName>Peter</givenName>
+          <surName>Edmunds</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal  Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818.677.2502</phone>
+        <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/people/peter-edmunds</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="BobID">
+        <individualName>
+          <givenName>Robert</givenName>
+          <surName>Carpenter</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal  Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818-677-3256</phone>
+        <electronicMailAddress>robert.carpenter@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/people/robert-carpenter</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>NSF (LTER) MCR I #OCE-0417412, MCR II #OCE-1026851, MCR IIb #OCE-1236905, and MCR III #OCE-1637396</para>
+      </funding>
+      <award>
+        <funderName>National Science Foundation</funderName>
+        <funderIdentifier>https://ror.org/021nxhr62</funderIdentifier>
+        <awardNumber>1637396</awardNumber>
+        <title>Moorea Coral Reef Long Term Ecological Research</title>
+        <awardUrl>https://www.nsf.gov/awardsearch/showAward?AWD_ID=1637396</awardUrl>
+      </award>
+    </project>
+    <dataTable id="bleaching_survey">
+      <entityName>Percent bleached by location, habitat, depth, taxa, nitrogen.</entityName>
+      <entityDescription>Island wide surveys of colony level coral bleaching for Pocillopora and Acropora. </entityDescription>
+      <physical>
+        <objectName>MCR_LTER_Burkepile_Adams_2016_Coral_Bleaching_Survey_20191023.csv</objectName>
+        <size unit="byte">947450</size>
+        <authentication method="MD5">62a6ca13e740a63b46e46812635744a0</authentication>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <!--            <url function="download">http://mcrlter.msi.ucsb.edu/external/data/other/dataFromPapers/Donovan_2019_PNAS/MCR_LTER_Burkepile_Adams_2016_Coral_Bleaching_Survey_20191023.csv</url>-->
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-mcr/5033/10/1c4d4c84a166de50e14535fb3e18018b</url>
+          </online>
+          <access
+            authSystem="https://pasta.edirepository.org/authentication"
+            order="allowFirst" system="https://pasta.edirepository.org">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="point">
+          <attributeName>Point</attributeName>
+          <attributeLabel>Location identifier</attributeLabel>
+          <attributeDefinition>Identifier or name of measurement location (called a site)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>acronym or integer as text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="latitude">
+          <attributeName>Latitude</attributeName>
+          <attributeLabel>Latitude</attributeLabel>
+          <attributeDefinition>Latitude coordinate of measurement site in decimal degrees. South is negative.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>1e-07</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-90</minimum>
+                  <maximum exclusive="false">90</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="latitude coordinate">http://purl.dataone.org/odo/ECSO_00002130</valueURI>
+          </annotation>
+        </attribute>
+        <attribute id="longitude">
+          <attributeName>Longitude</attributeName>
+          <attributeLabel>Longitude</attributeLabel>
+          <attributeDefinition>Longitude coordinate of measurement site in decimal degrees. West is negative.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <precision>1e-07</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-180</minimum>
+                  <maximum exclusive="false">180</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="longitude coordinate">http://purl.dataone.org/odo/ECSO_00002132</valueURI>
+          </annotation>
+        </attribute>
+        <attribute id="island_shore">
+          <attributeName>Island_shore</attributeName>
+          <attributeLabel>Island shore</attributeLabel>
+          <attributeDefinition>Cardinal direction of shoreline (N, SE, SW) of Point (site)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>N
+        </code>
+                    <definition>North shore of Island (facing north)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SE</code>
+                    <definition>Southeast shore of Island (facing southeast)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SW</code>
+                    <definition>Southwest shore of Island (facing southwest)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="habitat">
+          <attributeName>Habitat</attributeName>
+          <attributeLabel>Habitat</attributeLabel>
+          <attributeDefinition>Reef habitat of Point (site), either Lagoon or Fringe</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Lagoon</code>
+                    <definition>Lagoon habitat</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Fringe</code>
+                    <definition>Fringing reef habitat</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="LTER_site">
+          <attributeName>LTER_site</attributeName>
+          <attributeLabel>LTER site</attributeLabel>
+          <attributeDefinition>Nearest LTER site to Point (site)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>LTER_1</code>
+                    <definition>LTER 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER_2</code>
+                    <definition>LTER 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER_3</code>
+                    <definition>LTER 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER_4</code>
+                    <definition>LTER 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER_5</code>
+                    <definition>LTER 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER_6</code>
+                    <definition>LTER 6</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="depth_m">
+          <attributeName>Depth_m</attributeName>
+          <attributeLabel>Depth (m)</attributeLabel>
+          <attributeDefinition>Depth of coral colony in meters. Positive is down.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="taxa">
+          <attributeName>Taxa</attributeName>
+          <attributeLabel>Coral genus</attributeLabel>
+          <attributeDefinition>Taxonomy of coral colony to genus level, either Acropora or Pocillopora</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Acropora </code>
+                    <definition>Acropora</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pocillopora</code>
+                    <definition>Pocillopora</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="colony_size_class">
+          <attributeName>Colony_size_class</attributeName>
+          <attributeLabel>Colony size class</attributeLabel>
+          <attributeDefinition>Size class of coral colony. 1=0to10cm, 2=11to20cm,3=21to30cm,4=31to40cm,5=above 40cm.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>0 to 10 cm diameter</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>11 to 20 cm diameter</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>21 to 30 cm diameter</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>31 to 40 cm diameter</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>greater than 40 cm diameter</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="percent_bleached">
+          <attributeName>Percent_bleached</attributeName>
+          <attributeLabel>Percent area bleached</attributeLabel>
+          <attributeDefinition>Percent of the colony area that was bleached</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="cumstress">
+          <attributeName>cumstress</attributeName>
+          <attributeLabel>Cumulative heat stress</attributeLabel>
+          <attributeDefinition>Cumulative heat stress in degreeC-weeks as a 12-week running sum for all temperatures exceeding the maximum monthly mean (MMM) temperatures from February-April. Degree Heating Weeks (DHW) product is a cumulative measurement of the intensity and duration of thermal stress. See methods for unit definition citation.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>degreeCWeeks</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="avgTotN">
+          <attributeName>avgTotN</attributeName>
+          <attributeLabel>Average total Nitrogen</attributeLabel>
+          <attributeDefinition>Total Nitrogen availability, averaged between January and May samples, measured using the %N in alga.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no data available</codeExplanation>
+          </missingValueCode>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="nitrogen percentage of total biomass">http://purl.dataone.org/odo/ECSO_00002569</valueURI>
+          </annotation>
+        </attribute>
+        <attribute id="avgdN15">
+          <attributeName>avgdN15</attributeName>
+          <attributeLabel>Average delta N15</attributeLabel>
+          <attributeDefinition>deltaN15, averaged between January and May samples</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no data available</codeExplanation>
+          </missingValueCode>
+          <annotation>
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="d15N">http://purl.dataone.org/odo/ECSO_00001738</valueURI>
+            <!-- stable nitrogen isotope ratio -->
+          </annotation>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>10230</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit abbreviation="º" id="degree"
+          multiplierToSI="0.0174532924" name="degree" parentSI="radian" unitType="angle">
+          <stmml:description>360 degrees comprise a unit circle.</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="degC-week" id="degreeCWeeks"
+          name="degreeCWeeks" unitType="temperatureDuration">
+          <stmml:description>Degree Heating Weeks (DHW) product is a cumulative measurement of the intensity and duration of thermal stress.</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="dimensionless" name="dimensionless" unitType="dimensionless">
+          <stmml:description>a designation asserting the absence of an associated unit</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="m" id="meter" multiplierToSI="1"
+          name="meter" unitType="length">
+          <stmml:description>SI unit of length</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="%" constantToSI="0" id="percent"
+          multiplierToSI="1" name="percent" unitType="dimensionless">
+          <stmml:description>ratio of two quantities as percent composition (1:100)</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

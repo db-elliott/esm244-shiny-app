@@ -4,15 +4,22 @@ library(tidyverse)
 library(here)
 library(janitor)
 library(lubridate)
-library(calecopal)
+library(sf)
+library(tmap)
+library(maptools)
+
+#reading in and wrangling data
 
 "%!in%" <- Negate("%in%")
 
+#coral data
 coral <- read_csv(here("data", "coral_data", "perc_cover_long.csv")) %>% 
   clean_names() %>% 
   mutate(tax = taxonomy_substrate_functional_group) %>% 
   select( - taxonomy_substrate_functional_group) %>% 
   filter(tax %!in% c("Sand", "Turf", "Macroalgae", "Crustose Coralline Algae / Bare Space")) %>%
+  mutate(case_when(
+    tax == "Fungiidae unidentified" ~ "Unknown Fungiidae")) %>% 
   mutate(date = ym(date)) %>%
     separate(col = date,
              into = c("year", "month"),
@@ -21,12 +28,39 @@ coral <- read_csv(here("data", "coral_data", "perc_cover_long.csv")) %>%
              remove = TRUE) %>%
   mutate(year = as.character(year))
 
+#coral percent cover
 coral_cov_mean <- coral %>% 
  select(year, site:tax) %>% 
   group_by(year, site) %>% 
   summarize(percent_cover_mean = sum(percent_cover)/120) %>% 
   filter(year != "2854")
 
+#bleaching data
+bleach_2016 <- read_csv(here("data", "bleaching_data", "bleaching_2016.csv")) %>% 
+  clean_names()
+bleach_adult_2019 <- read_csv(here("data", "bleaching_data", "adult_corals_exp_aug2019.csv"))
+bleach_adult_2019_NS <- read_csv(here("data", "bleaching_data", "adult_corals_NS_oct2019.csv"))
+
+#spatial bleaching data
+bleach_2016_sf <- bleach_2016 %>% 
+  drop_na(latitude, longitude) %>% 
+  st_as_sf(coords = c("longitude", "latitude")) 
+
+st_crs(bleach_2016_sf) <- 4326
+
+map <- read_sf(here("data", "map", "PYF_adm0.shp"))
+
+map_transform <- st_transform(map, 4326)
+
+ggplot(data = map_transform)+
+  geom_sf()
+
+ggplot()+ 
+  geom_sf(data = map_transform)+
+  geom_sf(data = bleach_2016_sf) +
+  theme_void()
+
+#fish data
 fish <- read_csv(here("data", "fish_data", "annual_fish_survey.csv")) %>% 
   clean_names() %>% 
   select("year", "location", "taxonomy", "family", "count") %>% 
@@ -45,8 +79,6 @@ ui <- fluidPage(
                                          br(),
                                          "We are current graduate students at the Bren School of Environmental Science
                                          & Management, working towards Masters of Environmental Science and Management.",
-                                         br(), " ",
-                                         br(), " ",
                                          br(), " ",
                                          br(), " ",
                                          br(), " ",
