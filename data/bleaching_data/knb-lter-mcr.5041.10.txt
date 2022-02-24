@@ -1,0 +1,1517 @@
+
+  
+    
+      uid=MCR,o=EDI,dc=edirepository,dc=org
+      all
+    
+    
+      public
+      read
+    
+  
+  
+    doi:10.6073/pasta/f59968d039de006909c5c92c51c3919cMCR LTER: Coral Reefs: Coral bleaching and mortality in July 2019; data for Speare et al. 2021 Global Change Biology
+    
+      Moorea Coral Reef LTER
+    
+    
+      Kelly Speare
+      Moorea Coral Reef LTER
+      kellyspeare@gmail.com
+      0000-0002-0016-3606
+    
+    
+      Thomas Adam
+      0000-0001-6146-0260
+    
+    
+      Erin Winslow
+      0000-0002-9846-2136
+    
+    
+      Hunter Lenihan
+      0000-0001-8146-7670
+    
+    
+      Deron Burkepile
+      0000-0002-0427-0484
+    
+    
+      Moorea Coral Reef LTER
+      Information Manager
+      mcrlter@msi.ucsb.edu
+    
+    2021-11-11
+      These data are from field surveys conducted at seven sites at 10m depth on the outer reef of Mo’orea following a marine heatwave and coral bleaching event in the Austral Summer of 2019. These data describe the size, percent of the colony that was bleached, and the percent of the colony that recently dead for corals in the genera Acropora and Pocillopora. At six sites (LTER 1-6) coral colony size was quantified using ordinal size bins and observers collected data on all coral colonies > 5cm diameter. At one site on the north shore of Mo’orea (LTER Experimental Site) coral colony size was measured to the nearest centimeter. At this site researchers did two separate sets of surveys, one to collect data on all corals > 5cm diameter, and one to collect data on all individuals ≤ 5cm diameter. 
+      
+      Additionally, data on survivorship of newly-settled coral recruits on coral settlement tiles are included. Tiles were deployed at 10m depth at one site on the outer reef of Moorea. Survivorship of coral recruits between March and July was assessed in 2017 and 2019.
+      
+      These data are in support of a publication Speare et al. (2021) Global Change Biology. The manuscript title and author list are as follows: Size-dependent mortality of corals during marine heatwave erodes recovery capacity of a coral reef. Kelly E. Speare, Thomas C. Adam, Erin M. Winslow, Hunter S. Lenihan, Deron E. Burkepile
+      
+      This material is based upon work supported by the U.S. National Science Foundation under Grant No. OCE 16-37396 (and earlier awards) as well as a generous gift from the Gordon and Betty Moore Foundation. Research was completed under permits issued by the French Polynesian Government (Délégation à la Recherche) and the Haut-commissariat de la République en Polynésie Francaise (DTRT) (Protocole d'Accueil 2005-2021). This work represents a contribution of the Moorea Coral Reef (MCR) LTER Site.
+    
+    
+      populations
+      coral bleaching
+      marine environments
+      Pocillopora
+      Acropora
+      California State University Northridge
+      Gordon and Betty Moore Foundation
+      NSF
+      Richard B. Gump South Pacific Research Station
+      University of California Santa Barbara
+      French Polynesia
+      Moorea
+      Time Series Program
+    
+    
+      coral reefs
+      corals
+      communities
+      habitats
+      mortality
+      LTER Controlled Vocabulary
+    
+    This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+    https://doi.org/10.6073/pasta/f59968d039de006909c5c92c51c3919c
+      
+        LTER Experimental Site 
+        
+          -149.818
+          -149.818
+          -17.477
+          -17.477
+        
+      
+      
+        LTER 1 Fore Reef
+        
+          -149.837
+          -149.837
+          -17.475
+          -17.475
+        
+      
+      
+        LTER 2 Fore Reef
+        
+          -149.808
+          -149.808
+          -17.471
+          -17.471
+        
+      
+      
+        LTER 3 Fore Reef
+        
+          -149.761
+          -149.761
+          -17.514
+          -17.514
+        
+      
+      
+        LTER 4 Fore Reef
+        
+          -149.768
+          -149.768
+          -17.547
+          -17.547
+        
+      
+      
+        LTER 5 Fore Reef
+        
+          -149.875
+          -149.875
+          -17.581
+          -17.581
+        
+      
+      
+        LTER 6 Fore Reef
+        
+          -149.924
+          -149.924
+          -17.518
+          -17.518
+        
+      
+      
+        
+          
+            2019-07-09
+          
+          
+            2019-08-07
+          
+        
+      
+      
+        
+          Genus
+          Pocillopora
+        
+      
+      
+        
+          Genus
+          Acropora
+        
+      
+    
+    
+      
+        This is no longer an ongoing dataset.
+      
+    
+    
+      Moorea Coral Reef LTER
+      Information Manager
+      			Marine Science Institute, University of California
+			Santa Barbara, CA 93106-6150  USA
+      mcrlter@msi.ucsb.edu
+      http://mcr.lternet.edu/about/contact
+    
+    Environmental Data Initiativeinfo@environmentaldatainitiative.orghttps://environmentaldatainitiative.org0330j0z60Environmental Data Initiative
+      
+        
+          All benthic surveys were conducted along the 10 m isobath on the outer reef of Mo’orea. On July 9-15, 2019, approximately 2 months after the peak of accumulated heat stress, two divers on SCUBA conducted coral bleaching and mortality surveys at six sites on the outer reef, with two sites on each side of the island. Pocillopora are substantially more abundant than Acropora so we employed slightly different survey methods for the two genera. At each site, divers surveyed Pocillopora and Acropora along two 50 m transects, in which divers quantified bleaching and mortality for every Pocillopora that intercepted the transect. Corals were identified to genus. Each colony was binned into one of three size bins (5-9 cm, 10-29 cm, 30+ cm), and the percent that was bleached and recently dead was then estimated for each colony. Portions of colonies were considered ‘recently dead’ if they were visibly colonized by turf algae but not yet colonized by macroalgae. In some instances there were several corals in the same area that had the same colony characteristics (size bin, percent dead, etc.) and in these instances we indicated the number of colonies in the “Count” column. Therefore the count column is a row multiplier.
+        
+      
+      
+        
+          We conducted more size-explicit coral bleaching and mortality surveys of corals using finer scale resolution of colony size from July 30 – August 7, 2019. Due to the time-intensive nature of these surveys, we conducted them only at one site (the LTER Experimental Site) on the outer reef of the north shore of Moorea. Two SCUBA divers conducted 10, 15 x 1 m-belt transects in which they visually estimated bleaching and mortality for every colony > 5 cm diameter using the same methods as described earlier. For these surveys, we measured the longest diameter of each colony to the nearest centimeter using a meter stick with centimeter markings. We then surveyed the same transects a second time to quantify bleaching and mortality of juvenile corals 1-5 cm diameter. We conducted the first several transects as 1 m belt transects, but then modified the method for later transects to use a 2 m belt to capture data on more individuals. The belt width for each transect is denoted in the “BeltSize” column. We measured the diameter of each coral to the nearest centimeter using a ruler, and visually estimated the percent of the colony that was bleached and recently dead. The processing code for this dataset is listed in the manuscript.
+        
+      
+      
+        
+          Limestone coral settlement tiles were deployed in August 2018 and accumulated naturally-settled recruits. Newly-settled coral recruits are notoriously difficult to identify while alive so it was not possible to identify the recruits on our tiles to genus. In March 2019, coral settlement tiles were collected from the reef daily in groups of eight and transported to the wet lab at the Richard B. Gump research station in a cooler of seawater. The surfaces of each tile were digitally photographed (Olympus Stylus Touch TG-4 camera). We searched each tile for coral recruits using a dissecting microscope and the location of each individual recruit was marked and numbered on the digital photos of each tile. Tiles were kept submerged in seawater throughout this process and returned to the reef within 24 hours of collection. Tiles were returned to the reef for 4 months and collected again in July 2019. We searched these tiles again for coral recruits, looking specifically in locations where the recruits were previously mapped. Recruits that were mapped in March were then scored as either Alive or Dead in July. We computed mean survival for each tile (n=34). The settlement tiles that were scored in 2019 were part of a factorial in situ experiment that artificially manipulated herbivore abundance (via herbivore exclusion) and nutrient enrichment (via nutrient diffusers filled with Osmocote slow-release fertilizer), and adult coral community disturbance (adult corals removed or adult coral community intact). In 2017, we tracked coral recruit survival during the same timeframe (March-July) using the same methods (n=12 tiles). Tiles used in 2017 were not part of the factorial experiment.
+        
+      
+    
+    
+      The Moorea Coral Reef (MCR) LTER
+      
+        Russell Schmitt
+        Moorea Coral Reef LTER
+        Lead Principal Investigator
+        			Marine Science Institute, University of California
+			Santa Barbara, CA 93106-6150  United States
+        schmitt@lifesci.ucsb.edu
+        http://mcr.lternet.edu/people/russell-j-schmitt
+        0000-0002-9674-4244
+        Principal Investigator
+      
+      
+        Sally Holbrook
+        Moorea Coral Reef LTER
+        Principal Investigator
+        			Marine Science Institute, University of California
+			Santa Barbara, CA 93106-6150  United States
+        holbrook@lifesci.ucsb.edu
+        http://mcr.lternet.edu/people/sally-holbrook
+        0000-0002-3015-3484
+        Principal Investigator
+      
+      
+        Peter Edmunds
+        Moorea Coral Reef LTER
+        Principal Investigator
+        			Department of Biological Sciences, California State University, 18111 Nordhoff Street
+			Northridge, CA 91330-8303  USA
+        818.677.2502 (voice)
+        peter.edmunds@csun.edu
+        http://mcr.lternet.edu/people/peter-edmunds
+        0000-0002-9039-9347
+        Principal Investigator
+      
+      
+        Robert Carpenter
+        Moorea Coral Reef LTER
+        Principal Investigator
+        			Department of Biological Sciences, California State University, 18111 Nordhoff Street
+			Northridge, CA 91330-8303  United States
+        818-677-3256 (voice)
+        robert.carpenter@csun.edu
+        http://mcr.lternet.edu/people/robert-carpenter
+        0000-0003-4232-1868
+        Principal Investigator
+      
+      
+        NSF
+        #OCE-1935308
+      
+      
+        NSF
+        #OCE-1547952
+      
+      
+        NSF (LTER)
+        MCR I #OCE-0417412, MCR II #OCE-1026851, MCR IIb #OCE-1236905, and MCR III #OCE-1637396
+      
+    
+    
+      Adult coral size explicit data
+      Coral bleaching and mortality at one site, size explicit data, corals > 5 cm diameter
+      
+        MCR_LTER_Speare_adult_corals_exp_site_aug2019.csv
+        80377
+        997bafd763816ce29ab5806b25837efe
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+              "
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-mcr/5041/10/3d51bfc6e14b8644d6fff0f5ff07e3a2
+          
+        
+      
+      
+        
+          Observer
+          Observer
+          Who collected the data
+          string
+          
+            
+              
+                
+                  
+                    KS
+                    Kelly Speare
+                  
+                
+              
+            
+          
+        
+        
+          Site
+          Site
+          Location of site
+          string
+          
+            
+              
+                
+                  
+                    LTER_Exp
+                    LTER Experimental Site
+                  
+                
+              
+            
+          
+        
+        
+          Genus
+          Genus
+          Coral genus
+          string
+          
+            
+              
+                
+                  
+                    Acropora
+                    Corals in the genus Acropora
+                  
+                  
+                    Pocillopora
+                    Corals in the genus Pocillopora
+                  
+                
+              
+            
+          
+        
+        
+          Size
+          Size
+          Coral size
+          float
+          
+            
+              
+                centimeter
+              
+              1.0
+              
+                integer
+                
+                  1.0
+                  55.0
+                
+              
+            
+          
+        
+        
+          Bleached
+          Percent Bleached
+          Percent of the coral that was bleached. We considered portions of a colony to be bleached if they were 100% white, not pale.
+          float
+          
+            
+              
+                percent
+              
+              5.0
+              
+                integer
+                
+                  0.0
+                  100.0
+                
+              
+            
+          
+        
+        
+          Dead
+          Percent Dead
+          Percent of the coral that was very newly dead (dead tissue covered in thick turf algae, but not yet colonized by macroalgae). This category also represents colonies that were recently dead.
+          float
+          
+            
+              
+                percent
+              
+              5.0
+              
+                integer
+                
+                  0.0
+                  100.0
+                
+              
+            
+          
+        
+        
+          Transect
+          Transect Number
+          A number to identify each unique transect
+          string
+          
+            
+              
+                
+                  
+                    0
+                    Transect 0
+                  
+                  
+                    1
+                    Transect 1
+                  
+                  
+                    2
+                    Transect 2
+                  
+                  
+                    3
+                    Transect 3
+                  
+                  
+                    4
+                    Transect 4
+                  
+                  
+                    5
+                    Transect 5
+                  
+                  
+                    6
+                    Transect 6
+                  
+                  
+                    7
+                    Transect 7
+                  
+                  
+                    8
+                    Transect 8
+                  
+                  
+                    9
+                    Transect 9
+                  
+                
+              
+            
+          
+        
+        
+          TransectLength
+          Transect Length
+          Length of the transect
+          string
+          
+            
+              
+                meter
+              
+              1.0
+              
+                real
+                
+                  10.0
+                  40.0
+                
+              
+            
+          
+        
+      
+      no
+      2147
+    
+    
+      Juvenile coral size explicit data
+      Coral bleaching and mortality at one site, size explicit data, corals < 5cm diameter.
+      
+        MCR_LTER_Speare_juvenile_corals_exp_site_aug2019.csv
+        20880
+        3eb4cf3654bfc304c7a2b06bcfdc21ba
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+              "
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-mcr/5041/10/b7a2ddc906822bab829b556bb79362f2
+          
+        
+      
+      
+        
+          Observer
+          Observer
+          Who collected the data
+          string
+          
+            
+              
+                
+                  
+                    AA
+                    Ally Aplin
+                  
+                  
+                    KS
+                    Kelly Speare
+                  
+                
+              
+            
+          
+        
+        
+          Site
+          Site
+          Location of site
+          string
+          
+            
+              
+                
+                  
+                    LTER_Exp
+                    LTER Experimental Site
+                  
+                
+              
+            
+          
+        
+        
+          Genus
+          Genus
+          Coral genus
+          string
+          
+            
+              
+                
+                  
+                    Acropora
+                    Corals in the genus Acropora
+                  
+                  
+                    Pocillopora
+                    Corals in the genus Pocillopora
+                  
+                
+              
+            
+          
+        
+        
+          Size
+          Size
+          Coral size
+          string
+          
+            
+              
+                centimeter
+              
+              1.0
+              
+                real
+                
+                  1.0
+                  5.0
+                
+              
+            
+          
+        
+        
+          Bleached
+          Percent Bleached
+          Percent of the coral that was bleached. We considered portions of a colony to be bleached if they were 100% white, not pale.
+          float
+          
+            
+              
+                percent
+              
+              5.0
+              
+                real
+                
+                  0.0
+                  100.0
+                
+              
+            
+          
+        
+        
+          Dead
+          Percent Dead
+          Percent of the coral that was very newly dead (dead tissue covered in thick turf algae, but not yet colonized by macroalgae). This category also represents colonies that were recently dead.
+          float
+          
+            
+              
+                percent
+              
+              5.0
+              
+                real
+                
+                  0.0
+                  100.0
+                
+              
+            
+          
+        
+        
+          Transect
+          Transect Number
+          A number to identify each unique transect.
+          string
+          
+            
+              
+                
+                  
+                    0
+                    Transect 0
+                  
+                  
+                    1
+                    Transect 1
+                  
+                  
+                    2
+                    Transect 2
+                  
+                  
+                    3
+                    Transect 3
+                  
+                  
+                    4
+                    Transect 4
+                  
+                  
+                    5
+                    Transect 5
+                  
+                  
+                    6
+                    Transect 6
+                  
+                  
+                    7
+                    Transect 7
+                  
+                  
+                    8
+                    Transect 8
+                  
+                
+              
+            
+          
+        
+        
+          TransectLength
+          Transect Length
+          Length of the transect
+          float
+          
+            
+              
+                meter
+              
+              1.0
+              
+                real
+                
+                  10.0
+                  40.0
+                
+              
+            
+          
+        
+        
+          BeltSize
+          Transect Belt Size
+          Width of the transect that was surveyed
+          float
+          
+            
+              
+                meter
+              
+              1.0
+              
+                real
+                
+                  1.0
+                  5.0
+                
+              
+            
+          
+        
+      
+      no
+      557
+    
+    
+      Adult coral size explicit data on the North shore
+      Coral bleaching and mortality at one site, size explicit data, corals > 5 cm diameter.
+      
+        MCR_LTER_Speare_adult_corals_north_shore_oct2019.csv
+        24633
+        60239c492bdf55d12b510471df734e6a
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+              "
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-mcr/5041/10/7c9e489dca8535a1741f0ac20cc7788a
+          
+        
+      
+      
+        
+          Genus
+          Genus
+          Coral genus
+          string
+          
+            
+              
+                
+                  
+                    Acropora
+                    Corals in the genus Acropora
+                  
+                  
+                    Pocillopora
+                    Corals in the genus Pocillopora
+                  
+                
+              
+            
+          
+        
+        
+          Size
+          Size
+          Coral size
+          float
+          
+            
+              
+                centimeter
+              
+              1.0
+              
+                integer
+                
+                  1.0
+                  55.0
+                
+              
+            
+          
+        
+        
+          Bleached
+          Percent Bleached
+          Percent of the coral that was bleached. We considered portions of a colony to be bleached if they were 100% white, not pale.
+          float
+          
+            
+              
+                percent
+              
+              5.0
+              
+                real
+                
+                  0.0
+                  100.0
+                
+              
+            
+          
+        
+        
+          Dead
+          Percent Dead
+          Percent of the coral that was very newly dead (dead tissue covered in thick turf algae, but not yet colonized by macroalgae). This category also represents colonies that were recently dead.
+          float
+          
+            
+              
+                percent
+              
+              5.0
+              
+                integer
+                
+                  0.0
+                  100.0
+                
+              
+            
+          
+        
+        
+          Site
+          Site
+          Location of site
+          string
+          
+            
+              
+                
+                  
+                    LTER1
+                    LTER1
+                  
+                  
+                    LTER2
+                    LTER2
+                  
+                  
+                    LTER_Exp
+                    LTER Experimental Site
+                  
+                
+              
+            
+          
+        
+        
+          Transect
+          Transect Number
+          A number to identify each unique transect
+          string
+          
+            
+              
+                
+                  
+                    1
+                    Transect 1
+                  
+                  
+                    2
+                    Transect 2
+                  
+                
+              
+            
+          
+        
+        
+          Count
+          Count
+          Row multiplier
+          float
+          
+            
+              
+                coral
+              
+              1.0
+              
+                real
+                
+                  1.0
+                
+              
+            
+          
+        
+        
+          TransectLength
+          Transect Length
+          Length of the transect
+          float
+          
+            
+              
+                meter
+              
+              1.0
+              
+                real
+                
+                  10.0
+                  40.0
+                
+              
+            
+          
+        
+      
+      no
+      708
+    
+    
+      Island wide size binned surveys
+      Coral bleaching and mortality at six sites, coral size binned
+      
+        MCR_LTER_Speare_island_wide_coral_bleaching_mortality_july2019.csv
+        77607
+        c7af4d38540a1af1b3107cf9e19ea2bb
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+              "
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-mcr/5041/10/e1be0cc94628ecd8560700a703418998
+          
+        
+      
+      
+        
+          Observer
+          Observer
+          Who collected the data
+          string
+          
+            
+              
+                
+                  
+                    DB
+                    Deron Burkepile
+                  
+                  
+                    TA
+                    Tom Adam
+                  
+                
+              
+            
+          
+        
+        
+          Site
+          Site
+          Location of site
+          string
+          
+            
+              
+                
+                  
+                    LTER1
+                    LTER1
+                  
+                  
+                    LTER2
+                    LTER2
+                  
+                  
+                    LTER3
+                    LTER3
+                  
+                  
+                    LTER4
+                    LTER4
+                  
+                  
+                    LTER5
+                    LTER5
+                  
+                  
+                    LTER6
+                    LTER6
+                  
+                
+              
+            
+          
+        
+        
+          Date
+          Date
+          Date of data collection
+          
+          
+            
+              YYYY-MM-DD
+              
+            
+          
+        
+        
+          Habitat
+          Habitat
+          Location of site, either outer reef or backreef
+          string
+          
+            
+              
+                
+                  
+                    OR
+                    Outer Reef
+                  
+                
+              
+            
+          
+        
+        
+          Depth_m
+          Depth in meters
+          Depth of site
+          float
+          
+            
+              
+                meter
+              
+              
+                real
+              
+            
+          
+        
+        
+          Genus
+          Genus
+          Coral genus
+          string
+          
+            
+              
+                
+                  
+                    Acropora
+                    Corals in the genus Acropora
+                  
+                  
+                    Pocillopora
+                    Corals in the genus Pocillopora
+                  
+                
+              
+            
+          
+        
+        
+          SizeStandardized
+          Size
+          Coral size bin
+          string
+          
+            
+              
+                
+                  
+                    10-29
+                    For corals in the genus Acropora size bin 2 is 10-29 cm diameter; for corals in the genus Pocillopora size bin 2 is 10-20 cm diameter
+                  
+                  
+                    30+
+                    For corals in the genus Acropora size bin 3 is 30-59 cm diameter; for corals in the genus Pocillopora size bin 3 is 20-29 cm diameter
+                  
+                  
+                    5-9
+                    For corals corals in the genus Acropora or Pocillopora size bin 1 is 5-9 cm diameter.
+                  
+                
+              
+            
+          
+        
+        
+          percent_Bleach
+          Percent Bleached
+          Percent of the coral that was bleached. We considered portions of a colony to be bleached if they were 100% white, not pale. 
+          float
+          
+            
+              
+                percent
+              
+              5.0
+              
+                integer
+                
+                  0.0
+                  100.0
+                
+              
+            
+          
+        
+        
+          percent_VN_Dead
+          Percent Very Newly Dead
+          Percent of the coral that was very newly dead (dead tissue, possibly starting to be colonized by filamentous turf algae). This category represents portions of colonies that were recently dead.
+          float
+          
+            
+              
+                percent
+              
+              5.0
+              
+                integer
+                
+                  0.0
+                  100.0
+                
+              
+            
+          
+        
+        
+          percent_N_Dead
+          Percent Newly Dead
+          Percent of the coral that was very newly dead (dead tissue covered in thick turf algae, but not yet colonized by macroalgae). This category also represents colonies that were recently dead.
+          float
+          
+            
+              
+                percent
+              
+              5.0
+              
+                integer
+                
+                  0.0
+                  100.0
+                
+              
+            
+          
+        
+        
+          Count
+          Count
+          Row multiplier
+          float
+          
+            
+              
+                coral
+              
+              1.0
+              
+                integer
+                
+                  1.0
+                
+              
+            
+          
+        
+      
+      no
+      1481
+    
+    
+      Recruit Survival
+      Percent survival of coral recruits on settlement tiles in 2017 and 2019
+      
+        MCR_LTER_Speare_recruit_survival_2017_2019.csv
+        2086
+        5ce8b3f154f616bb933d5bd1ac8d7e33
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+              "
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-mcr/5041/10/48ea27c227cd6282d624f7cae19e57f0
+          
+        
+      
+      
+        
+          TileNumber
+          Tile Number
+          Numerical tile identifier
+          float
+          
+            
+              
+                number
+              
+              
+                real
+              
+            
+          
+        
+        
+          RecruitsAliveMarch
+          Recruits
+          Number of recruits alive on a tile in March
+          float
+          
+            
+              
+                recruits
+              
+              1.0
+              
+                integer
+                
+                  1.0
+                
+              
+            
+          
+        
+        
+          SurvivorsJuly
+          Recruits
+          Number of recruits that were alive in March that survived until July
+          string
+          
+            
+              
+                number
+              
+              
+                real
+              
+            
+          
+        
+        
+          PercentSurvival
+          Survival
+          Percent recruit survivorship from March to July
+          float
+          
+            
+              
+                percent
+              
+              
+                real
+                
+                  0.0
+                  100.0
+                
+              
+            
+          
+        
+        
+          Year
+          Year
+          Year
+          dateTime
+          
+            
+              YYYY
+              
+            
+          
+        
+        
+          InExperiment
+          In Experiment
+          Whether or not tiles were in the  experiment
+          string
+          
+            
+              
+                
+                  
+                    No
+                    Tile was not in the experiment
+                  
+                  
+                    Yes
+                    Tile was in the experiment
+                  
+                
+              
+            
+          
+        
+        
+          Block
+          Block
+          Experiment block number
+          string
+          
+            
+              
+                
+                  
+                    nan
+                    Not present
+                  
+                  
+                    A
+                    Block A of the experiment
+                  
+                  
+                    B
+                    Block B of the experiment
+                  
+                  
+                    C
+                    Block C of the experiment
+                  
+                  
+                    D
+                    Block D of the experiment
+                  
+                
+              
+            
+          
+          
+            NA
+            tile was not in the experiment
+          
+        
+        
+          Plot
+          Plot
+          Experiment plot number where plots are nested within blocks
+          string
+          
+            
+              
+                
+                  
+                    1
+                    Plot 1
+                  
+                  
+                    2
+                    Plot 2
+                  
+                  
+                    3
+                    Plot 3
+                  
+                  
+                    4
+                    Plot 4
+                  
+                
+              
+            
+          
+          
+            NA
+            tile was not in the experiment
+          
+        
+        
+          Cage
+          Cage
+          Herbivore exclusion treatment
+          string
+          
+            
+              
+                
+                  
+                    nan
+                    Not present
+                  
+                  
+                    1x1
+                    1x1 inch holes in herbivore exclusion treatment
+                  
+                  
+                    2x2
+                    2x2 inch holes in herbivore exclusion treatment
+                  
+                  
+                    3x3
+                    3x3 inch holes in herbivore exclusion treatment
+                  
+                  
+                    open
+                    Open cage herbivore exclusioin treatment
+                  
+                
+              
+            
+          
+          
+            NA
+            tile was not in the experiment
+          
+        
+        
+          Nutrients
+          Nutrients
+          Nutrient enrichment treatment
+          string
+          
+            
+              
+                
+                  
+                    nan
+                    Not present
+                  
+                  
+                    Ambient
+                    Plot is not enriched with nutrients
+                  
+                  
+                    Enriched
+                    Plot is enriched with nutrients
+                  
+                
+              
+            
+          
+          
+            NA
+            tile was not in the experiment
+          
+        
+        
+          CoralCommunity
+          Coral Community
+          Coral community disturbance treatment
+          string
+          
+            
+              
+                
+                  
+                    nan
+                    Not present
+                  
+                  
+                    Disturbed
+                    Coral community was disturbed
+                  
+                  
+                    Intact
+                    Coral community was not disturbed
+                  
+                
+              
+            
+          
+          
+            NA
+            tile was not in the experiment
+          
+        
+      
+      no
+      46
+    
+  
+  
+    
+      
+        
+          
+        
+        
+          
+        
+      
+    
+  
+  
+    
+      
+    
+  

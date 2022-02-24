@@ -1,0 +1,5 @@
+Manifest file for knb-lter-mcr.5033.10-4c9184f37cff01bcdc32dc486ec36961.zip created on Sat May 16 07:51:44 MDT 2020
+MCR_LTER_Burkepile_Adams_2016_Coral_Bleaching_Survey_20191023.csv (947450 bytes)
+knb-lter-mcr.5033.10.xml (40524 bytes)
+knb-lter-mcr.5033.10.txt (21302 bytes)
+knb-lter-mcr.5033.10.report.xml (30984 bytes)

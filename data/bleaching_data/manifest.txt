@@ -1,0 +1,9 @@
+Manifest file for knb-lter-mcr.5041.10-4c9184f37cff01bcdc32dc486ec36961.zip created on Thu Feb 10 20:21:44 MST 2022
+MCR_LTER_Speare_adult_corals_exp_site_aug2019.csv (80377 bytes)
+MCR_LTER_Speare_juvenile_corals_exp_site_aug2019.csv (20880 bytes)
+MCR_LTER_Speare_adult_corals_north_shore_oct2019.csv (24633 bytes)
+MCR_LTER_Speare_island_wide_coral_bleaching_mortality_july2019.csv (77607 bytes)
+MCR_LTER_Speare_recruit_survival_2017_2019.csv (2086 bytes)
+knb-lter-mcr.5041.10.xml (75782 bytes)
+knb-lter-mcr.5041.10.txt (37690 bytes)
+knb-lter-mcr.5041.10.report.xml (108389 bytes)
