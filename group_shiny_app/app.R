@@ -19,7 +19,7 @@ coral <- read_csv(here("data", "coral_data", "perc_cover_long.csv")) %>%
   select( - taxonomy_substrate_functional_group) %>% 
   filter(tax %!in% c("Sand", "Turf", "Macroalgae", "Crustose Coralline Algae / Bare Space")) %>%
   mutate(case_when(
-    tax = "Fungiidae unidentified" ~ "Unknown Fungiidae")) %>% 
+    tax == "Fungiidae unidentified" ~ "Unknown Fungiidae")) %>% 
   mutate(date = ym(date)) %>%
     separate(col = date,
              into = c("year", "month"),
