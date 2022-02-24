@@ -4,7 +4,6 @@ library(tidyverse)
 library(here)
 library(janitor)
 library(lubridate)
-library(calecopal)
 library(sf)
 library(tmap)
 library(maptools)
@@ -19,6 +18,8 @@ coral <- read_csv(here("data", "coral_data", "perc_cover_long.csv")) %>%
   mutate(tax = taxonomy_substrate_functional_group) %>% 
   select( - taxonomy_substrate_functional_group) %>% 
   filter(tax %!in% c("Sand", "Turf", "Macroalgae", "Crustose Coralline Algae / Bare Space")) %>%
+  mutate(case_when(
+    tax = "Fungiidae unidentified" ~ "Unknown Fungiidae")) %>% 
   mutate(date = ym(date)) %>%
     separate(col = date,
              into = c("year", "month"),
@@ -78,8 +79,6 @@ ui <- fluidPage(
                                          br(),
                                          "We are current graduate students at the Bren School of Environmental Science
                                          & Management, working towards Masters of Environmental Science and Management.",
-                                         br(), " ",
-                                         br(), " ",
                                          br(), " ",
                                          br(), " ",
                                          br(), " ",
