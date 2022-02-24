@@ -263,7 +263,7 @@ server <- function(input, output) {
     
     output$fish_ab <- renderPlot({
         ggplot(data = fish_select(), aes(x = year, y = n)) + 
-        geom_line(aes(color = taxonomy, group = taxonomy)) +
+        geom_line(aes(color = taxonomy, group = taxonomy), size = 2) +
         geom_point(aes(color = taxonomy)) %>% 
         labs(x = "Year", y = "Abundance", color = "Species")
             }) # end output widget 3
