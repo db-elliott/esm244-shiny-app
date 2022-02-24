@@ -1,0 +1,1734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-mcr.5041.10"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd">
+  <access
+    authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document"
+      system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=MCR,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier
+        system="https://doi.org">doi:10.6073/pasta/f59968d039de006909c5c92c51c3919c</alternateIdentifier><title>MCR LTER: Coral Reefs: Coral bleaching and mortality in July 2019; data for Speare et al. 2021 Global Change Biology</title>
+    <creator>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Kelly</givenName>
+        <givenName>E.</givenName>
+        <surName>Speare</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <electronicMailAddress>kellyspeare@gmail.com</electronicMailAddress>
+      <userId
+        directory="https://orcid.org">0000-0002-0016-3606</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Thomas</givenName>
+        <givenName>C.</givenName>
+        <surName>Adam</surName>
+      </individualName>
+      <userId
+        directory="https://orcid.org">0000-0001-6146-0260</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Erin</givenName>
+        <givenName>M.</givenName>
+        <surName>Winslow</surName>
+      </individualName>
+      <userId
+        directory="https://orcid.org">0000-0002-9846-2136</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Hunter</givenName>
+        <givenName>S.</givenName>
+        <surName>Lenihan</surName>
+      </individualName>
+      <userId
+        directory="https://orcid.org">0000-0001-8146-7670</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Deron</givenName>
+        <givenName>E.</givenName>
+        <surName>Burkepile</surName>
+      </individualName>
+      <userId
+        directory="https://orcid.org">0000-0002-0427-0484</userId>
+    </creator>
+    <metadataProvider>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <electronicMailAddress>mcrlter@msi.ucsb.edu</electronicMailAddress>
+    </metadataProvider>
+    <pubDate>2021-11-11</pubDate><abstract>
+      <para>These data are from field surveys conducted at seven sites at 10m depth on the outer reef of Mo’orea following a marine heatwave and coral bleaching event in the Austral Summer of 2019. These data describe the size, percent of the colony that was bleached, and the percent of the colony that recently dead for corals in the genera Acropora and Pocillopora. At six sites (LTER 1-6) coral colony size was quantified using ordinal size bins and observers collected data on all coral colonies &gt; 5cm diameter. At one site on the north shore of Mo’orea (LTER Experimental Site) coral colony size was measured to the nearest centimeter. At this site researchers did two separate sets of surveys, one to collect data on all corals &gt; 5cm diameter, and one to collect data on all individuals ≤ 5cm diameter. </para>
+      <para/>
+      <para>Additionally, data on survivorship of newly-settled coral recruits on coral settlement tiles are included. Tiles were deployed at 10m depth at one site on the outer reef of Moorea. Survivorship of coral recruits between March and July was assessed in 2017 and 2019.</para>
+      <para/>
+      <para>These data are in support of a publication Speare et al. (2021) Global Change Biology. The manuscript title and author list are as follows: Size-dependent mortality of corals during marine heatwave erodes recovery capacity of a coral reef. Kelly E. Speare, Thomas C. Adam, Erin M. Winslow, Hunter S. Lenihan, Deron E. Burkepile</para>
+      <para/>
+      <para>This material is based upon work supported by the U.S. National Science Foundation under Grant No. OCE 16-37396 (and earlier awards) as well as a generous gift from the Gordon and Betty Moore Foundation. Research was completed under permits issued by the French Polynesian Government (Délégation à la Recherche) and the Haut-commissariat de la République en Polynésie Francaise (DTRT) (Protocole d'Accueil 2005-2021). This work represents a contribution of the Moorea Coral Reef (MCR) LTER Site.</para>
+    </abstract>
+    <keywordSet>
+      <keyword
+        keywordType="theme">populations</keyword>
+      <keyword
+        keywordType="theme">coral bleaching</keyword>
+      <keyword
+        keywordType="theme">marine environments</keyword>
+      <keyword
+        keywordType="taxonomic">Pocillopora</keyword>
+      <keyword
+        keywordType="taxonomic">Acropora</keyword>
+      <keyword>California State University Northridge</keyword>
+      <keyword>Gordon and Betty Moore Foundation</keyword>
+      <keyword>NSF</keyword>
+      <keyword>Richard B. Gump South Pacific Research Station</keyword>
+      <keyword>University of California Santa Barbara</keyword>
+      <keyword>French Polynesia</keyword>
+      <keyword>Moorea</keyword>
+      <keyword>Time Series Program</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword
+        keywordType="theme">coral reefs</keyword>
+      <keyword
+        keywordType="theme">corals</keyword>
+      <keyword
+      keywordType="theme">communities</keyword>
+      <keyword>habitats</keyword>
+      <keyword>mortality</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</intellectualRights>
+    <distribution
+      id="10.6073/pasta/f59968d039de006909c5c92c51c3919c" scope="system"
+          system="https://pasta.edirepository.org"><online><url
+        function="information">https://doi.org/10.6073/pasta/f59968d039de006909c5c92c51c3919c</url></online></distribution><coverage>
+      <geographicCoverage>
+        <geographicDescription>LTER Experimental Site </geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.818</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.818</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.477</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.477</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>LTER 1 Fore Reef</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.837</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.837</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.475</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.475</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>LTER 2 Fore Reef</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.808</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.808</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.471</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.471</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>LTER 3 Fore Reef</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.761</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.761</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.514</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.514</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>LTER 4 Fore Reef</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.768</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.768</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.547</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.547</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>LTER 5 Fore Reef</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.875</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.875</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.581</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.581</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>LTER 6 Fore Reef</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.924</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.924</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.518</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.518</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2019-07-09</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2019-08-07</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Pocillopora</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Acropora</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This is no longer an ongoing dataset.</para>
+      </description>
+    </maintenance>
+    <contact>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute, University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>mcrlter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://mcr.lternet.edu/about/contact</onlineUrl>
+    </contact>
+    <publisher><organizationName>Environmental Data Initiative</organizationName><electronicMailAddress>info@environmentaldatainitiative.org</electronicMailAddress><onlineUrl>https://environmentaldatainitiative.org</onlineUrl><userId
+          directory="https://ror.org">0330j0z60</userId></publisher><pubPlace>Environmental Data Initiative</pubPlace><methods>
+      <methodStep>
+        <description>
+          <para>All benthic surveys were conducted along the 10 m isobath on the outer reef of Mo’orea. On July 9-15, 2019, approximately 2 months after the peak of accumulated heat stress, two divers on SCUBA conducted coral bleaching and mortality surveys at six sites on the outer reef, with two sites on each side of the island. Pocillopora are substantially more abundant than Acropora so we employed slightly different survey methods for the two genera. At each site, divers surveyed Pocillopora and Acropora along two 50 m transects, in which divers quantified bleaching and mortality for every Pocillopora that intercepted the transect. Corals were identified to genus. Each colony was binned into one of three size bins (5-9 cm, 10-29 cm, 30+ cm), and the percent that was bleached and recently dead was then estimated for each colony. Portions of colonies were considered ‘recently dead’ if they were visibly colonized by turf algae but not yet colonized by macroalgae. In some instances there were several corals in the same area that had the same colony characteristics (size bin, percent dead, etc.) and in these instances we indicated the number of colonies in the “Count” column. Therefore the count column is a row multiplier.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>We conducted more size-explicit coral bleaching and mortality surveys of corals using finer scale resolution of colony size from July 30 – August 7, 2019. Due to the time-intensive nature of these surveys, we conducted them only at one site (the LTER Experimental Site) on the outer reef of the north shore of Moorea. Two SCUBA divers conducted 10, 15 x 1 m-belt transects in which they visually estimated bleaching and mortality for every colony &gt; 5 cm diameter using the same methods as described earlier. For these surveys, we measured the longest diameter of each colony to the nearest centimeter using a meter stick with centimeter markings. We then surveyed the same transects a second time to quantify bleaching and mortality of juvenile corals 1-5 cm diameter. We conducted the first several transects as 1 m belt transects, but then modified the method for later transects to use a 2 m belt to capture data on more individuals. The belt width for each transect is denoted in the “BeltSize” column. We measured the diameter of each coral to the nearest centimeter using a ruler, and visually estimated the percent of the colony that was bleached and recently dead. The processing code for this dataset is listed in the manuscript.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Limestone coral settlement tiles were deployed in August 2018 and accumulated naturally-settled recruits. Newly-settled coral recruits are notoriously difficult to identify while alive so it was not possible to identify the recruits on our tiles to genus. In March 2019, coral settlement tiles were collected from the reef daily in groups of eight and transported to the wet lab at the Richard B. Gump research station in a cooler of seawater. The surfaces of each tile were digitally photographed (Olympus Stylus Touch TG-4 camera). We searched each tile for coral recruits using a dissecting microscope and the location of each individual recruit was marked and numbered on the digital photos of each tile. Tiles were kept submerged in seawater throughout this process and returned to the reef within 24 hours of collection. Tiles were returned to the reef for 4 months and collected again in July 2019. We searched these tiles again for coral recruits, looking specifically in locations where the recruits were previously mapped. Recruits that were mapped in March were then scored as either Alive or Dead in July. We computed mean survival for each tile (n=34). The settlement tiles that were scored in 2019 were part of a factorial in situ experiment that artificially manipulated herbivore abundance (via herbivore exclusion) and nutrient enrichment (via nutrient diffusers filled with Osmocote slow-release fertilizer), and adult coral community disturbance (adult corals removed or adult coral community intact). In 2017, we tracked coral recruit survival during the same timeframe (March-July) using the same methods (n=12 tiles). Tiles used in 2017 were not part of the factorial experiment.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>The Moorea Coral Reef (MCR) LTER</title>
+      <personnel>
+        <individualName>
+          <givenName>Russell</givenName>
+          <surName>Schmitt</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute, University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>United States</country>
+        </address>
+        <electronicMailAddress>schmitt@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/people/russell-j-schmitt</onlineUrl>
+        <userId
+          directory="https://orcid.org">0000-0002-9674-4244</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute, University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>United States</country>
+        </address>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/people/sally-holbrook</onlineUrl>
+        <userId
+          directory="https://orcid.org">0000-0002-3015-3484</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Peter</givenName>
+          <surName>Edmunds</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University, 18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>USA</country>
+        </address>
+        <phone
+          phonetype="voice">818.677.2502 (voice)</phone>
+        <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/people/peter-edmunds</onlineUrl>
+        <userId
+          directory="https://orcid.org">0000-0002-9039-9347</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Robert</givenName>
+          <surName>Carpenter</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University, 18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>United States</country>
+        </address>
+        <phone
+          phonetype="voice">818-677-3256 (voice)</phone>
+        <electronicMailAddress>robert.carpenter@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/people/robert-carpenter</onlineUrl>
+        <userId
+          directory="https://orcid.org">0000-0003-4232-1868</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <award>
+        <funderName>NSF</funderName>
+        <title>#OCE-1935308</title>
+      </award>
+      <award>
+        <funderName>NSF</funderName>
+        <title>#OCE-1547952</title>
+      </award>
+      <award>
+        <funderName>NSF (LTER)</funderName>
+        <title>MCR I #OCE-0417412, MCR II #OCE-1026851, MCR IIb #OCE-1236905, and MCR III #OCE-1637396</title>
+      </award>
+    </project>
+    <dataTable>
+      <entityName>Adult coral size explicit data</entityName>
+      <entityDescription>Coral bleaching and mortality at one site, size explicit data, corals &gt; 5 cm diameter</entityDescription>
+      <physical>
+        <objectName>MCR_LTER_Speare_adult_corals_exp_site_aug2019.csv</objectName>
+        <size
+          unit="byte">80377</size>
+        <authentication
+              method="MD5">997bafd763816ce29ab5806b25837efe</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url
+            function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-mcr/5041/10/3d51bfc6e14b8644d6fff0f5ff07e3a2</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Observer</attributeName>
+          <attributeLabel>Observer</attributeLabel>
+          <attributeDefinition>Who collected the data</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>KS</code>
+                    <definition>Kelly Speare</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Location of site</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>LTER_Exp</code>
+                    <definition>LTER Experimental Site</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Genus</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>Coral genus</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>Acropora</code>
+                    <definition>Corals in the genus Acropora</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pocillopora</code>
+                    <definition>Corals in the genus Pocillopora</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Size</attributeName>
+          <attributeLabel>Size</attributeLabel>
+          <attributeDefinition>Coral size</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1.0</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">1.0</minimum>
+                  <maximum
+            exclusive="false">55.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Bleached</attributeName>
+          <attributeLabel>Percent Bleached</attributeLabel>
+          <attributeDefinition>Percent of the coral that was bleached. We considered portions of a colony to be bleached if they were 100% white, not pale.</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <precision>5.0</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0.0</minimum>
+                  <maximum
+            exclusive="false">100.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Dead</attributeName>
+          <attributeLabel>Percent Dead</attributeLabel>
+          <attributeDefinition>Percent of the coral that was very newly dead (dead tissue covered in thick turf algae, but not yet colonized by macroalgae). This category also represents colonies that were recently dead.</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <precision>5.0</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0.0</minimum>
+                  <maximum
+            exclusive="false">100.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Transect</attributeName>
+          <attributeLabel>Transect Number</attributeLabel>
+          <attributeDefinition>A number to identify each unique transect</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Transect 0</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Transect 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Transect 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Transect 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Transect 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Transect 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Transect 6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Transect 7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>Transect 8</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>Transect 9</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TransectLength</attributeName>
+          <attributeLabel>Transect Length</attributeLabel>
+          <attributeDefinition>Length of the transect</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>1.0</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">10.0</minimum>
+                  <maximum
+          exclusive="false">40.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>2147</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Juvenile coral size explicit data</entityName>
+      <entityDescription>Coral bleaching and mortality at one site, size explicit data, corals &lt; 5cm diameter.</entityDescription>
+      <physical>
+        <objectName>MCR_LTER_Speare_juvenile_corals_exp_site_aug2019.csv</objectName>
+        <size
+          unit="byte">20880</size>
+        <authentication
+              method="MD5">3eb4cf3654bfc304c7a2b06bcfdc21ba</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url
+            function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-mcr/5041/10/b7a2ddc906822bab829b556bb79362f2</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Observer</attributeName>
+          <attributeLabel>Observer</attributeLabel>
+          <attributeDefinition>Who collected the data</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>AA</code>
+                    <definition>Ally Aplin</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>KS</code>
+                    <definition>Kelly Speare</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Location of site</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>LTER_Exp</code>
+                    <definition>LTER Experimental Site</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Genus</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>Coral genus</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>Acropora</code>
+                    <definition>Corals in the genus Acropora</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pocillopora</code>
+                    <definition>Corals in the genus Pocillopora</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Size</attributeName>
+          <attributeLabel>Size</attributeLabel>
+          <attributeDefinition>Coral size</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1.0</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">1.0</minimum>
+                  <maximum
+            exclusive="false">5.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Bleached</attributeName>
+          <attributeLabel>Percent Bleached</attributeLabel>
+          <attributeDefinition>Percent of the coral that was bleached. We considered portions of a colony to be bleached if they were 100% white, not pale.</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <precision>5.0</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0.0</minimum>
+                  <maximum
+            exclusive="false">100.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Dead</attributeName>
+          <attributeLabel>Percent Dead</attributeLabel>
+          <attributeDefinition>Percent of the coral that was very newly dead (dead tissue covered in thick turf algae, but not yet colonized by macroalgae). This category also represents colonies that were recently dead.</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <precision>5.0</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0.0</minimum>
+                  <maximum
+            exclusive="false">100.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Transect</attributeName>
+          <attributeLabel>Transect Number</attributeLabel>
+          <attributeDefinition>A number to identify each unique transect.</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Transect 0</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Transect 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Transect 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Transect 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Transect 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Transect 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Transect 6</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Transect 7</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>Transect 8</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TransectLength</attributeName>
+          <attributeLabel>Transect Length</attributeLabel>
+          <attributeDefinition>Length of the transect</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>1.0</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">10.0</minimum>
+                  <maximum
+            exclusive="false">40.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>BeltSize</attributeName>
+          <attributeLabel>Transect Belt Size</attributeLabel>
+          <attributeDefinition>Width of the transect that was surveyed</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>1.0</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">1.0</minimum>
+                  <maximum
+          exclusive="false">5.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>557</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Adult coral size explicit data on the North shore</entityName>
+      <entityDescription>Coral bleaching and mortality at one site, size explicit data, corals &gt; 5 cm diameter.</entityDescription>
+      <physical>
+        <objectName>MCR_LTER_Speare_adult_corals_north_shore_oct2019.csv</objectName>
+        <size
+          unit="byte">24633</size>
+        <authentication
+              method="MD5">60239c492bdf55d12b510471df734e6a</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url
+            function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-mcr/5041/10/7c9e489dca8535a1741f0ac20cc7788a</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Genus</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>Coral genus</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>Acropora</code>
+                    <definition>Corals in the genus Acropora</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pocillopora</code>
+                    <definition>Corals in the genus Pocillopora</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Size</attributeName>
+          <attributeLabel>Size</attributeLabel>
+          <attributeDefinition>Coral size</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1.0</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">1.0</minimum>
+                  <maximum
+            exclusive="false">55.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Bleached</attributeName>
+          <attributeLabel>Percent Bleached</attributeLabel>
+          <attributeDefinition>Percent of the coral that was bleached. We considered portions of a colony to be bleached if they were 100% white, not pale.</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <precision>5.0</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0.0</minimum>
+                  <maximum
+            exclusive="false">100.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Dead</attributeName>
+          <attributeLabel>Percent Dead</attributeLabel>
+          <attributeDefinition>Percent of the coral that was very newly dead (dead tissue covered in thick turf algae, but not yet colonized by macroalgae). This category also represents colonies that were recently dead.</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <precision>5.0</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0.0</minimum>
+                  <maximum
+            exclusive="false">100.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Location of site</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>LTER1</code>
+                    <definition>LTER1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER2</code>
+                    <definition>LTER2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER_Exp</code>
+                    <definition>LTER Experimental Site</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Transect</attributeName>
+          <attributeLabel>Transect Number</attributeLabel>
+          <attributeDefinition>A number to identify each unique transect</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Transect 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Transect 2</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Count</attributeName>
+          <attributeLabel>Count</attributeLabel>
+          <attributeDefinition>Row multiplier</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>coral</customUnit>
+              </unit>
+              <precision>1.0</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+            exclusive="false">1.0</minimum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TransectLength</attributeName>
+          <attributeLabel>Transect Length</attributeLabel>
+          <attributeDefinition>Length of the transect</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>1.0</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">10.0</minimum>
+                  <maximum
+          exclusive="false">40.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>708</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Island wide size binned surveys</entityName>
+      <entityDescription>Coral bleaching and mortality at six sites, coral size binned</entityDescription>
+      <physical>
+        <objectName>MCR_LTER_Speare_island_wide_coral_bleaching_mortality_july2019.csv</objectName>
+        <size
+          unit="byte">77607</size>
+        <authentication
+              method="MD5">c7af4d38540a1af1b3107cf9e19ea2bb</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url
+            function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-mcr/5041/10/e1be0cc94628ecd8560700a703418998</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Observer</attributeName>
+          <attributeLabel>Observer</attributeLabel>
+          <attributeDefinition>Who collected the data</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>DB</code>
+                    <definition>Deron Burkepile</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TA</code>
+                    <definition>Tom Adam</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Location of site</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>LTER1</code>
+                    <definition>LTER1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER2</code>
+                    <definition>LTER2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER3</code>
+                    <definition>LTER3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER4</code>
+                    <definition>LTER4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER5</code>
+                    <definition>LTER5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LTER6</code>
+                    <definition>LTER6</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of data collection</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes"/>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Habitat</attributeName>
+          <attributeLabel>Habitat</attributeLabel>
+          <attributeDefinition>Location of site, either outer reef or backreef</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>OR</code>
+                    <definition>Outer Reef</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Depth_m</attributeName>
+          <attributeLabel>Depth in meters</attributeLabel>
+          <attributeDefinition>Depth of site</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Genus</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>Coral genus</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>Acropora</code>
+                    <definition>Corals in the genus Acropora</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pocillopora</code>
+                    <definition>Corals in the genus Pocillopora</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SizeStandardized</attributeName>
+          <attributeLabel>Size</attributeLabel>
+          <attributeDefinition>Coral size bin</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>10-29</code>
+                    <definition>For corals in the genus Acropora size bin 2 is 10-29 cm diameter; for corals in the genus Pocillopora size bin 2 is 10-20 cm diameter</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>30+</code>
+                    <definition>For corals in the genus Acropora size bin 3 is 30-59 cm diameter; for corals in the genus Pocillopora size bin 3 is 20-29 cm diameter</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5-9</code>
+                    <definition>For corals corals in the genus Acropora or Pocillopora size bin 1 is 5-9 cm diameter.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>percent_Bleach</attributeName>
+          <attributeLabel>Percent Bleached</attributeLabel>
+          <attributeDefinition>Percent of the coral that was bleached. We considered portions of a colony to be bleached if they were 100% white, not pale. </attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <precision>5.0</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0.0</minimum>
+                  <maximum
+            exclusive="false">100.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>percent_VN_Dead</attributeName>
+          <attributeLabel>Percent Very Newly Dead</attributeLabel>
+          <attributeDefinition>Percent of the coral that was very newly dead (dead tissue, possibly starting to be colonized by filamentous turf algae). This category represents portions of colonies that were recently dead.</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <precision>5.0</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0.0</minimum>
+                  <maximum
+            exclusive="false">100.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>percent_N_Dead</attributeName>
+          <attributeLabel>Percent Newly Dead</attributeLabel>
+          <attributeDefinition>Percent of the coral that was very newly dead (dead tissue covered in thick turf algae, but not yet colonized by macroalgae). This category also represents colonies that were recently dead.</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <precision>5.0</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0.0</minimum>
+                  <maximum
+            exclusive="false">100.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Count</attributeName>
+          <attributeLabel>Count</attributeLabel>
+          <attributeDefinition>Row multiplier</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>coral</customUnit>
+              </unit>
+              <precision>1.0</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum
+          exclusive="false">1.0</minimum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>1481</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Recruit Survival</entityName>
+      <entityDescription>Percent survival of coral recruits on settlement tiles in 2017 and 2019</entityDescription>
+      <physical>
+        <objectName>MCR_LTER_Speare_recruit_survival_2017_2019.csv</objectName>
+        <size
+          unit="byte">2086</size>
+        <authentication
+              method="MD5">5ce8b3f154f616bb933d5bd1ac8d7e33</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url
+            function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-mcr/5041/10/48ea27c227cd6282d624f7cae19e57f0</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>TileNumber</attributeName>
+          <attributeLabel>Tile Number</attributeLabel>
+          <attributeDefinition>Numerical tile identifier</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecruitsAliveMarch</attributeName>
+          <attributeLabel>Recruits</attributeLabel>
+          <attributeDefinition>Number of recruits alive on a tile in March</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>recruits</customUnit>
+              </unit>
+              <precision>1.0</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum
+            exclusive="false">1.0</minimum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SurvivorsJuly</attributeName>
+          <attributeLabel>Recruits</attributeLabel>
+          <attributeDefinition>Number of recruits that were alive in March that survived until July</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PercentSurvival</attributeName>
+          <attributeLabel>Survival</attributeLabel>
+          <attributeDefinition>Percent recruit survivorship from March to July</attributeDefinition>
+          <storageType
+                    typeSystem="XML Schema Datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0.0</minimum>
+                  <maximum
+            exclusive="false">100.0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Year</attributeDefinition>
+          <storageType
+            typeSystem="XML Schema Datatypes">dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>InExperiment</attributeName>
+          <attributeLabel>In Experiment</attributeLabel>
+          <attributeDefinition>Whether or not tiles were in the  experiment</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>No</code>
+                    <definition>Tile was not in the experiment</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Yes</code>
+                    <definition>Tile was in the experiment</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Block</attributeName>
+          <attributeLabel>Block</attributeLabel>
+          <attributeDefinition>Experiment block number</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>nan</code>
+                    <definition>Not present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Block A of the experiment</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Block B of the experiment</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Block C of the experiment</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D</code>
+                    <definition>Block D of the experiment</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>tile was not in the experiment</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Plot</attributeName>
+          <attributeLabel>Plot</attributeLabel>
+          <attributeDefinition>Experiment plot number where plots are nested within blocks</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Plot 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Plot 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Plot 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Plot 4</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>tile was not in the experiment</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Cage</attributeName>
+          <attributeLabel>Cage</attributeLabel>
+          <attributeDefinition>Herbivore exclusion treatment</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>nan</code>
+                    <definition>Not present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1x1</code>
+                    <definition>1x1 inch holes in herbivore exclusion treatment</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2x2</code>
+                    <definition>2x2 inch holes in herbivore exclusion treatment</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3x3</code>
+                    <definition>3x3 inch holes in herbivore exclusion treatment</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>open</code>
+                    <definition>Open cage herbivore exclusioin treatment</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>tile was not in the experiment</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Nutrients</attributeName>
+          <attributeLabel>Nutrients</attributeLabel>
+          <attributeDefinition>Nutrient enrichment treatment</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+            enforced="yes">
+                  <codeDefinition>
+                    <code>nan</code>
+                    <definition>Not present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Ambient</code>
+                    <definition>Plot is not enriched with nutrients</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Enriched</code>
+                    <definition>Plot is enriched with nutrients</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>tile was not in the experiment</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>CoralCommunity</attributeName>
+          <attributeLabel>Coral Community</attributeLabel>
+          <attributeDefinition>Coral community disturbance treatment</attributeDefinition>
+          <storageType
+                  typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain
+          enforced="yes">
+                  <codeDefinition>
+                    <code>nan</code>
+                    <definition>Not present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Disturbed</code>
+                    <definition>Coral community was disturbed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Intact</code>
+                    <definition>Coral community was not disturbed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>tile was not in the experiment</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>46</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit
+          id="coral"
+          name="coral">
+          <description/>
+        </unit>
+        <unit
+          id="recruits"
+        name="recruits">
+          <description/>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor
+        app="ezEML" release="2021.10.27"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
