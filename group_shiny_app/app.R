@@ -7,7 +7,7 @@ library(lubridate)
 library(calecopal)
 library(sf)
 library(tmap)
-library(maptools)
+library(tmaptools)
 library(shinyWidgets)
 
 #reading in and wrangling data
@@ -193,8 +193,7 @@ ui <- fluidPage(
                                           max = 100, value = 0)
                             ),  #end of sidebarPanel
                             mainPanel(
-                              plotOutput(outputId = "bleach_perc"), #widget 4 output
-                              verbatimTextOutput("switch")
+                              tmapOutput(outputId = "bleach_perc"), #widget 4 output
                             ) #end of mainPanel 4
                         )) #end of sidePanel, W4
     ))  # end of navbarPage
@@ -270,7 +269,7 @@ server <- function(input, output) {
       
       bleach_select <- bleach_2016_sf %>%
         filter(percent_bleached >= status)
-
+      
       per_bleach <- bleach_select %>%
         filter(percent_bleached >= input$bleach_slider)
 
@@ -278,14 +277,14 @@ server <- function(input, output) {
     })
     #make a map
     
-    output$bleach_perc <- renderPlot({
+    output$bleach_perc <- renderTmap({
       tmap_mode(mode = "view")
       
       tm_shape(bleach_percent()) +
         tm_dots(col = "taxa",
                 size = "colony_size_class",
                 alpha = 0.7)
-    }) # end output widget 3
+    }) # end output widget 4
     
     output$switch <- renderPrint(input$bleach_switch)
 }
