@@ -8,6 +8,7 @@ library(calecopal)
 library(sf)
 library(tmap)
 library(maptools)
+library(shinyWidgets)
 
 #reading in and wrangling data
 
@@ -51,18 +52,6 @@ bleach_2016_sf <- bleach_2016 %>%
   st_as_sf(coords = c("longitude", "latitude")) 
 
 st_crs(bleach_2016_sf) <- 4326
-
-map <- read_sf(here("data", "map", "PYF_adm0.shp"))
-
-map_transform <- st_transform(map, 4326)
-
-ggplot(data = map_transform)+
-  geom_sf()
-
-ggplot()+ 
-  geom_sf(data = map_transform)+
-  geom_sf(data = bleach_2016_sf) +
-  theme_void()
 
 #fish data
 fish <- read_csv(here("data", "fish_data", "annual_fish_survey.csv")) %>% 
@@ -195,15 +184,21 @@ ui <- fluidPage(
                                 plotOutput(outputId = "fish_ab")
                             ) #end of mainPanel
                         )), #end of sidePanel, W3
-               tabPanel("Timescale - Bleaching & Recovery",
+               tabPanel("Visualizing Bleaching",
                         sidebarLayout(
                             sidebarPanel(
-                                sliderInput("slider1", label = h3("Select Time Scale"), min = 0, 
-                                            max = 100, value = c(40, 60))
+                              switchInput(
+                                inputId = "bleach_switch",
+                                label = "Bleaching", 
+                                labelWidth = "80px",
+                                onStatus = "success", 
+                                offStatus = "danger"),
+                              sliderInput("bleach_slider", label = h4("Percent Bleached"), min = 0, 
+                                          max = 100, value = 0)
                             ),  #end of sidebarPanel
                             mainPanel(
-                                "OUTPUT",
-                                verbatimTextOutput("range") #widget 4 output
+                              plotOutput(outputId = "bleach_perc"), #widget 4 output
+                              verbatimTextOutput("switch")
                             ) #end of mainPanel 4
                         )) #end of sidePanel, W4
     ))  # end of navbarPage
@@ -272,9 +267,29 @@ server <- function(input, output) {
             }) # end output widget 3
     
     #output widget 4
-    output$range <- renderPrint({ input$slider1 })
-    
+    bleach_percent <- reactive ({
+      status <- if_else(input$bleach_switch == FALSE, 0, 1 )
+      
+      bleach_select <- bleach_2016_sf %>%
+        filter(percent_bleached >= status)
 
+      per_bleach <- bleach_select %>%
+        filter(percent_bleached >= input$bleach_slider)
+
+      return(per_bleach)
+    })
+    #make a map
+    
+    output$bleach_perc <- renderPlot({
+      tmap_mode(mode = "view")
+      
+      tm_shape(bleach_percent()) +
+        tm_dots(col = "taxa",
+                size = "colony_size_class",
+                alpha = 0.7)
+    }) # end output widget 3
+    
+    output$switch <- renderPrint(input$bleach_switch)
 }
 
 # Run the application 
