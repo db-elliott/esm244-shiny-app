@@ -4,7 +4,7 @@ library(tidyverse)
 library(here)
 library(janitor)
 library(lubridate)
-library(calecopal)
+
 
 "%!in%" <- Negate("%in%")
 
@@ -204,9 +204,8 @@ server <- function(input, output) {
     })
     
     output$coral_abun <- renderPlot({
-        ggplot(data = coral_abun(), aes(x = year, y = percent_cover)) +
+        ggplot(data = coral_abun(), aes(x = year, y = percent_cover)) + # maybe can use group = site?
                    geom_col(aes(fill = tax)) +
-        facet_wrap(~ year) +
         labs(x = "Year", y = "Percent cover",
              fill = "Species") +
         theme_minimal()
