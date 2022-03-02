@@ -176,7 +176,14 @@ ui <- fluidPage(
                                           max = 2020, value = c(2010, 2011), sep = NULL)
                             ), #end of sidebarPanel
                             mainPanel(
-                                plotOutput(outputId = "fish_ab")
+                                plotOutput(outputId = "fish_ab"),
+                                br(), " ", br(),
+                                div(img(src = "damselfish.png", height = 400, width = 500), style="text-align: center;"),
+                                br(), " ", br(),
+                                div(img(src = "Surgeonfish.png", height = 400, width = 500), style="text-align: center;"),
+                                br(), " ", br(),
+                                div(img(src = "parrotfish_wrasse.png", height = 400, width = 500), style="text-align: center;"),
+                                br(), " ", br(),
                             ) #end of mainPanel
                         )), #end of sidePanel, W3
                tabPanel("Visualizing Bleaching",
@@ -236,7 +243,7 @@ server <- function(input, output) {
         facet_wrap(~ year) +
         labs(x = "Year", y = "Percent cover",
              fill = "Species") +
-        theme_minimal()
+        theme_classic()
     })
     
     # widget 3 output
@@ -260,7 +267,8 @@ server <- function(input, output) {
         ggplot(data = fish_select(), aes(x = year, y = n)) + 
         geom_line(aes(color = taxonomy, group = taxonomy), size = 2) +
         geom_point(aes(color = taxonomy)) %>% 
-        labs(x = "Year", y = "Abundance", color = "Species")
+        labs(x = "Year", y = "Abundance", color = "Species") +
+        theme_classic()
             }) # end output widget 3
     
     #output widget 4
