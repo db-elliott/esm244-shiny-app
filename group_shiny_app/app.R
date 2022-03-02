@@ -6,10 +6,11 @@ library(janitor)
 library(lubridate)
 library(sf)
 library(tmap)
-library(maptools)
+library(tmaptools)
 library(shinyWidgets)
 
 #reading in and wrangling data
+
 
 "%!in%" <- Negate("%in%")
 
@@ -133,11 +134,13 @@ ui <- fluidPage(
                tabPanel("Coral Species By Year",
                         sidebarLayout(
                             sidebarPanel(
+                              "Select your site of interest:",
                                 selectInput("select",
                                             inputId = "coral_site_select",
                                             label = h3("Select Site"),
                                             choices = list("LTER 1" = "LTER 1", "LTER 2" = "LTER 2", "LTER 3" = "LTER 3",
                                                            "LTER 4" = "LTER 4", "LTER 5" = "LTER 5", "LTER 6" = "LTER 6")),
+                              "Sites are further broken down by transect and quadrat. Please select which subsection you'd like to explore:",
                                 selectInput("select",
                                             inputId = "coral_transect_select",
                                             label = h3("Select Transect"),
@@ -149,6 +152,7 @@ ui <- fluidPage(
                                             choices = list("1" = 1, "2" = 2, "3" = 3,
                                                            "4" = 4, "5" = 5, "6" = 6,
                                                            "7" = 7, "8" = 8)),
+                              "Select a year or years for comparison:",
                                 checkboxGroupInput("checkGroup",
                                                    inputId = "coral_year",
                                                    label = h3("Select years"), 
@@ -184,23 +188,25 @@ ui <- fluidPage(
                                 br(), " ", br(),
                                 div(img(src = "parrotfish_wrasse.png", height = 400, width = 500), style="text-align: center;"),
                                 br(), " ", br(),
+                            mainPanel("Use this tool to visualize fish abundances across years. Only shows the top 10 most abundant fish species.",
+                                plotOutput(outputId = "fish_ab")
                             ) #end of mainPanel
                         )), #end of sidePanel, W3
                tabPanel("Visualizing Bleaching",
                         sidebarLayout(
-                            sidebarPanel(
+                            sidebarPanel("Toggle on or off to view bleached or unbleached coral colonies:",
                               switchInput(
                                 inputId = "bleach_switch",
                                 label = "Bleaching", 
                                 labelWidth = "80px",
                                 onStatus = "success", 
                                 offStatus = "danger"),
+                              "Slide to view coral colonies by extent of bleaching:",
                               sliderInput("bleach_slider", label = h4("Percent Bleached"), min = 0, 
                                           max = 100, value = 0)
                             ),  #end of sidebarPanel
-                            mainPanel(
-                              plotOutput(outputId = "bleach_perc"), #widget 4 output
-                              verbatimTextOutput("switch")
+                            mainPanel("Use this tool to visualize location and extent of coral bleaching from the 2016 bleaching event.",
+                              tmapOutput(outputId = "bleach_perc"), #widget 4 output
                             ) #end of mainPanel 4
                         )) #end of sidePanel, W4
     ))  # end of navbarPage
@@ -238,9 +244,8 @@ server <- function(input, output) {
     })
     
     output$coral_abun <- renderPlot({
-        ggplot(data = coral_abun(), aes(x = year, y = percent_cover)) +
+        ggplot(data = coral_abun(), aes(x = year, y = percent_cover)) + # maybe can use group = site?
                    geom_col(aes(fill = tax)) +
-        facet_wrap(~ year) +
         labs(x = "Year", y = "Percent cover",
              fill = "Species") +
         theme_classic()
@@ -277,7 +282,7 @@ server <- function(input, output) {
       
       bleach_select <- bleach_2016_sf %>%
         filter(percent_bleached >= status)
-
+      
       per_bleach <- bleach_select %>%
         filter(percent_bleached >= input$bleach_slider)
 
@@ -285,14 +290,14 @@ server <- function(input, output) {
     })
     #make a map
     
-    output$bleach_perc <- renderPlot({
+    output$bleach_perc <- renderTmap({
       tmap_mode(mode = "view")
       
       tm_shape(bleach_percent()) +
         tm_dots(col = "taxa",
                 size = "colony_size_class",
                 alpha = 0.7)
-    }) # end output widget 3
+    }) # end output widget 4
     
     output$switch <- renderPrint(input$bleach_switch)
 }
