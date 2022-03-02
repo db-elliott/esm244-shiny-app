@@ -196,8 +196,15 @@ ui <- fluidPage(
                               sliderInput("bleach_slider", label = h4("Percent Bleached"), min = 0, 
                                           max = 100, value = 0)
                             ),  #end of sidebarPanel
-                            mainPanel("Use this tool to visualize location and extent of coral bleaching from the 2016 bleaching event.",
+                            mainPanel("Use this tool to visualize location and extent of coral bleaching from the 2016 bleaching event.", br(), " ",
                               tmapOutput(outputId = "bleach_perc"), #widget 4 output
+                              "Between February and May of 2016, water temperature exceeded the threshold for heat stress in corals for 70 straight days. This resulted in the bleaching of several coral colonies within the lagoon around the island.
+                              These data show the percent extent of bleaching of Pocillopora and Acropora coral colonies categorized into 5 size classes, indicated on this map according to circle size:", br(), " ",
+                              "1: 0-10cm (smalled circles)", br(),
+                              "2: 11-20cm", br(),
+                              "3: 21-30cm", br(),
+                              "4: 31-40cm", br(),
+                              "5: above 40cm (largest circles)"
                             ) #end of mainPanel 4
                         )) #end of sidePanel, W4
     ))  # end of navbarPage
