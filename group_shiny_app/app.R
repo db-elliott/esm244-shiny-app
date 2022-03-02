@@ -278,12 +278,13 @@ server <- function(input, output) {
     
     #output widget 4
     bleach_percent <- reactive ({
-      status <- if_else(input$bleach_switch == FALSE, 0, 1 )
       
-      bleach_select <- bleach_2016_sf %>%
-        filter(percent_bleached >= status)
+      bleaching <- if(input$bleach_switch == FALSE) {
+        filter(bleach_2016_sf, percent_bleached == 0)
+      } else {
+          filter(bleach_2016_sf, percent_bleached > 0)}
       
-      per_bleach <- bleach_select %>%
+      per_bleach <- bleaching %>%
         filter(percent_bleached >= input$bleach_slider)
 
       return(per_bleach)

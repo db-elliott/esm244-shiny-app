@@ -34,12 +34,21 @@ st_crs(bleach_2016_sf) <- 4326
 
 #testing switch
 
-bleach <- FALSE
+bleach <- TRUE
 
-status <- if_else(bleach == TRUE, 0, 1 )
+status <- if_else(bleach == FALSE, 0, 100 )
 
-bleach_select <- bleach_2016_sf %>%
-        filter(percent_bleached >= status)
+# bleach_select <- bleach_2016_sf %>%
+#         filter(percent_bleached >= status)
+
+# bleach_select <- bleach_2016_sf %>%
+#         filter(percent_bleached >= 0) %>% 
+#         filter(percent_bleached <= status)
+
+bleaching <- if(bleach == FALSE) {
+        filter(bleach_2016_sf, percent_bleached == 0)
+      } else {
+          filter(bleach_2016_sf, percent_bleached > 0)}
 
 #make a static map
 tmap_mode(mode = "view")
