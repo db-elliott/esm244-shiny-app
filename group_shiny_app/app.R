@@ -4,15 +4,24 @@ library(tidyverse)
 library(here)
 library(janitor)
 library(lubridate)
+library(sf)
+library(tmap)
+library(tmaptools)
+library(shinyWidgets)
+
+#reading in and wrangling data
 
 
 "%!in%" <- Negate("%in%")
 
+#coral data
 coral <- read_csv(here("data", "coral_data", "perc_cover_long.csv")) %>% 
   clean_names() %>% 
   mutate(tax = taxonomy_substrate_functional_group) %>% 
   select( - taxonomy_substrate_functional_group) %>% 
   filter(tax %!in% c("Sand", "Turf", "Macroalgae", "Crustose Coralline Algae / Bare Space")) %>%
+  mutate(case_when(
+    tax == "Fungiidae unidentified" ~ "Unknown Fungiidae")) %>% 
   mutate(date = ym(date)) %>%
     separate(col = date,
              into = c("year", "month"),
@@ -21,12 +30,27 @@ coral <- read_csv(here("data", "coral_data", "perc_cover_long.csv")) %>%
              remove = TRUE) %>%
   mutate(year = as.character(year))
 
+#coral percent cover
 coral_cov_mean <- coral %>% 
  select(year, site:tax) %>% 
   group_by(year, site) %>% 
   summarize(percent_cover_mean = sum(percent_cover)/120) %>% 
   filter(year != "2854")
 
+#bleaching data
+bleach_2016 <- read_csv(here("data", "bleaching_data", "bleaching_2016.csv")) %>% 
+  clean_names()
+bleach_adult_2019 <- read_csv(here("data", "bleaching_data", "adult_corals_exp_aug2019.csv"))
+bleach_adult_2019_NS <- read_csv(here("data", "bleaching_data", "adult_corals_NS_oct2019.csv"))
+
+#spatial bleaching data
+bleach_2016_sf <- bleach_2016 %>% 
+  drop_na(latitude, longitude) %>% 
+  st_as_sf(coords = c("longitude", "latitude")) 
+
+st_crs(bleach_2016_sf) <- 4326
+
+#fish data
 fish <- read_csv(here("data", "fish_data", "annual_fish_survey.csv")) %>% 
   clean_names() %>% 
   select("year", "location", "taxonomy", "family", "count") %>% 
@@ -45,8 +69,6 @@ ui <- fluidPage(
                                          br(),
                                          "We are current graduate students at the Bren School of Environmental Science
                                          & Management, working towards Masters of Environmental Science and Management.",
-                                         br(), " ",
-                                         br(), " ",
                                          br(), " ",
                                          br(), " ",
                                          br(), " ",
@@ -158,15 +180,20 @@ ui <- fluidPage(
                                 plotOutput(outputId = "fish_ab")
                             ) #end of mainPanel
                         )), #end of sidePanel, W3
-               tabPanel("Timescale - Bleaching & Recovery",
+               tabPanel("Visualizing Bleaching",
                         sidebarLayout(
                             sidebarPanel(
-                                sliderInput("slider1", label = h3("Select Time Scale"), min = 0, 
-                                            max = 100, value = c(40, 60))
+                              switchInput(
+                                inputId = "bleach_switch",
+                                label = "Bleaching", 
+                                labelWidth = "80px",
+                                onStatus = "success", 
+                                offStatus = "danger"),
+                              sliderInput("bleach_slider", label = h4("Percent Bleached"), min = 0, 
+                                          max = 100, value = 0)
                             ),  #end of sidebarPanel
                             mainPanel(
-                                "OUTPUT",
-                                verbatimTextOutput("range") #widget 4 output
+                              tmapOutput(outputId = "bleach_perc"), #widget 4 output
                             ) #end of mainPanel 4
                         )) #end of sidePanel, W4
     ))  # end of navbarPage
@@ -230,17 +257,36 @@ server <- function(input, output) {
     
     output$fish_ab <- renderPlot({
         ggplot(data = fish_select(), aes(x = year, y = n)) + 
-        geom_line(aes(color = taxonomy, group = taxonomy)) +
+        geom_line(aes(color = taxonomy, group = taxonomy), size = 2) +
         geom_point(aes(color = taxonomy)) %>% 
         labs(x = "Year", y = "Abundance", color = "Species")
             }) # end output widget 3
     
     #output widget 4
-    output$range <- renderPrint({ input$slider1 })
-    
+    bleach_percent <- reactive ({
+      status <- if_else(input$bleach_switch == FALSE, 0, 1 )
+      
+      bleach_select <- bleach_2016_sf %>%
+        filter(percent_bleached >= status)
+      
+      per_bleach <- bleach_select %>%
+        filter(percent_bleached >= input$bleach_slider)
 
+      return(per_bleach)
+    })
+    #make a map
+    
+    output$bleach_perc <- renderTmap({
+      tmap_mode(mode = "view")
+      
+      tm_shape(bleach_percent()) +
+        tm_dots(col = "taxa",
+                size = "colony_size_class",
+                alpha = 0.7)
+    }) # end output widget 4
+    
+    output$switch <- renderPrint(input$bleach_switch)
 }
 
 # Run the application 
 shinyApp(ui = ui, server = server)
-

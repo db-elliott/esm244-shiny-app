@@ -1,0 +1,52 @@
+---
+title: "Test"
+author: "Mia Guarnieri"
+date: "2/24/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(shiny)
+library(bslib)
+library(tidyverse)
+library(here)
+library(janitor)
+library(lubridate)
+library(calecopal)
+library(sf)
+library(tmap)
+library(maptools)
+
+
+#bleaching data
+bleach_2016 <- read_csv(here("data", "bleaching_data", "bleaching_2016.csv")) %>% 
+  clean_names()
+bleach_adult_2019 <- read_csv(here("data", "bleaching_data", "adult_corals_exp_aug2019.csv"))
+bleach_adult_2019_NS <- read_csv(here("data", "bleaching_data", "adult_corals_NS_oct2019.csv"))
+
+#spatial bleaching data
+bleach_2016_sf <- bleach_2016 %>% 
+  drop_na(latitude, longitude) %>% 
+  st_as_sf(coords = c("longitude", "latitude")) 
+
+st_crs(bleach_2016_sf) <- 4326
+
+#testing switch
+
+bleach <- FALSE
+
+status <- if_else(bleach == TRUE, 0, 1 )
+
+bleach_select <- bleach_2016_sf %>%
+        filter(percent_bleached >= status)
+
+#make a static map
+tmap_mode(mode = "view")
+
+tm_shape(bleach_2016_sf) +
+  tm_dots(col = "taxa",
+          size = "colony_size_class",
+          alpha = 0.7)
+```
+

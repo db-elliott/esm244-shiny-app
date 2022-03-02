@@ -1,0 +1,742 @@
+
+  
+    
+      uid=MCR,o=lter,dc=ecoinformatics,dc=org
+      all
+    
+    
+      public
+      read
+    
+  
+  
+    
+    knb-lter-mcr.5033
+    doi:10.6073/pasta/57108aaeede00e77cac110bc5366a92b
+    2016 bleaching data for PNAS
+    MCR LTER: Coral Reef: Coral bleaching with nitrogen and heat stress: 2016 data in support of Donovan et al. submitted to PNAS
+    
+      Moorea Coral Reef LTER
+      			Marine Science Institute
+			University of California
+			Santa Barbara, CA 93106-6150  USA
+    
+    
+      Deron Burkepile
+      Moorea Coral Reef LTER
+      			Marine Science Institute
+			University of California
+			Santa Barbara, CA 93106-6150  USA
+      805.893.3067
+      dburkepile@ucsb.edu
+      http://orcid.org/0000-0002-0427-0484
+      
+    
+    
+      Tom Adam
+      Moorea Coral Reef LTER
+      			Marine Science Institute
+			University of California
+			Santa Barbara, CA 93106-6150  USA
+      thomas.adam@lifesci.ucsb.edu
+      http://orcid.org/0000-0001-6146-0260
+      
+    
+    
+      Moorea Coral Reef LTER
+      Information Manager
+    
+    2019-10-25
+    english
+    
+       During 2016, maximum water temperature in the lagoons of Moorea exceeded a threshold for
+        heat stress for 70 straight days from early February through mid-April. In early May 2016,
+        at the peak of accumulated heat stress, coral bleaching surveys were conducted to test the
+        hypothesis that bleaching prevalence and severity were correlated with differences in heat
+        stress and nutrient availability. 
+       This material is based upon work supported by the U.S. National Science Foundation under
+        Grant No. OCE 16-37396 (and earlier awards) as well as a generous gift from the Gordon and
+        Betty Moore Foundation. Research was completed under permits issued by the French Polynesian
+        Government (Délégation à la Recherche) and the Haut-commissariat de la République en
+        Polynésie Francaise (DTRT) (Protocole d'Accueil 2005-2019). This work represents a
+        contribution of the Moorea Coral Reef (MCR) LTER Site. 
+    
+    
+      LTER
+      MCR
+      Moorea Coral Reef
+      Thermal stress
+    
+    
+      NSF
+      Richard B. Gump South Pacific Research Station
+      University of California Santa Barbara
+      Institute, Organization, or Funding Agency
+    
+    
+      Moorea
+      French Polynesia
+    
+    
+      Acropora
+      Pocillopora
+      Scleractinia
+    
+    
+      Coral bleaching
+      Marine environments
+      Nutrients
+      Temperature
+      NBII Biocomplexity Thesaurus
+    
+    
+      coral reefs
+      corals
+      marine
+      LTER Network Controlled Vocabulary
+    
+    
+      Disturbance
+      LTER Core Research Area
+    
+    
+      Reef Resistance and Resilience
+      MCR Research Theme
+    
+    
+      Population and Community Dynamics
+      MCR-LTER Working Group
+    
+    
+
+      
+  This data package is released under the Creative Commons license
+  Attribution 4.0 International (CC BY 4.0 , see
+  https://creativecommons.org/licenses/by/4.0/).
+  This license states that consumers ("Data Users" herein) may
+  distribute, adapt, reuse, remix, and build upon this work, as long as
+  they give appropriate credit, provide a link to the license, and
+  indicate if changes were made. If redistributed, a Data User may not
+  apply additional restrictions or technological measures that prevent
+  access.
+
+      
+  The Data User has an ethical obligation to cite the data source
+  appropriately in any publication or product that results from its use,
+  and notify the data contact or creator. Communication, collaboration,
+  or co-authorship (as appropriate) with the creators of this data
+  package is encouraged to prevent duplicate research or publication.
+  The Data User is urged to contact the authors of these data if any
+  questions about methodology or results occur. The Data User should
+  realize that these data may be actively used by others for ongoing
+  research and that coordination may be necessary to prevent duplication
+  or inappropriate use. The Data User should realize that
+  misinterpretation may occur if data are used outside of the context of
+  the original study. The Data User should be aware that data are
+  updated periodically and it is the responsibility of the Data User to
+  check for new versions of the data.
+
+      
+  While substantial efforts are made to ensure the accuracy of data and
+  associated documentation, complete accuracy of data sets cannot be
+  guaranteed. This data package (with its components) is made available
+  "as is" and with no warranty of accuracy or fitness for use. The
+  creators of this data package and the repository where these data were
+  obtained shall not be liable for any damages resulting from
+  misinterpretation, use or misuse of the data package or its
+  components.
+
+    
+    
+      
+        MCR LTER site data catalog
+        http://mcr.lternet.edu/data/
+      
+    
+    
+      
+        Moorea, French Polynesia
+        
+          -150
+          -149.67
+          -17.45
+          -17.62
+        
+      
+      
+        
+          
+            2016-01-08
+          
+          
+            2016-05-13
+          
+        
+      
+      
+        
+        Stony corals Pocillopora and Acropora
+        
+          Phylum
+          Cnidaria
+          
+            Class
+            Anthozoa
+            
+              Order
+              Corallimorpharia
+            
+            
+              Order
+              Scleractinia
+              
+                Family
+                Acroporidae
+                
+                  Genus
+                  Acropora
+                  52860
+                
+              
+              
+                Family
+                Pocilloporidae
+                
+                  Genus
+                  Pocillopora
+                  53017
+                
+              
+            
+          
+        
+      
+    
+    
+      http://purl.obolibrary.org/obo/IAO_000136
+      http://purl.obolibrary.org/obo/ENVO_01000852
+    
+    
+      
+        Short term study completed. Revisions start with 10.
+      
+      notPlanned
+    
+    
+      Moorea Coral Reef LTER
+      Information Manager
+      			Marine Science Institute
+			University of California
+			Santa Barbara, CA 93106-6150  USA
+      805.893.2071
+      mcrlter@msi.ucsb.edu
+      http://mcr.lternet.edu/about/contact
+    
+    
+      Moorea Coral Reef LTER
+      			Marine Science Institute
+			University of California
+			Santa Barbara, CA 93106-6150  USA
+      http://mcr.lternet.edu/
+    
+    
+      
+        
+          
+            We surveyed 167 sites around Moorea and recorded bleaching on colonies of
+                        Pocillopora and Acropora, which
+                    were present at 149 of the sites. Sites were at least 0.5 km apart, and at each
+                    site two snorkelers conducted 10-minute swims in opposite directions recording
+                    all observed colonies of Pocillopora and
+                        Acropora. Sites were distributed around the entire
+                    island, and were categorized by habitat (fringing reef and back reef) and by the
+                    dominant cardinal direction of the coastline (North, East, West). We surveyed
+                    the two most common and widespread genera of branching corals in the system,
+                        Acropora and Pocillopora. The most
+                    common Acropora species were Acropora hyacinthus, 
+                    Acropora retusa, and
+                    Acropora clathrata, while the most common
+                        Pocillopora species were Pocillopora
+                        verrucosa, Pocillopora meandrina, and
+                        Pocillopora eydouxi. Pocillopora
+                        damicornis and Acropora pulchra were present
+                    at some sites but were not included in the surveys since they were largely
+                    restricted to the fringing reef sites. For each colony, we estimated the water
+                    depth (from 0-3 m deep), and its size class (size classes were 0-10 cm diameter,
+                    11-20 cm, 21-30 cm, 31-40 cm, >40 cm). We then recorded whether bleaching was
+                    present (prevalence), and if so, estimated the percentage of the colony surface
+                    area that was bleached (severity). Because corals undergo natural, seasonal
+                    variation in Symbiodiniaceae density that can affect their coloration, we
+                    defined bleached tissue only as tissue that had lost all pigmentation. 
+            To assess nitrogen availability at each site, we measured the N content in the
+                    long-lived brown macroalga Turbinaria ornata at each site. The nutrient content
+                    of macroalgae is often used as a proxy for ambient nutrient conditions as these
+                    macroalgae integrate nutrients over a relatively long time frame (i.e., weeks to
+                    months). During January and May 2016, we sampled 10 individual thalli of T.
+                        ornata at each site around the island for analysis of N content while we also
+                    surveyed coral bleaching (there was minimal bleaching in January 2016). Samples
+                    were immediately placed on ice and transported to the lab. One blade from each
+                    thallus was sampled at 5 cm below the apical tip of the thallus. These blades
+                    were scrubbed of epiphytes and briefly rinsed with fresh water before being
+                    dried at 60°C to a constant weight and ground to powder. Total N content was
+                    determined via elemental analysis using a CHN Carlo-Erba elemental analyzer
+                    (NA1500) CN Analyzer at the University of Georgia, Center for Applied Isotope
+                    Studies. We also measured δN15 in the tissues of T. ornata at the Marine Science
+                    Institute Analytical Laboratory at the University of California, Santa Barbara,
+                    using standard elemental analyzer isotope ratio mass spectrometer (EA-IRMS)
+                    procedures. We averaged values from January and May to represent nutrient
+                    conditions throughout the Austral summer.
+            The following is from the 
+              NOAA Coral Reef Watch Methodology Page
+            :
+              Coral Bleaching Degree Heating Weeks (DHW) 
+              accumulates any HotSpots greater than 1 °C over a 12- week window, thus showing how stressful conditions have been for 
+              corals in the last three months. It is a cumulative measurement of the intensity and duration of thermal stress, and is 
+              expressed in the unit °C-weeks. DHWs over 4 °C-weeks have been shown to cause significant coral bleaching; values over 
+              8 °C-weeks have caused widespread bleaching and some mortality.
+            
+          
+        
+      
+    
+    
+      The Moorea Coral Reef (MCR) LTER
+      
+        Russell Schmitt
+        Moorea Coral Reef LTER
+        Lead Principal Investigator
+        			Marine Science Institute
+			University of California
+			Santa Barbara, CA 93106-6150  USA
+        schmitt@lifesci.ucsb.edu
+        http://mcr.lternet.edu/people/russell-j-schmitt
+        Principal Investigator
+      
+      
+        Sally Holbrook
+        Moorea Coral Reef LTER
+        Principal Investigator
+        			Marine Science Institute
+			University of California
+			Santa Barbara, CA 93106-6150  USA
+        holbrook@lifesci.ucsb.edu
+        http://mcr.lternet.edu/people/sally-holbrook
+        Principal Investigator
+      
+      
+        Peter Edmunds
+        Moorea Coral Reef LTER
+        Principal  Investigator
+        			Department of Biological Sciences, California State University
+			18111 Nordhoff Street
+			Northridge, CA 91330-8303  USA
+        818.677.2502
+        peter.edmunds@csun.edu
+        http://mcr.lternet.edu/people/peter-edmunds
+        Principal Investigator
+      
+      
+        Robert Carpenter
+        Moorea Coral Reef LTER
+        Principal  Investigator
+        			Department of Biological Sciences, California State University
+			18111 Nordhoff Street
+			Northridge, CA 91330-8303  USA
+        818-677-3256
+        robert.carpenter@csun.edu
+        http://mcr.lternet.edu/people/robert-carpenter
+        Principal Investigator
+      
+      
+        NSF (LTER) MCR I #OCE-0417412, MCR II #OCE-1026851, MCR IIb #OCE-1236905, and MCR III #OCE-1637396
+      
+      
+        National Science Foundation
+        https://ror.org/021nxhr62
+        1637396
+        Moorea Coral Reef Long Term Ecological Research
+        https://www.nsf.gov/awardsearch/showAward?AWD_ID=1637396
+      
+    
+    
+      Percent bleached by location, habitat, depth, taxa, nitrogen.
+      Island wide surveys of colony level coral bleaching for Pocillopora and Acropora. 
+      
+        MCR_LTER_Burkepile_Adams_2016_Coral_Bleaching_Survey_20191023.csv
+        947450
+        62a6ca13e740a63b46e46812635744a0
+        ASCII
+        
+          
+            1
+            0
+            \r\n
+            column
+            
+              ,
+              no
+              "
+            
+          
+        
+        
+          
+            
+            https://pasta.lternet.edu/package/data/eml/knb-lter-mcr/5033/10/1c4d4c84a166de50e14535fb3e18018b
+          
+          
+            
+              uid=MCR,o=lter,dc=ecoinformatics,dc=org
+              all
+            
+            
+              public
+              read
+            
+          
+        
+      
+      
+        
+          Point
+          Location identifier
+          Identifier or name of measurement location (called a site)
+          string
+          
+            
+              
+                
+                  acronym or integer as text
+                
+              
+            
+          
+        
+        
+          Latitude
+          Latitude
+          Latitude coordinate of measurement site in decimal degrees. South is negative.
+          float
+          
+            
+              
+                degree
+              
+              1e-07
+              
+                real
+                
+                  -90
+                  90
+                
+              
+            
+          
+          
+            http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType
+            http://purl.dataone.org/odo/ECSO_00002130
+          
+        
+        
+          Longitude
+          Longitude
+          Longitude coordinate of measurement site in decimal degrees. West is negative.
+          float
+          
+            
+              
+                degree
+              
+              1e-07
+              
+                real
+                
+                  -180
+                  180
+                
+              
+            
+          
+          
+            http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType
+            http://purl.dataone.org/odo/ECSO_00002132
+          
+        
+        
+          Island_shore
+          Island shore
+          Cardinal direction of shoreline (N, SE, SW) of Point (site)
+          string
+          
+            
+              
+                
+                  
+                    N
+        
+                    North shore of Island (facing north)
+                  
+                  
+                    SE
+                    Southeast shore of Island (facing southeast)
+                  
+                  
+                    SW
+                    Southwest shore of Island (facing southwest)
+                  
+                
+              
+            
+          
+        
+        
+          Habitat
+          Habitat
+          Reef habitat of Point (site), either Lagoon or Fringe
+          string
+          
+            
+              
+                
+                  
+                    Lagoon
+                    Lagoon habitat
+                  
+                  
+                    Fringe
+                    Fringing reef habitat
+                  
+                
+              
+            
+          
+        
+        
+          LTER_site
+          LTER site
+          Nearest LTER site to Point (site)
+          string
+          
+            
+              
+                
+                  
+                    LTER_1
+                    LTER 1
+                  
+                  
+                    LTER_2
+                    LTER 2
+                  
+                  
+                    LTER_3
+                    LTER 3
+                  
+                  
+                    LTER_4
+                    LTER 4
+                  
+                  
+                    LTER_5
+                    LTER 5
+                  
+                  
+                    LTER_6
+                    LTER 6
+                  
+                
+              
+            
+          
+        
+        
+          Depth_m
+          Depth (m)
+          Depth of coral colony in meters. Positive is down.
+          float
+          
+            
+              
+                meter
+              
+              0.01
+              
+                real
+                
+                  0
+                
+              
+            
+          
+        
+        
+          Taxa
+          Coral genus
+          Taxonomy of coral colony to genus level, either Acropora or Pocillopora
+          string
+          
+            
+              
+                
+                  
+                    Acropora 
+                    Acropora
+                  
+                  
+                    Pocillopora
+                    Pocillopora
+                  
+                
+              
+            
+          
+        
+        
+          Colony_size_class
+          Colony size class
+          Size class of coral colony. 1=0to10cm, 2=11to20cm,3=21to30cm,4=31to40cm,5=above 40cm.
+          string
+          
+            
+              
+                
+                  
+                    1
+                    0 to 10 cm diameter
+                  
+                  
+                    2
+                    11 to 20 cm diameter
+                  
+                  
+                    3
+                    21 to 30 cm diameter
+                  
+                  
+                    4
+                    31 to 40 cm diameter
+                  
+                  
+                    5
+                    greater than 40 cm diameter
+                  
+                
+              
+            
+          
+        
+        
+          Percent_bleached
+          Percent area bleached
+          Percent of the colony area that was bleached
+          float
+          
+            
+              
+                percent
+              
+              1
+              
+                real
+                
+                  0
+                  100
+                
+              
+            
+          
+          
+            NA
+            no data available
+          
+        
+        
+          cumstress
+          Cumulative heat stress
+          Cumulative heat stress in degreeC-weeks as a 12-week running sum for all temperatures exceeding the maximum monthly mean (MMM) temperatures from February-April. Degree Heating Weeks (DHW) product is a cumulative measurement of the intensity and duration of thermal stress. See methods for unit definition citation.
+          float
+          
+            
+              
+                degreeCWeeks
+              
+              
+                real
+              
+            
+          
+        
+        
+          avgTotN
+          Average total Nitrogen
+          Total Nitrogen availability, averaged between January and May samples, measured using the %N in alga.
+          float
+          
+            
+              
+                percent
+              
+              
+                real
+              
+            
+          
+          
+            NA
+            no data available
+          
+          
+            http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType
+            http://purl.dataone.org/odo/ECSO_00002569
+          
+        
+        
+          avgdN15
+          Average delta N15
+          deltaN15, averaged between January and May samples
+          float
+          
+            
+              
+                dimensionless
+              
+              
+                real
+              
+            
+          
+          
+            NA
+            no data available
+          
+          
+            http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType
+            http://purl.dataone.org/odo/ECSO_00001738
+            
+          
+        
+      
+      10230
+    
+  
+  
+    
+      
+        
+          360 degrees comprise a unit circle.
+        
+        
+          Degree Heating Weeks (DHW) product is a cumulative measurement of the intensity and duration of thermal stress.
+        
+        
+          a designation asserting the absence of an associated unit
+        
+        
+          SI unit of length
+        
+        
+          ratio of two quantities as percent composition (1:100)
+        
+      
+    
+  
