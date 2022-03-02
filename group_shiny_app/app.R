@@ -124,7 +124,8 @@ ui <- fluidPage(
                                 selectInput("select", 
                                             inputId = "cor_year",
                                             label = h3("Select Year"), 
-                                            choices = unique(coral_cov_mean$year))
+                                            choices = unique(coral_cov_mean$year)),
+                                "Data: Edmunds, P. 2020",
                             ), # end of sidebarLayout
                             mainPanel(
                                 "Use this tool to visualize differences in average coral cover at research sites between years.",
@@ -158,9 +159,10 @@ ui <- fluidPage(
                                                    label = h3("Select years"), 
                                                    choices = list("2005" = 2005, "2006" = 2006, "2007" = 2007, "2008" = 2008, "2009" = 2009,
                                                                   "2010" = 2010, "2011" = 2011, "2012" = 2012, "2013" = 2013, "2014" = 2014,
-                                                                  "2015" = 2015, "2016" = 2016, "2017" = 2017, "2018" = 2018, "2019" = 2019))
+                                                                  "2015" = 2015, "2016" = 2016, "2017" = 2017, "2018" = 2018, "2019" = 2019)),
                                                    # selected = "2005")
                                                   # selected = "2005") # WHY IS SELECTED BROKEN
+                              "Data: Edmunds, P. 2020",
                             ),  # end of sidebarPanel
                             mainPanel("Use this tool to visualize differences in coral species abundance at research sites between years. Non-coral species or substrates are not included in the data,
                                       so percent cover may not combine to 100%.",
@@ -177,9 +179,10 @@ ui <- fluidPage(
                         sidebarLayout(
                             sidebarPanel(
                               sliderInput("yr_slider", label = h3("Select Time Scale"), min = 2005, 
-                                          max = 2020, value = c(2010, 2011), sep = NULL)
+                                          max = 2020, value = c(2010, 2011), sep = NULL),
+                              "Data: Brooks, A. 2022"
                             ), #end of sidebarPanel
-                            mainPanel(
+                            mainPanel("Use this tool to visualize fish abundances across years. Only shows the top 10 most abundant fish species.",
                                 plotOutput(outputId = "fish_ab"),
                                 br(), " ", br(),
                                 div(img(src = "damselfish.png", height = 400, width = 500), style="text-align: center;"),
@@ -187,9 +190,7 @@ ui <- fluidPage(
                                 div(img(src = "Surgeonfish.png", height = 400, width = 500), style="text-align: center;"),
                                 br(), " ", br(),
                                 div(img(src = "parrotfish_wrasse.png", height = 400, width = 500), style="text-align: center;"),
-                                br(), " ", br(),
-                            mainPanel("Use this tool to visualize fish abundances across years. Only shows the top 10 most abundant fish species.",
-                                plotOutput(outputId = "fish_ab")
+                                br(), " ", br()
                             ) #end of mainPanel
                         )), #end of sidePanel, W3
                tabPanel("Visualizing Bleaching",
@@ -203,7 +204,8 @@ ui <- fluidPage(
                                 offStatus = "danger"),
                               "Slide to view coral colonies by extent of bleaching:",
                               sliderInput("bleach_slider", label = h4("Percent Bleached"), min = 0, 
-                                          max = 100, value = 0)
+                                          max = 100, value = 0),
+                              "Data: Burkepile, D. and T. Adam 2019",
                             ),  #end of sidebarPanel
                             mainPanel("Use this tool to visualize location and extent of coral bleaching from the 2016 bleaching event.", br(), " ",
                               tmapOutput(outputId = "bleach_perc"), #widget 4 output
