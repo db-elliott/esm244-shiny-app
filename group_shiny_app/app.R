@@ -140,7 +140,8 @@ ui <- fluidPage(
                         )),  # end of sidebarLayout, tabPanel W1
                tabPanel("Coral Species by Year",
                         sidebarLayout(
-                            "Select your site of interest.",
+                          sidebarPanel(
+                           "Select your site of interest.",
                             selectInput("select",
                                         inputId = "coral_site",
                                         label = h3("Select Site"),
