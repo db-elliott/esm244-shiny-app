@@ -130,7 +130,8 @@ ui <- fluidPage(
                                 selectInput("select", 
                                             inputId = "cor_year",
                                             label = h3("Select Year"), 
-                                            choices = unique(coral_cov_mean$year))
+                                            choices = unique(coral_cov_mean$year)),
+                                "Data: Edmunds, P. 2020",
                             ), # end of sidebarLayout
                             mainPanel(
                                 "Use this tool to visualize differences in average coral cover at research sites between years.",
@@ -139,7 +140,6 @@ ui <- fluidPage(
                         )),  # end of sidebarLayout, tabPanel W1
                tabPanel("Coral Species by Year",
                         sidebarLayout(
-                          sidebarPanel(
                             "Select your site of interest.",
                             selectInput("select",
                                         inputId = "coral_site",
@@ -165,7 +165,8 @@ ui <- fluidPage(
                         sidebarLayout(
                             sidebarPanel(
                               sliderInput("yr_slider", label = h3("Select Time Scale"), min = 2005, 
-                                          max = 2020, value = c(2010, 2011), sep = NULL)
+                                          max = 2020, value = c(2010, 2011), sep = NULL),
+                              "Data: Brooks, A. 2022"
                             ), #end of sidebarPanel
                             mainPanel(
                               "Use this tool to visualize fish abundances across years. Only 
@@ -190,11 +191,24 @@ ui <- fluidPage(
                                 onStatus = "success", 
                                 offStatus = "danger"),
                               "Slide to view coral colonies by extent of bleaching:",
-                              sliderInput("bleach_slider", label = h4("Percent Bleached"), min = 0, 
-                                          max = 100, value = 0)
+                              conditionalPanel(
+                                condition = "input.bleach_switch == 'TRUE'",
+                                sliderInput("bleach_slider", 
+                                            label = h4("Percent Bleached"), 
+                                            min = 0, 
+                                            max = 100, 
+                                            value = 0)),
+                              "Data: Burkepile, D. and T. Adam 2019",
                             ),  #end of sidebarPanel
-                            mainPanel("Use this tool to visualize location and extent of coral bleaching from the 2016 bleaching event.",
+                            mainPanel("Use this tool to visualize location and extent of coral bleaching from the 2016 bleaching event.", br(), " ",
                               tmapOutput(outputId = "bleach_perc"), #widget 4 output
+                              "Between February and May of 2016, water temperature exceeded the threshold for heat stress in corals for 70 straight days. This resulted in the bleaching of several coral colonies within the lagoon around the island.
+                              These data show the percent extent of bleaching of Pocillopora and Acropora coral colonies categorized into 5 size classes, indicated on this map according to circle size:", br(), " ",
+                              "1: 0-10cm (smalled circles)", br(),
+                              "2: 11-20cm", br(),
+                              "3: 21-30cm", br(),
+                              "4: 31-40cm", br(),
+                              "5: above 40cm (largest circles)"
                             ) #end of mainPanel 4
                         )) #end of sidePanel, W4
     )) # end of navbarPage
@@ -264,12 +278,13 @@ server <- function(input, output) {
     
     #output widget 4
     bleach_percent <- reactive ({
-      status <- if_else(input$bleach_switch == FALSE, 0, 1 )
       
-      bleach_select <- bleach_2016_sf %>%
-        filter(percent_bleached >= status)
+      bleaching <- if(input$bleach_switch == FALSE) {
+        filter(bleach_2016_sf, percent_bleached == 0)
+      } else {
+          filter(bleach_2016_sf, percent_bleached > 0)}
       
-      per_bleach <- bleach_select %>%
+      per_bleach <- bleaching %>%
         filter(percent_bleached >= input$bleach_slider)
 
       return(per_bleach)
