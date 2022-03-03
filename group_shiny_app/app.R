@@ -203,8 +203,13 @@ ui <- fluidPage(
                                 onStatus = "success", 
                                 offStatus = "danger"),
                               "Slide to view coral colonies by extent of bleaching:",
-                              sliderInput("bleach_slider", label = h4("Percent Bleached"), min = 0, 
-                                          max = 100, value = 0),
+                              conditionalPanel(
+                                condition = "input.bleach_switch == 'TRUE'",
+                                sliderInput("bleach_slider", 
+                                            label = h4("Percent Bleached"), 
+                                            min = 0, 
+                                            max = 100, 
+                                            value = 0)),
                               "Data: Burkepile, D. and T. Adam 2019",
                             ),  #end of sidebarPanel
                             mainPanel("Use this tool to visualize location and extent of coral bleaching from the 2016 bleaching event.", br(), " ",
