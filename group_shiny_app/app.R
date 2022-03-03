@@ -194,7 +194,7 @@ ui <- fluidPage(
                                 offStatus = "danger"),
                               "Slide to view coral colonies by extent of bleaching:",
                               conditionalPanel(
-                                condition = "input.bleach_switch == 'TRUE'",
+                                condition = "input.bleach_switch = 'TRUE'",
                                 sliderInput("bleach_slider", 
                                             label = h4("Percent Bleached"), 
                                             min = 0, 
