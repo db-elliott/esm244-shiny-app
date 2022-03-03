@@ -37,6 +37,12 @@ coral_cov_mean <- coral %>%
   summarize(percent_cover_mean = sum(percent_cover)/120) %>% 
   filter(year != "2854")
 
+coral_spp <- coral %>% 
+  select(year, site:tax) %>% 
+  group_by(year, site, tax) %>% 
+  summarize(percent_cover_mean = sum(percent_cover)/120) %>% 
+  filter(year != "2854")
+
 #bleaching data
 bleach_2016 <- read_csv(here("data", "bleaching_data", "bleaching_2016.csv")) %>% 
   clean_names()
@@ -132,49 +138,29 @@ ui <- fluidPage(
                                 plotOutput(outputId = "coral_cov")
                             ) # end of mainPanel2
                         )),  # end of sidebarLayout, tabPanel W1
-               tabPanel("Coral Species By Year",
+               tabPanel("Coral Species by Year",
                         sidebarLayout(
-                            sidebarPanel(
-                              "Select your site of interest:",
-                                selectInput("select",
-                                            inputId = "coral_site_select",
-                                            label = h3("Select Site"),
-                                            choices = list("LTER 1" = "LTER 1", "LTER 2" = "LTER 2", "LTER 3" = "LTER 3",
-                                                           "LTER 4" = "LTER 4", "LTER 5" = "LTER 5", "LTER 6" = "LTER 6")),
-                              "Sites are further broken down by transect and quadrat. Please select which subsection you'd like to explore:",
-                                selectInput("select",
-                                            inputId = "coral_transect_select",
-                                            label = h3("Select Transect"),
-                                            choices = list("1" = 1, "2" = 2, "3" = 3,
-                                                           "4" = 4, "5" = 5)),
-                                selectInput("select",
-                                            inputId = "coral_quadrat_select",
-                                            label = h3("Select Quadrat"),
-                                            choices = list("1" = 1, "2" = 2, "3" = 3,
-                                                           "4" = 4, "5" = 5, "6" = 6,
-                                                           "7" = 7, "8" = 8)),
-                              "Select a year or years for comparison:",
-                                checkboxGroupInput("checkGroup",
-                                                   inputId = "coral_year",
-                                                   label = h3("Select years"), 
-                                                   choices = list("2005" = 2005, "2006" = 2006, "2007" = 2007, "2008" = 2008, "2009" = 2009,
-                                                                  "2010" = 2010, "2011" = 2011, "2012" = 2012, "2013" = 2013, "2014" = 2014,
-                                                                  "2015" = 2015, "2016" = 2016, "2017" = 2017, "2018" = 2018, "2019" = 2019)),
-                                                   # selected = "2005")
-                                                  # selected = "2005") # WHY IS SELECTED BROKEN
-                              "Data: Edmunds, P. 2020",
-                            ),  # end of sidebarPanel
-                            mainPanel("Use this tool to visualize differences in coral species abundance at research sites between years. Non-coral species or substrates are not included in the data,
-                                      so percent cover may not combine to 100%.",
-                                      br(), " ",
-                                      br(), " ",
-                                      "Select a year to remove error message and view graph!",
-                                      br(), " ",
-                                      br(), " ",
-                                plotOutput(outputId = "coral_abun"),
-                                br(), " ", br(), " "
-                            ) #end of mainPanel 3
-                        )), #end of sidebarLayout, tabPanel W2
+                            "Select your site of interest.",
+                            selectInput("select",
+                                        inputId = "coral_site",
+                                        label = h3("Select Site"),
+                                        choices = unique(coral_spp$site),
+                                        selectize = FALSE),
+                            "Select a year or years for comparison.",
+                            checkboxGroupInput("checkGroup",
+                                               inputId = "coral_year",
+                                               label = h3("Select Year(s)"),
+                                               choices = unique(coral_spp$year))
+                          ),
+                          mainPanel("Use this tool to visualize differences in coral species abundance.
+                                    Non-coral species and substrates are not included in this analysis, so 
+                                    percentages will likely not sum to 100%.",
+                                    br(), " ", br(), " ", br(),
+                                    "Choose a year to get rid of the error message.",
+                                    br(), " ", br(), " ", br(),
+                                    plotOutput(outputId = "coral_species")
+                          )
+                        )),
                tabPanel("Yearly Fish Abundance",
                         sidebarLayout(
                             sidebarPanel(
@@ -182,7 +168,9 @@ ui <- fluidPage(
                                           max = 2020, value = c(2010, 2011), sep = NULL),
                               "Data: Brooks, A. 2022"
                             ), #end of sidebarPanel
-                            mainPanel("Use this tool to visualize fish abundances across years. Only shows the top 10 most abundant fish species.",
+                            mainPanel(
+                              "Use this tool to visualize fish abundances across years. Only 
+                              shows the top 10 most abundant fish species.",
                                 plotOutput(outputId = "fish_ab"),
                                 br(), " ", br(),
                                 div(img(src = "damselfish.png", height = 400, width = 500), style="text-align: center;"),
@@ -223,7 +211,7 @@ ui <- fluidPage(
                               "5: above 40cm (largest circles)"
                             ) #end of mainPanel 4
                         )) #end of sidePanel, W4
-    ))  # end of navbarPage
+    )) # end of navbarPage
 
 
 
@@ -249,18 +237,16 @@ server <- function(input, output) {
   })
     
     #output widget 2
-    coral_abun <- reactive ({
-        coral %>%
-            filter(site == input$coral_site_select) %>%
-            filter(year == as.numeric(input$coral_year)) %>%
-        filter(transect == input$coral_transect_select) %>%
-        filter(quadrat == input$coral_quadrat_select)
+    coral_species <- reactive({
+      coral_spp %>% 
+        filter(site == input$coral_site) %>% 
+        filter(year == as.numeric(input$coral_year))
     })
     
-    output$coral_abun <- renderPlot({
-        ggplot(data = coral_abun(), aes(x = year, y = percent_cover)) + # maybe can use group = site?
-                   geom_col(aes(fill = tax)) +
-        labs(x = "Year", y = "Percent cover",
+    output$coral_species <- renderPlot({
+      ggplot(data = coral_species(), aes(x = year, y = percent_cover_mean)) + # maybe can use group = site?
+        geom_col(aes(fill = tax)) +
+        labs(x = "Year", y = "% Cover",
              fill = "Species") +
         theme_classic()
     })
