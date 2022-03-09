@@ -131,7 +131,7 @@ ui <- fluidPage(
                                             inputId = "cor_year",
                                             label = h3("Select Year"), 
                                             choices = unique(coral_cov_mean$year)),
-                                "Data: Edmunds, P. 2020",
+                                "Data: Edmunds, P. 2020"
                             ), # end of sidebarLayout
                             mainPanel(
                                 "Use this tool to visualize differences in average coral cover at research sites between years.",
@@ -151,13 +151,12 @@ ui <- fluidPage(
                             checkboxGroupInput("checkGroup",
                                                inputId = "coral_year",
                                                label = h3("Select Year(s)"),
-                                               choices = unique(coral_spp$year))
+                                               choices = unique(coral_spp$year)
+                                               )
                           ),
                           mainPanel("Use this tool to visualize differences in coral species abundance.
                                     Non-coral species and substrates are not included in this analysis, so 
                                     percentages will likely not sum to 100%.",
-                                    br(), " ", br(), " ", br(),
-                                    "Choose a year to get rid of the error message.",
                                     br(), " ", br(), " ", br(),
                                     plotOutput(outputId = "coral_species")
                           )
@@ -191,17 +190,15 @@ ui <- fluidPage(
                                 labelWidth = "80px",
                                 onStatus = "success", 
                                 offStatus = "danger"),
-                              "Slide to view coral colonies by minimum extent of bleaching:",
-                              conditionalPanel(
-                                condition = "input.bleach_switch == TRUE",
-                                sliderInput("bleach_slider", 
-                                            label = h4("Percent Bleached"), 
-                                            min = 0, 
-                                            max = 100, 
-                                            value = 0)),
-                              "Data: Burkepile, D. and T. Adam 2019",
+                              "If you have coral bleaching turned on, slide to view coral colonies by minimum extent of bleaching:",
+                              sliderInput("bleach_slider",
+                                label = h4("Percent Bleached"),
+                                min = 0,
+                                max = 100,
+                                value = 0),
+                              "Data: Burkepile, D. and T. Adam 2019"
                             ),  #end of sidebarPanel
-                            mainPanel("Use this tool to visualize location and extent of coral bleaching from the 2016 bleaching event.", br(), " ",
+                            mainPanel("Use this tool to visualize location and extent of coral bleaching from the 2016 bleaching event. Click on a colony to view its class size and percent bleached.", br(), " ",
                               tmapOutput(outputId = "bleach_perc"), #widget 4 output
                               "Between February and May of 2016, water temperature exceeded the threshold for heat stress in corals for 70 straight days. This resulted in the bleaching of several coral colonies within the lagoon around the island.
                               These data show the percent extent of bleaching of Pocillopora and Acropora coral colonies categorized into 5 size classes, indicated on this map according to circle size:", br(), " ",
@@ -213,6 +210,7 @@ ui <- fluidPage(
                             ) #end of mainPanel 4
                         )) #end of sidePanel, W4
     )) # end of navbarPage
+
 
 
 
@@ -298,7 +296,9 @@ server <- function(input, output) {
       tm_shape(bleach_percent()) +
         tm_dots(col = "taxa",
                 size = "colony_size_class",
-                alpha = 0.7)
+                alpha = 0.7,
+                popup.vars = c("size class" = "colony_size_class", "percent bleached" = "percent_bleached"),
+                id = "taxa")
     }) # end output widget 4
     
     output$switch <- renderPrint(input$bleach_switch)
