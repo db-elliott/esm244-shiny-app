@@ -166,7 +166,7 @@ ui <- fluidPage(
                         sidebarLayout(
                             sidebarPanel(
                               sliderInput("yr_slider", label = h3("Select Time Scale"), min = 2005, 
-                                          max = 2020, value = c(2010, 2011), sep = NULL),
+                                          max = 2020, value = c(2010, 2011), step = 1, sep = ""),
                               "Data: Brooks, A. 2022"
                             ), #end of sidebarPanel
                             mainPanel(
