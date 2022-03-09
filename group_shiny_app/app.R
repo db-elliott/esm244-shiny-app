@@ -191,9 +191,9 @@ ui <- fluidPage(
                                 labelWidth = "80px",
                                 onStatus = "success", 
                                 offStatus = "danger"),
-                              "Slide to view coral colonies by extent of bleaching:",
+                              "Slide to view coral colonies by minimum extent of bleaching:",
                               conditionalPanel(
-                                condition = "input.bleach_switch = 'TRUE'",
+                                condition = "input.bleach_switch == TRUE",
                                 sliderInput("bleach_slider", 
                                             label = h4("Percent Bleached"), 
                                             min = 0, 
@@ -205,7 +205,7 @@ ui <- fluidPage(
                               tmapOutput(outputId = "bleach_perc"), #widget 4 output
                               "Between February and May of 2016, water temperature exceeded the threshold for heat stress in corals for 70 straight days. This resulted in the bleaching of several coral colonies within the lagoon around the island.
                               These data show the percent extent of bleaching of Pocillopora and Acropora coral colonies categorized into 5 size classes, indicated on this map according to circle size:", br(), " ",
-                              "1: 0-10cm (smalled circles)", br(),
+                              "1: 0-10cm (smallest circles)", br(),
                               "2: 11-20cm", br(),
                               "3: 21-30cm", br(),
                               "4: 31-40cm", br(),
@@ -241,7 +241,7 @@ server <- function(input, output) {
     coral_species <- reactive({
       coral_spp %>% 
         filter(site == input$coral_site) %>% 
-        filter(year == as.numeric(input$coral_year))
+        filter(year %in% c(as.numeric(input$coral_year)))
     })
     
     output$coral_species <- renderPlot({
