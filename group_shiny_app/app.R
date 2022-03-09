@@ -71,7 +71,7 @@ ui <- fluidPage(
                                          https://doi.org/10.6073/pasta/f59968d039de006909c5c92c51c3919c (Accessed 2022-02-22)."
                             ), #end sidebarPanel
                             mainPanel("This app visualizes data on coral cover and reef fish species abundance 
-                                during four 'normal' years and two years when bleaching events occured in the 
+                                during 13 'normal' years and two years when bleaching events occured in the 
                                 Mo'orea Coral Reef LTER site.",
                                 br(),
                                 " ",
@@ -131,7 +131,7 @@ ui <- fluidPage(
                         sidebarLayout(
                             sidebarPanel(
                               sliderInput("yr_slider", label = h3("Select Time Scale"), min = 2005, 
-                                          max = 2020, value = c(2010, 2011), step = 1, sep = ""),
+                                          max = 2019, value = c(2010, 2011), step = 1, sep = ""),
                               "Data: Brooks, A. 2022"
                             ), #end of sidebarPanel
                             mainPanel(
@@ -150,26 +150,36 @@ ui <- fluidPage(
                         )), #end of sidePanel, W3
                tabPanel("Visualizing Bleaching",
                         sidebarLayout(
-                            sidebarPanel("Toggle on or off to view bleached or unbleached coral colonies:",
+                            sidebarPanel("Toggle on or off to view bleached or unbleached coral 
+                                         colonies:",
                               switchInput(
                                 inputId = "bleach_switch",
                                 label = "Bleaching", 
                                 labelWidth = "80px",
                                 onStatus = "success", 
                                 offStatus = "danger"),
-                              "If you have coral bleaching turned on, slide to view coral colonies by minimum extent of bleaching:",
+                              "If you have coral bleaching turned on, slide to view coral 
+                              colonies by minimum extent of bleaching:",
                               sliderInput("bleach_slider",
                                 label = h4("Percent Bleached"),
                                 min = 0,
                                 max = 100,
                                 value = 0),
-                              "Data: Burkepile, D. and T. Adam 2019"
+                              "Data: Burkepile, D. and Adam, T. 2019"
                             ),  #end of sidebarPanel
-                            mainPanel("Use this tool to visualize location and extent of coral bleaching from the 2016 bleaching event. Click on a colony to view its class size and percent bleached.",
+                            mainPanel("Use this tool to visualize location and extent of coral 
+                                      bleaching from the 2016 bleaching event. Click on a colony 
+                                      to view its class size and percent bleached.",
                                       br(), " ", br(), " ", br(),
                               tmapOutput(outputId = "bleach_perc"), #widget 4 output
-                              "Between February and May of 2016, water temperature exceeded the threshold for heat stress in corals for 70 straight days. This resulted in the bleaching of several coral colonies within the lagoon around the island.
-                              These data show the percent extent of bleaching of Pocillopora and Acropora coral colonies categorized into 5 size classes, indicated on this map according to circle size:", br(), " ",
+                              br(), " ", br(),
+                              "Between February and May of 2016, water temperature exceeded the 
+                              threshold for heat stress in corals for 70 straight days. This resulted 
+                              in the bleaching of several coral colonies within the lagoon around the 
+                              island.", br(), " ", br(),
+                              "These data show the percent extent of bleaching of Pocillopora and 
+                              Acropora coral colonies categorized into five size classes, indicated 
+                              on this map according to circle size:", br(), " ", br(),
                               "1: 0-10cm (smallest circles)", br(),
                               "2: 11-20cm", br(),
                               "3: 21-30cm", br(),
