@@ -206,7 +206,9 @@ server <- function(input, output) {
     ggplot(data = coral_cov(), 
            aes(x= site, y=percent_cover_mean, fill = site)) +
       geom_col(color = "black", show.legend = FALSE) +
-      scale_fill_viridis_d(option = "plasma") +
+      scale_fill_manual(values = c("chocolate1", "darkturquoise", 
+                                    "indianred1", "goldenrod1", 
+                                    "mediumspringgreen", "mediumorchid3")) +
       labs(x = "Site", y = "Average % Cover") +
       theme_classic()
   })
@@ -220,8 +222,7 @@ server <- function(input, output) {
     
     output$coral_species <- renderPlot({
       ggplot(data = coral_species(), aes(x = year, y = percent_cover_mean)) + # maybe can use group = site?
-        geom_col(aes(fill = tax), color = "white") +
-        scale_fill_viridis_d(option = "plasma") +
+        geom_col(aes(fill = tax)) +
         labs(x = "Year", y = "% Cover",
              fill = "Species") +
         theme_classic()
@@ -247,8 +248,7 @@ server <- function(input, output) {
     output$fish_ab <- renderPlot({
         ggplot(data = fish_select(), aes(x = year, y = n)) + 
         geom_line(aes(color = taxonomy, group = taxonomy), size = 2) +
-        geom_point(aes(color = taxonomy)) +
-        scale_color_viridis_d(option = "plasma") +
+        geom_point(aes(color = taxonomy)) %>% 
         labs(x = "Year", y = "Abundance", color = "Species") +
         theme_classic()
             }) # end output widget 3
