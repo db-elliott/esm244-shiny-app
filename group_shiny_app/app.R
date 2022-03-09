@@ -125,7 +125,7 @@ ui <- fluidPage(
                                             inputId = "cor_year",
                                             label = h3("Select Year"), 
                                             choices = unique(coral_cov_mean$year)),
-                                "Data: Edmunds, P. 2020",
+                                "Data: Edmunds, P. 2020"
                             ), # end of sidebarLayout
                             mainPanel(
                                 "Use this tool to visualize differences in average coral cover at research sites between years.",
@@ -157,13 +157,9 @@ ui <- fluidPage(
                                 checkboxGroupInput("checkGroup",
                                                    inputId = "coral_year",
                                                    label = h3("Select years"), 
-                                                   choices = list("2005" = 2005, "2006" = 2006, "2007" = 2007, "2008" = 2008, "2009" = 2009,
-                                                                  "2010" = 2010, "2011" = 2011, "2012" = 2012, "2013" = 2013, "2014" = 2014,
-                                                                  "2015" = 2015, "2016" = 2016, "2017" = 2017, "2018" = 2018, "2019" = 2019)),
-                                                   # selected = "2005")
-                                                  # selected = "2005") # WHY IS SELECTED BROKEN
-                              "Data: Edmunds, P. 2020",
-                            ),  # end of sidebarPanel
+                                                   choices = unique(coral$year),
+                              selected = "2005"), # end checkboxGroupInput
+                              "Data: Edmunds, P. 2020"),
                             mainPanel("Use this tool to visualize differences in coral species abundance at research sites between years. Non-coral species or substrates are not included in the data,
                                       so percent cover may not combine to 100%.",
                                       br(), " ",
@@ -202,15 +198,14 @@ ui <- fluidPage(
                                 labelWidth = "80px",
                                 onStatus = "success", 
                                 offStatus = "danger"),
-                              "Slide to view coral colonies by extent of bleaching:",
-                              conditionalPanel(
+                              conditionalPanel("Slide to view coral colonies by extent of bleaching:",
                                 condition = "input.bleach_switch == 'TRUE'",
-                                sliderInput("bleach_slider", 
+                                sliderInput(inputId = "bleach_slider",
                                             label = h4("Percent Bleached"), 
                                             min = 0, 
                                             max = 100, 
                                             value = 0)),
-                              "Data: Burkepile, D. and T. Adam 2019",
+                              "Data: Burkepile, D. and T. Adam 2019"
                             ),  #end of sidebarPanel
                             mainPanel("Use this tool to visualize location and extent of coral bleaching from the 2016 bleaching event.", br(), " ",
                               tmapOutput(outputId = "bleach_perc"), #widget 4 output
@@ -224,6 +219,7 @@ ui <- fluidPage(
                             ) #end of mainPanel 4
                         )) #end of sidePanel, W4
     ))  # end of navbarPage
+
 
 
 
