@@ -70,7 +70,7 @@ ui <- fluidPage(
                "Mo'orea Coral Reef LTER",
                tabPanel("About",
                         sidebarLayout(
-                            sidebarPanel("Developers: Deanna Elliott, Mia Guarnieri, Mari Herbst De Cortina",
+                            sidebarPanel("Developers: Deanna Elliott, Mia Guarnieri, Mari Herbst de Cortina",
                                          br(), " ",
                                          br(),
                                          "We are current graduate students at the Bren School of Environmental Science
@@ -110,12 +110,10 @@ ui <- fluidPage(
                                 br(),
                                 " ",
                                 br(),
-                               "The Mo'orea Coral Reef Long-Term Ecological Research site in French Polynesia
-                                was established by the National Science Foundation in 2004. It is a research 
-                                partner to the University of California, Santa Barbara and the University of
-                                California, Northridge. Its purpose is as a model for exploring factors that 
-                                mediate coral community structure and function, particularly external, 
-                                anthropogenic drivers of disturbance.",
+                               "The Mo'orea Coral Reef Long-Term Ecological Research site in French Polynesia,
+                                established by the National Science Foundation in 2004, is a research 
+                                partner to the University of California, Santa Barbara and California State University at Northridge. It is used as a model to understand how external
+                               and anthropogenic forces affect coral community structure and function around disturbances.",
                                br(), " ",
                                br(),
                               div(img(src = "mcr_coral.jpg", height = 400, width = 500), style="text-align: center;"),
@@ -135,6 +133,7 @@ ui <- fluidPage(
                             ), # end of sidebarLayout
                             mainPanel(
                                 "Use this tool to visualize differences in average coral cover at research sites between years.",
+                                br(), " ", br(), " ", br(),
                                 plotOutput(outputId = "coral_cov")
                             ) # end of mainPanel2
                         )),  # end of sidebarLayout, tabPanel W1
@@ -152,7 +151,8 @@ ui <- fluidPage(
                                                inputId = "coral_year",
                                                label = h3("Select Year(s)"),
                                                choices = unique(coral_spp$year)
-                                               )
+                                               ),
+                           "Data: Edmunds, P. 2020"
                           ),
                           mainPanel("Use this tool to visualize differences in coral species abundance.
                                     Non-coral species and substrates are not included in this analysis, so 
@@ -171,6 +171,7 @@ ui <- fluidPage(
                             mainPanel(
                               "Use this tool to visualize fish abundances across years. Only 
                               shows the top 10 most abundant fish species.",
+                              br(), " ", br(), " ", br(),
                                 plotOutput(outputId = "fish_ab"),
                                 br(), " ", br(),
                                 div(img(src = "damselfish.png", height = 400, width = 500), style="text-align: center;"),
@@ -198,7 +199,8 @@ ui <- fluidPage(
                                 value = 0),
                               "Data: Burkepile, D. and T. Adam 2019"
                             ),  #end of sidebarPanel
-                            mainPanel("Use this tool to visualize location and extent of coral bleaching from the 2016 bleaching event. Click on a colony to view its class size and percent bleached.", br(), " ",
+                            mainPanel("Use this tool to visualize location and extent of coral bleaching from the 2016 bleaching event. Click on a colony to view its class size and percent bleached.",
+                                      br(), " ", br(), " ", br(),
                               tmapOutput(outputId = "bleach_perc"), #widget 4 output
                               "Between February and May of 2016, water temperature exceeded the threshold for heat stress in corals for 70 straight days. This resulted in the bleaching of several coral colonies within the lagoon around the island.
                               These data show the percent extent of bleaching of Pocillopora and Acropora coral colonies categorized into 5 size classes, indicated on this map according to circle size:", br(), " ",
