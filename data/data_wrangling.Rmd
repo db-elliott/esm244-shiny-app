@@ -1,0 +1,82 @@
+---
+title: "Data Wrangling"
+author: "Mia Guarnieri"
+date: "3/9/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+library(janitor)
+library(lubridate)
+
+knitr::opts_chunk$set(echo = TRUE)
+
+"%!in%" <- Negate("%in%")
+
+#coral data
+coral_1 <- read_csv(here("data", "coral_data", "perc_cover_long.csv")) %>% 
+  clean_names() %>% 
+  mutate(tax = taxonomy_substrate_functional_group) %>% 
+  select( - taxonomy_substrate_functional_group) %>% 
+  filter(tax %!in% c("Sand", "Turf", "Macroalgae", "Crustose Coralline Algae / Bare Space")) %>%
+  mutate(case_when(
+    tax == "Fungiidae unidentified" ~ "Unknown Fungiidae")) %>% 
+  mutate(date = ym(date)) %>%
+    separate(col = date,
+             into = c("year", "month"),
+             sep = "-",
+             extra = "merge",
+             remove = TRUE) %>%
+  mutate(year = as.character(year))
+
+#export coral data
+write.csv(coral_1,"coral.csv", row.names = FALSE)
+
+#coral percent cover
+coral_cov_mean_1 <- coral %>% 
+ select(year, site:tax) %>% 
+  group_by(year, site) %>% 
+  summarize(percent_cover_mean = sum(percent_cover)/120) %>% 
+  filter(year != "2854")
+
+#export coral percent cover
+write.csv(coral_cov_mean_1,"coral_cover.csv", row.names = FALSE)
+
+#coral species percent
+coral_spp <- coral %>% 
+  select(year, site:tax) %>% 
+  group_by(year, site, tax) %>% 
+  summarize(percent_cover_mean = sum(percent_cover)/120) %>% 
+  filter(year != "2854")
+
+#export coral species percent
+write.csv(coral_spp,"coral_spp.csv", row.names = FALSE)
+
+#bleaching data
+bleach_2016 <- read_csv(here("data", "bleaching_data", "bleaching_2016.csv")) %>% 
+  clean_names()
+bleach_adult_2019 <- read_csv(here("data", "bleaching_data", "adult_corals_exp_aug2019.csv"))
+bleach_adult_2019_NS <- read_csv(here("data", "bleaching_data", "adult_corals_NS_oct2019.csv"))
+
+#export coral bleaching data
+write.csv(bleach_2016,"bleach_2016.csv", row.names = FALSE)
+
+
+#fish data
+fish <- read_csv(here("data", "fish_data", "annual_fish_survey.csv")) %>% 
+  clean_names() %>% 
+  select("year", "location", "taxonomy", "family", "count") %>% 
+  mutate(count = as.numeric(count))
+
+#export fish data
+write.csv(fish,"fish.csv", row.names = FALSE)
+
+counts <- fish %>% 
+  count(taxonomy, wt = count)
+
+#export fish counts
+write.csv(counts,"fish_counts.csv", row.names = FALSE)
+
+```

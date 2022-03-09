@@ -11,43 +11,17 @@ library(shinyWidgets)
 
 #reading in and wrangling data
 
+coral <- read_csv(here("data","coral_data", "coral.csv"))
 
-"%!in%" <- Negate("%in%")
+coral_cov_mean <- read_csv(here("data", "coral_data", "coral_cover.csv"))
 
-#coral data
-coral <- read_csv(here("data", "coral_data", "perc_cover_long.csv")) %>% 
-  clean_names() %>% 
-  mutate(tax = taxonomy_substrate_functional_group) %>% 
-  select( - taxonomy_substrate_functional_group) %>% 
-  filter(tax %!in% c("Sand", "Turf", "Macroalgae", "Crustose Coralline Algae / Bare Space")) %>%
-  mutate(case_when(
-    tax == "Fungiidae unidentified" ~ "Unknown Fungiidae")) %>% 
-  mutate(date = ym(date)) %>%
-    separate(col = date,
-             into = c("year", "month"),
-             sep = "-",
-             extra = "merge",
-             remove = TRUE) %>%
-  mutate(year = as.character(year))
+coral_spp <- read_csv(here("data", "coral_data", "coral_spp.csv"))
 
-#coral percent cover
-coral_cov_mean <- coral %>% 
- select(year, site:tax) %>% 
-  group_by(year, site) %>% 
-  summarize(percent_cover_mean = sum(percent_cover)/120) %>% 
-  filter(year != "2854")
+bleach_2016 <- read_csv(here("data", "bleaching_data", "bleach_2016.csv"))
 
-coral_spp <- coral %>% 
-  select(year, site:tax) %>% 
-  group_by(year, site, tax) %>% 
-  summarize(percent_cover_mean = sum(percent_cover)/120) %>% 
-  filter(year != "2854")
+fish <- read_csv(here("data", "fish_data", "fish.csv"))
 
-#bleaching data
-bleach_2016 <- read_csv(here("data", "bleaching_data", "bleaching_2016.csv")) %>% 
-  clean_names()
-bleach_adult_2019 <- read_csv(here("data", "bleaching_data", "adult_corals_exp_aug2019.csv"))
-bleach_adult_2019_NS <- read_csv(here("data", "bleaching_data", "adult_corals_NS_oct2019.csv"))
+counts <- read_csv(here("data", "fish_data", "fish_counts.csv"))
 
 #spatial bleaching data
 bleach_2016_sf <- bleach_2016 %>% 
@@ -56,14 +30,6 @@ bleach_2016_sf <- bleach_2016 %>%
 
 st_crs(bleach_2016_sf) <- 4326
 
-#fish data
-fish <- read_csv(here("data", "fish_data", "annual_fish_survey.csv")) %>% 
-  clean_names() %>% 
-  select("year", "location", "taxonomy", "family", "count") %>% 
-  mutate(count = as.numeric(count))
-
-counts <- fish %>% 
-  count(taxonomy, wt = count)
 
 ui <- fluidPage(
     navbarPage(theme = bs_theme(bootswatch = "darkly"),
