@@ -123,6 +123,7 @@ ui <- fluidPage(
                           mainPanel("Use this tool to visualize differences in coral species abundance.
                                     Non-coral species and substrates are not included in this analysis, so 
                                     percentages will likely not sum to 100%.",
+                                    br(), " ", br(), " ", "Select a year to view graph.",
                                     br(), " ", br(), " ", br(),
                                     plotOutput(outputId = "coral_species")
                           )
