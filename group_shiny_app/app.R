@@ -112,7 +112,7 @@ ui <- fluidPage(
                                 plotOutput(outputId = "coral_cov")
                             ) # end of mainPanel2
                         )),  # end of sidebarLayout, tabPanel W1
-               tabPanel("Coral Species by Year",
+               tabPanel("Coral Taxonomy by Year",
                         sidebarLayout(
                           sidebarPanel(
                            "Select your site of interest.",
@@ -131,8 +131,8 @@ ui <- fluidPage(
                            br(), " ", br(),
                            "All photos attributed to coralsoftheworld.org"
                           ),
-                          mainPanel("Use this tool to visualize differences in coral species abundance.
-                                    Non-coral species and substrates are not included in this analysis, so 
+                          mainPanel("Use this tool to visualize differences in coral genus abundance.
+                                    Non-coral organisms and substrates are not included in this analysis, so 
                                     percentages will likely not sum to 100%.",
                                     br(), " ", br(),
                                     "The photos below show examples of each genus of coral.",
