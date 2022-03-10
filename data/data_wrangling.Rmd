@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 "%!in%" <- Negate("%in%")
 
 #coral data
-coral_1 <- read_csv(here("data", "coral_data", "perc_cover_long.csv")) %>% 
+coral_1 <- read_csv(here("data", "coral_data", "raw_data", "perc_cover_long.csv")) %>% 
   clean_names() %>% 
   mutate(tax = taxonomy_substrate_functional_group) %>% 
   select( - taxonomy_substrate_functional_group) %>% 
@@ -27,13 +27,17 @@ coral_1 <- read_csv(here("data", "coral_data", "perc_cover_long.csv")) %>%
              sep = "-",
              extra = "merge",
              remove = TRUE) %>%
-  mutate(year = as.character(year))
+  mutate(year = as.character(year)) %>%
+  mutate(tax = ifelse(str_detect(tax, "Porite"), "Porite", tax))%>%
+  mutate(tax = ifelse(str_detect(tax, "Fungiidae unidentified"), "Unknown Fungiidae", tax)) %>%
+  filter(tax != "Unknown or Other")
+
 
 #export coral data
 write.csv(coral_1,"coral.csv", row.names = FALSE)
 
 #coral percent cover
-coral_cov_mean_1 <- coral %>% 
+coral_cov_mean_1 <- coral_1 %>% 
  select(year, site:tax) %>% 
   group_by(year, site) %>% 
   summarize(percent_cover_mean = sum(percent_cover)/120) %>% 
@@ -43,7 +47,7 @@ coral_cov_mean_1 <- coral %>%
 write.csv(coral_cov_mean_1,"coral_cover.csv", row.names = FALSE)
 
 #coral species percent
-coral_spp <- coral %>% 
+coral_spp <- coral_1 %>% 
   select(year, site:tax) %>% 
   group_by(year, site, tax) %>% 
   summarize(percent_cover_mean = sum(percent_cover)/120) %>% 
@@ -55,15 +59,13 @@ write.csv(coral_spp,"coral_spp.csv", row.names = FALSE)
 #bleaching data
 bleach_2016 <- read_csv(here("data", "bleaching_data", "bleaching_2016.csv")) %>% 
   clean_names()
-bleach_adult_2019 <- read_csv(here("data", "bleaching_data", "adult_corals_exp_aug2019.csv"))
-bleach_adult_2019_NS <- read_csv(here("data", "bleaching_data", "adult_corals_NS_oct2019.csv"))
 
 #export coral bleaching data
 write.csv(bleach_2016,"bleach_2016.csv", row.names = FALSE)
 
 
 #fish data
-fish <- read_csv(here("data", "fish_data", "annual_fish_survey.csv")) %>% 
+fish <- read_csv(here("data", "fish_data", "raw_data", "annual_fish_survey.csv")) %>% 
   clean_names() %>% 
   select("year", "location", "taxonomy", "family", "count") %>% 
   mutate(count = as.numeric(count))
