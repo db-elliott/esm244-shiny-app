@@ -68,7 +68,16 @@ ui <- fluidPage(
                                          "Moorea Coral Reef LTER, K.E. Speare, T.C. Adam, E.M. Winslow, H.S. Lenihan, and D.E. 
                                          Burkepile. 2021. MCR LTER: Coral Reefs: Coral bleaching and mortality in July 2019; 
                                          data for Speare et al. 2021 Global Change Biology ver 10. Environmental Data Initiative.
-                                         https://doi.org/10.6073/pasta/f59968d039de006909c5c92c51c3919c (Accessed 2022-02-22)."
+                                         https://doi.org/10.6073/pasta/f59968d039de006909c5c92c51c3919c (Accessed 2022-02-22).",
+                                         br(), " ", br(), " ", br(),
+                                         "Photo attributed to Damsea/Shutterstock.",
+                                         br(), " ", br(),
+                                         "Map attributed to Leichter, J., Alldredge, A., Bernardi, G., Brooks, A., Carlson, C., 
+                                         Carpenter, R., Edmunds, P., Fewings, M., Hanson, K., Hench, J., Holbrook, S., 
+                                         Nelson, C., Schmitt, R., Toonen, R., Washburn, L., & Wyatt, A. (2013). Biological 
+                                         and Physical Interactions on a Tropical Island Coral Reef: Transport and Retention 
+                                         Processes on Moorea, French Polynesia. Oceanography, 26(3), 52–63.
+                                         https://doi.org/10.5670/oceanog.2013.45"
                             ), #end sidebarPanel
                             mainPanel("This app visualizes data on coral cover and reef fish species abundance 
                                 during 13 'normal' years and two years when bleaching events occured in the 
@@ -82,10 +91,10 @@ ui <- fluidPage(
                                and anthropogenic forces affect coral community structure and function around disturbances.",
                                br(), " ",
                                br(),
-                              div(img(src = "mcr_coral.jpg", height = 400, width = 500), style="text-align: center;"),
+                              div(img(src = "mcr_coral.jpg", height = 500, width = 600), style="text-align: center;"),
                                br(), " ",
                               br(),
-                               div(img(src = "mcr_lter_map.png", height = 600, width = 500), style="text-align: center;") 
+                               div(img(src = "mcr_lter_map.png", height = 700, width = 600), style="text-align: center;") 
                             )
                         )), 
                tabPanel("Coral Cover By Year",
@@ -118,21 +127,36 @@ ui <- fluidPage(
                                                label = h3("Select Year(s)"),
                                                choices = unique(coral_spp$year)
                                                ),
-                           "Data: Edmunds, P. 2020"
+                           "Data: Edmunds, P. 2020",
+                           br(), " ", br(),
+                           "All photos attributed to coralsoftheworld.org"
                           ),
                           mainPanel("Use this tool to visualize differences in coral species abundance.
                                     Non-coral species and substrates are not included in this analysis, so 
                                     percentages will likely not sum to 100%.",
+                                    br(), " ", br(),
+                                    "The photos below show examples of each genus of coral.",
                                     br(), " ", br(), " ", br(),
-                                    plotOutput(outputId = "coral_species")
-                          )
+                                    plotOutput(outputId = "coral_species"),
+                                    br(), " ", br(),
+                                    div(img(src = "coral1.png", height = 500, width = 600), style="text-align: center;"),
+                                    br(), " ", br(),
+                                    div(img(src = "coral2.png", height = 500, width = 600), style="text-align: center;"),
+                                    br(), " ", br(),
+                                    div(img(src = "coral3.png", height = 500, width = 600), style="text-align: center;"),
+                                    br(), " ", br(),     
+                                    div(img(src = "coral4.png", height = 500, width = 600), style="text-align: center;"),
+                                    br(), " ", br()
+                                    )
                         )),
                tabPanel("Yearly Fish Abundance",
                         sidebarLayout(
                             sidebarPanel(
                               sliderInput("yr_slider", label = h3("Select Time Scale"), min = 2005, 
                                           max = 2019, value = c(2010, 2011), step = 1, sep = ""),
-                              "Data: Brooks, A. 2022"
+                              "Data: Brooks, A. 2022",
+                              br(), " ", br(),
+                              "All photos attributed to flickr, reeflifesurvey.com, and WikiMedia Commons"
                             ), #end of sidebarPanel
                             mainPanel(
                               "Use this tool to visualize fish abundances across years. Only 
@@ -140,11 +164,11 @@ ui <- fluidPage(
                               br(), " ", br(), " ", br(),
                                 plotOutput(outputId = "fish_ab"),
                                 br(), " ", br(),
-                                div(img(src = "damselfish.png", height = 400, width = 500), style="text-align: center;"),
+                                div(img(src = "damselfish.png", height = 500, width = 600), style="text-align: center;"),
                                 br(), " ", br(),
-                                div(img(src = "Surgeonfish.png", height = 400, width = 500), style="text-align: center;"),
+                                div(img(src = "Surgeonfish.png", height = 500, width = 600), style="text-align: center;"),
                                 br(), " ", br(),
-                                div(img(src = "parrotfish_wrasse.png", height = 400, width = 500), style="text-align: center;"),
+                                div(img(src = "parrotfish_wrasse.png", height = 500, width = 600), style="text-align: center;"),
                                 br(), " ", br()
                             ) #end of mainPanel
                         )), #end of sidePanel, W3
@@ -165,7 +189,9 @@ ui <- fluidPage(
                                 min = 0,
                                 max = 100,
                                 value = 0),
-                              "Data: Burkepile, D. and Adam, T. 2019"
+                              "Data: Burkepile, D. and Adam, T. 2019",
+                              br(), " ", br(),
+                              "Photo attributed to Kelly Speare, The UCSB Current"
                             ),  #end of sidebarPanel
                             mainPanel("Use this tool to visualize location and extent of coral 
                                       bleaching from the 2016 bleaching event. Click on a colony 
@@ -184,7 +210,10 @@ ui <- fluidPage(
                               "2: 11-20cm", br(),
                               "3: 21-30cm", br(),
                               "4: 31-40cm", br(),
-                              "5: above 40cm (largest circles)"
+                              "5: above 40cm (largest circles)",
+                              br(), " ", br(),
+                              div(img(src = "moorea_bleach.jpg", height = 500, width = 600), style="text-align: center;"),
+                              br(), " ", br()     
                             ) #end of mainPanel 4
                         )) #end of sidePanel, W4
     )) # end of navbarPage
@@ -223,7 +252,7 @@ server <- function(input, output) {
         geom_col(aes(fill = tax), color = "white") +
         scale_fill_viridis_d(option = "plasma") +
         labs(x = "Year", y = "% Cover",
-             fill = "Species") +
+             fill = "Genus") +
         theme_classic()
     })
     
