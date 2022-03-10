@@ -28,7 +28,7 @@ coral_1 <- read_csv(here("data", "coral_data", "raw_data", "perc_cover_long.csv"
              extra = "merge",
              remove = TRUE) %>%
   mutate(year = as.character(year)) %>%
-  mutate(tax = ifelse(str_detect(tax, "Porite"), "Porite", tax))%>%
+  mutate(tax = ifelse(str_detect(tax, "Porites"), "Porites", tax))%>%
   mutate(tax = ifelse(str_detect(tax, "Fungiidae unidentified"), "Unknown Fungiidae", tax)) %>%
   filter(tax != "Unknown or Other")
 
