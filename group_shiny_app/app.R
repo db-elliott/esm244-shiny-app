@@ -136,6 +136,7 @@ ui <- fluidPage(
                                     percentages will likely not sum to 100%.",
                                     br(), " ", br(),
                                     "The photos below show examples of each genus of coral.",
+                                    br(), " ", br(), " ", "Select a year to view graph.",
                                     br(), " ", br(), " ", br(),
                                     plotOutput(outputId = "coral_species"),
                                     br(), " ", br(),
