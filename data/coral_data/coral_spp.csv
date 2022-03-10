@@ -1,2305 +1,2068 @@
 "year","site","tax","percent_cover_mean"
-2005,"LTER 1","Acanthastrea",0.01
-2005,"LTER 1","Acropora",7.4125
-2005,"LTER 1","Astrea",0.225
-2005,"LTER 1","Astreopora",0.055
-2005,"LTER 1","Cyphastrea",0.0491666666666667
-2005,"LTER 1","Fungiidae unidentified",0.163333333333333
-2005,"LTER 1","Goniastrea",0.005
-2005,"LTER 1","Herpolitha",0.118333333333333
-2005,"LTER 1","Leptastrea",1.32666666666667
-2005,"LTER 1","Millepora",0.313333333333333
-2005,"LTER 1","Montipora",0.5
-2005,"LTER 1","Pavona",0.49
-2005,"LTER 1","Pocillopora",11.1658333333333
-2005,"LTER 1","Porites",14.5008333333333
-2005,"LTER 1","Psammocora",0.171666666666667
-2005,"LTER 2","Acropora",8.39416666666667
-2005,"LTER 2","Astrea",0.1475
-2005,"LTER 2","Astreopora",0.153333333333333
-2005,"LTER 2","Cyphastrea",0.0191666666666667
-2005,"LTER 2","Fungiidae unidentified",0.598333333333333
-2005,"LTER 2","Leptastrea",0.636666666666667
-2005,"LTER 2","Leptoseris",0.005
-2005,"LTER 2","Millepora",0.3825
-2005,"LTER 2","Montipora",1.0925
-2005,"LTER 2","Pavona",0.894166666666667
-2005,"LTER 2","Pocillopora",7.05583333333333
-2005,"LTER 2","Porites",21.3208333333333
-2005,"LTER 2","Psammocora",0.27
-2005,"LTER 2","Sandolitha",0.0541666666666667
-2005,"LTER 3","Acropora",7.39416666666667
-2005,"LTER 3","Astrea",0.1675
-2005,"LTER 3","Astreopora",0.175833333333333
-2005,"LTER 3","Cyphastrea",0.015
-2005,"LTER 3","Fungiidae unidentified",2.77083333333333
-2005,"LTER 3","Herpolitha",0.075
-2005,"LTER 3","Leptastrea",0.81
-2005,"LTER 3","Millepora",0.0525
-2005,"LTER 3","Montipora",1.80333333333333
-2005,"LTER 3","Pavona",3.7375
-2005,"LTER 3","Pocillopora",7.99166666666667
-2005,"LTER 3","Porites",2.71083333333333
-2005,"LTER 3","Psammocora",0.398333333333333
-2005,"LTER 3","Sandolitha",0.0958333333333333
-2005,"LTER 4","Acropora",4.04583333333333
-2005,"LTER 4","Astrea",0.263333333333333
-2005,"LTER 4","Astreopora",0.0475
-2005,"LTER 4","Cyphastrea",0.0533333333333333
-2005,"LTER 4","Fungiidae unidentified",0.0825
-2005,"LTER 4","Leptastrea",0.604166666666667
-2005,"LTER 4","Millepora",0.4175
-2005,"LTER 4","Montipora",8.88833333333333
-2005,"LTER 4","Pavona",0.448333333333333
-2005,"LTER 4","Pocillopora",15.75
-2005,"LTER 4","Porites",1.82416666666667
-2005,"LTER 4","Psammocora",0.02
-2005,"LTER 5","Acropora",3.26583333333333
-2005,"LTER 5","Astrea",0.328333333333333
-2005,"LTER 5","Astreopora",0.3275
-2005,"LTER 5","Cyphastrea",0.0108333333333333
-2005,"LTER 5","Fungiidae unidentified",0.0216666666666667
-2005,"LTER 5","Goniastrea",0.005
-2005,"LTER 5","Leptastrea",1.0075
-2005,"LTER 5","Millepora",0.005
-2005,"LTER 5","Montipora",3.33166666666667
-2005,"LTER 5","Pavona",0.5625
-2005,"LTER 5","Pocillopora",8.93
-2005,"LTER 5","Porites",16
-2005,"LTER 5","Psammocora",0.0616666666666667
-2005,"LTER 6","Acropora",2.77833333333333
-2005,"LTER 6","Astrea",0.185
-2005,"LTER 6","Astreopora",0.215833333333333
-2005,"LTER 6","Cyphastrea",0.0416666666666667
-2005,"LTER 6","Fungiidae unidentified",0.005
-2005,"LTER 6","Goniastrea",0.01
-2005,"LTER 6","Leptastrea",0.5
-2005,"LTER 6","Leptoseris",0.01
-2005,"LTER 6","Millepora",0.335
-2005,"LTER 6","Montipora",3.20666666666667
-2005,"LTER 6","Pavona",6.055
-2005,"LTER 6","Pocillopora",8.85333333333333
-2005,"LTER 6","Porites",1.42916666666667
-2005,"LTER 6","Psammocora",0.130833333333333
-2005,"LTER 6","Sandolitha",0.005
-2006,"LTER 1","Acanthastrea",0.03
-2006,"LTER 1","Acropora",7.57833333333333
-2006,"LTER 1","Astrea",0.281666666666667
-2006,"LTER 1","Astreopora",0.0558333333333333
-2006,"LTER 1","Cyphastrea",0.03
-2006,"LTER 1","Fungiidae unidentified",0.148333333333333
-2006,"LTER 1","Goniastrea",0.0933333333333333
-2006,"LTER 1","Herpolitha",0.025
-2006,"LTER 1","Leptastrea",1.1125
-2006,"LTER 1","Millepora",0.521666666666667
-2006,"LTER 1","Montipora",0.2725
-2006,"LTER 1","Pavona",0.2875
-2006,"LTER 1","Pocillopora",10.755
-2006,"LTER 1","Porites",17.1933333333333
-2006,"LTER 1","Psammocora",0.0691666666666667
-2006,"LTER 1","Sandolitha",0.05
-2006,"LTER 2","Acropora",3.605
-2006,"LTER 2","Astrea",0.144166666666667
-2006,"LTER 2","Cyphastrea",0.035
-2006,"LTER 2","Fungiidae unidentified",0.404166666666667
-2006,"LTER 2","Goniastrea",0.0858333333333333
-2006,"LTER 2","Herpolitha",0.0808333333333333
-2006,"LTER 2","Leptastrea",0.369166666666667
-2006,"LTER 2","Millepora",0.195833333333333
-2006,"LTER 2","Montipora",0.721666666666667
-2006,"LTER 2","Pavona",0.711666666666667
-2006,"LTER 2","Pocillopora",4.84583333333333
-2006,"LTER 2","Porites",22.3166666666667
-2006,"LTER 2","Psammocora",0.300833333333333
-2006,"LTER 2","Sandolitha",0.0308333333333333
-2006,"LTER 3","Acanthastrea",0.015
-2006,"LTER 3","Acropora",8.42583333333333
-2006,"LTER 3","Astrea",0.335833333333333
-2006,"LTER 3","Astreopora",0.1875
-2006,"LTER 3","Cyphastrea",0.055
-2006,"LTER 3","Fungiidae unidentified",2.5275
-2006,"LTER 3","Goniastrea",0.496666666666667
-2006,"LTER 3","Herpolitha",0.065
-2006,"LTER 3","Leptastrea",0.314166666666667
-2006,"LTER 3","Millepora",0.035
-2006,"LTER 3","Montipora",1.8575
-2006,"LTER 3","Pavona",4.0475
-2006,"LTER 3","Pocillopora",8.96333333333333
-2006,"LTER 3","Porites",2.64416666666667
-2006,"LTER 3","Psammocora",0.653333333333333
-2006,"LTER 3","Sandolitha",0.225833333333333
-2006,"LTER 3","Soft Coral",0.1125
-2006,"LTER 4","Acanthastrea",0.005
-2006,"LTER 4","Acropora",4.4425
-2006,"LTER 4","Astrea",0.5575
-2006,"LTER 4","Cyphastrea",0.0358333333333333
-2006,"LTER 4","Fungiidae unidentified",0.0708333333333333
-2006,"LTER 4","Goniastrea",0.0358333333333333
-2006,"LTER 4","Leptastrea",0.545
-2006,"LTER 4","Millepora",0.611666666666667
-2006,"LTER 4","Montipora",10.2391666666667
-2006,"LTER 4","Pavona",0.41
-2006,"LTER 4","Pocillopora",13.25
-2006,"LTER 4","Porites",2.05333333333333
-2006,"LTER 4","Psammocora",0.06
-2006,"LTER 4","Soft Coral",0.0358333333333333
-2006,"LTER 5","Acropora",3.915
-2006,"LTER 5","Astrea",0.425833333333333
-2006,"LTER 5","Astreopora",0.251666666666667
-2006,"LTER 5","Cyphastrea",0.01
-2006,"LTER 5","Fungiidae unidentified",0.035
-2006,"LTER 5","Goniastrea",0.02
-2006,"LTER 5","Herpolitha",0.025
-2006,"LTER 5","Leptastrea",0.641666666666667
-2006,"LTER 5","Millepora",0.015
-2006,"LTER 5","Montipora",3.42
-2006,"LTER 5","Pavona",1.0925
-2006,"LTER 5","Pocillopora",10.5966666666667
-2006,"LTER 5","Porites",17.6208333333333
-2006,"LTER 5","Psammocora",0.02
-2006,"LTER 5","Soft Coral",0.165
-2006,"LTER 6","Acanthastrea",0.005
-2006,"LTER 6","Acropora",2.19
-2006,"LTER 6","Astrea",0.32
-2006,"LTER 6","Astreopora",0.19
-2006,"LTER 6","Cyphastrea",0.035
-2006,"LTER 6","Goniastrea",0.116666666666667
-2006,"LTER 6","Herpolitha",0.005
-2006,"LTER 6","Leptastrea",0.268333333333333
-2006,"LTER 6","Lobophyllia",0.01
-2006,"LTER 6","Millepora",0.403333333333333
-2006,"LTER 6","Montipora",3.19666666666667
-2006,"LTER 6","Pavona",4.60333333333333
-2006,"LTER 6","Pocillopora",9.4875
-2006,"LTER 6","Porites",0.9025
-2006,"LTER 6","Psammocora",0.0558333333333333
-2006,"LTER 6","Soft Coral",0.0158333333333333
-2007,"LTER 1","Acanthastrea",0.0175
-2007,"LTER 1","Acropora",6.5625
-2007,"LTER 1","Astrea",0.381666666666667
-2007,"LTER 1","Astreopora",0.0383333333333333
-2007,"LTER 1","Cyphastrea",0.0216666666666667
-2007,"LTER 1","Fungiidae unidentified",0.265
-2007,"LTER 1","Gardineroseris",0
-2007,"LTER 1","Goniastrea",0.03
-2007,"LTER 1","Herpolitha",0.155833333333333
-2007,"LTER 1","Leptastrea",1.14583333333333
-2007,"LTER 1","Leptoseris",0.0433333333333333
-2007,"LTER 1","Lobophyllia",0
-2007,"LTER 1","Millepora",0.579166666666667
-2007,"LTER 1","Montipora",0.510833333333333
-2007,"LTER 1","Non-coralline Crustose Algae",0.27
-2007,"LTER 1","Pachyseris",0
-2007,"LTER 1","Pavona",0.358333333333333
-2007,"LTER 1","Plesiastrea",0
-2007,"LTER 1","Pocillopora",11.9666666666667
-2007,"LTER 1","Porites",7.10416666666667
-2007,"LTER 1","Porites irregularis",0.0175
-2007,"LTER 1","Porites rus",4.62333333333333
-2007,"LTER 1","Porites spp. Massive",4.06833333333333
-2007,"LTER 1","Psammocora",0.0233333333333333
-2007,"LTER 1","Sandolitha",0.0983333333333333
-2007,"LTER 1","Soft Coral",0
-2007,"LTER 1","Stylocoeniella",0
-2007,"LTER 1","Tubastrea",0
-2007,"LTER 1","Unknown or Other",0.0341666666666667
-2007,"LTER 2","Acanthastrea",0
-2007,"LTER 2","Acropora",1.64833333333333
-2007,"LTER 2","Astrea",0.106666666666667
-2007,"LTER 2","Astreopora",0
-2007,"LTER 2","Cyphastrea",0.0141666666666667
-2007,"LTER 2","Fungiidae unidentified",0.189166666666667
-2007,"LTER 2","Gardineroseris",0
-2007,"LTER 2","Goniastrea",0.0516666666666667
-2007,"LTER 2","Herpolitha",0.12
-2007,"LTER 2","Leptastrea",0.119166666666667
-2007,"LTER 2","Leptoseris",0
-2007,"LTER 2","Lobophyllia",0
-2007,"LTER 2","Millepora",0.595833333333333
-2007,"LTER 2","Montipora",0.39
-2007,"LTER 2","Non-coralline Crustose Algae",0.806666666666667
-2007,"LTER 2","Pachyseris",0
-2007,"LTER 2","Pavona",0.365
-2007,"LTER 2","Plesiastrea",0
-2007,"LTER 2","Pocillopora",3.06416666666667
-2007,"LTER 2","Porites",6.65833333333333
-2007,"LTER 2","Porites irregularis",0.0783333333333333
-2007,"LTER 2","Porites rus",15.5725
-2007,"LTER 2","Porites spp. Massive",0
-2007,"LTER 2","Psammocora",0.0125
-2007,"LTER 2","Sandolitha",0.03
-2007,"LTER 2","Soft Coral",0
-2007,"LTER 2","Stylocoeniella",0
-2007,"LTER 2","Tubastrea",0
-2007,"LTER 2","Unknown or Other",0.0333333333333333
-2007,"LTER 3","Acanthastrea",0
-2007,"LTER 3","Acropora",6.0625
-2007,"LTER 3","Astrea",0.444166666666667
-2007,"LTER 3","Astreopora",0.251666666666667
-2007,"LTER 3","Cyphastrea",0.005
-2007,"LTER 3","Fungiidae unidentified",2.04916666666667
-2007,"LTER 3","Gardineroseris",0.00416666666666667
-2007,"LTER 3","Goniastrea",0.421666666666667
-2007,"LTER 3","Herpolitha",0.305
-2007,"LTER 3","Leptastrea",0.3775
-2007,"LTER 3","Leptoseris",0.169166666666667
-2007,"LTER 3","Lobophyllia",0
-2007,"LTER 3","Millepora",0.0566666666666667
-2007,"LTER 3","Montipora",1.74333333333333
-2007,"LTER 3","Non-coralline Crustose Algae",0.055
-2007,"LTER 3","Pachyseris",0.0133333333333333
-2007,"LTER 3","Pavona",4.52666666666667
-2007,"LTER 3","Plesiastrea",0
-2007,"LTER 3","Pocillopora",6.33833333333333
-2007,"LTER 3","Porites",1.87
-2007,"LTER 3","Porites irregularis",0.00916666666666667
-2007,"LTER 3","Porites rus",0.265833333333333
-2007,"LTER 3","Porites spp. Massive",0.788333333333333
-2007,"LTER 3","Psammocora",0.119166666666667
-2007,"LTER 3","Sandolitha",0.0508333333333333
-2007,"LTER 3","Soft Coral",0.0716666666666667
-2007,"LTER 3","Stylocoeniella",0.00833333333333333
-2007,"LTER 3","Tubastrea",0
-2007,"LTER 3","Unknown or Other",0.03
-2007,"LTER 4","Acanthastrea",0.00916666666666667
-2007,"LTER 4","Acropora",3.84083333333333
-2007,"LTER 4","Astrea",0.4075
-2007,"LTER 4","Astreopora",0.0225
-2007,"LTER 4","Cyphastrea",0.0133333333333333
-2007,"LTER 4","Fungiidae unidentified",0.1025
-2007,"LTER 4","Gardineroseris",0.0125
-2007,"LTER 4","Goniastrea",0.005
-2007,"LTER 4","Herpolitha",0
-2007,"LTER 4","Leptastrea",0.670833333333333
-2007,"LTER 4","Leptoseris",0.0291666666666667
-2007,"LTER 4","Lobophyllia",0
-2007,"LTER 4","Millepora",0.626666666666667
-2007,"LTER 4","Montipora",9.085
-2007,"LTER 4","Non-coralline Crustose Algae",0.0591666666666667
-2007,"LTER 4","Pachyseris",0
-2007,"LTER 4","Pavona",0.326666666666667
-2007,"LTER 4","Plesiastrea",0
-2007,"LTER 4","Pocillopora",12.5425
-2007,"LTER 4","Porites",1.005
-2007,"LTER 4","Porites irregularis",0
-2007,"LTER 4","Porites rus",0.0525
-2007,"LTER 4","Porites spp. Massive",0.990833333333333
-2007,"LTER 4","Psammocora",0.0125
-2007,"LTER 4","Sandolitha",0.0458333333333333
-2007,"LTER 4","Soft Coral",0.136666666666667
-2007,"LTER 4","Stylocoeniella",0.00416666666666667
-2007,"LTER 4","Tubastrea",0
-2007,"LTER 4","Unknown or Other",0.00833333333333333
-2007,"LTER 5","Acanthastrea",0.00416666666666667
-2007,"LTER 5","Acropora",3.15666666666667
-2007,"LTER 5","Astrea",0.429166666666667
-2007,"LTER 5","Astreopora",0.445
-2007,"LTER 5","Cyphastrea",0.00833333333333333
-2007,"LTER 5","Fungiidae unidentified",0.0491666666666667
-2007,"LTER 5","Gardineroseris",0.0166666666666667
-2007,"LTER 5","Goniastrea",0
-2007,"LTER 5","Herpolitha",0.0216666666666667
-2007,"LTER 5","Leptastrea",0.699166666666667
-2007,"LTER 5","Leptoseris",0
-2007,"LTER 5","Lobophyllia",0
-2007,"LTER 5","Millepora",0.0125
-2007,"LTER 5","Montipora",2.98416666666667
-2007,"LTER 5","Non-coralline Crustose Algae",0.0975
-2007,"LTER 5","Pachyseris",0
-2007,"LTER 5","Pavona",0.57
-2007,"LTER 5","Plesiastrea",0
-2007,"LTER 5","Pocillopora",11.0066666666667
-2007,"LTER 5","Porites",3.75166666666667
-2007,"LTER 5","Porites irregularis",0
-2007,"LTER 5","Porites rus",10.9791666666667
-2007,"LTER 5","Porites spp. Massive",0.0341666666666667
-2007,"LTER 5","Psammocora",0.0375
-2007,"LTER 5","Sandolitha",0.116666666666667
-2007,"LTER 5","Soft Coral",0.0783333333333333
-2007,"LTER 5","Stylocoeniella",0.0375
-2007,"LTER 5","Tubastrea",0
-2007,"LTER 5","Unknown or Other",0.1
-2007,"LTER 6","Acanthastrea",0.0258333333333333
-2007,"LTER 6","Acropora",3.32
-2007,"LTER 6","Astrea",0.395833333333333
-2007,"LTER 6","Astreopora",0.235
-2007,"LTER 6","Cyphastrea",0.025
-2007,"LTER 6","Fungiidae unidentified",0.00916666666666667
-2007,"LTER 6","Gardineroseris",0.0333333333333333
-2007,"LTER 6","Goniastrea",0.00833333333333333
-2007,"LTER 6","Herpolitha",0
-2007,"LTER 6","Leptastrea",0.360833333333333
-2007,"LTER 6","Leptoseris",0.0133333333333333
-2007,"LTER 6","Lobophyllia",0.0175
-2007,"LTER 6","Millepora",0.645833333333333
-2007,"LTER 6","Montipora",2.79583333333333
-2007,"LTER 6","Non-coralline Crustose Algae",1.71416666666667
-2007,"LTER 6","Pachyseris",0
-2007,"LTER 6","Pavona",3.78166666666667
-2007,"LTER 6","Plesiastrea",0
-2007,"LTER 6","Pocillopora",10.3058333333333
-2007,"LTER 6","Porites",1.2125
-2007,"LTER 6","Porites irregularis",0.00833333333333333
-2007,"LTER 6","Porites rus",0.0383333333333333
-2007,"LTER 6","Porites spp. Massive",0
-2007,"LTER 6","Psammocora",0.0791666666666667
-2007,"LTER 6","Sandolitha",0.00416666666666667
-2007,"LTER 6","Soft Coral",0
-2007,"LTER 6","Stylocoeniella",0
-2007,"LTER 6","Tubastrea",0
-2007,"LTER 6","Unknown or Other",0.0341666666666667
-2008,"LTER 1","Acanthastrea",0.00416666666666667
-2008,"LTER 1","Acropora",0.705833333333333
-2008,"LTER 1","Astrea",0.1925
-2008,"LTER 1","Astreopora",0
-2008,"LTER 1","Cyphastrea",0
-2008,"LTER 1","Fungiidae unidentified",0.0166666666666667
-2008,"LTER 1","Gardineroseris",0.025
-2008,"LTER 1","Goniastrea",0.00416666666666667
-2008,"LTER 1","Herpolitha",0.0508333333333333
-2008,"LTER 1","Leptastrea",0.0625
-2008,"LTER 1","Leptoseris",0.00416666666666667
-2008,"LTER 1","Lobophyllia",0
-2008,"LTER 1","Millepora",0.408333333333333
-2008,"LTER 1","Montipora",0.129166666666667
-2008,"LTER 1","Pachyseris",0
-2008,"LTER 1","Pavona",0.0841666666666667
-2008,"LTER 1","Pocillopora",3.93416666666667
-2008,"LTER 1","Porites",14.7783333333333
-2008,"LTER 1","Psammocora",0
-2008,"LTER 1","Sandolitha",0
-2008,"LTER 1","Soft Coral",0.0608333333333333
-2008,"LTER 1","Stylocoeniella",0.00416666666666667
-2008,"LTER 1","Tubastrea",0
-2008,"LTER 2","Acanthastrea",0.00416666666666667
-2008,"LTER 2","Acropora",0.055
-2008,"LTER 2","Astrea",0.0583333333333333
-2008,"LTER 2","Astreopora",0
-2008,"LTER 2","Cyphastrea",0.00416666666666667
-2008,"LTER 2","Fungiidae unidentified",0.0166666666666667
-2008,"LTER 2","Gardineroseris",0.0375
-2008,"LTER 2","Goniastrea",0
-2008,"LTER 2","Herpolitha",0.0125
-2008,"LTER 2","Leptastrea",0.0208333333333333
-2008,"LTER 2","Leptoseris",0
-2008,"LTER 2","Lobophyllia",0
-2008,"LTER 2","Millepora",0.515
-2008,"LTER 2","Montipora",0.0833333333333333
-2008,"LTER 2","Pachyseris",0
-2008,"LTER 2","Pavona",0.179166666666667
-2008,"LTER 2","Pocillopora",1.33833333333333
-2008,"LTER 2","Porites",20.2775
-2008,"LTER 2","Psammocora",0
-2008,"LTER 2","Sandolitha",0
-2008,"LTER 2","Soft Coral",0.0125
-2008,"LTER 2","Stylocoeniella",0
-2008,"LTER 2","Tubastrea",0
-2008,"LTER 3","Acanthastrea",0
-2008,"LTER 3","Acropora",0.816666666666667
-2008,"LTER 3","Astrea",0.191666666666667
-2008,"LTER 3","Astreopora",0.0416666666666667
-2008,"LTER 3","Cyphastrea",0.0166666666666667
-2008,"LTER 3","Fungiidae unidentified",0.241666666666667
-2008,"LTER 3","Gardineroseris",0.0666666666666667
-2008,"LTER 3","Goniastrea",0.104166666666667
-2008,"LTER 3","Herpolitha",0.236666666666667
-2008,"LTER 3","Leptastrea",0.108333333333333
-2008,"LTER 3","Leptoseris",0
-2008,"LTER 3","Lobophyllia",0.00416666666666667
-2008,"LTER 3","Millepora",0.0966666666666667
-2008,"LTER 3","Montipora",1.49833333333333
-2008,"LTER 3","Pachyseris",0
-2008,"LTER 3","Pavona",5.8075
-2008,"LTER 3","Pocillopora",1.6225
-2008,"LTER 3","Porites",2.7125
-2008,"LTER 3","Psammocora",0
-2008,"LTER 3","Sandolitha",0.00833333333333333
-2008,"LTER 3","Soft Coral",0.0625
-2008,"LTER 3","Stylocoeniella",0
-2008,"LTER 3","Tubastrea",0.00416666666666667
-2008,"LTER 4","Acanthastrea",0.0166666666666667
-2008,"LTER 4","Acropora",2.74416666666667
-2008,"LTER 4","Astrea",0.406666666666667
-2008,"LTER 4","Astreopora",0.00416666666666667
-2008,"LTER 4","Cyphastrea",0.00416666666666667
-2008,"LTER 4","Fungiidae unidentified",0.0466666666666667
-2008,"LTER 4","Gardineroseris",0.0791666666666667
-2008,"LTER 4","Goniastrea",0.00833333333333333
-2008,"LTER 4","Herpolitha",0.00416666666666667
-2008,"LTER 4","Leptastrea",0.2
-2008,"LTER 4","Leptoseris",0
-2008,"LTER 4","Lobophyllia",0
-2008,"LTER 4","Millepora",1.1425
-2008,"LTER 4","Montipora",9.61916666666667
-2008,"LTER 4","Pachyseris",0
-2008,"LTER 4","Pavona",0.425
-2008,"LTER 4","Pocillopora",10.4933333333333
-2008,"LTER 4","Porites",2.155
-2008,"LTER 4","Psammocora",0.00416666666666667
-2008,"LTER 4","Sandolitha",0
-2008,"LTER 4","Soft Coral",0.0541666666666667
-2008,"LTER 4","Stylocoeniella",0.0166666666666667
-2008,"LTER 4","Tubastrea",0
-2008,"LTER 5","Acanthastrea",0.00416666666666667
-2008,"LTER 5","Acropora",0.93
-2008,"LTER 5","Astrea",0.405833333333333
-2008,"LTER 5","Astreopora",0.296666666666667
-2008,"LTER 5","Cyphastrea",0
-2008,"LTER 5","Fungiidae unidentified",0.0541666666666667
-2008,"LTER 5","Gardineroseris",0.0541666666666667
-2008,"LTER 5","Goniastrea",0.00833333333333333
-2008,"LTER 5","Herpolitha",0.00416666666666667
-2008,"LTER 5","Leptastrea",0.5325
-2008,"LTER 5","Leptoseris",0
-2008,"LTER 5","Lobophyllia",0
-2008,"LTER 5","Millepora",0.0216666666666667
-2008,"LTER 5","Montipora",2.06583333333333
-2008,"LTER 5","Pachyseris",0
-2008,"LTER 5","Pavona",0.376666666666667
-2008,"LTER 5","Pocillopora",7.7125
-2008,"LTER 5","Porites",17.4733333333333
-2008,"LTER 5","Psammocora",0.00833333333333333
-2008,"LTER 5","Sandolitha",0
-2008,"LTER 5","Soft Coral",0.129166666666667
-2008,"LTER 5","Stylocoeniella",0
-2008,"LTER 5","Tubastrea",0
-2008,"LTER 6","Acanthastrea",0.00416666666666667
-2008,"LTER 6","Acropora",0.424166666666667
-2008,"LTER 6","Astrea",0.335
-2008,"LTER 6","Astreopora",0.0708333333333333
-2008,"LTER 6","Cyphastrea",0.00416666666666667
-2008,"LTER 6","Fungiidae unidentified",0.0458333333333333
-2008,"LTER 6","Gardineroseris",0.0416666666666667
-2008,"LTER 6","Goniastrea",0.0125
-2008,"LTER 6","Herpolitha",0.00416666666666667
-2008,"LTER 6","Leptastrea",0.251666666666667
-2008,"LTER 6","Leptoseris",0.00416666666666667
-2008,"LTER 6","Lobophyllia",0.0125
-2008,"LTER 6","Millepora",0.490833333333333
-2008,"LTER 6","Montipora",2.41666666666667
-2008,"LTER 6","Pachyseris",0
-2008,"LTER 6","Pavona",3.85416666666667
-2008,"LTER 6","Pocillopora",6.83916666666667
-2008,"LTER 6","Porites",0.569166666666667
-2008,"LTER 6","Psammocora",0
-2008,"LTER 6","Sandolitha",0
-2008,"LTER 6","Soft Coral",0.1
-2008,"LTER 6","Stylocoeniella",0.00833333333333333
-2008,"LTER 6","Tubastrea",0
-2009,"LTER 1","Acanthastrea",0
-2009,"LTER 1","Acropora",0.00833333333333333
-2009,"LTER 1","Astrea",0.0633333333333333
-2009,"LTER 1","Astreopora",0
-2009,"LTER 1","Cyphastrea",0
-2009,"LTER 1","Fungiidae unidentified",0.00833333333333333
-2009,"LTER 1","Gardineroseris",0.0208333333333333
-2009,"LTER 1","Goniastrea",0
-2009,"LTER 1","Herpolitha",0
-2009,"LTER 1","Leptastrea",0.0125
-2009,"LTER 1","Leptoseris",0
-2009,"LTER 1","Lobophyllia",0
-2009,"LTER 1","Millepora",0.594166666666667
-2009,"LTER 1","Montipora",0.0341666666666667
-2009,"LTER 1","Pachyseris",0
-2009,"LTER 1","Pavona",0.0166666666666667
-2009,"LTER 1","Pocillopora",0.974166666666667
-2009,"LTER 1","Porites",13.945
-2009,"LTER 1","Psammocora",0.00416666666666667
-2009,"LTER 1","Sandolitha",0
-2009,"LTER 1","Soft Coral",0.00833333333333333
-2009,"LTER 1","Stylocoeniella",0
-2009,"LTER 1","Tubastrea",0
-2009,"LTER 2","Acanthastrea",0
-2009,"LTER 2","Acropora",0.00916666666666667
-2009,"LTER 2","Astrea",0.0425
-2009,"LTER 2","Astreopora",0
-2009,"LTER 2","Cyphastrea",0
-2009,"LTER 2","Fungiidae unidentified",0.0625
-2009,"LTER 2","Gardineroseris",0.0133333333333333
-2009,"LTER 2","Goniastrea",0
-2009,"LTER 2","Herpolitha",0
-2009,"LTER 2","Leptastrea",0.1175
-2009,"LTER 2","Leptoseris",0
-2009,"LTER 2","Lobophyllia",0.0133333333333333
-2009,"LTER 2","Millepora",0.34
-2009,"LTER 2","Montipora",0.119166666666667
-2009,"LTER 2","Pachyseris",0
-2009,"LTER 2","Pavona",0.065
-2009,"LTER 2","Pocillopora",1.215
-2009,"LTER 2","Porites",15.5008333333333
-2009,"LTER 2","Psammocora",0
-2009,"LTER 2","Sandolitha",0
-2009,"LTER 2","Soft Coral",0.0125
-2009,"LTER 2","Stylocoeniella",0
-2009,"LTER 2","Tubastrea",0
-2009,"LTER 3","Acanthastrea",0
-2009,"LTER 3","Acropora",0.559166666666667
-2009,"LTER 3","Astrea",0.035
-2009,"LTER 3","Astreopora",0
-2009,"LTER 3","Cyphastrea",0.00416666666666667
-2009,"LTER 3","Fungiidae unidentified",0.0133333333333333
-2009,"LTER 3","Gardineroseris",0.0125
-2009,"LTER 3","Goniastrea",0.00416666666666667
-2009,"LTER 3","Herpolitha",0
-2009,"LTER 3","Leptastrea",0.0125
-2009,"LTER 3","Leptoseris",0
-2009,"LTER 3","Lobophyllia",0
-2009,"LTER 3","Millepora",0
-2009,"LTER 3","Montipora",1.7225
-2009,"LTER 3","Pachyseris",0
-2009,"LTER 3","Pavona",3.66083333333333
-2009,"LTER 3","Pocillopora",0.145833333333333
-2009,"LTER 3","Porites",1.44333333333333
-2009,"LTER 3","Psammocora",0
-2009,"LTER 3","Sandolitha",0
-2009,"LTER 3","Soft Coral",0.075
-2009,"LTER 3","Stylocoeniella",0
-2009,"LTER 3","Tubastrea",0
-2009,"LTER 4","Acanthastrea",0.00416666666666667
-2009,"LTER 4","Acropora",0.18
-2009,"LTER 4","Astrea",0.165833333333333
-2009,"LTER 4","Astreopora",0
-2009,"LTER 4","Cyphastrea",0.00416666666666667
-2009,"LTER 4","Fungiidae unidentified",0.0208333333333333
-2009,"LTER 4","Gardineroseris",0.0208333333333333
-2009,"LTER 4","Goniastrea",0
-2009,"LTER 4","Herpolitha",0
-2009,"LTER 4","Leptastrea",0.0525
-2009,"LTER 4","Leptoseris",0
-2009,"LTER 4","Lobophyllia",0
-2009,"LTER 4","Millepora",0.724166666666667
-2009,"LTER 4","Montipora",6.03416666666667
-2009,"LTER 4","Pachyseris",0
-2009,"LTER 4","Pavona",0.0741666666666667
-2009,"LTER 4","Pocillopora",3.9925
-2009,"LTER 4","Porites",1.07333333333333
-2009,"LTER 4","Psammocora",0
-2009,"LTER 4","Sandolitha",0
-2009,"LTER 4","Soft Coral",0.143333333333333
-2009,"LTER 4","Stylocoeniella",0
-2009,"LTER 4","Tubastrea",0
-2009,"LTER 5","Acanthastrea",0.00416666666666667
-2009,"LTER 5","Acropora",0.925
-2009,"LTER 5","Astrea",0.230833333333333
-2009,"LTER 5","Astreopora",0.0666666666666667
-2009,"LTER 5","Cyphastrea",0.00916666666666667
-2009,"LTER 5","Fungiidae unidentified",0.065
-2009,"LTER 5","Gardineroseris",0.025
-2009,"LTER 5","Goniastrea",0
-2009,"LTER 5","Herpolitha",0
-2009,"LTER 5","Leptastrea",0.303333333333333
-2009,"LTER 5","Leptoseris",0
-2009,"LTER 5","Lobophyllia",0
-2009,"LTER 5","Millepora",0.0266666666666667
-2009,"LTER 5","Montipora",1.79
-2009,"LTER 5","Pachyseris",0
-2009,"LTER 5","Pavona",0.1425
-2009,"LTER 5","Pocillopora",3.96083333333333
-2009,"LTER 5","Porites",15.955
-2009,"LTER 5","Psammocora",0
-2009,"LTER 5","Sandolitha",0
-2009,"LTER 5","Soft Coral",0.249166666666667
-2009,"LTER 5","Stylocoeniella",0
-2009,"LTER 5","Tubastrea",0
-2009,"LTER 6","Acanthastrea",0.00416666666666667
-2009,"LTER 6","Acropora",0.0391666666666667
-2009,"LTER 6","Astrea",0.111666666666667
-2009,"LTER 6","Astreopora",0.0216666666666667
-2009,"LTER 6","Cyphastrea",0.00416666666666667
-2009,"LTER 6","Fungiidae unidentified",0.00833333333333333
-2009,"LTER 6","Gardineroseris",0.0308333333333333
-2009,"LTER 6","Goniastrea",0.00916666666666667
-2009,"LTER 6","Herpolitha",0
-2009,"LTER 6","Leptastrea",0.0208333333333333
-2009,"LTER 6","Leptoseris",0
-2009,"LTER 6","Lobophyllia",0.00416666666666667
-2009,"LTER 6","Millepora",0.284166666666667
-2009,"LTER 6","Montipora",2.47916666666667
-2009,"LTER 6","Pachyseris",0
-2009,"LTER 6","Pavona",4.3025
-2009,"LTER 6","Pocillopora",1.87416666666667
-2009,"LTER 6","Porites",0.194166666666667
-2009,"LTER 6","Psammocora",0
-2009,"LTER 6","Sandolitha",0
-2009,"LTER 6","Soft Coral",0.0608333333333333
-2009,"LTER 6","Stylocoeniella",0
-2009,"LTER 6","Tubastrea",0
-2010,"LTER 1","Acanthastrea",0
-2010,"LTER 1","Acropora",0.00416666666666667
-2010,"LTER 1","Astrea",0.00833333333333333
-2010,"LTER 1","Astreopora",0
-2010,"LTER 1","Cyphastrea",0
-2010,"LTER 1","Fungiidae unidentified",0.0175
-2010,"LTER 1","Gardineroseris",0.00416666666666667
-2010,"LTER 1","Goniastrea",0
-2010,"LTER 1","Herpolitha",0
-2010,"LTER 1","Leptastrea",0.00416666666666667
-2010,"LTER 1","Leptoseris",0
-2010,"LTER 1","Lobophyllia",0
-2010,"LTER 1","Millepora",0.0608333333333333
-2010,"LTER 1","Montipora",0.0508333333333333
-2010,"LTER 1","Pachyseris",0
-2010,"LTER 1","Pavona",0.00416666666666667
-2010,"LTER 1","Pocillopora",0.0258333333333333
-2010,"LTER 1","Porites",12.025
-2010,"LTER 1","Psammocora",0
-2010,"LTER 1","Sandolitha",0
-2010,"LTER 1","Soft Coral",0.00416666666666667
-2010,"LTER 1","Stylocoeniella",0
-2010,"LTER 1","Tubastrea",0
-2010,"LTER 2","Acanthastrea",0.0125
-2010,"LTER 2","Acropora",0
-2010,"LTER 2","Astrea",0.0341666666666667
-2010,"LTER 2","Astreopora",0
-2010,"LTER 2","Cyphastrea",0
-2010,"LTER 2","Fungiidae unidentified",0.025
-2010,"LTER 2","Gardineroseris",0.00416666666666667
-2010,"LTER 2","Goniastrea",0
-2010,"LTER 2","Herpolitha",0
-2010,"LTER 2","Leptastrea",0.00833333333333333
-2010,"LTER 2","Leptoseris",0
-2010,"LTER 2","Lobophyllia",0.166666666666667
-2010,"LTER 2","Millepora",0.200833333333333
-2010,"LTER 2","Montipora",0.5675
-2010,"LTER 2","Pachyseris",0
-2010,"LTER 2","Pavona",0.0383333333333333
-2010,"LTER 2","Pocillopora",0.125
-2010,"LTER 2","Porites",0.5525
-2010,"LTER 2","Porites irregularis",0.205
-2010,"LTER 2","Porites rus",12.8041666666667
-2010,"LTER 2","Porites spp. Massive",0
-2010,"LTER 2","Psammocora",0.00416666666666667
-2010,"LTER 2","Sandolitha",0
-2010,"LTER 2","Soft Coral",0.0208333333333333
-2010,"LTER 2","Stylocoeniella",0
-2010,"LTER 2","Tubastrea",0
-2010,"LTER 3","Acanthastrea",0.00916666666666667
-2010,"LTER 3","Acropora",0.7275
-2010,"LTER 3","Astrea",0
-2010,"LTER 3","Astreopora",0
-2010,"LTER 3","Cyphastrea",0
-2010,"LTER 3","Fungiidae unidentified",0.00416666666666667
-2010,"LTER 3","Gardineroseris",0
-2010,"LTER 3","Goniastrea",0.0183333333333333
-2010,"LTER 3","Herpolitha",0.00416666666666667
-2010,"LTER 3","Leptastrea",0
-2010,"LTER 3","Leptoseris",0
-2010,"LTER 3","Lobophyllia",0
-2010,"LTER 3","Millepora",0.0183333333333333
-2010,"LTER 3","Montipora",0.905833333333333
-2010,"LTER 3","Pachyseris",0
-2010,"LTER 3","Pavona",2
-2010,"LTER 3","Pocillopora",0.210833333333333
-2010,"LTER 3","Porites",0.14
-2010,"LTER 3","Porites irregularis",0
-2010,"LTER 3","Porites rus",0.221666666666667
-2010,"LTER 3","Porites spp. Massive",0.74
-2010,"LTER 3","Psammocora",0
-2010,"LTER 3","Sandolitha",0
-2010,"LTER 3","Soft Coral",0.0591666666666667
-2010,"LTER 3","Stylocoeniella",0
-2010,"LTER 3","Tubastrea",0
-2010,"LTER 4","Acanthastrea",0
-2010,"LTER 4","Acropora",0.0175
-2010,"LTER 4","Astrea",0.129166666666667
-2010,"LTER 4","Astreopora",0
-2010,"LTER 4","Cyphastrea",0.0125
-2010,"LTER 4","Fungiidae unidentified",0.0333333333333333
-2010,"LTER 4","Gardineroseris",0.0125
-2010,"LTER 4","Goniastrea",0.0125
-2010,"LTER 4","Herpolitha",0.00416666666666667
-2010,"LTER 4","Leptastrea",0.00833333333333333
-2010,"LTER 4","Leptoseris",0
-2010,"LTER 4","Lobophyllia",0
-2010,"LTER 4","Millepora",0.799166666666667
-2010,"LTER 4","Montipora",5.13083333333333
-2010,"LTER 4","Pachyseris",0
-2010,"LTER 4","Pavona",0.0258333333333333
-2010,"LTER 4","Pocillopora",1.87083333333333
-2010,"LTER 4","Porites",0.220833333333333
-2010,"LTER 4","Porites irregularis",0
-2010,"LTER 4","Porites rus",0.00416666666666667
-2010,"LTER 4","Porites spp. Massive",0.5675
-2010,"LTER 4","Psammocora",0
-2010,"LTER 4","Sandolitha",0
-2010,"LTER 4","Soft Coral",0.1225
-2010,"LTER 4","Stylocoeniella",0
-2010,"LTER 4","Tubastrea",0
-2010,"LTER 5","Acanthastrea",0
-2010,"LTER 5","Acropora",0.0541666666666667
-2010,"LTER 5","Astrea",0.2025
-2010,"LTER 5","Astreopora",0.00833333333333333
-2010,"LTER 5","Cyphastrea",0.0133333333333333
-2010,"LTER 5","Fungiidae unidentified",0
-2010,"LTER 5","Gardineroseris",0.0341666666666667
-2010,"LTER 5","Goniastrea",0
-2010,"LTER 5","Herpolitha",0.0208333333333333
-2010,"LTER 5","Leptastrea",0.214166666666667
-2010,"LTER 5","Leptoseris",0.00416666666666667
-2010,"LTER 5","Lobophyllia",0
-2010,"LTER 5","Millepora",0.00916666666666667
-2010,"LTER 5","Montipora",0.465833333333333
-2010,"LTER 5","Pachyseris",0
-2010,"LTER 5","Pavona",0.119166666666667
-2010,"LTER 5","Pocillopora",1.14166666666667
-2010,"LTER 5","Porites",2.20166666666667
-2010,"LTER 5","Porites irregularis",0
-2010,"LTER 5","Porites rus",13.5433333333333
-2010,"LTER 5","Porites spp. Massive",0.0675
-2010,"LTER 5","Psammocora",0
-2010,"LTER 5","Sandolitha",0
-2010,"LTER 5","Soft Coral",0.1275
-2010,"LTER 5","Stylocoeniella",0
-2010,"LTER 5","Tubastrea",0
-2010,"LTER 6","Acanthastrea",0
-2010,"LTER 6","Acropora",0.0175
-2010,"LTER 6","Astrea",0.108333333333333
-2010,"LTER 6","Astreopora",0.00833333333333333
-2010,"LTER 6","Cyphastrea",0
-2010,"LTER 6","Fungiidae unidentified",0.0125
-2010,"LTER 6","Gardineroseris",0.0333333333333333
-2010,"LTER 6","Goniastrea",0
-2010,"LTER 6","Herpolitha",0
-2010,"LTER 6","Leptastrea",0.0508333333333333
-2010,"LTER 6","Leptoseris",0.00416666666666667
-2010,"LTER 6","Lobophyllia",0
-2010,"LTER 6","Millepora",0.190833333333333
-2010,"LTER 6","Montipora",2.3125
-2010,"LTER 6","Pachyseris",0
-2010,"LTER 6","Pavona",4.81666666666667
-2010,"LTER 6","Pocillopora",0.311666666666667
-2010,"LTER 6","Porites",0.183333333333333
-2010,"LTER 6","Porites irregularis",0
-2010,"LTER 6","Porites rus",0
-2010,"LTER 6","Porites spp. Massive",0
-2010,"LTER 6","Psammocora",0.00833333333333333
-2010,"LTER 6","Sandolitha",0
-2010,"LTER 6","Soft Coral",0
-2010,"LTER 6","Stylocoeniella",0
-2010,"LTER 6","Tubastrea",0
-2011,"LTER 1","Acanthastrea",0
-2011,"LTER 1","Acropora",0
-2011,"LTER 1","Astrea",0.0475
-2011,"LTER 1","Astreopora",0
-2011,"LTER 1","Cyphastrea",0
-2011,"LTER 1","Fungiidae unidentified",0
-2011,"LTER 1","Gardineroseris",0
-2011,"LTER 1","Goniastrea",0
-2011,"LTER 1","Herpolitha",0
-2011,"LTER 1","Leptastrea",0
-2011,"LTER 1","Leptoseris",0
-2011,"LTER 1","Lobophyllia",0
-2011,"LTER 1","Millepora",0.0525
-2011,"LTER 1","Montipora",0.0133333333333333
-2011,"LTER 1","Pachyseris",0
-2011,"LTER 1","Pavona",0.0125
-2011,"LTER 1","Pocillopora",0.0475
-2011,"LTER 1","Porites irregularis",0
-2011,"LTER 1","Porites rus",8.18916666666667
-2011,"LTER 1","Porites spp. Massive",1.6625
-2011,"LTER 1","Psammocora",0.0175
-2011,"LTER 1","Sandolitha",0
-2011,"LTER 1","Soft Coral",0.00833333333333333
-2011,"LTER 1","Stylocoeniella",0
-2011,"LTER 1","Tubastrea",0
-2011,"LTER 2","Acanthastrea",0
-2011,"LTER 2","Acropora",0.00416666666666667
-2011,"LTER 2","Astrea",0.0566666666666667
-2011,"LTER 2","Astreopora",0
-2011,"LTER 2","Cyphastrea",0
-2011,"LTER 2","Fungiidae unidentified",0.0266666666666667
-2011,"LTER 2","Gardineroseris",0
-2011,"LTER 2","Goniastrea",0
-2011,"LTER 2","Herpolitha",0
-2011,"LTER 2","Leptastrea",0.00833333333333333
-2011,"LTER 2","Leptoseris",0
-2011,"LTER 2","Lobophyllia",0.3025
-2011,"LTER 2","Millepora",0.375
-2011,"LTER 2","Montipora",0.0175
-2011,"LTER 2","Pachyseris",0
-2011,"LTER 2","Pavona",0.0391666666666667
-2011,"LTER 2","Pocillopora",0.27
-2011,"LTER 2","Porites irregularis",0.224166666666667
-2011,"LTER 2","Porites rus",7.88166666666667
-2011,"LTER 2","Porites spp. Massive",0.539166666666667
-2011,"LTER 2","Psammocora",0.00833333333333333
-2011,"LTER 2","Sandolitha",0
-2011,"LTER 2","Soft Coral",0
-2011,"LTER 2","Stylocoeniella",0
-2011,"LTER 2","Tubastrea",0
-2011,"LTER 3","Acanthastrea",0.005
-2011,"LTER 3","Acropora",0.643333333333333
-2011,"LTER 3","Astrea",0.0258333333333333
-2011,"LTER 3","Astreopora",0
-2011,"LTER 3","Cyphastrea",0
-2011,"LTER 3","Fungiidae unidentified",0.0266666666666667
-2011,"LTER 3","Gardineroseris",0
-2011,"LTER 3","Goniastrea",0
-2011,"LTER 3","Herpolitha",0
-2011,"LTER 3","Leptastrea",0
-2011,"LTER 3","Leptoseris",0
-2011,"LTER 3","Lobophyllia",0
-2011,"LTER 3","Millepora",0.0133333333333333
-2011,"LTER 3","Montipora",0.234166666666667
-2011,"LTER 3","Pachyseris",0
-2011,"LTER 3","Pavona",0.844166666666667
-2011,"LTER 3","Pocillopora",0.193333333333333
-2011,"LTER 3","Porites irregularis",0.0141666666666667
-2011,"LTER 3","Porites rus",0.219166666666667
-2011,"LTER 3","Porites spp. Massive",0.715
-2011,"LTER 3","Psammocora",0.0133333333333333
-2011,"LTER 3","Sandolitha",0
-2011,"LTER 3","Soft Coral",0.0633333333333333
-2011,"LTER 3","Stylocoeniella",0
-2011,"LTER 3","Tubastrea",0
-2011,"LTER 4","Acanthastrea",0
-2011,"LTER 4","Acropora",0.0433333333333333
-2011,"LTER 4","Astrea",0.214166666666667
-2011,"LTER 4","Astreopora",0
-2011,"LTER 4","Cyphastrea",0.00416666666666667
-2011,"LTER 4","Fungiidae unidentified",0.00416666666666667
-2011,"LTER 4","Gardineroseris",0
-2011,"LTER 4","Goniastrea",0.00916666666666667
-2011,"LTER 4","Herpolitha",0
-2011,"LTER 4","Leptastrea",0.0391666666666667
-2011,"LTER 4","Leptoseris",0.00416666666666667
-2011,"LTER 4","Lobophyllia",0
-2011,"LTER 4","Millepora",0.9325
-2011,"LTER 4","Montipora",5.51583333333333
-2011,"LTER 4","Pachyseris",0
-2011,"LTER 4","Pavona",0.0691666666666667
-2011,"LTER 4","Pocillopora",1.00916666666667
-2011,"LTER 4","Porites irregularis",0.0758333333333333
-2011,"LTER 4","Porites rus",0.0541666666666667
-2011,"LTER 4","Porites spp. Massive",0.9425
-2011,"LTER 4","Psammocora",0.03
-2011,"LTER 4","Sandolitha",0
-2011,"LTER 4","Soft Coral",0.00416666666666667
-2011,"LTER 4","Stylocoeniella",0
-2011,"LTER 4","Tubastrea",0
-2011,"LTER 5","Acanthastrea",0.00416666666666667
-2011,"LTER 5","Acropora",0.0875
-2011,"LTER 5","Astrea",0.316666666666667
-2011,"LTER 5","Astreopora",0.0808333333333333
-2011,"LTER 5","Cyphastrea",0.0216666666666667
-2011,"LTER 5","Fungiidae unidentified",0.00416666666666667
-2011,"LTER 5","Gardineroseris",0
-2011,"LTER 5","Goniastrea",0.0183333333333333
-2011,"LTER 5","Herpolitha",0
-2011,"LTER 5","Leptastrea",0.275
-2011,"LTER 5","Leptoseris",0
-2011,"LTER 5","Lobophyllia",0
-2011,"LTER 5","Millepora",0.0541666666666667
-2011,"LTER 5","Montipora",0.431666666666667
-2011,"LTER 5","Pachyseris",0
-2011,"LTER 5","Pavona",0.150833333333333
-2011,"LTER 5","Pocillopora",1.15166666666667
-2011,"LTER 5","Porites irregularis",0.0266666666666667
-2011,"LTER 5","Porites rus",13.4508333333333
-2011,"LTER 5","Porites spp. Massive",1.97666666666667
-2011,"LTER 5","Psammocora",0.07
-2011,"LTER 5","Sandolitha",0.00416666666666667
-2011,"LTER 5","Soft Coral",0.276666666666667
-2011,"LTER 5","Stylocoeniella",0
-2011,"LTER 5","Tubastrea",0
-2011,"LTER 6","Acanthastrea",0.0166666666666667
-2011,"LTER 6","Acropora",0.0383333333333333
-2011,"LTER 6","Astrea",0.2125
-2011,"LTER 6","Astreopora",0.0433333333333333
-2011,"LTER 6","Cyphastrea",0.00416666666666667
-2011,"LTER 6","Fungiidae unidentified",0.005
-2011,"LTER 6","Gardineroseris",0
-2011,"LTER 6","Goniastrea",0
-2011,"LTER 6","Herpolitha",0
-2011,"LTER 6","Leptastrea",0.00833333333333333
-2011,"LTER 6","Leptoseris",0.00916666666666667
-2011,"LTER 6","Lobophyllia",0
-2011,"LTER 6","Millepora",0.530833333333333
-2011,"LTER 6","Montipora",1.3575
-2011,"LTER 6","Pachyseris",0
-2011,"LTER 6","Pavona",6.53083333333333
-2011,"LTER 6","Pocillopora",0.56
-2011,"LTER 6","Porites irregularis",0.03
-2011,"LTER 6","Porites rus",0.00416666666666667
-2011,"LTER 6","Porites spp. Massive",0.226666666666667
-2011,"LTER 6","Psammocora",0.0783333333333333
-2011,"LTER 6","Sandolitha",0
-2011,"LTER 6","Soft Coral",0.00416666666666667
-2011,"LTER 6","Stylocoeniella",0
-2011,"LTER 6","Tubastrea",0
-2012,"LTER 1","Acanthastrea",0
-2012,"LTER 1","Acropora",0.0491666666666667
-2012,"LTER 1","Astrea",0.0733333333333333
-2012,"LTER 1","Astreopora",0
-2012,"LTER 1","Cyphastrea",0.00416666666666667
-2012,"LTER 1","Fungiidae unidentified",0.00416666666666667
-2012,"LTER 1","Gardineroseris",0
-2012,"LTER 1","Goniastrea",0
-2012,"LTER 1","Herpolitha",0
-2012,"LTER 1","Leptastrea",0.00416666666666667
-2012,"LTER 1","Leptoseris",0
-2012,"LTER 1","Lobophyllia",0
-2012,"LTER 1","Millepora",0.119166666666667
-2012,"LTER 1","Montipora",0.0883333333333333
-2012,"LTER 1","Pachyseris",0
-2012,"LTER 1","Pavona",0.0941666666666667
-2012,"LTER 1","Pocillopora",0.8225
-2012,"LTER 1","Porites irregularis",0.00916666666666667
-2012,"LTER 1","Porites rus",2.765
-2012,"LTER 1","Porites spp. Massive",1.10833333333333
-2012,"LTER 1","Psammocora",0.0808333333333333
-2012,"LTER 1","Sandolitha",0
-2012,"LTER 1","Soft Coral",0
-2012,"LTER 1","Stylocoeniella",0
-2012,"LTER 1","Tubastrea",0
-2012,"LTER 2","Acanthastrea",0.0133333333333333
-2012,"LTER 2","Acropora",0.0308333333333333
-2012,"LTER 2","Astrea",0.0833333333333333
-2012,"LTER 2","Astreopora",0
-2012,"LTER 2","Cyphastrea",0.0191666666666667
-2012,"LTER 2","Fungiidae unidentified",0.0175
-2012,"LTER 2","Gardineroseris",0
-2012,"LTER 2","Goniastrea",0.00416666666666667
-2012,"LTER 2","Herpolitha",0.0358333333333333
-2012,"LTER 2","Leptastrea",0.00833333333333333
-2012,"LTER 2","Leptoseris",0
-2012,"LTER 2","Lobophyllia",0.00416666666666667
-2012,"LTER 2","Millepora",0.435
-2012,"LTER 2","Montipora",0.0966666666666667
-2012,"LTER 2","Pachyseris",0
-2012,"LTER 2","Pavona",0.155833333333333
-2012,"LTER 2","Pocillopora",0.934166666666667
-2012,"LTER 2","Porites irregularis",0.455
-2012,"LTER 2","Porites rus",5.38083333333333
-2012,"LTER 2","Porites spp. Massive",0.814166666666667
-2012,"LTER 2","Psammocora",0.0508333333333333
-2012,"LTER 2","Sandolitha",0
-2012,"LTER 2","Soft Coral",0
-2012,"LTER 2","Stylocoeniella",0
-2012,"LTER 2","Tubastrea",0
-2012,"LTER 3","Acanthastrea",0
-2012,"LTER 3","Acropora",0.638333333333333
-2012,"LTER 3","Astrea",0.0308333333333333
-2012,"LTER 3","Astreopora",0
-2012,"LTER 3","Cyphastrea",0
-2012,"LTER 3","Fungiidae unidentified",0.0133333333333333
-2012,"LTER 3","Gardineroseris",0
-2012,"LTER 3","Goniastrea",0.00833333333333333
-2012,"LTER 3","Herpolitha",0
-2012,"LTER 3","Leptastrea",0
-2012,"LTER 3","Leptoseris",0
-2012,"LTER 3","Lobophyllia",0
-2012,"LTER 3","Millepora",0.0125
-2012,"LTER 3","Montipora",0.21
-2012,"LTER 3","Pachyseris",0
-2012,"LTER 3","Pavona",0.33
-2012,"LTER 3","Pocillopora",0.4525
-2012,"LTER 3","Porites irregularis",0.0658333333333333
-2012,"LTER 3","Porites rus",0.250833333333333
-2012,"LTER 3","Porites spp. Massive",0.74
-2012,"LTER 3","Psammocora",0.0441666666666667
-2012,"LTER 3","Sandolitha",0
-2012,"LTER 3","Soft Coral",0.0466666666666667
-2012,"LTER 3","Stylocoeniella",0
-2012,"LTER 3","Tubastrea",0
-2012,"LTER 4","Acanthastrea",0
-2012,"LTER 4","Acropora",0.055
-2012,"LTER 4","Astrea",0.193333333333333
-2012,"LTER 4","Astreopora",0
-2012,"LTER 4","Cyphastrea",0.00416666666666667
-2012,"LTER 4","Fungiidae unidentified",0.0175
-2012,"LTER 4","Gardineroseris",0
-2012,"LTER 4","Goniastrea",0
-2012,"LTER 4","Herpolitha",0
-2012,"LTER 4","Leptastrea",0.0508333333333333
-2012,"LTER 4","Leptoseris",0
-2012,"LTER 4","Lobophyllia",0
-2012,"LTER 4","Millepora",0.244166666666667
-2012,"LTER 4","Montipora",5.18083333333333
-2012,"LTER 4","Pachyseris",0
-2012,"LTER 4","Pavona",0.0758333333333333
-2012,"LTER 4","Pocillopora",0.61
-2012,"LTER 4","Porites irregularis",0.180833333333333
-2012,"LTER 4","Porites rus",0.0133333333333333
-2012,"LTER 4","Porites spp. Massive",0.626666666666667
-2012,"LTER 4","Psammocora",0.06
-2012,"LTER 4","Sandolitha",0
-2012,"LTER 4","Soft Coral",0
-2012,"LTER 4","Stylocoeniella",0
-2012,"LTER 4","Tubastrea",0
-2012,"LTER 5","Acanthastrea",0.0133333333333333
-2012,"LTER 5","Acropora",0.135833333333333
-2012,"LTER 5","Astrea",0.325833333333333
-2012,"LTER 5","Astreopora",0.00916666666666667
-2012,"LTER 5","Cyphastrea",0.005
-2012,"LTER 5","Fungiidae unidentified",0.00416666666666667
-2012,"LTER 5","Gardineroseris",0
-2012,"LTER 5","Goniastrea",0.0175
-2012,"LTER 5","Herpolitha",0
-2012,"LTER 5","Leptastrea",0.169166666666667
-2012,"LTER 5","Leptoseris",0.00416666666666667
-2012,"LTER 5","Lobophyllia",0
-2012,"LTER 5","Millepora",0.0425
-2012,"LTER 5","Montipora",0.5025
-2012,"LTER 5","Pachyseris",0
-2012,"LTER 5","Pavona",0.2475
-2012,"LTER 5","Pocillopora",1.3125
-2012,"LTER 5","Porites irregularis",0.0183333333333333
-2012,"LTER 5","Porites rus",13.13
-2012,"LTER 5","Porites spp. Massive",2.1275
-2012,"LTER 5","Psammocora",0.115833333333333
-2012,"LTER 5","Sandolitha",0
-2012,"LTER 5","Soft Coral",0.225
-2012,"LTER 5","Stylocoeniella",0
-2012,"LTER 5","Tubastrea",0
-2012,"LTER 6","Acanthastrea",0.0125
-2012,"LTER 6","Acropora",0.194166666666667
-2012,"LTER 6","Astrea",0.350833333333333
-2012,"LTER 6","Astreopora",0.0258333333333333
-2012,"LTER 6","Cyphastrea",0.0358333333333333
-2012,"LTER 6","Fungiidae unidentified",0
-2012,"LTER 6","Gardineroseris",0
-2012,"LTER 6","Goniastrea",0.00833333333333333
-2012,"LTER 6","Herpolitha",0
-2012,"LTER 6","Leptastrea",0.0516666666666667
-2012,"LTER 6","Leptoseris",0
-2012,"LTER 6","Lobophyllia",0.0308333333333333
-2012,"LTER 6","Millepora",0.6575
-2012,"LTER 6","Montipora",1.77666666666667
-2012,"LTER 6","Pachyseris",0
-2012,"LTER 6","Pavona",6.13333333333333
-2012,"LTER 6","Pocillopora",1.54666666666667
-2012,"LTER 6","Porites irregularis",0.0525
-2012,"LTER 6","Porites rus",0
-2012,"LTER 6","Porites spp. Massive",0.37
-2012,"LTER 6","Psammocora",0.101666666666667
-2012,"LTER 6","Sandolitha",0
-2012,"LTER 6","Soft Coral",0
-2012,"LTER 6","Stylocoeniella",0
-2012,"LTER 6","Tubastrea",0
-2013,"LTER 1","Acanthastrea",0.0275
-2013,"LTER 1","Acropora",0.2025
-2013,"LTER 1","Astrea",0.194166666666667
-2013,"LTER 1","Astreopora",0
-2013,"LTER 1","Cyphastrea",0.0241666666666667
-2013,"LTER 1","Fungiidae unidentified",0.00416666666666667
-2013,"LTER 1","Gardineroseris",0.005
-2013,"LTER 1","Goniastrea",0.0133333333333333
-2013,"LTER 1","Herpolitha",0
-2013,"LTER 1","Leptastrea",0.0175
-2013,"LTER 1","Leptoseris",0.00916666666666667
-2013,"LTER 1","Lobophyllia",0.005
-2013,"LTER 1","Millepora",0.1475
-2013,"LTER 1","Montipora",0.505
-2013,"LTER 1","Non-coralline Crustose Algae",1.64916666666667
-2013,"LTER 1","Pachyseris",0
-2013,"LTER 1","Pavona",0.1425
-2013,"LTER 1","Pocillopora",3.29666666666667
-2013,"LTER 1","Porites irregularis",0
-2013,"LTER 1","Porites rus",1.63583333333333
-2013,"LTER 1","Porites spp. Massive",1.77083333333333
-2013,"LTER 1","Psammocora",0.123333333333333
-2013,"LTER 1","Sandolitha",0
-2013,"LTER 1","Soft Coral",0
-2013,"LTER 1","Stylocoeniella",0
-2013,"LTER 1","Tubastrea",0
-2013,"LTER 1","Unknown or Other",0.155833333333333
-2013,"LTER 2","Acanthastrea",0.0383333333333333
-2013,"LTER 2","Acropora",0.0691666666666667
-2013,"LTER 2","Astrea",0.225
-2013,"LTER 2","Astreopora",0
-2013,"LTER 2","Cyphastrea",0.00916666666666667
-2013,"LTER 2","Fungiidae unidentified",0.0166666666666667
-2013,"LTER 2","Gardineroseris",0
-2013,"LTER 2","Goniastrea",0
-2013,"LTER 2","Herpolitha",0.00916666666666667
-2013,"LTER 2","Leptastrea",0.015
-2013,"LTER 2","Leptoseris",0.00833333333333333
-2013,"LTER 2","Lobophyllia",0
-2013,"LTER 2","Millepora",0.470833333333333
-2013,"LTER 2","Montipora",0.495
-2013,"LTER 2","Non-coralline Crustose Algae",1.68166666666667
-2013,"LTER 2","Pachyseris",0
-2013,"LTER 2","Pavona",0.228333333333333
-2013,"LTER 2","Pocillopora",2.58083333333333
-2013,"LTER 2","Porites irregularis",0.165
-2013,"LTER 2","Porites rus",4.69166666666667
-2013,"LTER 2","Porites spp. Massive",1.32166666666667
-2013,"LTER 2","Psammocora",0.0891666666666667
-2013,"LTER 2","Sandolitha",0
-2013,"LTER 2","Soft Coral",0
-2013,"LTER 2","Stylocoeniella",0
-2013,"LTER 2","Tubastrea",0
-2013,"LTER 2","Unknown or Other",0.168333333333333
-2013,"LTER 3","Acanthastrea",0
-2013,"LTER 3","Acropora",0.9
-2013,"LTER 3","Astrea",0.0433333333333333
-2013,"LTER 3","Astreopora",0
-2013,"LTER 3","Cyphastrea",0.0141666666666667
-2013,"LTER 3","Fungiidae unidentified",0.0558333333333333
-2013,"LTER 3","Gardineroseris",0
-2013,"LTER 3","Goniastrea",0.00916666666666667
-2013,"LTER 3","Herpolitha",0.00916666666666667
-2013,"LTER 3","Leptastrea",0
-2013,"LTER 3","Leptoseris",0.00416666666666667
-2013,"LTER 3","Lobophyllia",0
-2013,"LTER 3","Millepora",0.0416666666666667
-2013,"LTER 3","Montipora",0.2825
-2013,"LTER 3","Non-coralline Crustose Algae",11.0625
-2013,"LTER 3","Pachyseris",0
-2013,"LTER 3","Pavona",0.380833333333333
-2013,"LTER 3","Pocillopora",0.75
-2013,"LTER 3","Porites irregularis",0.0841666666666667
-2013,"LTER 3","Porites rus",0.270833333333333
-2013,"LTER 3","Porites spp. Massive",0.7975
-2013,"LTER 3","Psammocora",0.085
-2013,"LTER 3","Sandolitha",0
-2013,"LTER 3","Soft Coral",0.00916666666666667
-2013,"LTER 3","Stylocoeniella",0
-2013,"LTER 3","Tubastrea",0
-2013,"LTER 3","Unknown or Other",0.1475
-2013,"LTER 4","Acanthastrea",0.00416666666666667
-2013,"LTER 4","Acropora",0.184166666666667
-2013,"LTER 4","Astrea",0.39
-2013,"LTER 4","Astreopora",0
-2013,"LTER 4","Cyphastrea",0.06
-2013,"LTER 4","Fungiidae unidentified",0.00416666666666667
-2013,"LTER 4","Gardineroseris",0
-2013,"LTER 4","Goniastrea",0.0375
-2013,"LTER 4","Herpolitha",0.0275
-2013,"LTER 4","Leptastrea",0.0408333333333333
-2013,"LTER 4","Leptoseris",0.00416666666666667
-2013,"LTER 4","Lobophyllia",0
-2013,"LTER 4","Millepora",1.3425
-2013,"LTER 4","Montipora",6.77416666666667
-2013,"LTER 4","Non-coralline Crustose Algae",4.535
-2013,"LTER 4","Pachyseris",0
-2013,"LTER 4","Pavona",0.240833333333333
-2013,"LTER 4","Pocillopora",1.4925
-2013,"LTER 4","Porites irregularis",0.153333333333333
-2013,"LTER 4","Porites rus",0.00916666666666667
-2013,"LTER 4","Porites spp. Massive",0.871666666666667
-2013,"LTER 4","Psammocora",0.123333333333333
-2013,"LTER 4","Sandolitha",0
-2013,"LTER 4","Soft Coral",0
-2013,"LTER 4","Stylocoeniella",0
-2013,"LTER 4","Tubastrea",0
-2013,"LTER 4","Unknown or Other",0.118333333333333
-2013,"LTER 5","Acanthastrea",0.00916666666666667
-2013,"LTER 5","Acropora",0.281666666666667
-2013,"LTER 5","Astrea",0.43
-2013,"LTER 5","Astreopora",0.00916666666666667
-2013,"LTER 5","Cyphastrea",0.0375
-2013,"LTER 5","Fungiidae unidentified",0.0275
-2013,"LTER 5","Gardineroseris",0
-2013,"LTER 5","Goniastrea",0
-2013,"LTER 5","Herpolitha",0
-2013,"LTER 5","Leptastrea",0.06
-2013,"LTER 5","Leptoseris",0
-2013,"LTER 5","Lobophyllia",0
-2013,"LTER 5","Millepora",0.0333333333333333
-2013,"LTER 5","Montipora",1.02583333333333
-2013,"LTER 5","Non-coralline Crustose Algae",1.59166666666667
-2013,"LTER 5","Pachyseris",0
-2013,"LTER 5","Pavona",0.181666666666667
-2013,"LTER 5","Pocillopora",2.48916666666667
-2013,"LTER 5","Porites irregularis",0.0725
-2013,"LTER 5","Porites rus",10.0416666666667
-2013,"LTER 5","Porites spp. Massive",2.575
-2013,"LTER 5","Psammocora",0.13
-2013,"LTER 5","Sandolitha",0
-2013,"LTER 5","Soft Coral",0.200833333333333
-2013,"LTER 5","Stylocoeniella",0.005
-2013,"LTER 5","Tubastrea",0
-2013,"LTER 5","Unknown or Other",0.611666666666667
-2013,"LTER 6","Acanthastrea",0.06
-2013,"LTER 6","Acropora",0.428333333333333
-2013,"LTER 6","Astrea",0.47
-2013,"LTER 6","Astreopora",0.0233333333333333
-2013,"LTER 6","Cyphastrea",0.00916666666666667
-2013,"LTER 6","Fungiidae unidentified",0.0233333333333333
-2013,"LTER 6","Gardineroseris",0
-2013,"LTER 6","Goniastrea",0.0333333333333333
-2013,"LTER 6","Herpolitha",0
-2013,"LTER 6","Leptastrea",0.101666666666667
-2013,"LTER 6","Leptoseris",0.0375
-2013,"LTER 6","Lobophyllia",0.0316666666666667
-2013,"LTER 6","Millepora",0.743333333333333
-2013,"LTER 6","Montipora",1.95416666666667
-2013,"LTER 6","Non-coralline Crustose Algae",1.78916666666667
-2013,"LTER 6","Pachyseris",0
-2013,"LTER 6","Pavona",6.8925
-2013,"LTER 6","Pocillopora",3.68333333333333
-2013,"LTER 6","Porites irregularis",0.085
-2013,"LTER 6","Porites rus",0
-2013,"LTER 6","Porites spp. Massive",0.8025
-2013,"LTER 6","Psammocora",0.129166666666667
-2013,"LTER 6","Sandolitha",0
-2013,"LTER 6","Soft Coral",0
-2013,"LTER 6","Stylocoeniella",0
-2013,"LTER 6","Tubastrea",0.005
-2013,"LTER 6","Unknown or Other",0.145833333333333
-2014,"LTER 1","Acanthastrea",0.0466666666666667
-2014,"LTER 1","Acropora",0.4125
-2014,"LTER 1","Astrea",0.25
-2014,"LTER 1","Astreopora",0
-2014,"LTER 1","Cyphastrea",0.01
-2014,"LTER 1","Danafungia",0
-2014,"LTER 1","Fungiidae unidentified",0
-2014,"LTER 1","Gardineroseris",0
-2014,"LTER 1","Goniastrea",0.005
-2014,"LTER 1","Herpolitha",0
-2014,"LTER 1","Leptastrea",0.0366666666666667
-2014,"LTER 1","Leptoseris",0
-2014,"LTER 1","Lithophyllon",0
-2014,"LTER 1","Lobactis",0
-2014,"LTER 1","Lobophyllia",0
-2014,"LTER 1","Millepora",0.211666666666667
-2014,"LTER 1","Montipora",1.445
-2014,"LTER 1","Non-coralline Crustose Algae",1.59
-2014,"LTER 1","Pachyseris",0
-2014,"LTER 1","Pavona",0.2375
-2014,"LTER 1","Plesiastrea",0
-2014,"LTER 1","Pleuractis",0.0141666666666667
-2014,"LTER 1","Pocillopora",8.30416666666667
-2014,"LTER 1","Porites irregularis",0.0133333333333333
-2014,"LTER 1","Porites rus",0.728333333333333
-2014,"LTER 1","Porites spp. Massive",2.13333333333333
-2014,"LTER 1","Psammocora",0.185833333333333
-2014,"LTER 1","Sandolitha",0
-2014,"LTER 1","Soft Coral",0
-2014,"LTER 1","Stylocoeniella",0
-2014,"LTER 1","Tubastrea",0
-2014,"LTER 1","Unknown or Other",0.1225
-2014,"LTER 2","Acanthastrea",0.0191666666666667
-2014,"LTER 2","Acropora",0.139166666666667
-2014,"LTER 2","Astrea",0.261666666666667
-2014,"LTER 2","Astreopora",0.005
-2014,"LTER 2","Cyphastrea",0.015
-2014,"LTER 2","Danafungia",0.0133333333333333
-2014,"LTER 2","Fungiidae unidentified",0
-2014,"LTER 2","Gardineroseris",0
-2014,"LTER 2","Goniastrea",0.005
-2014,"LTER 2","Herpolitha",0.005
-2014,"LTER 2","Leptastrea",0.0475
-2014,"LTER 2","Leptoseris",0
-2014,"LTER 2","Lithophyllon",0.005
-2014,"LTER 2","Lobactis",0
-2014,"LTER 2","Lobophyllia",0.00916666666666667
-2014,"LTER 2","Millepora",0.768333333333333
-2014,"LTER 2","Montipora",0.881666666666667
-2014,"LTER 2","Non-coralline Crustose Algae",1.7625
-2014,"LTER 2","Pachyseris",0
-2014,"LTER 2","Pavona",0.245
-2014,"LTER 2","Plesiastrea",0
-2014,"LTER 2","Pleuractis",0
-2014,"LTER 2","Pocillopora",5.895
-2014,"LTER 2","Porites irregularis",0.285
-2014,"LTER 2","Porites rus",2.0425
-2014,"LTER 2","Porites spp. Massive",1.67583333333333
-2014,"LTER 2","Psammocora",0.165
-2014,"LTER 2","Sandolitha",0
-2014,"LTER 2","Soft Coral",0
-2014,"LTER 2","Stylocoeniella",0
-2014,"LTER 2","Tubastrea",0
-2014,"LTER 2","Unknown or Other",0.1025
-2014,"LTER 3","Acanthastrea",0
-2014,"LTER 3","Acropora",0.896666666666667
-2014,"LTER 3","Astrea",0.0883333333333333
-2014,"LTER 3","Astreopora",0
-2014,"LTER 3","Cyphastrea",0.0133333333333333
-2014,"LTER 3","Danafungia",0
-2014,"LTER 3","Fungiidae unidentified",0.0233333333333333
-2014,"LTER 3","Gardineroseris",0
-2014,"LTER 3","Goniastrea",0.0391666666666667
-2014,"LTER 3","Herpolitha",0.005
-2014,"LTER 3","Leptastrea",0.01
-2014,"LTER 3","Leptoseris",0
-2014,"LTER 3","Lithophyllon",0.0316666666666667
-2014,"LTER 3","Lobactis",0
-2014,"LTER 3","Lobophyllia",0
-2014,"LTER 3","Millepora",0.0275
-2014,"LTER 3","Montipora",0.366666666666667
-2014,"LTER 3","Non-coralline Crustose Algae",10.1
-2014,"LTER 3","Pachyseris",0
-2014,"LTER 3","Pavona",0.360833333333333
-2014,"LTER 3","Plesiastrea",0
-2014,"LTER 3","Pleuractis",0
-2014,"LTER 3","Pocillopora",1.66333333333333
-2014,"LTER 3","Porites irregularis",0.0741666666666667
-2014,"LTER 3","Porites rus",0.2925
-2014,"LTER 3","Porites spp. Massive",0.853333333333333
-2014,"LTER 3","Psammocora",0.0641666666666667
-2014,"LTER 3","Sandolitha",0
-2014,"LTER 3","Soft Coral",0
-2014,"LTER 3","Stylocoeniella",0.00416666666666667
-2014,"LTER 3","Tubastrea",0
-2014,"LTER 3","Unknown or Other",0.3375
-2014,"LTER 4","Acanthastrea",0.005
-2014,"LTER 4","Acropora",0.248333333333333
-2014,"LTER 4","Astrea",0.484166666666667
-2014,"LTER 4","Astreopora",0.0141666666666667
-2014,"LTER 4","Cyphastrea",0.0408333333333333
-2014,"LTER 4","Danafungia",0.005
-2014,"LTER 4","Fungiidae unidentified",0.00416666666666667
-2014,"LTER 4","Gardineroseris",0
-2014,"LTER 4","Goniastrea",0.0325
-2014,"LTER 4","Herpolitha",0.0175
-2014,"LTER 4","Leptastrea",0.1125
-2014,"LTER 4","Leptoseris",0
-2014,"LTER 4","Lithophyllon",0.0391666666666667
-2014,"LTER 4","Lobactis",0
-2014,"LTER 4","Lobophyllia",0
-2014,"LTER 4","Millepora",1.51833333333333
-2014,"LTER 4","Montipora",4.40833333333333
-2014,"LTER 4","Non-coralline Crustose Algae",4.60833333333333
-2014,"LTER 4","Pachyseris",0
-2014,"LTER 4","Pavona",0.376666666666667
-2014,"LTER 4","Plesiastrea",0.005
-2014,"LTER 4","Pleuractis",0.005
-2014,"LTER 4","Pocillopora",2.68833333333333
-2014,"LTER 4","Porites irregularis",0.244166666666667
-2014,"LTER 4","Porites rus",0.095
-2014,"LTER 4","Porites spp. Massive",1.2375
-2014,"LTER 4","Psammocora",0.166666666666667
-2014,"LTER 4","Sandolitha",0
-2014,"LTER 4","Soft Coral",0
-2014,"LTER 4","Stylocoeniella",0
-2014,"LTER 4","Tubastrea",0
-2014,"LTER 4","Unknown or Other",0.0658333333333333
-2014,"LTER 5","Acanthastrea",0.0225
-2014,"LTER 5","Acropora",0.53
-2014,"LTER 5","Astrea",0.531666666666667
-2014,"LTER 5","Astreopora",0
-2014,"LTER 5","Cyphastrea",0.0183333333333333
-2014,"LTER 5","Danafungia",0
-2014,"LTER 5","Fungiidae unidentified",0.00916666666666667
-2014,"LTER 5","Gardineroseris",0
-2014,"LTER 5","Goniastrea",0
-2014,"LTER 5","Herpolitha",0.00416666666666667
-2014,"LTER 5","Leptastrea",0.500833333333333
-2014,"LTER 5","Leptoseris",0
-2014,"LTER 5","Lithophyllon",0.0133333333333333
-2014,"LTER 5","Lobactis",0
-2014,"LTER 5","Lobophyllia",0.005
-2014,"LTER 5","Millepora",0.0175
-2014,"LTER 5","Montipora",1.98333333333333
-2014,"LTER 5","Non-coralline Crustose Algae",1.67666666666667
-2014,"LTER 5","Pachyseris",0
-2014,"LTER 5","Pavona",0.374166666666667
-2014,"LTER 5","Plesiastrea",0
-2014,"LTER 5","Pleuractis",0
-2014,"LTER 5","Pocillopora",3.57833333333333
-2014,"LTER 5","Porites irregularis",0.121666666666667
-2014,"LTER 5","Porites rus",10.3175
-2014,"LTER 5","Porites spp. Massive",2.6625
-2014,"LTER 5","Psammocora",0.140833333333333
-2014,"LTER 5","Sandolitha",0
-2014,"LTER 5","Soft Coral",0.329166666666667
-2014,"LTER 5","Stylocoeniella",0
-2014,"LTER 5","Tubastrea",0
-2014,"LTER 5","Unknown or Other",0.795833333333333
-2014,"LTER 6","Acanthastrea",0.0141666666666667
-2014,"LTER 6","Acropora",0.435833333333333
-2014,"LTER 6","Astrea",0.634166666666667
-2014,"LTER 6","Astreopora",0.0241666666666667
-2014,"LTER 6","Cyphastrea",0.0916666666666667
-2014,"LTER 6","Danafungia",0.00916666666666667
-2014,"LTER 6","Fungiidae unidentified",0.005
-2014,"LTER 6","Gardineroseris",0
-2014,"LTER 6","Goniastrea",0.0225
-2014,"LTER 6","Herpolitha",0.0133333333333333
-2014,"LTER 6","Leptastrea",0.0941666666666667
-2014,"LTER 6","Leptoseris",0
-2014,"LTER 6","Lithophyllon",0.00416666666666667
-2014,"LTER 6","Lobactis",0
-2014,"LTER 6","Lobophyllia",0.0233333333333333
-2014,"LTER 6","Millepora",0.933333333333333
-2014,"LTER 6","Montipora",3.13083333333333
-2014,"LTER 6","Non-coralline Crustose Algae",1.35083333333333
-2014,"LTER 6","Pachyseris",0
-2014,"LTER 6","Pavona",6.26666666666667
-2014,"LTER 6","Plesiastrea",0
-2014,"LTER 6","Pleuractis",0.0191666666666667
-2014,"LTER 6","Pocillopora",5.08583333333333
-2014,"LTER 6","Porites irregularis",0.143333333333333
-2014,"LTER 6","Porites rus",0.0183333333333333
-2014,"LTER 6","Porites spp. Massive",1.13583333333333
-2014,"LTER 6","Psammocora",0.101666666666667
-2014,"LTER 6","Sandolitha",0
-2014,"LTER 6","Soft Coral",0
-2014,"LTER 6","Stylocoeniella",0
-2014,"LTER 6","Tubastrea",0
-2014,"LTER 6","Unknown or Other",0.141666666666667
-2015,"LTER 1","Acanthastrea",0.0541666666666667
-2015,"LTER 1","Acropora",0.785
-2015,"LTER 1","Astrea",0.470833333333333
-2015,"LTER 1","Astreopora",0
-2015,"LTER 1","Cyphastrea",0.03
-2015,"LTER 1","Danafungia",0.005
-2015,"LTER 1","Fungiidae unidentified",0.015
-2015,"LTER 1","Gardineroseris",0.00916666666666667
-2015,"LTER 1","Goniastrea",0.005
-2015,"LTER 1","Herpolitha",0
-2015,"LTER 1","Leptastrea",0.1275
-2015,"LTER 1","Leptoseris",0
-2015,"LTER 1","Lithophyllon",0.005
-2015,"LTER 1","Lobactis",0
-2015,"LTER 1","Lobophyllia",0
-2015,"LTER 1","Millepora",0.225
-2015,"LTER 1","Montipora",2.68583333333333
-2015,"LTER 1","Non-coralline Crustose Algae",1.31416666666667
-2015,"LTER 1","Pachyseris",0
-2015,"LTER 1","Pavona",0.3925
-2015,"LTER 1","Plesiastrea",0
-2015,"LTER 1","Pleuractis",0.0141666666666667
-2015,"LTER 1","Pocillopora",14.7325
-2015,"LTER 1","Porites irregularis",0.02
-2015,"LTER 1","Porites rus",0.623333333333333
-2015,"LTER 1","Porites spp. Massive",2.095
-2015,"LTER 1","Psammocora",0.1775
-2015,"LTER 1","Sandolitha",0
-2015,"LTER 1","Soft Coral",0
-2015,"LTER 1","Stylocoeniella",0
-2015,"LTER 1","Tubastrea",0
-2015,"LTER 1","Unknown or Other",0.1625
-2015,"LTER 2","Acanthastrea",0.105
-2015,"LTER 2","Acropora",0.4275
-2015,"LTER 2","Astrea",0.353333333333333
-2015,"LTER 2","Astreopora",0.005
-2015,"LTER 2","Cyphastrea",0.0483333333333333
-2015,"LTER 2","Danafungia",0.025
-2015,"LTER 2","Fungiidae unidentified",0
-2015,"LTER 2","Gardineroseris",0
-2015,"LTER 2","Goniastrea",0
-2015,"LTER 2","Herpolitha",0.02
-2015,"LTER 2","Leptastrea",0.0783333333333333
-2015,"LTER 2","Leptoseris",0
-2015,"LTER 2","Lithophyllon",0.00916666666666667
-2015,"LTER 2","Lobactis",0
-2015,"LTER 2","Lobophyllia",0.0266666666666667
-2015,"LTER 2","Millepora",1.01833333333333
-2015,"LTER 2","Montipora",1.60416666666667
-2015,"LTER 2","Non-coralline Crustose Algae",1.81
-2015,"LTER 2","Pachyseris",0
-2015,"LTER 2","Pavona",0.355833333333333
-2015,"LTER 2","Plesiastrea",0
-2015,"LTER 2","Pleuractis",0.00916666666666667
-2015,"LTER 2","Pocillopora",10.5616666666667
-2015,"LTER 2","Porites irregularis",0.220833333333333
-2015,"LTER 2","Porites rus",0.7825
-2015,"LTER 2","Porites spp. Massive",2.11666666666667
-2015,"LTER 2","Psammocora",0.128333333333333
-2015,"LTER 2","Sandolitha",0
-2015,"LTER 2","Soft Coral",0
-2015,"LTER 2","Stylocoeniella",0
-2015,"LTER 2","Tubastrea",0
-2015,"LTER 2","Unknown or Other",0.165833333333333
-2015,"LTER 3","Acanthastrea",0
-2015,"LTER 3","Acropora",1.0525
-2015,"LTER 3","Astrea",0.15
-2015,"LTER 3","Astreopora",0
-2015,"LTER 3","Cyphastrea",0.0291666666666667
-2015,"LTER 3","Danafungia",0.015
-2015,"LTER 3","Fungiidae unidentified",0.015
-2015,"LTER 3","Gardineroseris",0
-2015,"LTER 3","Goniastrea",0.0283333333333333
-2015,"LTER 3","Herpolitha",0
-2015,"LTER 3","Leptastrea",0
-2015,"LTER 3","Leptoseris",0
-2015,"LTER 3","Lithophyllon",0.015
-2015,"LTER 3","Lobactis",0
-2015,"LTER 3","Lobophyllia",0
-2015,"LTER 3","Millepora",0.005
-2015,"LTER 3","Montipora",0.576666666666667
-2015,"LTER 3","Non-coralline Crustose Algae",11.5808333333333
-2015,"LTER 3","Pachyseris",0
-2015,"LTER 3","Pavona",0.308333333333333
-2015,"LTER 3","Plesiastrea",0
-2015,"LTER 3","Pleuractis",0
-2015,"LTER 3","Pocillopora",1.69666666666667
-2015,"LTER 3","Porites irregularis",0.126666666666667
-2015,"LTER 3","Porites rus",0.406666666666667
-2015,"LTER 3","Porites spp. Massive",0.879166666666667
-2015,"LTER 3","Psammocora",0.120833333333333
-2015,"LTER 3","Sandolitha",0
-2015,"LTER 3","Soft Coral",0.025
-2015,"LTER 3","Stylocoeniella",0
-2015,"LTER 3","Tubastrea",0
-2015,"LTER 3","Unknown or Other",0.115
-2015,"LTER 4","Acanthastrea",0.00416666666666667
-2015,"LTER 4","Acropora",0.873333333333333
-2015,"LTER 4","Astrea",0.783333333333333
-2015,"LTER 4","Astreopora",0.00916666666666667
-2015,"LTER 4","Cyphastrea",0.0233333333333333
-2015,"LTER 4","Danafungia",0.00916666666666667
-2015,"LTER 4","Fungiidae unidentified",0.0191666666666667
-2015,"LTER 4","Gardineroseris",0
-2015,"LTER 4","Goniastrea",0.0716666666666667
-2015,"LTER 4","Herpolitha",0.0416666666666667
-2015,"LTER 4","Leptastrea",0.105833333333333
-2015,"LTER 4","Leptoseris",0.005
-2015,"LTER 4","Lithophyllon",0.0283333333333333
-2015,"LTER 4","Lobactis",0
-2015,"LTER 4","Lobophyllia",0
-2015,"LTER 4","Millepora",0.8425
-2015,"LTER 4","Montipora",4.67666666666667
-2015,"LTER 4","Non-coralline Crustose Algae",5.64083333333333
-2015,"LTER 4","Pachyseris",0
-2015,"LTER 4","Pavona",0.401666666666667
-2015,"LTER 4","Plesiastrea",0.005
-2015,"LTER 4","Pleuractis",0.00916666666666667
-2015,"LTER 4","Pocillopora",4.38166666666667
-2015,"LTER 4","Porites irregularis",0.3775
-2015,"LTER 4","Porites rus",0.03
-2015,"LTER 4","Porites spp. Massive",1.08
-2015,"LTER 4","Psammocora",0.220833333333333
-2015,"LTER 4","Sandolitha",0
-2015,"LTER 4","Soft Coral",0
-2015,"LTER 4","Stylocoeniella",0
-2015,"LTER 4","Tubastrea",0
-2015,"LTER 4","Unknown or Other",0.66
-2015,"LTER 5","Acanthastrea",0.0325
-2015,"LTER 5","Acropora",0.92
-2015,"LTER 5","Astrea",0.715833333333333
-2015,"LTER 5","Astreopora",0.0416666666666667
-2015,"LTER 5","Cyphastrea",0.005
-2015,"LTER 5","Danafungia",0
-2015,"LTER 5","Fungiidae unidentified",0.00916666666666667
-2015,"LTER 5","Gardineroseris",0
-2015,"LTER 5","Goniastrea",0
-2015,"LTER 5","Herpolitha",0.005
-2015,"LTER 5","Leptastrea",0.285
-2015,"LTER 5","Leptoseris",0
-2015,"LTER 5","Lithophyllon",0
-2015,"LTER 5","Lobactis",0.005
-2015,"LTER 5","Lobophyllia",0
-2015,"LTER 5","Millepora",0.005
-2015,"LTER 5","Montipora",2.72
-2015,"LTER 5","Non-coralline Crustose Algae",3.135
-2015,"LTER 5","Pachyseris",0
-2015,"LTER 5","Pavona",0.345833333333333
-2015,"LTER 5","Plesiastrea",0
-2015,"LTER 5","Pleuractis",0
-2015,"LTER 5","Pocillopora",6.13833333333333
-2015,"LTER 5","Porites irregularis",0.104166666666667
-2015,"LTER 5","Porites rus",12.1816666666667
-2015,"LTER 5","Porites spp. Massive",2.94333333333333
-2015,"LTER 5","Psammocora",0.120833333333333
-2015,"LTER 5","Sandolitha",0
-2015,"LTER 5","Soft Coral",0.379166666666667
-2015,"LTER 5","Stylocoeniella",0
-2015,"LTER 5","Tubastrea",0
-2015,"LTER 5","Unknown or Other",0.669166666666667
-2015,"LTER 6","Acanthastrea",0.0191666666666667
-2015,"LTER 6","Acropora",0.714166666666667
-2015,"LTER 6","Astrea",0.815833333333333
-2015,"LTER 6","Astreopora",0.0433333333333333
-2015,"LTER 6","Cyphastrea",0.1275
-2015,"LTER 6","Danafungia",0
-2015,"LTER 6","Fungiidae unidentified",0
-2015,"LTER 6","Gardineroseris",0
-2015,"LTER 6","Goniastrea",0.005
-2015,"LTER 6","Herpolitha",0.00916666666666667
-2015,"LTER 6","Leptastrea",0.124166666666667
-2015,"LTER 6","Leptoseris",0
-2015,"LTER 6","Lithophyllon",0
-2015,"LTER 6","Lobactis",0
-2015,"LTER 6","Lobophyllia",0.005
-2015,"LTER 6","Millepora",0.805
-2015,"LTER 6","Montipora",2.7525
-2015,"LTER 6","Non-coralline Crustose Algae",3.7525
-2015,"LTER 6","Pachyseris",0
-2015,"LTER 6","Pavona",4.4575
-2015,"LTER 6","Plesiastrea",0
-2015,"LTER 6","Pleuractis",0
-2015,"LTER 6","Pocillopora",8.7775
-2015,"LTER 6","Porites irregularis",0.0808333333333333
-2015,"LTER 6","Porites rus",0.0366666666666667
-2015,"LTER 6","Porites spp. Massive",1.05666666666667
-2015,"LTER 6","Psammocora",0.1475
-2015,"LTER 6","Sandolitha",0
-2015,"LTER 6","Soft Coral",0
-2015,"LTER 6","Stylocoeniella",0
-2015,"LTER 6","Tubastrea",0
-2015,"LTER 6","Unknown or Other",0.085
-2016,"LTER 1","Acanthastrea",0.0575
-2016,"LTER 1","Acropora",1.11
-2016,"LTER 1","Astrea",0.479166666666667
-2016,"LTER 1","Astreopora",0.005
-2016,"LTER 1","Cyphastrea",0.0383333333333333
-2016,"LTER 1","Danafungia",0.04
-2016,"LTER 1","Fungiidae unidentified",0
-2016,"LTER 1","Gardineroseris",0.005
-2016,"LTER 1","Goniastrea",0
-2016,"LTER 1","Herpolitha",0
-2016,"LTER 1","Leptastrea",0.131666666666667
-2016,"LTER 1","Leptoseris",0
-2016,"LTER 1","Lithophyllon",0
-2016,"LTER 1","Lobactis",0
-2016,"LTER 1","Lobophyllia",0
-2016,"LTER 1","Millepora",0.353333333333333
-2016,"LTER 1","Montipora",3.4325
-2016,"LTER 1","Non-coralline Crustose Algae",2.93166666666667
-2016,"LTER 1","Pachyseris",0
-2016,"LTER 1","Pavona",0.404166666666667
-2016,"LTER 1","Plesiastrea",0
-2016,"LTER 1","Pleuractis",0.0375
-2016,"LTER 1","Pocillopora",19.8008333333333
-2016,"LTER 1","Porites irregularis",0.0241666666666667
-2016,"LTER 1","Porites rus",0.435833333333333
-2016,"LTER 1","Porites spp. Massive",2.2075
-2016,"LTER 1","Psammocora",0.158333333333333
-2016,"LTER 1","Sandolitha",0
-2016,"LTER 1","Soft Coral",0
-2016,"LTER 1","Stylocoeniella",0
-2016,"LTER 1","Tubastrea",0
-2016,"LTER 1","Unknown or Other",0.0675
-2016,"LTER 2","Acanthastrea",0.075
-2016,"LTER 2","Acropora",0.725
-2016,"LTER 2","Astrea",0.400833333333333
-2016,"LTER 2","Astreopora",0.005
-2016,"LTER 2","Cyphastrea",0.0383333333333333
-2016,"LTER 2","Danafungia",0.00416666666666667
-2016,"LTER 2","Fungiidae unidentified",0.045
-2016,"LTER 2","Gardineroseris",0.0133333333333333
-2016,"LTER 2","Goniastrea",0.005
-2016,"LTER 2","Herpolitha",0
-2016,"LTER 2","Leptastrea",0.0525
-2016,"LTER 2","Leptoseris",0
-2016,"LTER 2","Lithophyllon",0
-2016,"LTER 2","Lobactis",0
-2016,"LTER 2","Lobophyllia",0.00416666666666667
-2016,"LTER 2","Millepora",0.986666666666667
-2016,"LTER 2","Montipora",1.8575
-2016,"LTER 2","Non-coralline Crustose Algae",2.18
-2016,"LTER 2","Pachyseris",0
-2016,"LTER 2","Pavona",0.291666666666667
-2016,"LTER 2","Plesiastrea",0
-2016,"LTER 2","Pleuractis",0
-2016,"LTER 2","Pocillopora",13.88
-2016,"LTER 2","Porites irregularis",0.0291666666666667
-2016,"LTER 2","Porites rus",0.575
-2016,"LTER 2","Porites spp. Massive",1.59583333333333
-2016,"LTER 2","Psammocora",0.2
-2016,"LTER 2","Sandolitha",0.0158333333333333
-2016,"LTER 2","Soft Coral",0
-2016,"LTER 2","Stylocoeniella",0
-2016,"LTER 2","Tubastrea",0
-2016,"LTER 2","Unknown or Other",0.00916666666666667
-2016,"LTER 3","Acanthastrea",0.00416666666666667
-2016,"LTER 3","Acropora",0.928333333333333
-2016,"LTER 3","Astrea",0.1575
-2016,"LTER 3","Astreopora",0
-2016,"LTER 3","Cyphastrea",0.0341666666666667
-2016,"LTER 3","Fungiidae unidentified",0.150833333333333
-2016,"LTER 3","Gardineroseris",0.0141666666666667
-2016,"LTER 3","Goniastrea",0
-2016,"LTER 3","Herpolitha",0.0375
-2016,"LTER 3","Leptastrea",0.0133333333333333
-2016,"LTER 3","Leptoseris",0.0683333333333333
-2016,"LTER 3","Lobophyllia",0
-2016,"LTER 3","Millepora",0.0883333333333333
-2016,"LTER 3","Montipora",0.8775
-2016,"LTER 3","Non-coralline Crustose Algae",12.8775
-2016,"LTER 3","Pachyseris",0
-2016,"LTER 3","Pavona",0.3775
-2016,"LTER 3","Plesiastrea",0
-2016,"LTER 3","Pocillopora",2.26333333333333
-2016,"LTER 3","Porites irregularis",0.0583333333333333
-2016,"LTER 3","Porites rus",0.469166666666667
-2016,"LTER 3","Porites spp. Massive",1.1025
-2016,"LTER 3","Psammocora",0.0541666666666667
-2016,"LTER 3","Sandolitha",0.0266666666666667
-2016,"LTER 3","Soft Coral",0
-2016,"LTER 3","Stylocoeniella",0.0575
-2016,"LTER 3","Tubastrea",0
-2016,"LTER 3","Unknown or Other",0.626666666666667
-2016,"LTER 4","Acanthastrea",0
-2016,"LTER 4","Acropora",1.76916666666667
-2016,"LTER 4","Astrea",0.75
-2016,"LTER 4","Astreopora",0.00916666666666667
-2016,"LTER 4","Cyphastrea",0.0458333333333333
-2016,"LTER 4","Fungiidae unidentified",0.0783333333333333
-2016,"LTER 4","Gardineroseris",0.0375
-2016,"LTER 4","Goniastrea",0
-2016,"LTER 4","Herpolitha",0.0566666666666667
-2016,"LTER 4","Leptastrea",0.205
-2016,"LTER 4","Leptoseris",0.0383333333333333
-2016,"LTER 4","Lobophyllia",0
-2016,"LTER 4","Millepora",0.334166666666667
-2016,"LTER 4","Montipora",7.41666666666667
-2016,"LTER 4","Non-coralline Crustose Algae",8.4375
-2016,"LTER 4","Pachyseris",0
-2016,"LTER 4","Pavona",0.5575
-2016,"LTER 4","Plesiastrea",0
-2016,"LTER 4","Pocillopora",7.35833333333333
-2016,"LTER 4","Porites irregularis",0.48
-2016,"LTER 4","Porites rus",0.228333333333333
-2016,"LTER 4","Porites spp. Massive",1.22583333333333
-2016,"LTER 4","Psammocora",0.1925
-2016,"LTER 4","Sandolitha",0.005
-2016,"LTER 4","Soft Coral",0
-2016,"LTER 4","Stylocoeniella",0.0283333333333333
-2016,"LTER 4","Tubastrea",0
-2016,"LTER 4","Unknown or Other",0.548333333333333
-2016,"LTER 5","Acanthastrea",0
-2016,"LTER 5","Acropora",1.5325
-2016,"LTER 5","Astrea",0.608333333333333
-2016,"LTER 5","Astreopora",0
-2016,"LTER 5","Cyphastrea",0.0141666666666667
-2016,"LTER 5","Fungiidae unidentified",0.0291666666666667
-2016,"LTER 5","Gardineroseris",0.00416666666666667
-2016,"LTER 5","Goniastrea",0
-2016,"LTER 5","Herpolitha",0
-2016,"LTER 5","Leptastrea",0.144166666666667
-2016,"LTER 5","Leptoseris",0.005
-2016,"LTER 5","Lobophyllia",0
-2016,"LTER 5","Millepora",0.1925
-2016,"LTER 5","Montipora",3.24583333333333
-2016,"LTER 5","Non-coralline Crustose Algae",6.965
-2016,"LTER 5","Pachyseris",0
-2016,"LTER 5","Pavona",0.415833333333333
-2016,"LTER 5","Plesiastrea",0
-2016,"LTER 5","Pocillopora",7.625
-2016,"LTER 5","Porites irregularis",0.0291666666666667
-2016,"LTER 5","Porites rus",14.495
-2016,"LTER 5","Porites spp. Massive",3.325
-2016,"LTER 5","Psammocora",0.0325
-2016,"LTER 5","Sandolitha",0
-2016,"LTER 5","Soft Coral",0
-2016,"LTER 5","Stylocoeniella",0.0141666666666667
-2016,"LTER 5","Tubastrea",0
-2016,"LTER 5","Unknown or Other",1.7425
-2016,"LTER 6","Acanthastrea",0.005
-2016,"LTER 6","Acropora",0.861666666666667
-2016,"LTER 6","Astrea",0.77
-2016,"LTER 6","Astreopora",0
-2016,"LTER 6","Cyphastrea",0.0808333333333333
-2016,"LTER 6","Fungiidae unidentified",0.0141666666666667
-2016,"LTER 6","Gardineroseris",0
-2016,"LTER 6","Goniastrea",0
-2016,"LTER 6","Herpolitha",0.005
-2016,"LTER 6","Leptastrea",0.135
-2016,"LTER 6","Leptoseris",0.00916666666666667
-2016,"LTER 6","Lobophyllia",0
-2016,"LTER 6","Millepora",0.816666666666667
-2016,"LTER 6","Montipora",2.725
-2016,"LTER 6","Non-coralline Crustose Algae",5.32166666666667
-2016,"LTER 6","Pachyseris",0
-2016,"LTER 6","Pavona",0.799166666666667
-2016,"LTER 6","Plesiastrea",0
-2016,"LTER 6","Pocillopora",12.0433333333333
-2016,"LTER 6","Porites irregularis",0.0566666666666667
-2016,"LTER 6","Porites rus",0.00916666666666667
-2016,"LTER 6","Porites spp. Massive",1.1275
-2016,"LTER 6","Psammocora",0.125
-2016,"LTER 6","Sandolitha",0
-2016,"LTER 6","Soft Coral",0
-2016,"LTER 6","Stylocoeniella",0.00916666666666667
-2016,"LTER 6","Tubastrea",0.00916666666666667
-2016,"LTER 6","Unknown or Other",0.475833333333333
-2017,"LTER 1","Acanthastrea",0.0191666666666667
-2017,"LTER 1","Acropora",1.3225
-2017,"LTER 1","Astrea",0.374166666666667
-2017,"LTER 1","Astreopora",0
-2017,"LTER 1","Cyphastrea",0.0241666666666667
-2017,"LTER 1","Fungiidae unidentified",0.0183333333333333
-2017,"LTER 1","Gardineroseris",0
-2017,"LTER 1","Goniastrea",0.00416666666666667
-2017,"LTER 1","Herpolitha",0.005
-2017,"LTER 1","Leptastrea",0.250833333333333
-2017,"LTER 1","Leptoseris",0.0375
-2017,"LTER 1","Lobophyllia",0
-2017,"LTER 1","Millepora",0.359166666666667
-2017,"LTER 1","Montipora",3.03083333333333
-2017,"LTER 1","Non-coralline Crustose Algae",3.18583333333333
-2017,"LTER 1","Pachyseris",0
-2017,"LTER 1","Pavona",0.333333333333333
-2017,"LTER 1","Plesiastrea",0
-2017,"LTER 1","Pocillopora",23.4641666666667
-2017,"LTER 1","Porites irregularis",0.00916666666666667
-2017,"LTER 1","Porites rus",0.591666666666667
-2017,"LTER 1","Porites spp. Massive",1.7925
-2017,"LTER 1","Psammocora",0.1225
-2017,"LTER 1","Sandolitha",0.00916666666666667
-2017,"LTER 1","Soft Coral",0
-2017,"LTER 1","Stylocoeniella",0.0191666666666667
-2017,"LTER 1","Tubastrea",0.005
-2017,"LTER 1","Unknown or Other",0.720833333333333
-2017,"LTER 2","Acanthastrea",0
-2017,"LTER 2","Acropora",1.05333333333333
-2017,"LTER 2","Astrea",0.464166666666667
-2017,"LTER 2","Astreopora",0
-2017,"LTER 2","Cyphastrea",0
-2017,"LTER 2","Fungiidae unidentified",0.0183333333333333
-2017,"LTER 2","Gardineroseris",0
-2017,"LTER 2","Goniastrea",0
-2017,"LTER 2","Herpolitha",0
-2017,"LTER 2","Leptastrea",0.158333333333333
-2017,"LTER 2","Leptoseris",0.0516666666666667
-2017,"LTER 2","Lobophyllia",0
-2017,"LTER 2","Millepora",0.785
-2017,"LTER 2","Montipora",3.0875
-2017,"LTER 2","Non-coralline Crustose Algae",5.53333333333333
-2017,"LTER 2","Pachyseris",0
-2017,"LTER 2","Pavona",0.414166666666667
-2017,"LTER 2","Plesiastrea",0
-2017,"LTER 2","Pocillopora",18.6491666666667
-2017,"LTER 2","Porites irregularis",0.1125
-2017,"LTER 2","Porites rus",0.5
-2017,"LTER 2","Porites spp. Massive",2.15666666666667
-2017,"LTER 2","Psammocora",0.08
-2017,"LTER 2","Sandolitha",0.0433333333333333
-2017,"LTER 2","Soft Coral",0
-2017,"LTER 2","Stylocoeniella",0.025
-2017,"LTER 2","Tubastrea",0
-2017,"LTER 2","Unknown or Other",1.365
-2017,"LTER 3","Acanthastrea",0
-2017,"LTER 3","Acropora",0.4825
-2017,"LTER 3","Astrea",0.1275
-2017,"LTER 3","Astreopora",0
-2017,"LTER 3","Cyphastrea",0.0433333333333333
-2017,"LTER 3","Fungiidae unidentified",0.178333333333333
-2017,"LTER 3","Gardineroseris",0.005
-2017,"LTER 3","Goniastrea",0.005
-2017,"LTER 3","Herpolitha",0.0525
-2017,"LTER 3","Leptastrea",0.0716666666666667
-2017,"LTER 3","Leptoseris",0.00916666666666667
-2017,"LTER 3","Lobophyllia",0
-2017,"LTER 3","Millepora",0.0741666666666667
-2017,"LTER 3","Montipora",0.854166666666667
-2017,"LTER 3","Non-coralline Crustose Algae",13.93
-2017,"LTER 3","Pachyseris",0
-2017,"LTER 3","Pavona",0.458333333333333
-2017,"LTER 3","Plesiastrea",0
-2017,"LTER 3","Pocillopora",3.05166666666667
-2017,"LTER 3","Porites irregularis",0.0375
-2017,"LTER 3","Porites rus",0.5825
-2017,"LTER 3","Porites spp. Massive",0.7
-2017,"LTER 3","Psammocora",0.0516666666666667
-2017,"LTER 3","Sandolitha",0.0616666666666667
-2017,"LTER 3","Soft Coral",0
-2017,"LTER 3","Stylocoeniella",0.0191666666666667
-2017,"LTER 3","Tubastrea",0
-2017,"LTER 3","Unknown or Other",2.12
-2017,"LTER 4","Acanthastrea",0
-2017,"LTER 4","Acropora",1.9775
-2017,"LTER 4","Astrea",0.744166666666667
-2017,"LTER 4","Astreopora",0
-2017,"LTER 4","Cyphastrea",0.0241666666666667
-2017,"LTER 4","Fungiidae unidentified",0.0875
-2017,"LTER 4","Gardineroseris",0.0275
-2017,"LTER 4","Goniastrea",0
-2017,"LTER 4","Herpolitha",0.0141666666666667
-2017,"LTER 4","Leptastrea",0.355
-2017,"LTER 4","Leptoseris",0
-2017,"LTER 4","Lobophyllia",0
-2017,"LTER 4","Millepora",1.01
-2017,"LTER 4","Montipora",7.18333333333333
-2017,"LTER 4","Non-coralline Crustose Algae",9.41833333333333
-2017,"LTER 4","Pachyseris",0
-2017,"LTER 4","Pavona",0.615833333333333
-2017,"LTER 4","Plesiastrea",0
-2017,"LTER 4","Pocillopora",7.45333333333333
-2017,"LTER 4","Porites irregularis",0.341666666666667
-2017,"LTER 4","Porites rus",0.1025
-2017,"LTER 4","Porites spp. Massive",2.02166666666667
-2017,"LTER 4","Psammocora",0.130833333333333
-2017,"LTER 4","Sandolitha",0.015
-2017,"LTER 4","Soft Coral",0
-2017,"LTER 4","Stylocoeniella",0.0425
-2017,"LTER 4","Tubastrea",0
-2017,"LTER 4","Unknown or Other",1.78833333333333
-2017,"LTER 5","Acanthastrea",0
-2017,"LTER 5","Acropora",2.6375
-2017,"LTER 5","Astrea",0.728333333333333
-2017,"LTER 5","Astreopora",0
-2017,"LTER 5","Cyphastrea",0.0408333333333333
-2017,"LTER 5","Fungiidae unidentified",0.005
-2017,"LTER 5","Gardineroseris",0.025
-2017,"LTER 5","Goniastrea",0
-2017,"LTER 5","Herpolitha",0
-2017,"LTER 5","Leptastrea",0.260833333333333
-2017,"LTER 5","Leptoseris",0
-2017,"LTER 5","Lobophyllia",0.005
-2017,"LTER 5","Millepora",0.0425
-2017,"LTER 5","Montipora",3.12
-2017,"LTER 5","Non-coralline Crustose Algae",6.7825
-2017,"LTER 5","Pachyseris",0
-2017,"LTER 5","Pavona",0.620833333333333
-2017,"LTER 5","Plesiastrea",0
-2017,"LTER 5","Pocillopora",11.4066666666667
-2017,"LTER 5","Porites irregularis",0.105
-2017,"LTER 5","Porites rus",14.7191666666667
-2017,"LTER 5","Porites spp. Massive",3.2075
-2017,"LTER 5","Psammocora",0.0833333333333333
-2017,"LTER 5","Sandolitha",0
-2017,"LTER 5","Soft Coral",0
-2017,"LTER 5","Stylocoeniella",0.02
-2017,"LTER 5","Tubastrea",0
-2017,"LTER 5","Unknown or Other",2.36583333333333
-2017,"LTER 6","Acanthastrea",0.005
-2017,"LTER 6","Acropora",1.44833333333333
-2017,"LTER 6","Astrea",0.729166666666667
-2017,"LTER 6","Astreopora",0
-2017,"LTER 6","Cyphastrea",0.0991666666666667
-2017,"LTER 6","Fungiidae unidentified",0.005
-2017,"LTER 6","Gardineroseris",0
-2017,"LTER 6","Goniastrea",0
-2017,"LTER 6","Herpolitha",0.0275
-2017,"LTER 6","Leptastrea",0.2775
-2017,"LTER 6","Leptoseris",0.0175
-2017,"LTER 6","Lobophyllia",0
-2017,"LTER 6","Millepora",0.741666666666667
-2017,"LTER 6","Montipora",2.92166666666667
-2017,"LTER 6","Non-coralline Crustose Algae",5.86916666666667
-2017,"LTER 6","Pachyseris",0
-2017,"LTER 6","Pavona",0.8175
-2017,"LTER 6","Plesiastrea",0
-2017,"LTER 6","Pocillopora",15.0041666666667
-2017,"LTER 6","Porites irregularis",0.0691666666666667
-2017,"LTER 6","Porites rus",0.01
-2017,"LTER 6","Porites spp. Massive",1.3325
-2017,"LTER 6","Psammocora",0.166666666666667
-2017,"LTER 6","Sandolitha",0.0241666666666667
-2017,"LTER 6","Soft Coral",0
-2017,"LTER 6","Stylocoeniella",0.0283333333333333
-2017,"LTER 6","Tubastrea",0.00416666666666667
-2017,"LTER 6","Unknown or Other",0.854166666666667
-2018,"LTER 1","Acanthastrea",0.00416666666666667
-2018,"LTER 1","Acropora",1.24916666666667
-2018,"LTER 1","Astrea",0.478333333333333
-2018,"LTER 1","Astreopora",0
-2018,"LTER 1","Cyphastrea",0.0575
-2018,"LTER 1","Fungiidae unidentified",0.065
-2018,"LTER 1","Gardineroseris",0.00416666666666667
-2018,"LTER 1","Goniastrea",0
-2018,"LTER 1","Herpolitha",0
-2018,"LTER 1","Leptastrea",0.170833333333333
-2018,"LTER 1","Leptoseris",0.0583333333333333
-2018,"LTER 1","Lobophyllia",0
-2018,"LTER 1","Millepora",0.390833333333333
-2018,"LTER 1","Montipora",2.60333333333333
-2018,"LTER 1","Non-coralline Crustose Algae",7.16416666666667
-2018,"LTER 1","Pachyseris",0.005
-2018,"LTER 1","Pavona",0.370833333333333
-2018,"LTER 1","Plesiastrea",0
-2018,"LTER 1","Pocillopora",26.6575
-2018,"LTER 1","Porites irregularis",0
-2018,"LTER 1","Porites rus",0.921666666666667
-2018,"LTER 1","Porites spp. Massive",2.36083333333333
-2018,"LTER 1","Psammocora",0.106666666666667
-2018,"LTER 1","Sandolitha",0.095
-2018,"LTER 1","Soft Coral",0
-2018,"LTER 1","Stylocoeniella",0.0358333333333333
-2018,"LTER 1","Tubastrea",0
-2018,"LTER 1","Unknown or Other",0.149166666666667
-2018,"LTER 2","Acanthastrea",0
-2018,"LTER 2","Acropora",1.57083333333333
-2018,"LTER 2","Astrea",0.469166666666667
-2018,"LTER 2","Astreopora",0.0216666666666667
-2018,"LTER 2","Cyphastrea",0.00916666666666667
-2018,"LTER 2","Fungiidae unidentified",0.0441666666666667
-2018,"LTER 2","Gardineroseris",0
-2018,"LTER 2","Goniastrea",0
-2018,"LTER 2","Herpolitha",0
-2018,"LTER 2","Leptastrea",0.125833333333333
-2018,"LTER 2","Leptoseris",0.00833333333333333
-2018,"LTER 2","Lobophyllia",0
-2018,"LTER 2","Millepora",0.860833333333333
-2018,"LTER 2","Montipora",3.03666666666667
-2018,"LTER 2","Non-coralline Crustose Algae",14.7758333333333
-2018,"LTER 2","Pachyseris",0
-2018,"LTER 2","Pavona",0.5175
-2018,"LTER 2","Plesiastrea",0
-2018,"LTER 2","Pocillopora",22.3225
-2018,"LTER 2","Porites irregularis",0.085
-2018,"LTER 2","Porites rus",0.980833333333333
-2018,"LTER 2","Porites spp. Massive",2.03
-2018,"LTER 2","Psammocora",0.09
-2018,"LTER 2","Sandolitha",0.0308333333333333
-2018,"LTER 2","Soft Coral",0.00416666666666667
-2018,"LTER 2","Stylocoeniella",0.0516666666666667
-2018,"LTER 2","Tubastrea",0
-2018,"LTER 2","Unknown or Other",0.223333333333333
-2018,"LTER 3","Acanthastrea",0
-2018,"LTER 3","Acropora",0.75
-2018,"LTER 3","Astrea",0.270833333333333
-2018,"LTER 3","Astreopora",0
-2018,"LTER 3","Cyphastrea",0.0308333333333333
-2018,"LTER 3","Fungiidae unidentified",0.461666666666667
-2018,"LTER 3","Gardineroseris",0
-2018,"LTER 3","Goniastrea",0
-2018,"LTER 3","Herpolitha",0
-2018,"LTER 3","Leptastrea",0.0408333333333333
-2018,"LTER 3","Leptoseris",0.101666666666667
-2018,"LTER 3","Lobophyllia",0
-2018,"LTER 3","Millepora",0.0308333333333333
-2018,"LTER 3","Montipora",1.18333333333333
-2018,"LTER 3","Non-coralline Crustose Algae",17.1133333333333
-2018,"LTER 3","Pachyseris",0
-2018,"LTER 3","Pavona",0.471666666666667
-2018,"LTER 3","Plesiastrea",0
-2018,"LTER 3","Pocillopora",4.98833333333333
-2018,"LTER 3","Porites irregularis",0.0841666666666667
-2018,"LTER 3","Porites rus",0.519166666666667
-2018,"LTER 3","Porites spp. Massive",0.7875
-2018,"LTER 3","Psammocora",0.101666666666667
-2018,"LTER 3","Sandolitha",0.0358333333333333
-2018,"LTER 3","Soft Coral",0.0175
-2018,"LTER 3","Stylocoeniella",0
-2018,"LTER 3","Tubastrea",0.00416666666666667
-2018,"LTER 3","Unknown or Other",0.0608333333333333
-2018,"LTER 4","Acanthastrea",0.00416666666666667
-2018,"LTER 4","Acropora",3.005
-2018,"LTER 4","Astrea",0.771666666666667
-2018,"LTER 4","Astreopora",0
-2018,"LTER 4","Cyphastrea",0.0341666666666667
-2018,"LTER 4","Fungiidae unidentified",0.114166666666667
-2018,"LTER 4","Gardineroseris",0
-2018,"LTER 4","Goniastrea",0
-2018,"LTER 4","Herpolitha",0
-2018,"LTER 4","Leptastrea",0.183333333333333
-2018,"LTER 4","Leptoseris",0.00916666666666667
-2018,"LTER 4","Lobophyllia",0
-2018,"LTER 4","Millepora",0.3025
-2018,"LTER 4","Montipora",7.35083333333333
-2018,"LTER 4","Non-coralline Crustose Algae",12.1341666666667
-2018,"LTER 4","Pachyseris",0
-2018,"LTER 4","Pavona",0.648333333333333
-2018,"LTER 4","Plesiastrea",0
-2018,"LTER 4","Pocillopora",11.5475
-2018,"LTER 4","Porites irregularis",0.345833333333333
-2018,"LTER 4","Porites rus",0.134166666666667
-2018,"LTER 4","Porites spp. Massive",1.6925
-2018,"LTER 4","Psammocora",0.0775
-2018,"LTER 4","Sandolitha",0.0125
-2018,"LTER 4","Soft Coral",0
-2018,"LTER 4","Stylocoeniella",0.00416666666666667
-2018,"LTER 4","Tubastrea",0.00416666666666667
-2018,"LTER 4","Unknown or Other",0.0816666666666667
-2018,"LTER 5","Acanthastrea",0
-2018,"LTER 5","Acropora",4.29583333333333
-2018,"LTER 5","Astrea",0.59
-2018,"LTER 5","Astreopora",0
-2018,"LTER 5","Cyphastrea",0.0175
-2018,"LTER 5","Fungiidae unidentified",0.0133333333333333
-2018,"LTER 5","Gardineroseris",0
-2018,"LTER 5","Goniastrea",0
-2018,"LTER 5","Herpolitha",0
-2018,"LTER 5","Leptastrea",0.185
-2018,"LTER 5","Leptoseris",0
-2018,"LTER 5","Lobophyllia",0
-2018,"LTER 5","Millepora",0.0566666666666667
-2018,"LTER 5","Montipora",3.37416666666667
-2018,"LTER 5","Non-coralline Crustose Algae",9.42833333333333
-2018,"LTER 5","Pachyseris",0
-2018,"LTER 5","Pavona",0.736666666666667
-2018,"LTER 5","Plesiastrea",0
-2018,"LTER 5","Pocillopora",15.4283333333333
-2018,"LTER 5","Porites irregularis",0.0791666666666667
-2018,"LTER 5","Porites rus",16.5916666666667
-2018,"LTER 5","Porites spp. Massive",2.75166666666667
-2018,"LTER 5","Psammocora",0.0916666666666667
-2018,"LTER 5","Sandolitha",0.00416666666666667
-2018,"LTER 5","Soft Coral",0.2925
-2018,"LTER 5","Stylocoeniella",0.0225
-2018,"LTER 5","Tubastrea",0
-2018,"LTER 5","Unknown or Other",0.503333333333333
-2018,"LTER 6","Acanthastrea",0.00833333333333333
-2018,"LTER 6","Acropora",2.34833333333333
-2018,"LTER 6","Astrea",0.641666666666667
-2018,"LTER 6","Astreopora",0
-2018,"LTER 6","Cyphastrea",0.0741666666666667
-2018,"LTER 6","Fungiidae unidentified",0.0141666666666667
-2018,"LTER 6","Gardineroseris",0.0266666666666667
-2018,"LTER 6","Goniastrea",0
-2018,"LTER 6","Herpolitha",0
-2018,"LTER 6","Leptastrea",0.286666666666667
-2018,"LTER 6","Leptoseris",0.0275
-2018,"LTER 6","Lobophyllia",0
-2018,"LTER 6","Millepora",0.6475
-2018,"LTER 6","Montipora",3.47416666666667
-2018,"LTER 6","Non-coralline Crustose Algae",11.3741666666667
-2018,"LTER 6","Pachyseris",0
-2018,"LTER 6","Pavona",0.806666666666667
-2018,"LTER 6","Plesiastrea",0
-2018,"LTER 6","Pocillopora",17.4108333333333
-2018,"LTER 6","Porites irregularis",0.106666666666667
-2018,"LTER 6","Porites rus",0.0283333333333333
-2018,"LTER 6","Porites spp. Massive",1.26
-2018,"LTER 6","Psammocora",0.1225
-2018,"LTER 6","Sandolitha",0
-2018,"LTER 6","Soft Coral",0
-2018,"LTER 6","Stylocoeniella",0.0258333333333333
-2018,"LTER 6","Tubastrea",0.00416666666666667
-2018,"LTER 6","Unknown or Other",0.22
-2019,"LTER 1","Acanthastrea",0.0316666666666667
-2019,"LTER 1","Acropora",1.4125
-2019,"LTER 1","Astrea",0.419166666666667
-2019,"LTER 1","Astreopora",0
-2019,"LTER 1","Cyphastrea",0.0133333333333333
-2019,"LTER 1","Fungiidae unidentified",0.185
-2019,"LTER 1","Gardineroseris",0.005
-2019,"LTER 1","Goniastrea",0
-2019,"LTER 1","Herpolitha",0.005
-2019,"LTER 1","Leptastrea",0.24
-2019,"LTER 1","Leptoseris",0.0133333333333333
-2019,"LTER 1","Lobophyllia",0.0133333333333333
-2019,"LTER 1","Millepora",0.363333333333333
-2019,"LTER 1","Montipora",2.26166666666667
-2019,"LTER 1","Non-coralline Crustose Algae",8.97916666666667
-2019,"LTER 1","Pachyseris",0
-2019,"LTER 1","Pavona",0.571666666666667
-2019,"LTER 1","Plesiastrea",0
-2019,"LTER 1","Pocillopora",29.4091666666667
-2019,"LTER 1","Porites irregularis",0.0258333333333333
-2019,"LTER 1","Porites rus",0.805
-2019,"LTER 1","Porites spp. Massive",2.33833333333333
-2019,"LTER 1","Psammocora",0.0833333333333333
-2019,"LTER 1","Sandolitha",0
-2019,"LTER 1","Soft Coral",0.00416666666666667
-2019,"LTER 1","Stylocoeniella",0.005
-2019,"LTER 1","Tubastrea",0.0166666666666667
-2019,"LTER 1","Unknown or Other",0.231666666666667
-2019,"LTER 2","Acanthastrea",0.0758333333333333
-2019,"LTER 2","Acropora",2.12583333333333
-2019,"LTER 2","Astrea",0.644166666666667
-2019,"LTER 2","Astreopora",0
-2019,"LTER 2","Cyphastrea",0.0275
-2019,"LTER 2","Fungiidae unidentified",0.0975
-2019,"LTER 2","Gardineroseris",0.00416666666666667
-2019,"LTER 2","Goniastrea",0
-2019,"LTER 2","Herpolitha",0
-2019,"LTER 2","Leptastrea",0.0841666666666667
-2019,"LTER 2","Leptoseris",0.0275
-2019,"LTER 2","Lobophyllia",0
-2019,"LTER 2","Millepora",0.856666666666667
-2019,"LTER 2","Montipora",3.4375
-2019,"LTER 2","Non-coralline Crustose Algae",9.25333333333333
-2019,"LTER 2","Pachyseris",0
-2019,"LTER 2","Pavona",0.588333333333333
-2019,"LTER 2","Plesiastrea",0
-2019,"LTER 2","Pocillopora",24.1716666666667
-2019,"LTER 2","Porites irregularis",0.108333333333333
-2019,"LTER 2","Porites rus",0.909166666666667
-2019,"LTER 2","Porites spp. Massive",2.30333333333333
-2019,"LTER 2","Psammocora",0.0883333333333333
-2019,"LTER 2","Sandolitha",0
-2019,"LTER 2","Soft Coral",0
-2019,"LTER 2","Stylocoeniella",0
-2019,"LTER 2","Tubastrea",0
-2019,"LTER 2","Unknown or Other",0.2875
-2019,"LTER 3","Acanthastrea",0.005
-2019,"LTER 3","Acropora",0.973333333333333
-2019,"LTER 3","Astrea",0.335833333333333
-2019,"LTER 3","Astreopora",0
-2019,"LTER 3","Cyphastrea",0.0225
-2019,"LTER 3","Fungiidae unidentified",0.583333333333333
-2019,"LTER 3","Gardineroseris",0.0133333333333333
-2019,"LTER 3","Goniastrea",0
-2019,"LTER 3","Herpolitha",0.0533333333333333
-2019,"LTER 3","Leptastrea",0.0208333333333333
-2019,"LTER 3","Leptoseris",0
-2019,"LTER 3","Lobophyllia",0
-2019,"LTER 3","Millepora",0.0741666666666667
-2019,"LTER 3","Montipora",1.49333333333333
-2019,"LTER 3","Non-coralline Crustose Algae",19.2708333333333
-2019,"LTER 3","Pachyseris",0.00416666666666667
-2019,"LTER 3","Pavona",0.5925
-2019,"LTER 3","Plesiastrea",0
-2019,"LTER 3","Pocillopora",6.21
-2019,"LTER 3","Porites irregularis",0.0633333333333333
-2019,"LTER 3","Porites rus",0.48
-2019,"LTER 3","Porites spp. Massive",0.909166666666667
-2019,"LTER 3","Psammocora",0.0758333333333333
-2019,"LTER 3","Sandolitha",0.045
-2019,"LTER 3","Soft Coral",0.115
-2019,"LTER 3","Stylocoeniella",0
-2019,"LTER 3","Tubastrea",0
-2019,"LTER 3","Unknown or Other",0.338333333333333
-2019,"LTER 4","Acanthastrea",0.00416666666666667
-2019,"LTER 4","Acropora",3.89583333333333
-2019,"LTER 4","Astrea",0.931666666666667
-2019,"LTER 4","Astreopora",0.0608333333333333
-2019,"LTER 4","Cyphastrea",0.0733333333333333
-2019,"LTER 4","Fungiidae unidentified",0.175
-2019,"LTER 4","Gardineroseris",0.00833333333333333
-2019,"LTER 4","Goniastrea",0
-2019,"LTER 4","Herpolitha",0.0533333333333333
-2019,"LTER 4","Leptastrea",0.210833333333333
-2019,"LTER 4","Leptoseris",0.0583333333333333
-2019,"LTER 4","Lobophyllia",0
-2019,"LTER 4","Millepora",0.895
-2019,"LTER 4","Montipora",7.96083333333333
-2019,"LTER 4","Non-coralline Crustose Algae",13.3541666666667
-2019,"LTER 4","Pachyseris",0
-2019,"LTER 4","Pavona",0.7325
-2019,"LTER 4","Plesiastrea",0
-2019,"LTER 4","Pocillopora",10.9408333333333
-2019,"LTER 4","Porites irregularis",0.304166666666667
-2019,"LTER 4","Porites rus",0.1175
-2019,"LTER 4","Porites spp. Massive",1.11166666666667
-2019,"LTER 4","Psammocora",0.0933333333333333
-2019,"LTER 4","Sandolitha",0
-2019,"LTER 4","Soft Coral",0
-2019,"LTER 4","Stylocoeniella",0
-2019,"LTER 4","Tubastrea",0
-2019,"LTER 4","Unknown or Other",0.175833333333333
-2019,"LTER 5","Acanthastrea",0.0516666666666667
-2019,"LTER 5","Acropora",4.65
-2019,"LTER 5","Astrea",0.735
-2019,"LTER 5","Astreopora",0
-2019,"LTER 5","Cyphastrea",0.0391666666666667
-2019,"LTER 5","Fungiidae unidentified",0.0133333333333333
-2019,"LTER 5","Gardineroseris",0.00916666666666667
-2019,"LTER 5","Goniastrea",0
-2019,"LTER 5","Herpolitha",0
-2019,"LTER 5","Leptastrea",0.323333333333333
-2019,"LTER 5","Leptoseris",0
-2019,"LTER 5","Lobophyllia",0
-2019,"LTER 5","Millepora",0.0683333333333333
-2019,"LTER 5","Montipora",2.90583333333333
-2019,"LTER 5","Non-coralline Crustose Algae",10.2216666666667
-2019,"LTER 5","Pachyseris",0
-2019,"LTER 5","Pavona",0.565
-2019,"LTER 5","Plesiastrea",0
-2019,"LTER 5","Pocillopora",14.2875
-2019,"LTER 5","Porites irregularis",0.425833333333333
-2019,"LTER 5","Porites rus",16.3825
-2019,"LTER 5","Porites spp. Massive",2.53583333333333
-2019,"LTER 5","Psammocora",0.0741666666666667
-2019,"LTER 5","Sandolitha",0
-2019,"LTER 5","Soft Coral",0.169166666666667
-2019,"LTER 5","Stylocoeniella",0
-2019,"LTER 5","Tubastrea",0
-2019,"LTER 5","Unknown or Other",0.955
-2019,"LTER 6","Acanthastrea",0.0125
-2019,"LTER 6","Acropora",3.16833333333333
-2019,"LTER 6","Astrea",0.679166666666667
-2019,"LTER 6","Astreopora",0.00416666666666667
-2019,"LTER 6","Cyphastrea",0.0666666666666667
-2019,"LTER 6","Fungiidae unidentified",0.0325
-2019,"LTER 6","Gardineroseris",0.0391666666666667
-2019,"LTER 6","Goniastrea",0
-2019,"LTER 6","Herpolitha",0
-2019,"LTER 6","Leptastrea",0.360833333333333
-2019,"LTER 6","Leptoseris",0.035
-2019,"LTER 6","Lobophyllia",0
-2019,"LTER 6","Millepora",0.585833333333333
-2019,"LTER 6","Montipora",3.13
-2019,"LTER 6","Non-coralline Crustose Algae",12.815
-2019,"LTER 6","Pachyseris",0
-2019,"LTER 6","Pavona",0.946666666666667
-2019,"LTER 6","Plesiastrea",0
-2019,"LTER 6","Pocillopora",17.6891666666667
-2019,"LTER 6","Porites irregularis",0.0625
-2019,"LTER 6","Porites rus",0.0383333333333333
-2019,"LTER 6","Porites spp. Massive",1.23666666666667
-2019,"LTER 6","Psammocora",0.0708333333333333
-2019,"LTER 6","Sandolitha",0
-2019,"LTER 6","Soft Coral",0
-2019,"LTER 6","Stylocoeniella",0
-2019,"LTER 6","Tubastrea",0.0366666666666667
-2019,"LTER 6","Unknown or Other",0.0775
+"2005","LTER 1","Acanthastrea",0.01
+"2005","LTER 1","Acropora",7.4125
+"2005","LTER 1","Astrea",0.225
+"2005","LTER 1","Astreopora",0.055
+"2005","LTER 1","Cyphastrea",0.0491666666666667
+"2005","LTER 1","Goniastrea",0.005
+"2005","LTER 1","Herpolitha",0.118333333333333
+"2005","LTER 1","Leptastrea",1.32666666666667
+"2005","LTER 1","Millepora",0.313333333333333
+"2005","LTER 1","Montipora",0.5
+"2005","LTER 1","Pavona",0.49
+"2005","LTER 1","Pocillopora",11.1658333333333
+"2005","LTER 1","Porites",14.5008333333333
+"2005","LTER 1","Psammocora",0.171666666666667
+"2005","LTER 1","Unknown Fungiidae",0.163333333333333
+"2005","LTER 2","Acropora",8.39416666666667
+"2005","LTER 2","Astrea",0.1475
+"2005","LTER 2","Astreopora",0.153333333333333
+"2005","LTER 2","Cyphastrea",0.0191666666666667
+"2005","LTER 2","Leptastrea",0.636666666666667
+"2005","LTER 2","Leptoseris",0.005
+"2005","LTER 2","Millepora",0.3825
+"2005","LTER 2","Montipora",1.0925
+"2005","LTER 2","Pavona",0.894166666666667
+"2005","LTER 2","Pocillopora",7.05583333333333
+"2005","LTER 2","Porites",21.3208333333333
+"2005","LTER 2","Psammocora",0.27
+"2005","LTER 2","Sandolitha",0.0541666666666667
+"2005","LTER 2","Unknown Fungiidae",0.598333333333333
+"2005","LTER 3","Acropora",7.39416666666667
+"2005","LTER 3","Astrea",0.1675
+"2005","LTER 3","Astreopora",0.175833333333333
+"2005","LTER 3","Cyphastrea",0.015
+"2005","LTER 3","Herpolitha",0.075
+"2005","LTER 3","Leptastrea",0.81
+"2005","LTER 3","Millepora",0.0525
+"2005","LTER 3","Montipora",1.80333333333333
+"2005","LTER 3","Pavona",3.7375
+"2005","LTER 3","Pocillopora",7.99166666666667
+"2005","LTER 3","Porites",2.71083333333333
+"2005","LTER 3","Psammocora",0.398333333333333
+"2005","LTER 3","Sandolitha",0.0958333333333333
+"2005","LTER 3","Unknown Fungiidae",2.77083333333333
+"2005","LTER 4","Acropora",4.04583333333333
+"2005","LTER 4","Astrea",0.263333333333333
+"2005","LTER 4","Astreopora",0.0475
+"2005","LTER 4","Cyphastrea",0.0533333333333333
+"2005","LTER 4","Leptastrea",0.604166666666667
+"2005","LTER 4","Millepora",0.4175
+"2005","LTER 4","Montipora",8.88833333333333
+"2005","LTER 4","Pavona",0.448333333333333
+"2005","LTER 4","Pocillopora",15.75
+"2005","LTER 4","Porites",1.82416666666667
+"2005","LTER 4","Psammocora",0.02
+"2005","LTER 4","Unknown Fungiidae",0.0825
+"2005","LTER 5","Acropora",3.26583333333333
+"2005","LTER 5","Astrea",0.328333333333333
+"2005","LTER 5","Astreopora",0.3275
+"2005","LTER 5","Cyphastrea",0.0108333333333333
+"2005","LTER 5","Goniastrea",0.005
+"2005","LTER 5","Leptastrea",1.0075
+"2005","LTER 5","Millepora",0.005
+"2005","LTER 5","Montipora",3.33166666666667
+"2005","LTER 5","Pavona",0.5625
+"2005","LTER 5","Pocillopora",8.93
+"2005","LTER 5","Porites",16
+"2005","LTER 5","Psammocora",0.0616666666666667
+"2005","LTER 5","Unknown Fungiidae",0.0216666666666667
+"2005","LTER 6","Acropora",2.77833333333333
+"2005","LTER 6","Astrea",0.185
+"2005","LTER 6","Astreopora",0.215833333333333
+"2005","LTER 6","Cyphastrea",0.0416666666666667
+"2005","LTER 6","Goniastrea",0.01
+"2005","LTER 6","Leptastrea",0.5
+"2005","LTER 6","Leptoseris",0.01
+"2005","LTER 6","Millepora",0.335
+"2005","LTER 6","Montipora",3.20666666666667
+"2005","LTER 6","Pavona",6.055
+"2005","LTER 6","Pocillopora",8.85333333333333
+"2005","LTER 6","Porites",1.42916666666667
+"2005","LTER 6","Psammocora",0.130833333333333
+"2005","LTER 6","Sandolitha",0.005
+"2005","LTER 6","Unknown Fungiidae",0.005
+"2006","LTER 1","Acanthastrea",0.03
+"2006","LTER 1","Acropora",7.57833333333333
+"2006","LTER 1","Astrea",0.281666666666667
+"2006","LTER 1","Astreopora",0.0558333333333333
+"2006","LTER 1","Cyphastrea",0.03
+"2006","LTER 1","Goniastrea",0.0933333333333333
+"2006","LTER 1","Herpolitha",0.025
+"2006","LTER 1","Leptastrea",1.1125
+"2006","LTER 1","Millepora",0.521666666666667
+"2006","LTER 1","Montipora",0.2725
+"2006","LTER 1","Pavona",0.2875
+"2006","LTER 1","Pocillopora",10.755
+"2006","LTER 1","Porites",17.1933333333333
+"2006","LTER 1","Psammocora",0.0691666666666667
+"2006","LTER 1","Sandolitha",0.05
+"2006","LTER 1","Unknown Fungiidae",0.148333333333333
+"2006","LTER 2","Acropora",3.605
+"2006","LTER 2","Astrea",0.144166666666667
+"2006","LTER 2","Cyphastrea",0.035
+"2006","LTER 2","Goniastrea",0.0858333333333333
+"2006","LTER 2","Herpolitha",0.0808333333333333
+"2006","LTER 2","Leptastrea",0.369166666666667
+"2006","LTER 2","Millepora",0.195833333333333
+"2006","LTER 2","Montipora",0.721666666666667
+"2006","LTER 2","Pavona",0.711666666666667
+"2006","LTER 2","Pocillopora",4.84583333333333
+"2006","LTER 2","Porites",22.3166666666667
+"2006","LTER 2","Psammocora",0.300833333333333
+"2006","LTER 2","Sandolitha",0.0308333333333333
+"2006","LTER 2","Unknown Fungiidae",0.404166666666667
+"2006","LTER 3","Acanthastrea",0.015
+"2006","LTER 3","Acropora",8.42583333333333
+"2006","LTER 3","Astrea",0.335833333333333
+"2006","LTER 3","Astreopora",0.1875
+"2006","LTER 3","Cyphastrea",0.055
+"2006","LTER 3","Goniastrea",0.496666666666667
+"2006","LTER 3","Herpolitha",0.065
+"2006","LTER 3","Leptastrea",0.314166666666667
+"2006","LTER 3","Millepora",0.035
+"2006","LTER 3","Montipora",1.8575
+"2006","LTER 3","Pavona",4.0475
+"2006","LTER 3","Pocillopora",8.96333333333333
+"2006","LTER 3","Porites",2.64416666666667
+"2006","LTER 3","Psammocora",0.653333333333333
+"2006","LTER 3","Sandolitha",0.225833333333333
+"2006","LTER 3","Soft Coral",0.1125
+"2006","LTER 3","Unknown Fungiidae",2.5275
+"2006","LTER 4","Acanthastrea",0.005
+"2006","LTER 4","Acropora",4.4425
+"2006","LTER 4","Astrea",0.5575
+"2006","LTER 4","Cyphastrea",0.0358333333333333
+"2006","LTER 4","Goniastrea",0.0358333333333333
+"2006","LTER 4","Leptastrea",0.545
+"2006","LTER 4","Millepora",0.611666666666667
+"2006","LTER 4","Montipora",10.2391666666667
+"2006","LTER 4","Pavona",0.41
+"2006","LTER 4","Pocillopora",13.25
+"2006","LTER 4","Porites",2.05333333333333
+"2006","LTER 4","Psammocora",0.06
+"2006","LTER 4","Soft Coral",0.0358333333333333
+"2006","LTER 4","Unknown Fungiidae",0.0708333333333333
+"2006","LTER 5","Acropora",3.915
+"2006","LTER 5","Astrea",0.425833333333333
+"2006","LTER 5","Astreopora",0.251666666666667
+"2006","LTER 5","Cyphastrea",0.01
+"2006","LTER 5","Goniastrea",0.02
+"2006","LTER 5","Herpolitha",0.025
+"2006","LTER 5","Leptastrea",0.641666666666667
+"2006","LTER 5","Millepora",0.015
+"2006","LTER 5","Montipora",3.42
+"2006","LTER 5","Pavona",1.0925
+"2006","LTER 5","Pocillopora",10.5966666666667
+"2006","LTER 5","Porites",17.6208333333333
+"2006","LTER 5","Psammocora",0.02
+"2006","LTER 5","Soft Coral",0.165
+"2006","LTER 5","Unknown Fungiidae",0.035
+"2006","LTER 6","Acanthastrea",0.005
+"2006","LTER 6","Acropora",2.19
+"2006","LTER 6","Astrea",0.32
+"2006","LTER 6","Astreopora",0.19
+"2006","LTER 6","Cyphastrea",0.035
+"2006","LTER 6","Goniastrea",0.116666666666667
+"2006","LTER 6","Herpolitha",0.005
+"2006","LTER 6","Leptastrea",0.268333333333333
+"2006","LTER 6","Lobophyllia",0.01
+"2006","LTER 6","Millepora",0.403333333333333
+"2006","LTER 6","Montipora",3.19666666666667
+"2006","LTER 6","Pavona",4.60333333333333
+"2006","LTER 6","Pocillopora",9.4875
+"2006","LTER 6","Porites",0.9025
+"2006","LTER 6","Psammocora",0.0558333333333333
+"2006","LTER 6","Soft Coral",0.0158333333333333
+"2007","LTER 1","Acanthastrea",0.0175
+"2007","LTER 1","Acropora",6.5625
+"2007","LTER 1","Astrea",0.381666666666667
+"2007","LTER 1","Astreopora",0.0383333333333333
+"2007","LTER 1","Cyphastrea",0.0216666666666667
+"2007","LTER 1","Gardineroseris",0
+"2007","LTER 1","Goniastrea",0.03
+"2007","LTER 1","Herpolitha",0.155833333333333
+"2007","LTER 1","Leptastrea",1.14583333333333
+"2007","LTER 1","Leptoseris",0.0433333333333333
+"2007","LTER 1","Lobophyllia",0
+"2007","LTER 1","Millepora",0.579166666666667
+"2007","LTER 1","Montipora",0.510833333333333
+"2007","LTER 1","Pachyseris",0
+"2007","LTER 1","Pavona",0.358333333333333
+"2007","LTER 1","Plesiastrea",0
+"2007","LTER 1","Pocillopora",11.9666666666667
+"2007","LTER 1","Porites",15.8133333333333
+"2007","LTER 1","Psammocora",0.0233333333333333
+"2007","LTER 1","Sandolitha",0.0983333333333333
+"2007","LTER 1","Soft Coral",0
+"2007","LTER 1","Stylocoeniella",0
+"2007","LTER 1","Tubastrea",0
+"2007","LTER 1","Unknown Fungiidae",0.265
+"2007","LTER 2","Acanthastrea",0
+"2007","LTER 2","Acropora",1.64833333333333
+"2007","LTER 2","Astrea",0.106666666666667
+"2007","LTER 2","Astreopora",0
+"2007","LTER 2","Cyphastrea",0.0141666666666667
+"2007","LTER 2","Gardineroseris",0
+"2007","LTER 2","Goniastrea",0.0516666666666667
+"2007","LTER 2","Herpolitha",0.12
+"2007","LTER 2","Leptastrea",0.119166666666667
+"2007","LTER 2","Leptoseris",0
+"2007","LTER 2","Lobophyllia",0
+"2007","LTER 2","Millepora",0.595833333333333
+"2007","LTER 2","Montipora",0.39
+"2007","LTER 2","Pachyseris",0
+"2007","LTER 2","Pavona",0.365
+"2007","LTER 2","Plesiastrea",0
+"2007","LTER 2","Pocillopora",3.06416666666667
+"2007","LTER 2","Porites",22.3091666666667
+"2007","LTER 2","Psammocora",0.0125
+"2007","LTER 2","Sandolitha",0.03
+"2007","LTER 2","Soft Coral",0
+"2007","LTER 2","Stylocoeniella",0
+"2007","LTER 2","Tubastrea",0
+"2007","LTER 2","Unknown Fungiidae",0.189166666666667
+"2007","LTER 3","Acanthastrea",0
+"2007","LTER 3","Acropora",6.0625
+"2007","LTER 3","Astrea",0.444166666666667
+"2007","LTER 3","Astreopora",0.251666666666667
+"2007","LTER 3","Cyphastrea",0.005
+"2007","LTER 3","Gardineroseris",0.00416666666666667
+"2007","LTER 3","Goniastrea",0.421666666666667
+"2007","LTER 3","Herpolitha",0.305
+"2007","LTER 3","Leptastrea",0.3775
+"2007","LTER 3","Leptoseris",0.169166666666667
+"2007","LTER 3","Lobophyllia",0
+"2007","LTER 3","Millepora",0.0566666666666667
+"2007","LTER 3","Montipora",1.74333333333333
+"2007","LTER 3","Pachyseris",0.0133333333333333
+"2007","LTER 3","Pavona",4.52666666666667
+"2007","LTER 3","Plesiastrea",0
+"2007","LTER 3","Pocillopora",6.33833333333333
+"2007","LTER 3","Porites",2.93333333333333
+"2007","LTER 3","Psammocora",0.119166666666667
+"2007","LTER 3","Sandolitha",0.0508333333333333
+"2007","LTER 3","Soft Coral",0.0716666666666667
+"2007","LTER 3","Stylocoeniella",0.00833333333333333
+"2007","LTER 3","Tubastrea",0
+"2007","LTER 3","Unknown Fungiidae",2.04916666666667
+"2007","LTER 4","Acanthastrea",0.00916666666666667
+"2007","LTER 4","Acropora",3.84083333333333
+"2007","LTER 4","Astrea",0.4075
+"2007","LTER 4","Astreopora",0.0225
+"2007","LTER 4","Cyphastrea",0.0133333333333333
+"2007","LTER 4","Gardineroseris",0.0125
+"2007","LTER 4","Goniastrea",0.005
+"2007","LTER 4","Herpolitha",0
+"2007","LTER 4","Leptastrea",0.670833333333333
+"2007","LTER 4","Leptoseris",0.0291666666666667
+"2007","LTER 4","Lobophyllia",0
+"2007","LTER 4","Millepora",0.626666666666667
+"2007","LTER 4","Montipora",9.085
+"2007","LTER 4","Pachyseris",0
+"2007","LTER 4","Pavona",0.326666666666667
+"2007","LTER 4","Plesiastrea",0
+"2007","LTER 4","Pocillopora",12.5425
+"2007","LTER 4","Porites",2.04833333333333
+"2007","LTER 4","Psammocora",0.0125
+"2007","LTER 4","Sandolitha",0.0458333333333333
+"2007","LTER 4","Soft Coral",0.136666666666667
+"2007","LTER 4","Stylocoeniella",0.00416666666666667
+"2007","LTER 4","Tubastrea",0
+"2007","LTER 4","Unknown Fungiidae",0.1025
+"2007","LTER 5","Acanthastrea",0.00416666666666667
+"2007","LTER 5","Acropora",3.15666666666667
+"2007","LTER 5","Astrea",0.429166666666667
+"2007","LTER 5","Astreopora",0.445
+"2007","LTER 5","Cyphastrea",0.00833333333333333
+"2007","LTER 5","Gardineroseris",0.0166666666666667
+"2007","LTER 5","Goniastrea",0
+"2007","LTER 5","Herpolitha",0.0216666666666667
+"2007","LTER 5","Leptastrea",0.699166666666667
+"2007","LTER 5","Leptoseris",0
+"2007","LTER 5","Lobophyllia",0
+"2007","LTER 5","Millepora",0.0125
+"2007","LTER 5","Montipora",2.98416666666667
+"2007","LTER 5","Pachyseris",0
+"2007","LTER 5","Pavona",0.57
+"2007","LTER 5","Plesiastrea",0
+"2007","LTER 5","Pocillopora",11.0066666666667
+"2007","LTER 5","Porites",14.765
+"2007","LTER 5","Psammocora",0.0375
+"2007","LTER 5","Sandolitha",0.116666666666667
+"2007","LTER 5","Soft Coral",0.0783333333333333
+"2007","LTER 5","Stylocoeniella",0.0375
+"2007","LTER 5","Tubastrea",0
+"2007","LTER 5","Unknown Fungiidae",0.0491666666666667
+"2007","LTER 6","Acanthastrea",0.0258333333333333
+"2007","LTER 6","Acropora",3.32
+"2007","LTER 6","Astrea",0.395833333333333
+"2007","LTER 6","Astreopora",0.235
+"2007","LTER 6","Cyphastrea",0.025
+"2007","LTER 6","Gardineroseris",0.0333333333333333
+"2007","LTER 6","Goniastrea",0.00833333333333333
+"2007","LTER 6","Herpolitha",0
+"2007","LTER 6","Leptastrea",0.360833333333333
+"2007","LTER 6","Leptoseris",0.0133333333333333
+"2007","LTER 6","Lobophyllia",0.0175
+"2007","LTER 6","Millepora",0.645833333333333
+"2007","LTER 6","Montipora",2.79583333333333
+"2007","LTER 6","Pachyseris",0
+"2007","LTER 6","Pavona",3.78166666666667
+"2007","LTER 6","Plesiastrea",0
+"2007","LTER 6","Pocillopora",10.3058333333333
+"2007","LTER 6","Porites",1.25916666666667
+"2007","LTER 6","Psammocora",0.0791666666666667
+"2007","LTER 6","Sandolitha",0.00416666666666667
+"2007","LTER 6","Soft Coral",0
+"2007","LTER 6","Stylocoeniella",0
+"2007","LTER 6","Tubastrea",0
+"2007","LTER 6","Unknown Fungiidae",0.00916666666666667
+"2008","LTER 1","Acanthastrea",0.00416666666666667
+"2008","LTER 1","Acropora",0.705833333333333
+"2008","LTER 1","Astrea",0.1925
+"2008","LTER 1","Astreopora",0
+"2008","LTER 1","Cyphastrea",0
+"2008","LTER 1","Gardineroseris",0.025
+"2008","LTER 1","Goniastrea",0.00416666666666667
+"2008","LTER 1","Herpolitha",0.0508333333333333
+"2008","LTER 1","Leptastrea",0.0625
+"2008","LTER 1","Leptoseris",0.00416666666666667
+"2008","LTER 1","Lobophyllia",0
+"2008","LTER 1","Millepora",0.408333333333333
+"2008","LTER 1","Montipora",0.129166666666667
+"2008","LTER 1","Pachyseris",0
+"2008","LTER 1","Pavona",0.0841666666666667
+"2008","LTER 1","Pocillopora",3.93416666666667
+"2008","LTER 1","Porites",14.7783333333333
+"2008","LTER 1","Psammocora",0
+"2008","LTER 1","Sandolitha",0
+"2008","LTER 1","Soft Coral",0.0608333333333333
+"2008","LTER 1","Stylocoeniella",0.00416666666666667
+"2008","LTER 1","Tubastrea",0
+"2008","LTER 1","Unknown Fungiidae",0.0166666666666667
+"2008","LTER 2","Acanthastrea",0.00416666666666667
+"2008","LTER 2","Acropora",0.055
+"2008","LTER 2","Astrea",0.0583333333333333
+"2008","LTER 2","Astreopora",0
+"2008","LTER 2","Cyphastrea",0.00416666666666667
+"2008","LTER 2","Gardineroseris",0.0375
+"2008","LTER 2","Goniastrea",0
+"2008","LTER 2","Herpolitha",0.0125
+"2008","LTER 2","Leptastrea",0.0208333333333333
+"2008","LTER 2","Leptoseris",0
+"2008","LTER 2","Lobophyllia",0
+"2008","LTER 2","Millepora",0.515
+"2008","LTER 2","Montipora",0.0833333333333333
+"2008","LTER 2","Pachyseris",0
+"2008","LTER 2","Pavona",0.179166666666667
+"2008","LTER 2","Pocillopora",1.33833333333333
+"2008","LTER 2","Porites",20.2775
+"2008","LTER 2","Psammocora",0
+"2008","LTER 2","Sandolitha",0
+"2008","LTER 2","Soft Coral",0.0125
+"2008","LTER 2","Stylocoeniella",0
+"2008","LTER 2","Tubastrea",0
+"2008","LTER 2","Unknown Fungiidae",0.0166666666666667
+"2008","LTER 3","Acanthastrea",0
+"2008","LTER 3","Acropora",0.816666666666667
+"2008","LTER 3","Astrea",0.191666666666667
+"2008","LTER 3","Astreopora",0.0416666666666667
+"2008","LTER 3","Cyphastrea",0.0166666666666667
+"2008","LTER 3","Gardineroseris",0.0666666666666667
+"2008","LTER 3","Goniastrea",0.104166666666667
+"2008","LTER 3","Herpolitha",0.236666666666667
+"2008","LTER 3","Leptastrea",0.108333333333333
+"2008","LTER 3","Leptoseris",0
+"2008","LTER 3","Lobophyllia",0.00416666666666667
+"2008","LTER 3","Millepora",0.0966666666666667
+"2008","LTER 3","Montipora",1.49833333333333
+"2008","LTER 3","Pachyseris",0
+"2008","LTER 3","Pavona",5.8075
+"2008","LTER 3","Pocillopora",1.6225
+"2008","LTER 3","Porites",2.7125
+"2008","LTER 3","Psammocora",0
+"2008","LTER 3","Sandolitha",0.00833333333333333
+"2008","LTER 3","Soft Coral",0.0625
+"2008","LTER 3","Stylocoeniella",0
+"2008","LTER 3","Tubastrea",0.00416666666666667
+"2008","LTER 3","Unknown Fungiidae",0.241666666666667
+"2008","LTER 4","Acanthastrea",0.0166666666666667
+"2008","LTER 4","Acropora",2.74416666666667
+"2008","LTER 4","Astrea",0.406666666666667
+"2008","LTER 4","Astreopora",0.00416666666666667
+"2008","LTER 4","Cyphastrea",0.00416666666666667
+"2008","LTER 4","Gardineroseris",0.0791666666666667
+"2008","LTER 4","Goniastrea",0.00833333333333333
+"2008","LTER 4","Herpolitha",0.00416666666666667
+"2008","LTER 4","Leptastrea",0.2
+"2008","LTER 4","Leptoseris",0
+"2008","LTER 4","Lobophyllia",0
+"2008","LTER 4","Millepora",1.1425
+"2008","LTER 4","Montipora",9.61916666666667
+"2008","LTER 4","Pachyseris",0
+"2008","LTER 4","Pavona",0.425
+"2008","LTER 4","Pocillopora",10.4933333333333
+"2008","LTER 4","Porites",2.155
+"2008","LTER 4","Psammocora",0.00416666666666667
+"2008","LTER 4","Sandolitha",0
+"2008","LTER 4","Soft Coral",0.0541666666666667
+"2008","LTER 4","Stylocoeniella",0.0166666666666667
+"2008","LTER 4","Tubastrea",0
+"2008","LTER 4","Unknown Fungiidae",0.0466666666666667
+"2008","LTER 5","Acanthastrea",0.00416666666666667
+"2008","LTER 5","Acropora",0.93
+"2008","LTER 5","Astrea",0.405833333333333
+"2008","LTER 5","Astreopora",0.296666666666667
+"2008","LTER 5","Cyphastrea",0
+"2008","LTER 5","Gardineroseris",0.0541666666666667
+"2008","LTER 5","Goniastrea",0.00833333333333333
+"2008","LTER 5","Herpolitha",0.00416666666666667
+"2008","LTER 5","Leptastrea",0.5325
+"2008","LTER 5","Leptoseris",0
+"2008","LTER 5","Lobophyllia",0
+"2008","LTER 5","Millepora",0.0216666666666667
+"2008","LTER 5","Montipora",2.06583333333333
+"2008","LTER 5","Pachyseris",0
+"2008","LTER 5","Pavona",0.376666666666667
+"2008","LTER 5","Pocillopora",7.7125
+"2008","LTER 5","Porites",17.4733333333333
+"2008","LTER 5","Psammocora",0.00833333333333333
+"2008","LTER 5","Sandolitha",0
+"2008","LTER 5","Soft Coral",0.129166666666667
+"2008","LTER 5","Stylocoeniella",0
+"2008","LTER 5","Tubastrea",0
+"2008","LTER 5","Unknown Fungiidae",0.0541666666666667
+"2008","LTER 6","Acanthastrea",0.00416666666666667
+"2008","LTER 6","Acropora",0.424166666666667
+"2008","LTER 6","Astrea",0.335
+"2008","LTER 6","Astreopora",0.0708333333333333
+"2008","LTER 6","Cyphastrea",0.00416666666666667
+"2008","LTER 6","Gardineroseris",0.0416666666666667
+"2008","LTER 6","Goniastrea",0.0125
+"2008","LTER 6","Herpolitha",0.00416666666666667
+"2008","LTER 6","Leptastrea",0.251666666666667
+"2008","LTER 6","Leptoseris",0.00416666666666667
+"2008","LTER 6","Lobophyllia",0.0125
+"2008","LTER 6","Millepora",0.490833333333333
+"2008","LTER 6","Montipora",2.41666666666667
+"2008","LTER 6","Pachyseris",0
+"2008","LTER 6","Pavona",3.85416666666667
+"2008","LTER 6","Pocillopora",6.83916666666667
+"2008","LTER 6","Porites",0.569166666666667
+"2008","LTER 6","Psammocora",0
+"2008","LTER 6","Sandolitha",0
+"2008","LTER 6","Soft Coral",0.1
+"2008","LTER 6","Stylocoeniella",0.00833333333333333
+"2008","LTER 6","Tubastrea",0
+"2008","LTER 6","Unknown Fungiidae",0.0458333333333333
+"2009","LTER 1","Acanthastrea",0
+"2009","LTER 1","Acropora",0.00833333333333333
+"2009","LTER 1","Astrea",0.0633333333333333
+"2009","LTER 1","Astreopora",0
+"2009","LTER 1","Cyphastrea",0
+"2009","LTER 1","Gardineroseris",0.0208333333333333
+"2009","LTER 1","Goniastrea",0
+"2009","LTER 1","Herpolitha",0
+"2009","LTER 1","Leptastrea",0.0125
+"2009","LTER 1","Leptoseris",0
+"2009","LTER 1","Lobophyllia",0
+"2009","LTER 1","Millepora",0.594166666666667
+"2009","LTER 1","Montipora",0.0341666666666667
+"2009","LTER 1","Pachyseris",0
+"2009","LTER 1","Pavona",0.0166666666666667
+"2009","LTER 1","Pocillopora",0.974166666666667
+"2009","LTER 1","Porites",13.945
+"2009","LTER 1","Psammocora",0.00416666666666667
+"2009","LTER 1","Sandolitha",0
+"2009","LTER 1","Soft Coral",0.00833333333333333
+"2009","LTER 1","Stylocoeniella",0
+"2009","LTER 1","Tubastrea",0
+"2009","LTER 1","Unknown Fungiidae",0.00833333333333333
+"2009","LTER 2","Acanthastrea",0
+"2009","LTER 2","Acropora",0.00916666666666667
+"2009","LTER 2","Astrea",0.0425
+"2009","LTER 2","Astreopora",0
+"2009","LTER 2","Cyphastrea",0
+"2009","LTER 2","Gardineroseris",0.0133333333333333
+"2009","LTER 2","Goniastrea",0
+"2009","LTER 2","Herpolitha",0
+"2009","LTER 2","Leptastrea",0.1175
+"2009","LTER 2","Leptoseris",0
+"2009","LTER 2","Lobophyllia",0.0133333333333333
+"2009","LTER 2","Millepora",0.34
+"2009","LTER 2","Montipora",0.119166666666667
+"2009","LTER 2","Pachyseris",0
+"2009","LTER 2","Pavona",0.065
+"2009","LTER 2","Pocillopora",1.215
+"2009","LTER 2","Porites",15.5008333333333
+"2009","LTER 2","Psammocora",0
+"2009","LTER 2","Sandolitha",0
+"2009","LTER 2","Soft Coral",0.0125
+"2009","LTER 2","Stylocoeniella",0
+"2009","LTER 2","Tubastrea",0
+"2009","LTER 2","Unknown Fungiidae",0.0625
+"2009","LTER 3","Acanthastrea",0
+"2009","LTER 3","Acropora",0.559166666666667
+"2009","LTER 3","Astrea",0.035
+"2009","LTER 3","Astreopora",0
+"2009","LTER 3","Cyphastrea",0.00416666666666667
+"2009","LTER 3","Gardineroseris",0.0125
+"2009","LTER 3","Goniastrea",0.00416666666666667
+"2009","LTER 3","Herpolitha",0
+"2009","LTER 3","Leptastrea",0.0125
+"2009","LTER 3","Leptoseris",0
+"2009","LTER 3","Lobophyllia",0
+"2009","LTER 3","Millepora",0
+"2009","LTER 3","Montipora",1.7225
+"2009","LTER 3","Pachyseris",0
+"2009","LTER 3","Pavona",3.66083333333333
+"2009","LTER 3","Pocillopora",0.145833333333333
+"2009","LTER 3","Porites",1.44333333333333
+"2009","LTER 3","Psammocora",0
+"2009","LTER 3","Sandolitha",0
+"2009","LTER 3","Soft Coral",0.075
+"2009","LTER 3","Stylocoeniella",0
+"2009","LTER 3","Tubastrea",0
+"2009","LTER 3","Unknown Fungiidae",0.0133333333333333
+"2009","LTER 4","Acanthastrea",0.00416666666666667
+"2009","LTER 4","Acropora",0.18
+"2009","LTER 4","Astrea",0.165833333333333
+"2009","LTER 4","Astreopora",0
+"2009","LTER 4","Cyphastrea",0.00416666666666667
+"2009","LTER 4","Gardineroseris",0.0208333333333333
+"2009","LTER 4","Goniastrea",0
+"2009","LTER 4","Herpolitha",0
+"2009","LTER 4","Leptastrea",0.0525
+"2009","LTER 4","Leptoseris",0
+"2009","LTER 4","Lobophyllia",0
+"2009","LTER 4","Millepora",0.724166666666667
+"2009","LTER 4","Montipora",6.03416666666667
+"2009","LTER 4","Pachyseris",0
+"2009","LTER 4","Pavona",0.0741666666666667
+"2009","LTER 4","Pocillopora",3.9925
+"2009","LTER 4","Porites",1.07333333333333
+"2009","LTER 4","Psammocora",0
+"2009","LTER 4","Sandolitha",0
+"2009","LTER 4","Soft Coral",0.143333333333333
+"2009","LTER 4","Stylocoeniella",0
+"2009","LTER 4","Tubastrea",0
+"2009","LTER 4","Unknown Fungiidae",0.0208333333333333
+"2009","LTER 5","Acanthastrea",0.00416666666666667
+"2009","LTER 5","Acropora",0.925
+"2009","LTER 5","Astrea",0.230833333333333
+"2009","LTER 5","Astreopora",0.0666666666666667
+"2009","LTER 5","Cyphastrea",0.00916666666666667
+"2009","LTER 5","Gardineroseris",0.025
+"2009","LTER 5","Goniastrea",0
+"2009","LTER 5","Herpolitha",0
+"2009","LTER 5","Leptastrea",0.303333333333333
+"2009","LTER 5","Leptoseris",0
+"2009","LTER 5","Lobophyllia",0
+"2009","LTER 5","Millepora",0.0266666666666667
+"2009","LTER 5","Montipora",1.79
+"2009","LTER 5","Pachyseris",0
+"2009","LTER 5","Pavona",0.1425
+"2009","LTER 5","Pocillopora",3.96083333333333
+"2009","LTER 5","Porites",15.955
+"2009","LTER 5","Psammocora",0
+"2009","LTER 5","Sandolitha",0
+"2009","LTER 5","Soft Coral",0.249166666666667
+"2009","LTER 5","Stylocoeniella",0
+"2009","LTER 5","Tubastrea",0
+"2009","LTER 5","Unknown Fungiidae",0.065
+"2009","LTER 6","Acanthastrea",0.00416666666666667
+"2009","LTER 6","Acropora",0.0391666666666667
+"2009","LTER 6","Astrea",0.111666666666667
+"2009","LTER 6","Astreopora",0.0216666666666667
+"2009","LTER 6","Cyphastrea",0.00416666666666667
+"2009","LTER 6","Gardineroseris",0.0308333333333333
+"2009","LTER 6","Goniastrea",0.00916666666666667
+"2009","LTER 6","Herpolitha",0
+"2009","LTER 6","Leptastrea",0.0208333333333333
+"2009","LTER 6","Leptoseris",0
+"2009","LTER 6","Lobophyllia",0.00416666666666667
+"2009","LTER 6","Millepora",0.284166666666667
+"2009","LTER 6","Montipora",2.47916666666667
+"2009","LTER 6","Pachyseris",0
+"2009","LTER 6","Pavona",4.3025
+"2009","LTER 6","Pocillopora",1.87416666666667
+"2009","LTER 6","Porites",0.194166666666667
+"2009","LTER 6","Psammocora",0
+"2009","LTER 6","Sandolitha",0
+"2009","LTER 6","Soft Coral",0.0608333333333333
+"2009","LTER 6","Stylocoeniella",0
+"2009","LTER 6","Tubastrea",0
+"2009","LTER 6","Unknown Fungiidae",0.00833333333333333
+"2010","LTER 1","Acanthastrea",0
+"2010","LTER 1","Acropora",0.00416666666666667
+"2010","LTER 1","Astrea",0.00833333333333333
+"2010","LTER 1","Astreopora",0
+"2010","LTER 1","Cyphastrea",0
+"2010","LTER 1","Gardineroseris",0.00416666666666667
+"2010","LTER 1","Goniastrea",0
+"2010","LTER 1","Herpolitha",0
+"2010","LTER 1","Leptastrea",0.00416666666666667
+"2010","LTER 1","Leptoseris",0
+"2010","LTER 1","Lobophyllia",0
+"2010","LTER 1","Millepora",0.0608333333333333
+"2010","LTER 1","Montipora",0.0508333333333333
+"2010","LTER 1","Pachyseris",0
+"2010","LTER 1","Pavona",0.00416666666666667
+"2010","LTER 1","Pocillopora",0.0258333333333333
+"2010","LTER 1","Porites",12.025
+"2010","LTER 1","Psammocora",0
+"2010","LTER 1","Sandolitha",0
+"2010","LTER 1","Soft Coral",0.00416666666666667
+"2010","LTER 1","Stylocoeniella",0
+"2010","LTER 1","Tubastrea",0
+"2010","LTER 1","Unknown Fungiidae",0.0175
+"2010","LTER 2","Acanthastrea",0.0125
+"2010","LTER 2","Acropora",0
+"2010","LTER 2","Astrea",0.0341666666666667
+"2010","LTER 2","Astreopora",0
+"2010","LTER 2","Cyphastrea",0
+"2010","LTER 2","Gardineroseris",0.00416666666666667
+"2010","LTER 2","Goniastrea",0
+"2010","LTER 2","Herpolitha",0
+"2010","LTER 2","Leptastrea",0.00833333333333333
+"2010","LTER 2","Leptoseris",0
+"2010","LTER 2","Lobophyllia",0.166666666666667
+"2010","LTER 2","Millepora",0.200833333333333
+"2010","LTER 2","Montipora",0.5675
+"2010","LTER 2","Pachyseris",0
+"2010","LTER 2","Pavona",0.0383333333333333
+"2010","LTER 2","Pocillopora",0.125
+"2010","LTER 2","Porites",13.5616666666667
+"2010","LTER 2","Psammocora",0.00416666666666667
+"2010","LTER 2","Sandolitha",0
+"2010","LTER 2","Soft Coral",0.0208333333333333
+"2010","LTER 2","Stylocoeniella",0
+"2010","LTER 2","Tubastrea",0
+"2010","LTER 2","Unknown Fungiidae",0.025
+"2010","LTER 3","Acanthastrea",0.00916666666666667
+"2010","LTER 3","Acropora",0.7275
+"2010","LTER 3","Astrea",0
+"2010","LTER 3","Astreopora",0
+"2010","LTER 3","Cyphastrea",0
+"2010","LTER 3","Gardineroseris",0
+"2010","LTER 3","Goniastrea",0.0183333333333333
+"2010","LTER 3","Herpolitha",0.00416666666666667
+"2010","LTER 3","Leptastrea",0
+"2010","LTER 3","Leptoseris",0
+"2010","LTER 3","Lobophyllia",0
+"2010","LTER 3","Millepora",0.0183333333333333
+"2010","LTER 3","Montipora",0.905833333333333
+"2010","LTER 3","Pachyseris",0
+"2010","LTER 3","Pavona",2
+"2010","LTER 3","Pocillopora",0.210833333333333
+"2010","LTER 3","Porites",1.10166666666667
+"2010","LTER 3","Psammocora",0
+"2010","LTER 3","Sandolitha",0
+"2010","LTER 3","Soft Coral",0.0591666666666667
+"2010","LTER 3","Stylocoeniella",0
+"2010","LTER 3","Tubastrea",0
+"2010","LTER 3","Unknown Fungiidae",0.00416666666666667
+"2010","LTER 4","Acanthastrea",0
+"2010","LTER 4","Acropora",0.0175
+"2010","LTER 4","Astrea",0.129166666666667
+"2010","LTER 4","Astreopora",0
+"2010","LTER 4","Cyphastrea",0.0125
+"2010","LTER 4","Gardineroseris",0.0125
+"2010","LTER 4","Goniastrea",0.0125
+"2010","LTER 4","Herpolitha",0.00416666666666667
+"2010","LTER 4","Leptastrea",0.00833333333333333
+"2010","LTER 4","Leptoseris",0
+"2010","LTER 4","Lobophyllia",0
+"2010","LTER 4","Millepora",0.799166666666667
+"2010","LTER 4","Montipora",5.13083333333333
+"2010","LTER 4","Pachyseris",0
+"2010","LTER 4","Pavona",0.0258333333333333
+"2010","LTER 4","Pocillopora",1.87083333333333
+"2010","LTER 4","Porites",0.7925
+"2010","LTER 4","Psammocora",0
+"2010","LTER 4","Sandolitha",0
+"2010","LTER 4","Soft Coral",0.1225
+"2010","LTER 4","Stylocoeniella",0
+"2010","LTER 4","Tubastrea",0
+"2010","LTER 4","Unknown Fungiidae",0.0333333333333333
+"2010","LTER 5","Acanthastrea",0
+"2010","LTER 5","Acropora",0.0541666666666667
+"2010","LTER 5","Astrea",0.2025
+"2010","LTER 5","Astreopora",0.00833333333333333
+"2010","LTER 5","Cyphastrea",0.0133333333333333
+"2010","LTER 5","Gardineroseris",0.0341666666666667
+"2010","LTER 5","Goniastrea",0
+"2010","LTER 5","Herpolitha",0.0208333333333333
+"2010","LTER 5","Leptastrea",0.214166666666667
+"2010","LTER 5","Leptoseris",0.00416666666666667
+"2010","LTER 5","Lobophyllia",0
+"2010","LTER 5","Millepora",0.00916666666666667
+"2010","LTER 5","Montipora",0.465833333333333
+"2010","LTER 5","Pachyseris",0
+"2010","LTER 5","Pavona",0.119166666666667
+"2010","LTER 5","Pocillopora",1.14166666666667
+"2010","LTER 5","Porites",15.8125
+"2010","LTER 5","Psammocora",0
+"2010","LTER 5","Sandolitha",0
+"2010","LTER 5","Soft Coral",0.1275
+"2010","LTER 5","Stylocoeniella",0
+"2010","LTER 5","Tubastrea",0
+"2010","LTER 5","Unknown Fungiidae",0
+"2010","LTER 6","Acanthastrea",0
+"2010","LTER 6","Acropora",0.0175
+"2010","LTER 6","Astrea",0.108333333333333
+"2010","LTER 6","Astreopora",0.00833333333333333
+"2010","LTER 6","Cyphastrea",0
+"2010","LTER 6","Gardineroseris",0.0333333333333333
+"2010","LTER 6","Goniastrea",0
+"2010","LTER 6","Herpolitha",0
+"2010","LTER 6","Leptastrea",0.0508333333333333
+"2010","LTER 6","Leptoseris",0.00416666666666667
+"2010","LTER 6","Lobophyllia",0
+"2010","LTER 6","Millepora",0.190833333333333
+"2010","LTER 6","Montipora",2.3125
+"2010","LTER 6","Pachyseris",0
+"2010","LTER 6","Pavona",4.81666666666667
+"2010","LTER 6","Pocillopora",0.311666666666667
+"2010","LTER 6","Porites",0.183333333333333
+"2010","LTER 6","Psammocora",0.00833333333333333
+"2010","LTER 6","Sandolitha",0
+"2010","LTER 6","Soft Coral",0
+"2010","LTER 6","Stylocoeniella",0
+"2010","LTER 6","Tubastrea",0
+"2010","LTER 6","Unknown Fungiidae",0.0125
+"2011","LTER 1","Acanthastrea",0
+"2011","LTER 1","Acropora",0
+"2011","LTER 1","Astrea",0.0475
+"2011","LTER 1","Astreopora",0
+"2011","LTER 1","Cyphastrea",0
+"2011","LTER 1","Gardineroseris",0
+"2011","LTER 1","Goniastrea",0
+"2011","LTER 1","Herpolitha",0
+"2011","LTER 1","Leptastrea",0
+"2011","LTER 1","Leptoseris",0
+"2011","LTER 1","Lobophyllia",0
+"2011","LTER 1","Millepora",0.0525
+"2011","LTER 1","Montipora",0.0133333333333333
+"2011","LTER 1","Pachyseris",0
+"2011","LTER 1","Pavona",0.0125
+"2011","LTER 1","Pocillopora",0.0475
+"2011","LTER 1","Porites",9.85166666666667
+"2011","LTER 1","Psammocora",0.0175
+"2011","LTER 1","Sandolitha",0
+"2011","LTER 1","Soft Coral",0.00833333333333333
+"2011","LTER 1","Stylocoeniella",0
+"2011","LTER 1","Tubastrea",0
+"2011","LTER 1","Unknown Fungiidae",0
+"2011","LTER 2","Acanthastrea",0
+"2011","LTER 2","Acropora",0.00416666666666667
+"2011","LTER 2","Astrea",0.0566666666666667
+"2011","LTER 2","Astreopora",0
+"2011","LTER 2","Cyphastrea",0
+"2011","LTER 2","Gardineroseris",0
+"2011","LTER 2","Goniastrea",0
+"2011","LTER 2","Herpolitha",0
+"2011","LTER 2","Leptastrea",0.00833333333333333
+"2011","LTER 2","Leptoseris",0
+"2011","LTER 2","Lobophyllia",0.3025
+"2011","LTER 2","Millepora",0.375
+"2011","LTER 2","Montipora",0.0175
+"2011","LTER 2","Pachyseris",0
+"2011","LTER 2","Pavona",0.0391666666666667
+"2011","LTER 2","Pocillopora",0.27
+"2011","LTER 2","Porites",8.645
+"2011","LTER 2","Psammocora",0.00833333333333333
+"2011","LTER 2","Sandolitha",0
+"2011","LTER 2","Soft Coral",0
+"2011","LTER 2","Stylocoeniella",0
+"2011","LTER 2","Tubastrea",0
+"2011","LTER 2","Unknown Fungiidae",0.0266666666666667
+"2011","LTER 3","Acanthastrea",0.005
+"2011","LTER 3","Acropora",0.643333333333333
+"2011","LTER 3","Astrea",0.0258333333333333
+"2011","LTER 3","Astreopora",0
+"2011","LTER 3","Cyphastrea",0
+"2011","LTER 3","Gardineroseris",0
+"2011","LTER 3","Goniastrea",0
+"2011","LTER 3","Herpolitha",0
+"2011","LTER 3","Leptastrea",0
+"2011","LTER 3","Leptoseris",0
+"2011","LTER 3","Lobophyllia",0
+"2011","LTER 3","Millepora",0.0133333333333333
+"2011","LTER 3","Montipora",0.234166666666667
+"2011","LTER 3","Pachyseris",0
+"2011","LTER 3","Pavona",0.844166666666667
+"2011","LTER 3","Pocillopora",0.193333333333333
+"2011","LTER 3","Porites",0.948333333333333
+"2011","LTER 3","Psammocora",0.0133333333333333
+"2011","LTER 3","Sandolitha",0
+"2011","LTER 3","Soft Coral",0.0633333333333333
+"2011","LTER 3","Stylocoeniella",0
+"2011","LTER 3","Tubastrea",0
+"2011","LTER 3","Unknown Fungiidae",0.0266666666666667
+"2011","LTER 4","Acanthastrea",0
+"2011","LTER 4","Acropora",0.0433333333333333
+"2011","LTER 4","Astrea",0.214166666666667
+"2011","LTER 4","Astreopora",0
+"2011","LTER 4","Cyphastrea",0.00416666666666667
+"2011","LTER 4","Gardineroseris",0
+"2011","LTER 4","Goniastrea",0.00916666666666667
+"2011","LTER 4","Herpolitha",0
+"2011","LTER 4","Leptastrea",0.0391666666666667
+"2011","LTER 4","Leptoseris",0.00416666666666667
+"2011","LTER 4","Lobophyllia",0
+"2011","LTER 4","Millepora",0.9325
+"2011","LTER 4","Montipora",5.51583333333333
+"2011","LTER 4","Pachyseris",0
+"2011","LTER 4","Pavona",0.0691666666666667
+"2011","LTER 4","Pocillopora",1.00916666666667
+"2011","LTER 4","Porites",1.0725
+"2011","LTER 4","Psammocora",0.03
+"2011","LTER 4","Sandolitha",0
+"2011","LTER 4","Soft Coral",0.00416666666666667
+"2011","LTER 4","Stylocoeniella",0
+"2011","LTER 4","Tubastrea",0
+"2011","LTER 4","Unknown Fungiidae",0.00416666666666667
+"2011","LTER 5","Acanthastrea",0.00416666666666667
+"2011","LTER 5","Acropora",0.0875
+"2011","LTER 5","Astrea",0.316666666666667
+"2011","LTER 5","Astreopora",0.0808333333333333
+"2011","LTER 5","Cyphastrea",0.0216666666666667
+"2011","LTER 5","Gardineroseris",0
+"2011","LTER 5","Goniastrea",0.0183333333333333
+"2011","LTER 5","Herpolitha",0
+"2011","LTER 5","Leptastrea",0.275
+"2011","LTER 5","Leptoseris",0
+"2011","LTER 5","Lobophyllia",0
+"2011","LTER 5","Millepora",0.0541666666666667
+"2011","LTER 5","Montipora",0.431666666666667
+"2011","LTER 5","Pachyseris",0
+"2011","LTER 5","Pavona",0.150833333333333
+"2011","LTER 5","Pocillopora",1.15166666666667
+"2011","LTER 5","Porites",15.4541666666667
+"2011","LTER 5","Psammocora",0.07
+"2011","LTER 5","Sandolitha",0.00416666666666667
+"2011","LTER 5","Soft Coral",0.276666666666667
+"2011","LTER 5","Stylocoeniella",0
+"2011","LTER 5","Tubastrea",0
+"2011","LTER 5","Unknown Fungiidae",0.00416666666666667
+"2011","LTER 6","Acanthastrea",0.0166666666666667
+"2011","LTER 6","Acropora",0.0383333333333333
+"2011","LTER 6","Astrea",0.2125
+"2011","LTER 6","Astreopora",0.0433333333333333
+"2011","LTER 6","Cyphastrea",0.00416666666666667
+"2011","LTER 6","Gardineroseris",0
+"2011","LTER 6","Goniastrea",0
+"2011","LTER 6","Herpolitha",0
+"2011","LTER 6","Leptastrea",0.00833333333333333
+"2011","LTER 6","Leptoseris",0.00916666666666667
+"2011","LTER 6","Lobophyllia",0
+"2011","LTER 6","Millepora",0.530833333333333
+"2011","LTER 6","Montipora",1.3575
+"2011","LTER 6","Pachyseris",0
+"2011","LTER 6","Pavona",6.53083333333333
+"2011","LTER 6","Pocillopora",0.56
+"2011","LTER 6","Porites",0.260833333333333
+"2011","LTER 6","Psammocora",0.0783333333333333
+"2011","LTER 6","Sandolitha",0
+"2011","LTER 6","Soft Coral",0.00416666666666667
+"2011","LTER 6","Stylocoeniella",0
+"2011","LTER 6","Tubastrea",0
+"2011","LTER 6","Unknown Fungiidae",0.005
+"2012","LTER 1","Acanthastrea",0
+"2012","LTER 1","Acropora",0.0491666666666667
+"2012","LTER 1","Astrea",0.0733333333333333
+"2012","LTER 1","Astreopora",0
+"2012","LTER 1","Cyphastrea",0.00416666666666667
+"2012","LTER 1","Gardineroseris",0
+"2012","LTER 1","Goniastrea",0
+"2012","LTER 1","Herpolitha",0
+"2012","LTER 1","Leptastrea",0.00416666666666667
+"2012","LTER 1","Leptoseris",0
+"2012","LTER 1","Lobophyllia",0
+"2012","LTER 1","Millepora",0.119166666666667
+"2012","LTER 1","Montipora",0.0883333333333333
+"2012","LTER 1","Pachyseris",0
+"2012","LTER 1","Pavona",0.0941666666666667
+"2012","LTER 1","Pocillopora",0.8225
+"2012","LTER 1","Porites",3.8825
+"2012","LTER 1","Psammocora",0.0808333333333333
+"2012","LTER 1","Sandolitha",0
+"2012","LTER 1","Soft Coral",0
+"2012","LTER 1","Stylocoeniella",0
+"2012","LTER 1","Tubastrea",0
+"2012","LTER 1","Unknown Fungiidae",0.00416666666666667
+"2012","LTER 2","Acanthastrea",0.0133333333333333
+"2012","LTER 2","Acropora",0.0308333333333333
+"2012","LTER 2","Astrea",0.0833333333333333
+"2012","LTER 2","Astreopora",0
+"2012","LTER 2","Cyphastrea",0.0191666666666667
+"2012","LTER 2","Gardineroseris",0
+"2012","LTER 2","Goniastrea",0.00416666666666667
+"2012","LTER 2","Herpolitha",0.0358333333333333
+"2012","LTER 2","Leptastrea",0.00833333333333333
+"2012","LTER 2","Leptoseris",0
+"2012","LTER 2","Lobophyllia",0.00416666666666667
+"2012","LTER 2","Millepora",0.435
+"2012","LTER 2","Montipora",0.0966666666666667
+"2012","LTER 2","Pachyseris",0
+"2012","LTER 2","Pavona",0.155833333333333
+"2012","LTER 2","Pocillopora",0.934166666666667
+"2012","LTER 2","Porites",6.65
+"2012","LTER 2","Psammocora",0.0508333333333333
+"2012","LTER 2","Sandolitha",0
+"2012","LTER 2","Soft Coral",0
+"2012","LTER 2","Stylocoeniella",0
+"2012","LTER 2","Tubastrea",0
+"2012","LTER 2","Unknown Fungiidae",0.0175
+"2012","LTER 3","Acanthastrea",0
+"2012","LTER 3","Acropora",0.638333333333333
+"2012","LTER 3","Astrea",0.0308333333333333
+"2012","LTER 3","Astreopora",0
+"2012","LTER 3","Cyphastrea",0
+"2012","LTER 3","Gardineroseris",0
+"2012","LTER 3","Goniastrea",0.00833333333333333
+"2012","LTER 3","Herpolitha",0
+"2012","LTER 3","Leptastrea",0
+"2012","LTER 3","Leptoseris",0
+"2012","LTER 3","Lobophyllia",0
+"2012","LTER 3","Millepora",0.0125
+"2012","LTER 3","Montipora",0.21
+"2012","LTER 3","Pachyseris",0
+"2012","LTER 3","Pavona",0.33
+"2012","LTER 3","Pocillopora",0.4525
+"2012","LTER 3","Porites",1.05666666666667
+"2012","LTER 3","Psammocora",0.0441666666666667
+"2012","LTER 3","Sandolitha",0
+"2012","LTER 3","Soft Coral",0.0466666666666667
+"2012","LTER 3","Stylocoeniella",0
+"2012","LTER 3","Tubastrea",0
+"2012","LTER 3","Unknown Fungiidae",0.0133333333333333
+"2012","LTER 4","Acanthastrea",0
+"2012","LTER 4","Acropora",0.055
+"2012","LTER 4","Astrea",0.193333333333333
+"2012","LTER 4","Astreopora",0
+"2012","LTER 4","Cyphastrea",0.00416666666666667
+"2012","LTER 4","Gardineroseris",0
+"2012","LTER 4","Goniastrea",0
+"2012","LTER 4","Herpolitha",0
+"2012","LTER 4","Leptastrea",0.0508333333333333
+"2012","LTER 4","Leptoseris",0
+"2012","LTER 4","Lobophyllia",0
+"2012","LTER 4","Millepora",0.244166666666667
+"2012","LTER 4","Montipora",5.18083333333333
+"2012","LTER 4","Pachyseris",0
+"2012","LTER 4","Pavona",0.0758333333333333
+"2012","LTER 4","Pocillopora",0.61
+"2012","LTER 4","Porites",0.820833333333333
+"2012","LTER 4","Psammocora",0.06
+"2012","LTER 4","Sandolitha",0
+"2012","LTER 4","Soft Coral",0
+"2012","LTER 4","Stylocoeniella",0
+"2012","LTER 4","Tubastrea",0
+"2012","LTER 4","Unknown Fungiidae",0.0175
+"2012","LTER 5","Acanthastrea",0.0133333333333333
+"2012","LTER 5","Acropora",0.135833333333333
+"2012","LTER 5","Astrea",0.325833333333333
+"2012","LTER 5","Astreopora",0.00916666666666667
+"2012","LTER 5","Cyphastrea",0.005
+"2012","LTER 5","Gardineroseris",0
+"2012","LTER 5","Goniastrea",0.0175
+"2012","LTER 5","Herpolitha",0
+"2012","LTER 5","Leptastrea",0.169166666666667
+"2012","LTER 5","Leptoseris",0.00416666666666667
+"2012","LTER 5","Lobophyllia",0
+"2012","LTER 5","Millepora",0.0425
+"2012","LTER 5","Montipora",0.5025
+"2012","LTER 5","Pachyseris",0
+"2012","LTER 5","Pavona",0.2475
+"2012","LTER 5","Pocillopora",1.3125
+"2012","LTER 5","Porites",15.2758333333333
+"2012","LTER 5","Psammocora",0.115833333333333
+"2012","LTER 5","Sandolitha",0
+"2012","LTER 5","Soft Coral",0.225
+"2012","LTER 5","Stylocoeniella",0
+"2012","LTER 5","Tubastrea",0
+"2012","LTER 5","Unknown Fungiidae",0.00416666666666667
+"2012","LTER 6","Acanthastrea",0.0125
+"2012","LTER 6","Acropora",0.194166666666667
+"2012","LTER 6","Astrea",0.350833333333333
+"2012","LTER 6","Astreopora",0.0258333333333333
+"2012","LTER 6","Cyphastrea",0.0358333333333333
+"2012","LTER 6","Gardineroseris",0
+"2012","LTER 6","Goniastrea",0.00833333333333333
+"2012","LTER 6","Herpolitha",0
+"2012","LTER 6","Leptastrea",0.0516666666666667
+"2012","LTER 6","Leptoseris",0
+"2012","LTER 6","Lobophyllia",0.0308333333333333
+"2012","LTER 6","Millepora",0.6575
+"2012","LTER 6","Montipora",1.77666666666667
+"2012","LTER 6","Pachyseris",0
+"2012","LTER 6","Pavona",6.13333333333333
+"2012","LTER 6","Pocillopora",1.54666666666667
+"2012","LTER 6","Porites",0.4225
+"2012","LTER 6","Psammocora",0.101666666666667
+"2012","LTER 6","Sandolitha",0
+"2012","LTER 6","Soft Coral",0
+"2012","LTER 6","Stylocoeniella",0
+"2012","LTER 6","Tubastrea",0
+"2012","LTER 6","Unknown Fungiidae",0
+"2013","LTER 1","Acanthastrea",0.0275
+"2013","LTER 1","Acropora",0.2025
+"2013","LTER 1","Astrea",0.194166666666667
+"2013","LTER 1","Astreopora",0
+"2013","LTER 1","Cyphastrea",0.0241666666666667
+"2013","LTER 1","Gardineroseris",0.005
+"2013","LTER 1","Goniastrea",0.0133333333333333
+"2013","LTER 1","Herpolitha",0
+"2013","LTER 1","Leptastrea",0.0175
+"2013","LTER 1","Leptoseris",0.00916666666666667
+"2013","LTER 1","Lobophyllia",0.005
+"2013","LTER 1","Millepora",0.1475
+"2013","LTER 1","Montipora",0.505
+"2013","LTER 1","Pachyseris",0
+"2013","LTER 1","Pavona",0.1425
+"2013","LTER 1","Pocillopora",3.29666666666667
+"2013","LTER 1","Porites",3.40666666666667
+"2013","LTER 1","Psammocora",0.123333333333333
+"2013","LTER 1","Sandolitha",0
+"2013","LTER 1","Soft Coral",0
+"2013","LTER 1","Stylocoeniella",0
+"2013","LTER 1","Tubastrea",0
+"2013","LTER 1","Unknown Fungiidae",0.00416666666666667
+"2013","LTER 2","Acanthastrea",0.0383333333333333
+"2013","LTER 2","Acropora",0.0691666666666667
+"2013","LTER 2","Astrea",0.225
+"2013","LTER 2","Astreopora",0
+"2013","LTER 2","Cyphastrea",0.00916666666666667
+"2013","LTER 2","Gardineroseris",0
+"2013","LTER 2","Goniastrea",0
+"2013","LTER 2","Herpolitha",0.00916666666666667
+"2013","LTER 2","Leptastrea",0.015
+"2013","LTER 2","Leptoseris",0.00833333333333333
+"2013","LTER 2","Lobophyllia",0
+"2013","LTER 2","Millepora",0.470833333333333
+"2013","LTER 2","Montipora",0.495
+"2013","LTER 2","Pachyseris",0
+"2013","LTER 2","Pavona",0.228333333333333
+"2013","LTER 2","Pocillopora",2.58083333333333
+"2013","LTER 2","Porites",6.17833333333333
+"2013","LTER 2","Psammocora",0.0891666666666667
+"2013","LTER 2","Sandolitha",0
+"2013","LTER 2","Soft Coral",0
+"2013","LTER 2","Stylocoeniella",0
+"2013","LTER 2","Tubastrea",0
+"2013","LTER 2","Unknown Fungiidae",0.0166666666666667
+"2013","LTER 3","Acanthastrea",0
+"2013","LTER 3","Acropora",0.9
+"2013","LTER 3","Astrea",0.0433333333333333
+"2013","LTER 3","Astreopora",0
+"2013","LTER 3","Cyphastrea",0.0141666666666667
+"2013","LTER 3","Gardineroseris",0
+"2013","LTER 3","Goniastrea",0.00916666666666667
+"2013","LTER 3","Herpolitha",0.00916666666666667
+"2013","LTER 3","Leptastrea",0
+"2013","LTER 3","Leptoseris",0.00416666666666667
+"2013","LTER 3","Lobophyllia",0
+"2013","LTER 3","Millepora",0.0416666666666667
+"2013","LTER 3","Montipora",0.2825
+"2013","LTER 3","Pachyseris",0
+"2013","LTER 3","Pavona",0.380833333333333
+"2013","LTER 3","Pocillopora",0.75
+"2013","LTER 3","Porites",1.1525
+"2013","LTER 3","Psammocora",0.085
+"2013","LTER 3","Sandolitha",0
+"2013","LTER 3","Soft Coral",0.00916666666666667
+"2013","LTER 3","Stylocoeniella",0
+"2013","LTER 3","Tubastrea",0
+"2013","LTER 3","Unknown Fungiidae",0.0558333333333333
+"2013","LTER 4","Acanthastrea",0.00416666666666667
+"2013","LTER 4","Acropora",0.184166666666667
+"2013","LTER 4","Astrea",0.39
+"2013","LTER 4","Astreopora",0
+"2013","LTER 4","Cyphastrea",0.06
+"2013","LTER 4","Gardineroseris",0
+"2013","LTER 4","Goniastrea",0.0375
+"2013","LTER 4","Herpolitha",0.0275
+"2013","LTER 4","Leptastrea",0.0408333333333333
+"2013","LTER 4","Leptoseris",0.00416666666666667
+"2013","LTER 4","Lobophyllia",0
+"2013","LTER 4","Millepora",1.3425
+"2013","LTER 4","Montipora",6.77416666666667
+"2013","LTER 4","Pachyseris",0
+"2013","LTER 4","Pavona",0.240833333333333
+"2013","LTER 4","Pocillopora",1.4925
+"2013","LTER 4","Porites",1.03416666666667
+"2013","LTER 4","Psammocora",0.123333333333333
+"2013","LTER 4","Sandolitha",0
+"2013","LTER 4","Soft Coral",0
+"2013","LTER 4","Stylocoeniella",0
+"2013","LTER 4","Tubastrea",0
+"2013","LTER 4","Unknown Fungiidae",0.00416666666666667
+"2013","LTER 5","Acanthastrea",0.00916666666666667
+"2013","LTER 5","Acropora",0.281666666666667
+"2013","LTER 5","Astrea",0.43
+"2013","LTER 5","Astreopora",0.00916666666666667
+"2013","LTER 5","Cyphastrea",0.0375
+"2013","LTER 5","Gardineroseris",0
+"2013","LTER 5","Goniastrea",0
+"2013","LTER 5","Herpolitha",0
+"2013","LTER 5","Leptastrea",0.06
+"2013","LTER 5","Leptoseris",0
+"2013","LTER 5","Lobophyllia",0
+"2013","LTER 5","Millepora",0.0333333333333333
+"2013","LTER 5","Montipora",1.02583333333333
+"2013","LTER 5","Pachyseris",0
+"2013","LTER 5","Pavona",0.181666666666667
+"2013","LTER 5","Pocillopora",2.48916666666667
+"2013","LTER 5","Porites",12.6891666666667
+"2013","LTER 5","Psammocora",0.13
+"2013","LTER 5","Sandolitha",0
+"2013","LTER 5","Soft Coral",0.200833333333333
+"2013","LTER 5","Stylocoeniella",0.005
+"2013","LTER 5","Tubastrea",0
+"2013","LTER 5","Unknown Fungiidae",0.0275
+"2013","LTER 6","Acanthastrea",0.06
+"2013","LTER 6","Acropora",0.428333333333333
+"2013","LTER 6","Astrea",0.47
+"2013","LTER 6","Astreopora",0.0233333333333333
+"2013","LTER 6","Cyphastrea",0.00916666666666667
+"2013","LTER 6","Gardineroseris",0
+"2013","LTER 6","Goniastrea",0.0333333333333333
+"2013","LTER 6","Herpolitha",0
+"2013","LTER 6","Leptastrea",0.101666666666667
+"2013","LTER 6","Leptoseris",0.0375
+"2013","LTER 6","Lobophyllia",0.0316666666666667
+"2013","LTER 6","Millepora",0.743333333333333
+"2013","LTER 6","Montipora",1.95416666666667
+"2013","LTER 6","Pachyseris",0
+"2013","LTER 6","Pavona",6.8925
+"2013","LTER 6","Pocillopora",3.68333333333333
+"2013","LTER 6","Porites",0.8875
+"2013","LTER 6","Psammocora",0.129166666666667
+"2013","LTER 6","Sandolitha",0
+"2013","LTER 6","Soft Coral",0
+"2013","LTER 6","Stylocoeniella",0
+"2013","LTER 6","Tubastrea",0.005
+"2013","LTER 6","Unknown Fungiidae",0.0233333333333333
+"2014","LTER 1","Acanthastrea",0.0466666666666667
+"2014","LTER 1","Acropora",0.4125
+"2014","LTER 1","Astrea",0.25
+"2014","LTER 1","Astreopora",0
+"2014","LTER 1","Cyphastrea",0.01
+"2014","LTER 1","Danafungia",0
+"2014","LTER 1","Gardineroseris",0
+"2014","LTER 1","Goniastrea",0.005
+"2014","LTER 1","Herpolitha",0
+"2014","LTER 1","Leptastrea",0.0366666666666667
+"2014","LTER 1","Leptoseris",0
+"2014","LTER 1","Lithophyllon",0
+"2014","LTER 1","Lobactis",0
+"2014","LTER 1","Lobophyllia",0
+"2014","LTER 1","Millepora",0.211666666666667
+"2014","LTER 1","Montipora",1.445
+"2014","LTER 1","Pachyseris",0
+"2014","LTER 1","Pavona",0.2375
+"2014","LTER 1","Plesiastrea",0
+"2014","LTER 1","Pleuractis",0.0141666666666667
+"2014","LTER 1","Pocillopora",8.30416666666667
+"2014","LTER 1","Porites",2.875
+"2014","LTER 1","Psammocora",0.185833333333333
+"2014","LTER 1","Sandolitha",0
+"2014","LTER 1","Soft Coral",0
+"2014","LTER 1","Stylocoeniella",0
+"2014","LTER 1","Tubastrea",0
+"2014","LTER 1","Unknown Fungiidae",0
+"2014","LTER 2","Acanthastrea",0.0191666666666667
+"2014","LTER 2","Acropora",0.139166666666667
+"2014","LTER 2","Astrea",0.261666666666667
+"2014","LTER 2","Astreopora",0.005
+"2014","LTER 2","Cyphastrea",0.015
+"2014","LTER 2","Danafungia",0.0133333333333333
+"2014","LTER 2","Gardineroseris",0
+"2014","LTER 2","Goniastrea",0.005
+"2014","LTER 2","Herpolitha",0.005
+"2014","LTER 2","Leptastrea",0.0475
+"2014","LTER 2","Leptoseris",0
+"2014","LTER 2","Lithophyllon",0.005
+"2014","LTER 2","Lobactis",0
+"2014","LTER 2","Lobophyllia",0.00916666666666667
+"2014","LTER 2","Millepora",0.768333333333333
+"2014","LTER 2","Montipora",0.881666666666667
+"2014","LTER 2","Pachyseris",0
+"2014","LTER 2","Pavona",0.245
+"2014","LTER 2","Plesiastrea",0
+"2014","LTER 2","Pleuractis",0
+"2014","LTER 2","Pocillopora",5.895
+"2014","LTER 2","Porites",4.00333333333333
+"2014","LTER 2","Psammocora",0.165
+"2014","LTER 2","Sandolitha",0
+"2014","LTER 2","Soft Coral",0
+"2014","LTER 2","Stylocoeniella",0
+"2014","LTER 2","Tubastrea",0
+"2014","LTER 2","Unknown Fungiidae",0
+"2014","LTER 3","Acanthastrea",0
+"2014","LTER 3","Acropora",0.896666666666667
+"2014","LTER 3","Astrea",0.0883333333333333
+"2014","LTER 3","Astreopora",0
+"2014","LTER 3","Cyphastrea",0.0133333333333333
+"2014","LTER 3","Danafungia",0
+"2014","LTER 3","Gardineroseris",0
+"2014","LTER 3","Goniastrea",0.0391666666666667
+"2014","LTER 3","Herpolitha",0.005
+"2014","LTER 3","Leptastrea",0.01
+"2014","LTER 3","Leptoseris",0
+"2014","LTER 3","Lithophyllon",0.0316666666666667
+"2014","LTER 3","Lobactis",0
+"2014","LTER 3","Lobophyllia",0
+"2014","LTER 3","Millepora",0.0275
+"2014","LTER 3","Montipora",0.366666666666667
+"2014","LTER 3","Pachyseris",0
+"2014","LTER 3","Pavona",0.360833333333333
+"2014","LTER 3","Plesiastrea",0
+"2014","LTER 3","Pleuractis",0
+"2014","LTER 3","Pocillopora",1.66333333333333
+"2014","LTER 3","Porites",1.22
+"2014","LTER 3","Psammocora",0.0641666666666667
+"2014","LTER 3","Sandolitha",0
+"2014","LTER 3","Soft Coral",0
+"2014","LTER 3","Stylocoeniella",0.00416666666666667
+"2014","LTER 3","Tubastrea",0
+"2014","LTER 3","Unknown Fungiidae",0.0233333333333333
+"2014","LTER 4","Acanthastrea",0.005
+"2014","LTER 4","Acropora",0.248333333333333
+"2014","LTER 4","Astrea",0.484166666666667
+"2014","LTER 4","Astreopora",0.0141666666666667
+"2014","LTER 4","Cyphastrea",0.0408333333333333
+"2014","LTER 4","Danafungia",0.005
+"2014","LTER 4","Gardineroseris",0
+"2014","LTER 4","Goniastrea",0.0325
+"2014","LTER 4","Herpolitha",0.0175
+"2014","LTER 4","Leptastrea",0.1125
+"2014","LTER 4","Leptoseris",0
+"2014","LTER 4","Lithophyllon",0.0391666666666667
+"2014","LTER 4","Lobactis",0
+"2014","LTER 4","Lobophyllia",0
+"2014","LTER 4","Millepora",1.51833333333333
+"2014","LTER 4","Montipora",4.40833333333333
+"2014","LTER 4","Pachyseris",0
+"2014","LTER 4","Pavona",0.376666666666667
+"2014","LTER 4","Plesiastrea",0.005
+"2014","LTER 4","Pleuractis",0.005
+"2014","LTER 4","Pocillopora",2.68833333333333
+"2014","LTER 4","Porites",1.57666666666667
+"2014","LTER 4","Psammocora",0.166666666666667
+"2014","LTER 4","Sandolitha",0
+"2014","LTER 4","Soft Coral",0
+"2014","LTER 4","Stylocoeniella",0
+"2014","LTER 4","Tubastrea",0
+"2014","LTER 4","Unknown Fungiidae",0.00416666666666667
+"2014","LTER 5","Acanthastrea",0.0225
+"2014","LTER 5","Acropora",0.53
+"2014","LTER 5","Astrea",0.531666666666667
+"2014","LTER 5","Astreopora",0
+"2014","LTER 5","Cyphastrea",0.0183333333333333
+"2014","LTER 5","Danafungia",0
+"2014","LTER 5","Gardineroseris",0
+"2014","LTER 5","Goniastrea",0
+"2014","LTER 5","Herpolitha",0.00416666666666667
+"2014","LTER 5","Leptastrea",0.500833333333333
+"2014","LTER 5","Leptoseris",0
+"2014","LTER 5","Lithophyllon",0.0133333333333333
+"2014","LTER 5","Lobactis",0
+"2014","LTER 5","Lobophyllia",0.005
+"2014","LTER 5","Millepora",0.0175
+"2014","LTER 5","Montipora",1.98333333333333
+"2014","LTER 5","Pachyseris",0
+"2014","LTER 5","Pavona",0.374166666666667
+"2014","LTER 5","Plesiastrea",0
+"2014","LTER 5","Pleuractis",0
+"2014","LTER 5","Pocillopora",3.57833333333333
+"2014","LTER 5","Porites",13.1016666666667
+"2014","LTER 5","Psammocora",0.140833333333333
+"2014","LTER 5","Sandolitha",0
+"2014","LTER 5","Soft Coral",0.329166666666667
+"2014","LTER 5","Stylocoeniella",0
+"2014","LTER 5","Tubastrea",0
+"2014","LTER 5","Unknown Fungiidae",0.00916666666666667
+"2014","LTER 6","Acanthastrea",0.0141666666666667
+"2014","LTER 6","Acropora",0.435833333333333
+"2014","LTER 6","Astrea",0.634166666666667
+"2014","LTER 6","Astreopora",0.0241666666666667
+"2014","LTER 6","Cyphastrea",0.0916666666666667
+"2014","LTER 6","Danafungia",0.00916666666666667
+"2014","LTER 6","Gardineroseris",0
+"2014","LTER 6","Goniastrea",0.0225
+"2014","LTER 6","Herpolitha",0.0133333333333333
+"2014","LTER 6","Leptastrea",0.0941666666666667
+"2014","LTER 6","Leptoseris",0
+"2014","LTER 6","Lithophyllon",0.00416666666666667
+"2014","LTER 6","Lobactis",0
+"2014","LTER 6","Lobophyllia",0.0233333333333333
+"2014","LTER 6","Millepora",0.933333333333333
+"2014","LTER 6","Montipora",3.13083333333333
+"2014","LTER 6","Pachyseris",0
+"2014","LTER 6","Pavona",6.26666666666667
+"2014","LTER 6","Plesiastrea",0
+"2014","LTER 6","Pleuractis",0.0191666666666667
+"2014","LTER 6","Pocillopora",5.08583333333333
+"2014","LTER 6","Porites",1.2975
+"2014","LTER 6","Psammocora",0.101666666666667
+"2014","LTER 6","Sandolitha",0
+"2014","LTER 6","Soft Coral",0
+"2014","LTER 6","Stylocoeniella",0
+"2014","LTER 6","Tubastrea",0
+"2014","LTER 6","Unknown Fungiidae",0.005
+"2015","LTER 1","Acanthastrea",0.0541666666666667
+"2015","LTER 1","Acropora",0.785
+"2015","LTER 1","Astrea",0.470833333333333
+"2015","LTER 1","Astreopora",0
+"2015","LTER 1","Cyphastrea",0.03
+"2015","LTER 1","Danafungia",0.005
+"2015","LTER 1","Gardineroseris",0.00916666666666667
+"2015","LTER 1","Goniastrea",0.005
+"2015","LTER 1","Herpolitha",0
+"2015","LTER 1","Leptastrea",0.1275
+"2015","LTER 1","Leptoseris",0
+"2015","LTER 1","Lithophyllon",0.005
+"2015","LTER 1","Lobactis",0
+"2015","LTER 1","Lobophyllia",0
+"2015","LTER 1","Millepora",0.225
+"2015","LTER 1","Montipora",2.68583333333333
+"2015","LTER 1","Pachyseris",0
+"2015","LTER 1","Pavona",0.3925
+"2015","LTER 1","Plesiastrea",0
+"2015","LTER 1","Pleuractis",0.0141666666666667
+"2015","LTER 1","Pocillopora",14.7325
+"2015","LTER 1","Porites",2.73833333333333
+"2015","LTER 1","Psammocora",0.1775
+"2015","LTER 1","Sandolitha",0
+"2015","LTER 1","Soft Coral",0
+"2015","LTER 1","Stylocoeniella",0
+"2015","LTER 1","Tubastrea",0
+"2015","LTER 1","Unknown Fungiidae",0.015
+"2015","LTER 2","Acanthastrea",0.105
+"2015","LTER 2","Acropora",0.4275
+"2015","LTER 2","Astrea",0.353333333333333
+"2015","LTER 2","Astreopora",0.005
+"2015","LTER 2","Cyphastrea",0.0483333333333333
+"2015","LTER 2","Danafungia",0.025
+"2015","LTER 2","Gardineroseris",0
+"2015","LTER 2","Goniastrea",0
+"2015","LTER 2","Herpolitha",0.02
+"2015","LTER 2","Leptastrea",0.0783333333333333
+"2015","LTER 2","Leptoseris",0
+"2015","LTER 2","Lithophyllon",0.00916666666666667
+"2015","LTER 2","Lobactis",0
+"2015","LTER 2","Lobophyllia",0.0266666666666667
+"2015","LTER 2","Millepora",1.01833333333333
+"2015","LTER 2","Montipora",1.60416666666667
+"2015","LTER 2","Pachyseris",0
+"2015","LTER 2","Pavona",0.355833333333333
+"2015","LTER 2","Plesiastrea",0
+"2015","LTER 2","Pleuractis",0.00916666666666667
+"2015","LTER 2","Pocillopora",10.5616666666667
+"2015","LTER 2","Porites",3.12
+"2015","LTER 2","Psammocora",0.128333333333333
+"2015","LTER 2","Sandolitha",0
+"2015","LTER 2","Soft Coral",0
+"2015","LTER 2","Stylocoeniella",0
+"2015","LTER 2","Tubastrea",0
+"2015","LTER 2","Unknown Fungiidae",0
+"2015","LTER 3","Acanthastrea",0
+"2015","LTER 3","Acropora",1.0525
+"2015","LTER 3","Astrea",0.15
+"2015","LTER 3","Astreopora",0
+"2015","LTER 3","Cyphastrea",0.0291666666666667
+"2015","LTER 3","Danafungia",0.015
+"2015","LTER 3","Gardineroseris",0
+"2015","LTER 3","Goniastrea",0.0283333333333333
+"2015","LTER 3","Herpolitha",0
+"2015","LTER 3","Leptastrea",0
+"2015","LTER 3","Leptoseris",0
+"2015","LTER 3","Lithophyllon",0.015
+"2015","LTER 3","Lobactis",0
+"2015","LTER 3","Lobophyllia",0
+"2015","LTER 3","Millepora",0.005
+"2015","LTER 3","Montipora",0.576666666666667
+"2015","LTER 3","Pachyseris",0
+"2015","LTER 3","Pavona",0.308333333333333
+"2015","LTER 3","Plesiastrea",0
+"2015","LTER 3","Pleuractis",0
+"2015","LTER 3","Pocillopora",1.69666666666667
+"2015","LTER 3","Porites",1.4125
+"2015","LTER 3","Psammocora",0.120833333333333
+"2015","LTER 3","Sandolitha",0
+"2015","LTER 3","Soft Coral",0.025
+"2015","LTER 3","Stylocoeniella",0
+"2015","LTER 3","Tubastrea",0
+"2015","LTER 3","Unknown Fungiidae",0.015
+"2015","LTER 4","Acanthastrea",0.00416666666666667
+"2015","LTER 4","Acropora",0.873333333333333
+"2015","LTER 4","Astrea",0.783333333333333
+"2015","LTER 4","Astreopora",0.00916666666666667
+"2015","LTER 4","Cyphastrea",0.0233333333333333
+"2015","LTER 4","Danafungia",0.00916666666666667
+"2015","LTER 4","Gardineroseris",0
+"2015","LTER 4","Goniastrea",0.0716666666666667
+"2015","LTER 4","Herpolitha",0.0416666666666667
+"2015","LTER 4","Leptastrea",0.105833333333333
+"2015","LTER 4","Leptoseris",0.005
+"2015","LTER 4","Lithophyllon",0.0283333333333333
+"2015","LTER 4","Lobactis",0
+"2015","LTER 4","Lobophyllia",0
+"2015","LTER 4","Millepora",0.8425
+"2015","LTER 4","Montipora",4.67666666666667
+"2015","LTER 4","Pachyseris",0
+"2015","LTER 4","Pavona",0.401666666666667
+"2015","LTER 4","Plesiastrea",0.005
+"2015","LTER 4","Pleuractis",0.00916666666666667
+"2015","LTER 4","Pocillopora",4.38166666666667
+"2015","LTER 4","Porites",1.4875
+"2015","LTER 4","Psammocora",0.220833333333333
+"2015","LTER 4","Sandolitha",0
+"2015","LTER 4","Soft Coral",0
+"2015","LTER 4","Stylocoeniella",0
+"2015","LTER 4","Tubastrea",0
+"2015","LTER 4","Unknown Fungiidae",0.0191666666666667
+"2015","LTER 5","Acanthastrea",0.0325
+"2015","LTER 5","Acropora",0.92
+"2015","LTER 5","Astrea",0.715833333333333
+"2015","LTER 5","Astreopora",0.0416666666666667
+"2015","LTER 5","Cyphastrea",0.005
+"2015","LTER 5","Danafungia",0
+"2015","LTER 5","Gardineroseris",0
+"2015","LTER 5","Goniastrea",0
+"2015","LTER 5","Herpolitha",0.005
+"2015","LTER 5","Leptastrea",0.285
+"2015","LTER 5","Leptoseris",0
+"2015","LTER 5","Lithophyllon",0
+"2015","LTER 5","Lobactis",0.005
+"2015","LTER 5","Lobophyllia",0
+"2015","LTER 5","Millepora",0.005
+"2015","LTER 5","Montipora",2.72
+"2015","LTER 5","Pachyseris",0
+"2015","LTER 5","Pavona",0.345833333333333
+"2015","LTER 5","Plesiastrea",0
+"2015","LTER 5","Pleuractis",0
+"2015","LTER 5","Pocillopora",6.13833333333333
+"2015","LTER 5","Porites",15.2291666666667
+"2015","LTER 5","Psammocora",0.120833333333333
+"2015","LTER 5","Sandolitha",0
+"2015","LTER 5","Soft Coral",0.379166666666667
+"2015","LTER 5","Stylocoeniella",0
+"2015","LTER 5","Tubastrea",0
+"2015","LTER 5","Unknown Fungiidae",0.00916666666666667
+"2015","LTER 6","Acanthastrea",0.0191666666666667
+"2015","LTER 6","Acropora",0.714166666666667
+"2015","LTER 6","Astrea",0.815833333333333
+"2015","LTER 6","Astreopora",0.0433333333333333
+"2015","LTER 6","Cyphastrea",0.1275
+"2015","LTER 6","Danafungia",0
+"2015","LTER 6","Gardineroseris",0
+"2015","LTER 6","Goniastrea",0.005
+"2015","LTER 6","Herpolitha",0.00916666666666667
+"2015","LTER 6","Leptastrea",0.124166666666667
+"2015","LTER 6","Leptoseris",0
+"2015","LTER 6","Lithophyllon",0
+"2015","LTER 6","Lobactis",0
+"2015","LTER 6","Lobophyllia",0.005
+"2015","LTER 6","Millepora",0.805
+"2015","LTER 6","Montipora",2.7525
+"2015","LTER 6","Pachyseris",0
+"2015","LTER 6","Pavona",4.4575
+"2015","LTER 6","Plesiastrea",0
+"2015","LTER 6","Pleuractis",0
+"2015","LTER 6","Pocillopora",8.7775
+"2015","LTER 6","Porites",1.17416666666667
+"2015","LTER 6","Psammocora",0.1475
+"2015","LTER 6","Sandolitha",0
+"2015","LTER 6","Soft Coral",0
+"2015","LTER 6","Stylocoeniella",0
+"2015","LTER 6","Tubastrea",0
+"2015","LTER 6","Unknown Fungiidae",0
+"2016","LTER 1","Acanthastrea",0.0575
+"2016","LTER 1","Acropora",1.11
+"2016","LTER 1","Astrea",0.479166666666667
+"2016","LTER 1","Astreopora",0.005
+"2016","LTER 1","Cyphastrea",0.0383333333333333
+"2016","LTER 1","Danafungia",0.04
+"2016","LTER 1","Gardineroseris",0.005
+"2016","LTER 1","Goniastrea",0
+"2016","LTER 1","Herpolitha",0
+"2016","LTER 1","Leptastrea",0.131666666666667
+"2016","LTER 1","Leptoseris",0
+"2016","LTER 1","Lithophyllon",0
+"2016","LTER 1","Lobactis",0
+"2016","LTER 1","Lobophyllia",0
+"2016","LTER 1","Millepora",0.353333333333333
+"2016","LTER 1","Montipora",3.4325
+"2016","LTER 1","Pachyseris",0
+"2016","LTER 1","Pavona",0.404166666666667
+"2016","LTER 1","Plesiastrea",0
+"2016","LTER 1","Pleuractis",0.0375
+"2016","LTER 1","Pocillopora",19.8008333333333
+"2016","LTER 1","Porites",2.6675
+"2016","LTER 1","Psammocora",0.158333333333333
+"2016","LTER 1","Sandolitha",0
+"2016","LTER 1","Soft Coral",0
+"2016","LTER 1","Stylocoeniella",0
+"2016","LTER 1","Tubastrea",0
+"2016","LTER 1","Unknown Fungiidae",0
+"2016","LTER 2","Acanthastrea",0.075
+"2016","LTER 2","Acropora",0.725
+"2016","LTER 2","Astrea",0.400833333333333
+"2016","LTER 2","Astreopora",0.005
+"2016","LTER 2","Cyphastrea",0.0383333333333333
+"2016","LTER 2","Danafungia",0.00416666666666667
+"2016","LTER 2","Gardineroseris",0.0133333333333333
+"2016","LTER 2","Goniastrea",0.005
+"2016","LTER 2","Herpolitha",0
+"2016","LTER 2","Leptastrea",0.0525
+"2016","LTER 2","Leptoseris",0
+"2016","LTER 2","Lithophyllon",0
+"2016","LTER 2","Lobactis",0
+"2016","LTER 2","Lobophyllia",0.00416666666666667
+"2016","LTER 2","Millepora",0.986666666666667
+"2016","LTER 2","Montipora",1.8575
+"2016","LTER 2","Pachyseris",0
+"2016","LTER 2","Pavona",0.291666666666667
+"2016","LTER 2","Plesiastrea",0
+"2016","LTER 2","Pleuractis",0
+"2016","LTER 2","Pocillopora",13.88
+"2016","LTER 2","Porites",2.2
+"2016","LTER 2","Psammocora",0.2
+"2016","LTER 2","Sandolitha",0.0158333333333333
+"2016","LTER 2","Soft Coral",0
+"2016","LTER 2","Stylocoeniella",0
+"2016","LTER 2","Tubastrea",0
+"2016","LTER 2","Unknown Fungiidae",0.045
+"2016","LTER 3","Acanthastrea",0.00416666666666667
+"2016","LTER 3","Acropora",0.928333333333333
+"2016","LTER 3","Astrea",0.1575
+"2016","LTER 3","Astreopora",0
+"2016","LTER 3","Cyphastrea",0.0341666666666667
+"2016","LTER 3","Gardineroseris",0.0141666666666667
+"2016","LTER 3","Goniastrea",0
+"2016","LTER 3","Herpolitha",0.0375
+"2016","LTER 3","Leptastrea",0.0133333333333333
+"2016","LTER 3","Leptoseris",0.0683333333333333
+"2016","LTER 3","Lobophyllia",0
+"2016","LTER 3","Millepora",0.0883333333333333
+"2016","LTER 3","Montipora",0.8775
+"2016","LTER 3","Pachyseris",0
+"2016","LTER 3","Pavona",0.3775
+"2016","LTER 3","Plesiastrea",0
+"2016","LTER 3","Pocillopora",2.26333333333333
+"2016","LTER 3","Porites",1.63
+"2016","LTER 3","Psammocora",0.0541666666666667
+"2016","LTER 3","Sandolitha",0.0266666666666667
+"2016","LTER 3","Soft Coral",0
+"2016","LTER 3","Stylocoeniella",0.0575
+"2016","LTER 3","Tubastrea",0
+"2016","LTER 3","Unknown Fungiidae",0.150833333333333
+"2016","LTER 4","Acanthastrea",0
+"2016","LTER 4","Acropora",1.76916666666667
+"2016","LTER 4","Astrea",0.75
+"2016","LTER 4","Astreopora",0.00916666666666667
+"2016","LTER 4","Cyphastrea",0.0458333333333333
+"2016","LTER 4","Gardineroseris",0.0375
+"2016","LTER 4","Goniastrea",0
+"2016","LTER 4","Herpolitha",0.0566666666666667
+"2016","LTER 4","Leptastrea",0.205
+"2016","LTER 4","Leptoseris",0.0383333333333333
+"2016","LTER 4","Lobophyllia",0
+"2016","LTER 4","Millepora",0.334166666666667
+"2016","LTER 4","Montipora",7.41666666666667
+"2016","LTER 4","Pachyseris",0
+"2016","LTER 4","Pavona",0.5575
+"2016","LTER 4","Plesiastrea",0
+"2016","LTER 4","Pocillopora",7.35833333333333
+"2016","LTER 4","Porites",1.93416666666667
+"2016","LTER 4","Psammocora",0.1925
+"2016","LTER 4","Sandolitha",0.005
+"2016","LTER 4","Soft Coral",0
+"2016","LTER 4","Stylocoeniella",0.0283333333333333
+"2016","LTER 4","Tubastrea",0
+"2016","LTER 4","Unknown Fungiidae",0.0783333333333333
+"2016","LTER 5","Acanthastrea",0
+"2016","LTER 5","Acropora",1.5325
+"2016","LTER 5","Astrea",0.608333333333333
+"2016","LTER 5","Astreopora",0
+"2016","LTER 5","Cyphastrea",0.0141666666666667
+"2016","LTER 5","Gardineroseris",0.00416666666666667
+"2016","LTER 5","Goniastrea",0
+"2016","LTER 5","Herpolitha",0
+"2016","LTER 5","Leptastrea",0.144166666666667
+"2016","LTER 5","Leptoseris",0.005
+"2016","LTER 5","Lobophyllia",0
+"2016","LTER 5","Millepora",0.1925
+"2016","LTER 5","Montipora",3.24583333333333
+"2016","LTER 5","Pachyseris",0
+"2016","LTER 5","Pavona",0.415833333333333
+"2016","LTER 5","Plesiastrea",0
+"2016","LTER 5","Pocillopora",7.625
+"2016","LTER 5","Porites",17.8491666666667
+"2016","LTER 5","Psammocora",0.0325
+"2016","LTER 5","Sandolitha",0
+"2016","LTER 5","Soft Coral",0
+"2016","LTER 5","Stylocoeniella",0.0141666666666667
+"2016","LTER 5","Tubastrea",0
+"2016","LTER 5","Unknown Fungiidae",0.0291666666666667
+"2016","LTER 6","Acanthastrea",0.005
+"2016","LTER 6","Acropora",0.861666666666667
+"2016","LTER 6","Astrea",0.77
+"2016","LTER 6","Astreopora",0
+"2016","LTER 6","Cyphastrea",0.0808333333333333
+"2016","LTER 6","Gardineroseris",0
+"2016","LTER 6","Goniastrea",0
+"2016","LTER 6","Herpolitha",0.005
+"2016","LTER 6","Leptastrea",0.135
+"2016","LTER 6","Leptoseris",0.00916666666666667
+"2016","LTER 6","Lobophyllia",0
+"2016","LTER 6","Millepora",0.816666666666667
+"2016","LTER 6","Montipora",2.725
+"2016","LTER 6","Pachyseris",0
+"2016","LTER 6","Pavona",0.799166666666667
+"2016","LTER 6","Plesiastrea",0
+"2016","LTER 6","Pocillopora",12.0433333333333
+"2016","LTER 6","Porites",1.19333333333333
+"2016","LTER 6","Psammocora",0.125
+"2016","LTER 6","Sandolitha",0
+"2016","LTER 6","Soft Coral",0
+"2016","LTER 6","Stylocoeniella",0.00916666666666667
+"2016","LTER 6","Tubastrea",0.00916666666666667
+"2016","LTER 6","Unknown Fungiidae",0.0141666666666667
+"2017","LTER 1","Acanthastrea",0.0191666666666667
+"2017","LTER 1","Acropora",1.3225
+"2017","LTER 1","Astrea",0.374166666666667
+"2017","LTER 1","Astreopora",0
+"2017","LTER 1","Cyphastrea",0.0241666666666667
+"2017","LTER 1","Gardineroseris",0
+"2017","LTER 1","Goniastrea",0.00416666666666667
+"2017","LTER 1","Herpolitha",0.005
+"2017","LTER 1","Leptastrea",0.250833333333333
+"2017","LTER 1","Leptoseris",0.0375
+"2017","LTER 1","Lobophyllia",0
+"2017","LTER 1","Millepora",0.359166666666667
+"2017","LTER 1","Montipora",3.03083333333333
+"2017","LTER 1","Pachyseris",0
+"2017","LTER 1","Pavona",0.333333333333333
+"2017","LTER 1","Plesiastrea",0
+"2017","LTER 1","Pocillopora",23.4641666666667
+"2017","LTER 1","Porites",2.39333333333333
+"2017","LTER 1","Psammocora",0.1225
+"2017","LTER 1","Sandolitha",0.00916666666666667
+"2017","LTER 1","Soft Coral",0
+"2017","LTER 1","Stylocoeniella",0.0191666666666667
+"2017","LTER 1","Tubastrea",0.005
+"2017","LTER 1","Unknown Fungiidae",0.0183333333333333
+"2017","LTER 2","Acanthastrea",0
+"2017","LTER 2","Acropora",1.05333333333333
+"2017","LTER 2","Astrea",0.464166666666667
+"2017","LTER 2","Astreopora",0
+"2017","LTER 2","Cyphastrea",0
+"2017","LTER 2","Gardineroseris",0
+"2017","LTER 2","Goniastrea",0
+"2017","LTER 2","Herpolitha",0
+"2017","LTER 2","Leptastrea",0.158333333333333
+"2017","LTER 2","Leptoseris",0.0516666666666667
+"2017","LTER 2","Lobophyllia",0
+"2017","LTER 2","Millepora",0.785
+"2017","LTER 2","Montipora",3.0875
+"2017","LTER 2","Pachyseris",0
+"2017","LTER 2","Pavona",0.414166666666667
+"2017","LTER 2","Plesiastrea",0
+"2017","LTER 2","Pocillopora",18.6491666666667
+"2017","LTER 2","Porites",2.76916666666667
+"2017","LTER 2","Psammocora",0.08
+"2017","LTER 2","Sandolitha",0.0433333333333333
+"2017","LTER 2","Soft Coral",0
+"2017","LTER 2","Stylocoeniella",0.025
+"2017","LTER 2","Tubastrea",0
+"2017","LTER 2","Unknown Fungiidae",0.0183333333333333
+"2017","LTER 3","Acanthastrea",0
+"2017","LTER 3","Acropora",0.4825
+"2017","LTER 3","Astrea",0.1275
+"2017","LTER 3","Astreopora",0
+"2017","LTER 3","Cyphastrea",0.0433333333333333
+"2017","LTER 3","Gardineroseris",0.005
+"2017","LTER 3","Goniastrea",0.005
+"2017","LTER 3","Herpolitha",0.0525
+"2017","LTER 3","Leptastrea",0.0716666666666667
+"2017","LTER 3","Leptoseris",0.00916666666666667
+"2017","LTER 3","Lobophyllia",0
+"2017","LTER 3","Millepora",0.0741666666666667
+"2017","LTER 3","Montipora",0.854166666666667
+"2017","LTER 3","Pachyseris",0
+"2017","LTER 3","Pavona",0.458333333333333
+"2017","LTER 3","Plesiastrea",0
+"2017","LTER 3","Pocillopora",3.05166666666667
+"2017","LTER 3","Porites",1.32
+"2017","LTER 3","Psammocora",0.0516666666666667
+"2017","LTER 3","Sandolitha",0.0616666666666667
+"2017","LTER 3","Soft Coral",0
+"2017","LTER 3","Stylocoeniella",0.0191666666666667
+"2017","LTER 3","Tubastrea",0
+"2017","LTER 3","Unknown Fungiidae",0.178333333333333
+"2017","LTER 4","Acanthastrea",0
+"2017","LTER 4","Acropora",1.9775
+"2017","LTER 4","Astrea",0.744166666666667
+"2017","LTER 4","Astreopora",0
+"2017","LTER 4","Cyphastrea",0.0241666666666667
+"2017","LTER 4","Gardineroseris",0.0275
+"2017","LTER 4","Goniastrea",0
+"2017","LTER 4","Herpolitha",0.0141666666666667
+"2017","LTER 4","Leptastrea",0.355
+"2017","LTER 4","Leptoseris",0
+"2017","LTER 4","Lobophyllia",0
+"2017","LTER 4","Millepora",1.01
+"2017","LTER 4","Montipora",7.18333333333333
+"2017","LTER 4","Pachyseris",0
+"2017","LTER 4","Pavona",0.615833333333333
+"2017","LTER 4","Plesiastrea",0
+"2017","LTER 4","Pocillopora",7.45333333333333
+"2017","LTER 4","Porites",2.46583333333333
+"2017","LTER 4","Psammocora",0.130833333333333
+"2017","LTER 4","Sandolitha",0.015
+"2017","LTER 4","Soft Coral",0
+"2017","LTER 4","Stylocoeniella",0.0425
+"2017","LTER 4","Tubastrea",0
+"2017","LTER 4","Unknown Fungiidae",0.0875
+"2017","LTER 5","Acanthastrea",0
+"2017","LTER 5","Acropora",2.6375
+"2017","LTER 5","Astrea",0.728333333333333
+"2017","LTER 5","Astreopora",0
+"2017","LTER 5","Cyphastrea",0.0408333333333333
+"2017","LTER 5","Gardineroseris",0.025
+"2017","LTER 5","Goniastrea",0
+"2017","LTER 5","Herpolitha",0
+"2017","LTER 5","Leptastrea",0.260833333333333
+"2017","LTER 5","Leptoseris",0
+"2017","LTER 5","Lobophyllia",0.005
+"2017","LTER 5","Millepora",0.0425
+"2017","LTER 5","Montipora",3.12
+"2017","LTER 5","Pachyseris",0
+"2017","LTER 5","Pavona",0.620833333333333
+"2017","LTER 5","Plesiastrea",0
+"2017","LTER 5","Pocillopora",11.4066666666667
+"2017","LTER 5","Porites",18.0316666666667
+"2017","LTER 5","Psammocora",0.0833333333333333
+"2017","LTER 5","Sandolitha",0
+"2017","LTER 5","Soft Coral",0
+"2017","LTER 5","Stylocoeniella",0.02
+"2017","LTER 5","Tubastrea",0
+"2017","LTER 5","Unknown Fungiidae",0.005
+"2017","LTER 6","Acanthastrea",0.005
+"2017","LTER 6","Acropora",1.44833333333333
+"2017","LTER 6","Astrea",0.729166666666667
+"2017","LTER 6","Astreopora",0
+"2017","LTER 6","Cyphastrea",0.0991666666666667
+"2017","LTER 6","Gardineroseris",0
+"2017","LTER 6","Goniastrea",0
+"2017","LTER 6","Herpolitha",0.0275
+"2017","LTER 6","Leptastrea",0.2775
+"2017","LTER 6","Leptoseris",0.0175
+"2017","LTER 6","Lobophyllia",0
+"2017","LTER 6","Millepora",0.741666666666667
+"2017","LTER 6","Montipora",2.92166666666667
+"2017","LTER 6","Pachyseris",0
+"2017","LTER 6","Pavona",0.8175
+"2017","LTER 6","Plesiastrea",0
+"2017","LTER 6","Pocillopora",15.0041666666667
+"2017","LTER 6","Porites",1.41166666666667
+"2017","LTER 6","Psammocora",0.166666666666667
+"2017","LTER 6","Sandolitha",0.0241666666666667
+"2017","LTER 6","Soft Coral",0
+"2017","LTER 6","Stylocoeniella",0.0283333333333333
+"2017","LTER 6","Tubastrea",0.00416666666666667
+"2017","LTER 6","Unknown Fungiidae",0.005
+"2018","LTER 1","Acanthastrea",0.00416666666666667
+"2018","LTER 1","Acropora",1.24916666666667
+"2018","LTER 1","Astrea",0.478333333333333
+"2018","LTER 1","Astreopora",0
+"2018","LTER 1","Cyphastrea",0.0575
+"2018","LTER 1","Gardineroseris",0.00416666666666667
+"2018","LTER 1","Goniastrea",0
+"2018","LTER 1","Herpolitha",0
+"2018","LTER 1","Leptastrea",0.170833333333333
+"2018","LTER 1","Leptoseris",0.0583333333333333
+"2018","LTER 1","Lobophyllia",0
+"2018","LTER 1","Millepora",0.390833333333333
+"2018","LTER 1","Montipora",2.60333333333333
+"2018","LTER 1","Pachyseris",0.005
+"2018","LTER 1","Pavona",0.370833333333333
+"2018","LTER 1","Plesiastrea",0
+"2018","LTER 1","Pocillopora",26.6575
+"2018","LTER 1","Porites",3.2825
+"2018","LTER 1","Psammocora",0.106666666666667
+"2018","LTER 1","Sandolitha",0.095
+"2018","LTER 1","Soft Coral",0
+"2018","LTER 1","Stylocoeniella",0.0358333333333333
+"2018","LTER 1","Tubastrea",0
+"2018","LTER 1","Unknown Fungiidae",0.065
+"2018","LTER 2","Acanthastrea",0
+"2018","LTER 2","Acropora",1.57083333333333
+"2018","LTER 2","Astrea",0.469166666666667
+"2018","LTER 2","Astreopora",0.0216666666666667
+"2018","LTER 2","Cyphastrea",0.00916666666666667
+"2018","LTER 2","Gardineroseris",0
+"2018","LTER 2","Goniastrea",0
+"2018","LTER 2","Herpolitha",0
+"2018","LTER 2","Leptastrea",0.125833333333333
+"2018","LTER 2","Leptoseris",0.00833333333333333
+"2018","LTER 2","Lobophyllia",0
+"2018","LTER 2","Millepora",0.860833333333333
+"2018","LTER 2","Montipora",3.03666666666667
+"2018","LTER 2","Pachyseris",0
+"2018","LTER 2","Pavona",0.5175
+"2018","LTER 2","Plesiastrea",0
+"2018","LTER 2","Pocillopora",22.3225
+"2018","LTER 2","Porites",3.09583333333333
+"2018","LTER 2","Psammocora",0.09
+"2018","LTER 2","Sandolitha",0.0308333333333333
+"2018","LTER 2","Soft Coral",0.00416666666666667
+"2018","LTER 2","Stylocoeniella",0.0516666666666667
+"2018","LTER 2","Tubastrea",0
+"2018","LTER 2","Unknown Fungiidae",0.0441666666666667
+"2018","LTER 3","Acanthastrea",0
+"2018","LTER 3","Acropora",0.75
+"2018","LTER 3","Astrea",0.270833333333333
+"2018","LTER 3","Astreopora",0
+"2018","LTER 3","Cyphastrea",0.0308333333333333
+"2018","LTER 3","Gardineroseris",0
+"2018","LTER 3","Goniastrea",0
+"2018","LTER 3","Herpolitha",0
+"2018","LTER 3","Leptastrea",0.0408333333333333
+"2018","LTER 3","Leptoseris",0.101666666666667
+"2018","LTER 3","Lobophyllia",0
+"2018","LTER 3","Millepora",0.0308333333333333
+"2018","LTER 3","Montipora",1.18333333333333
+"2018","LTER 3","Pachyseris",0
+"2018","LTER 3","Pavona",0.471666666666667
+"2018","LTER 3","Plesiastrea",0
+"2018","LTER 3","Pocillopora",4.98833333333333
+"2018","LTER 3","Porites",1.39083333333333
+"2018","LTER 3","Psammocora",0.101666666666667
+"2018","LTER 3","Sandolitha",0.0358333333333333
+"2018","LTER 3","Soft Coral",0.0175
+"2018","LTER 3","Stylocoeniella",0
+"2018","LTER 3","Tubastrea",0.00416666666666667
+"2018","LTER 3","Unknown Fungiidae",0.461666666666667
+"2018","LTER 4","Acanthastrea",0.00416666666666667
+"2018","LTER 4","Acropora",3.005
+"2018","LTER 4","Astrea",0.771666666666667
+"2018","LTER 4","Astreopora",0
+"2018","LTER 4","Cyphastrea",0.0341666666666667
+"2018","LTER 4","Gardineroseris",0
+"2018","LTER 4","Goniastrea",0
+"2018","LTER 4","Herpolitha",0
+"2018","LTER 4","Leptastrea",0.183333333333333
+"2018","LTER 4","Leptoseris",0.00916666666666667
+"2018","LTER 4","Lobophyllia",0
+"2018","LTER 4","Millepora",0.3025
+"2018","LTER 4","Montipora",7.35083333333333
+"2018","LTER 4","Pachyseris",0
+"2018","LTER 4","Pavona",0.648333333333333
+"2018","LTER 4","Plesiastrea",0
+"2018","LTER 4","Pocillopora",11.5475
+"2018","LTER 4","Porites",2.1725
+"2018","LTER 4","Psammocora",0.0775
+"2018","LTER 4","Sandolitha",0.0125
+"2018","LTER 4","Soft Coral",0
+"2018","LTER 4","Stylocoeniella",0.00416666666666667
+"2018","LTER 4","Tubastrea",0.00416666666666667
+"2018","LTER 4","Unknown Fungiidae",0.114166666666667
+"2018","LTER 5","Acanthastrea",0
+"2018","LTER 5","Acropora",4.29583333333333
+"2018","LTER 5","Astrea",0.59
+"2018","LTER 5","Astreopora",0
+"2018","LTER 5","Cyphastrea",0.0175
+"2018","LTER 5","Gardineroseris",0
+"2018","LTER 5","Goniastrea",0
+"2018","LTER 5","Herpolitha",0
+"2018","LTER 5","Leptastrea",0.185
+"2018","LTER 5","Leptoseris",0
+"2018","LTER 5","Lobophyllia",0
+"2018","LTER 5","Millepora",0.0566666666666667
+"2018","LTER 5","Montipora",3.37416666666667
+"2018","LTER 5","Pachyseris",0
+"2018","LTER 5","Pavona",0.736666666666667
+"2018","LTER 5","Plesiastrea",0
+"2018","LTER 5","Pocillopora",15.4283333333333
+"2018","LTER 5","Porites",19.4225
+"2018","LTER 5","Psammocora",0.0916666666666667
+"2018","LTER 5","Sandolitha",0.00416666666666667
+"2018","LTER 5","Soft Coral",0.2925
+"2018","LTER 5","Stylocoeniella",0.0225
+"2018","LTER 5","Tubastrea",0
+"2018","LTER 5","Unknown Fungiidae",0.0133333333333333
+"2018","LTER 6","Acanthastrea",0.00833333333333333
+"2018","LTER 6","Acropora",2.34833333333333
+"2018","LTER 6","Astrea",0.641666666666667
+"2018","LTER 6","Astreopora",0
+"2018","LTER 6","Cyphastrea",0.0741666666666667
+"2018","LTER 6","Gardineroseris",0.0266666666666667
+"2018","LTER 6","Goniastrea",0
+"2018","LTER 6","Herpolitha",0
+"2018","LTER 6","Leptastrea",0.286666666666667
+"2018","LTER 6","Leptoseris",0.0275
+"2018","LTER 6","Lobophyllia",0
+"2018","LTER 6","Millepora",0.6475
+"2018","LTER 6","Montipora",3.47416666666667
+"2018","LTER 6","Pachyseris",0
+"2018","LTER 6","Pavona",0.806666666666667
+"2018","LTER 6","Plesiastrea",0
+"2018","LTER 6","Pocillopora",17.4108333333333
+"2018","LTER 6","Porites",1.395
+"2018","LTER 6","Psammocora",0.1225
+"2018","LTER 6","Sandolitha",0
+"2018","LTER 6","Soft Coral",0
+"2018","LTER 6","Stylocoeniella",0.0258333333333333
+"2018","LTER 6","Tubastrea",0.00416666666666667
+"2018","LTER 6","Unknown Fungiidae",0.0141666666666667
+"2019","LTER 1","Acanthastrea",0.0316666666666667
+"2019","LTER 1","Acropora",1.4125
+"2019","LTER 1","Astrea",0.419166666666667
+"2019","LTER 1","Astreopora",0
+"2019","LTER 1","Cyphastrea",0.0133333333333333
+"2019","LTER 1","Gardineroseris",0.005
+"2019","LTER 1","Goniastrea",0
+"2019","LTER 1","Herpolitha",0.005
+"2019","LTER 1","Leptastrea",0.24
+"2019","LTER 1","Leptoseris",0.0133333333333333
+"2019","LTER 1","Lobophyllia",0.0133333333333333
+"2019","LTER 1","Millepora",0.363333333333333
+"2019","LTER 1","Montipora",2.26166666666667
+"2019","LTER 1","Pachyseris",0
+"2019","LTER 1","Pavona",0.571666666666667
+"2019","LTER 1","Plesiastrea",0
+"2019","LTER 1","Pocillopora",29.4091666666667
+"2019","LTER 1","Porites",3.16916666666667
+"2019","LTER 1","Psammocora",0.0833333333333333
+"2019","LTER 1","Sandolitha",0
+"2019","LTER 1","Soft Coral",0.00416666666666667
+"2019","LTER 1","Stylocoeniella",0.005
+"2019","LTER 1","Tubastrea",0.0166666666666667
+"2019","LTER 1","Unknown Fungiidae",0.185
+"2019","LTER 2","Acanthastrea",0.0758333333333333
+"2019","LTER 2","Acropora",2.12583333333333
+"2019","LTER 2","Astrea",0.644166666666667
+"2019","LTER 2","Astreopora",0
+"2019","LTER 2","Cyphastrea",0.0275
+"2019","LTER 2","Gardineroseris",0.00416666666666667
+"2019","LTER 2","Goniastrea",0
+"2019","LTER 2","Herpolitha",0
+"2019","LTER 2","Leptastrea",0.0841666666666667
+"2019","LTER 2","Leptoseris",0.0275
+"2019","LTER 2","Lobophyllia",0
+"2019","LTER 2","Millepora",0.856666666666667
+"2019","LTER 2","Montipora",3.4375
+"2019","LTER 2","Pachyseris",0
+"2019","LTER 2","Pavona",0.588333333333333
+"2019","LTER 2","Plesiastrea",0
+"2019","LTER 2","Pocillopora",24.1716666666667
+"2019","LTER 2","Porites",3.32083333333333
+"2019","LTER 2","Psammocora",0.0883333333333333
+"2019","LTER 2","Sandolitha",0
+"2019","LTER 2","Soft Coral",0
+"2019","LTER 2","Stylocoeniella",0
+"2019","LTER 2","Tubastrea",0
+"2019","LTER 2","Unknown Fungiidae",0.0975
+"2019","LTER 3","Acanthastrea",0.005
+"2019","LTER 3","Acropora",0.973333333333333
+"2019","LTER 3","Astrea",0.335833333333333
+"2019","LTER 3","Astreopora",0
+"2019","LTER 3","Cyphastrea",0.0225
+"2019","LTER 3","Gardineroseris",0.0133333333333333
+"2019","LTER 3","Goniastrea",0
+"2019","LTER 3","Herpolitha",0.0533333333333333
+"2019","LTER 3","Leptastrea",0.0208333333333333
+"2019","LTER 3","Leptoseris",0
+"2019","LTER 3","Lobophyllia",0
+"2019","LTER 3","Millepora",0.0741666666666667
+"2019","LTER 3","Montipora",1.49333333333333
+"2019","LTER 3","Pachyseris",0.00416666666666667
+"2019","LTER 3","Pavona",0.5925
+"2019","LTER 3","Plesiastrea",0
+"2019","LTER 3","Pocillopora",6.21
+"2019","LTER 3","Porites",1.4525
+"2019","LTER 3","Psammocora",0.0758333333333333
+"2019","LTER 3","Sandolitha",0.045
+"2019","LTER 3","Soft Coral",0.115
+"2019","LTER 3","Stylocoeniella",0
+"2019","LTER 3","Tubastrea",0
+"2019","LTER 3","Unknown Fungiidae",0.583333333333333
+"2019","LTER 4","Acanthastrea",0.00416666666666667
+"2019","LTER 4","Acropora",3.89583333333333
+"2019","LTER 4","Astrea",0.931666666666667
+"2019","LTER 4","Astreopora",0.0608333333333333
+"2019","LTER 4","Cyphastrea",0.0733333333333333
+"2019","LTER 4","Gardineroseris",0.00833333333333333
+"2019","LTER 4","Goniastrea",0
+"2019","LTER 4","Herpolitha",0.0533333333333333
+"2019","LTER 4","Leptastrea",0.210833333333333
+"2019","LTER 4","Leptoseris",0.0583333333333333
+"2019","LTER 4","Lobophyllia",0
+"2019","LTER 4","Millepora",0.895
+"2019","LTER 4","Montipora",7.96083333333333
+"2019","LTER 4","Pachyseris",0
+"2019","LTER 4","Pavona",0.7325
+"2019","LTER 4","Plesiastrea",0
+"2019","LTER 4","Pocillopora",10.9408333333333
+"2019","LTER 4","Porites",1.53333333333333
+"2019","LTER 4","Psammocora",0.0933333333333333
+"2019","LTER 4","Sandolitha",0
+"2019","LTER 4","Soft Coral",0
+"2019","LTER 4","Stylocoeniella",0
+"2019","LTER 4","Tubastrea",0
+"2019","LTER 4","Unknown Fungiidae",0.175
+"2019","LTER 5","Acanthastrea",0.0516666666666667
+"2019","LTER 5","Acropora",4.65
+"2019","LTER 5","Astrea",0.735
+"2019","LTER 5","Astreopora",0
+"2019","LTER 5","Cyphastrea",0.0391666666666667
+"2019","LTER 5","Gardineroseris",0.00916666666666667
+"2019","LTER 5","Goniastrea",0
+"2019","LTER 5","Herpolitha",0
+"2019","LTER 5","Leptastrea",0.323333333333333
+"2019","LTER 5","Leptoseris",0
+"2019","LTER 5","Lobophyllia",0
+"2019","LTER 5","Millepora",0.0683333333333333
+"2019","LTER 5","Montipora",2.90583333333333
+"2019","LTER 5","Pachyseris",0
+"2019","LTER 5","Pavona",0.565
+"2019","LTER 5","Plesiastrea",0
+"2019","LTER 5","Pocillopora",14.2875
+"2019","LTER 5","Porites",19.3441666666667
+"2019","LTER 5","Psammocora",0.0741666666666667
+"2019","LTER 5","Sandolitha",0
+"2019","LTER 5","Soft Coral",0.169166666666667
+"2019","LTER 5","Stylocoeniella",0
+"2019","LTER 5","Tubastrea",0
+"2019","LTER 5","Unknown Fungiidae",0.0133333333333333
+"2019","LTER 6","Acanthastrea",0.0125
+"2019","LTER 6","Acropora",3.16833333333333
+"2019","LTER 6","Astrea",0.679166666666667
+"2019","LTER 6","Astreopora",0.00416666666666667
+"2019","LTER 6","Cyphastrea",0.0666666666666667
+"2019","LTER 6","Gardineroseris",0.0391666666666667
+"2019","LTER 6","Goniastrea",0
+"2019","LTER 6","Herpolitha",0
+"2019","LTER 6","Leptastrea",0.360833333333333
+"2019","LTER 6","Leptoseris",0.035
+"2019","LTER 6","Lobophyllia",0
+"2019","LTER 6","Millepora",0.585833333333333
+"2019","LTER 6","Montipora",3.13
+"2019","LTER 6","Pachyseris",0
+"2019","LTER 6","Pavona",0.946666666666667
+"2019","LTER 6","Plesiastrea",0
+"2019","LTER 6","Pocillopora",17.6891666666667
+"2019","LTER 6","Porites",1.3375
+"2019","LTER 6","Psammocora",0.0708333333333333
+"2019","LTER 6","Sandolitha",0
+"2019","LTER 6","Soft Coral",0
+"2019","LTER 6","Stylocoeniella",0
+"2019","LTER 6","Tubastrea",0.0366666666666667
+"2019","LTER 6","Unknown Fungiidae",0.0325
