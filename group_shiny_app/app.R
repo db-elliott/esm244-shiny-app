@@ -91,10 +91,10 @@ ui <- fluidPage(
                                and anthropogenic forces affect coral community structure and function around disturbances.",
                                br(), " ",
                                br(),
-                              div(img(src = "mcr_coral.jpg", height = 500, width = 600), style="text-align: center;"),
+                              div(img(src = "mcr_coral.jpg", height = 450, width = 600), style="text-align: center;"),
                                br(), " ",
                               br(),
-                               div(img(src = "mcr_lter_map.png", height = 700, width = 600), style="text-align: center;") 
+                               div(img(src = "mcr_lter_map.png", height = 700, width = 550), style="text-align: center;") 
                             )
                         )), 
                tabPanel("Coral Cover By Year",
@@ -147,6 +147,12 @@ ui <- fluidPage(
                                     div(img(src = "coral3.png", height = 500, width = 600), style="text-align: center;"),
                                     br(), " ", br(),     
                                     div(img(src = "coral4.png", height = 500, width = 600), style="text-align: center;"),
+                                    br(), " ", br(),
+                                    div(img(src = "coral5.png", height = 500, width = 600), style="text-align: center;"),
+                                    br(), " ", br(),
+                                    div(img(src = "coral6.png", height = 500, width = 600), style="text-align: center;"),
+                                    br(), " ", br(),
+                                    div(img(src = "coral7.png", height = 500, width = 600), style="text-align: center;"),
                                     br(), " ", br()
                                     )
                         )),
@@ -213,7 +219,7 @@ ui <- fluidPage(
                               "4: 31-40cm", br(),
                               "5: above 40cm (largest circles)",
                               br(), " ", br(),
-                              div(img(src = "moorea_bleach.jpg", height = 500, width = 600), style="text-align: center;"),
+                              div(img(src = "moorea_bleach.jpg", height = 500, width = 650), style="text-align: center;"),
                               br(), " ", br()     
                             ) #end of mainPanel 4
                         )) #end of sidePanel, W4
@@ -225,7 +231,7 @@ ui <- fluidPage(
 # Define server logic required to draw a histogram
 server <- function(input, output) {
   
-  # output widget 1
+    # output widget 1
   coral_cov <- reactive ({
     coral_cov_mean %>%
       filter(year == as.numeric(input$cor_year))
@@ -240,29 +246,29 @@ server <- function(input, output) {
       labs(x = "Site", y = "Average % Cover") +
       theme_classic()
   })
-  
-  #output widget 2
-  coral_species <- reactive({
-    coral_spp %>% 
-      filter(site == input$coral_site) %>% 
-      filter(year %in% c(as.numeric(input$coral_year)))
-  })
-  
-  output$coral_species <- renderPlot({
-    ggplot(data = coral_species(), aes(x = year, y = percent_cover_mean)) + # maybe can use group = site?
-      geom_col(aes(fill = tax), color = "white") +
-      scale_fill_viridis_d(option = "plasma") +
-      labs(x = "Year", y = "% Cover",
-           fill = "Genus") +
-      theme_classic()
-  })
-  
-  # widget 3 output
-  fish_select <- reactive ({
-    top_fish <- fish %>%
-      filter(year %in% input$yr_slider[1]:input$yr_slider[2]) %>% 
-      count(taxonomy, wt = count) %>% 
-      slice_max(order_by = n, n = 10)
+    
+    #output widget 2
+    coral_species <- reactive({
+      coral_spp %>% 
+        filter(site == input$coral_site) %>% 
+        filter(year %in% c(as.numeric(input$coral_year)))
+    })
+    
+    output$coral_species <- renderPlot({
+      ggplot(data = coral_species(), aes(x = year, y = percent_cover_mean)) + # maybe can use group = site?
+        geom_col(aes(fill = tax), color = "white") +
+        scale_fill_viridis_d(option = "plasma") +
+        labs(x = "Year", y = "% Cover",
+             fill = "Genus") +
+        theme_classic()
+    })
+    
+    # widget 3 output
+    fish_select <- reactive ({
+        top_fish <- fish %>%
+        filter(year %in% input$yr_slider[1]:input$yr_slider[2]) %>% 
+        count(taxonomy, wt = count) %>% 
+        slice_max(order_by = n, n = 10)
     
     fish_count <- fish %>% 
       filter(taxonomy %in% top_fish$taxonomy) %>%
@@ -271,45 +277,45 @@ server <- function(input, output) {
       count(taxonomy, wt = count)
     
     return(fish_count)
-  })
-  
-  
-  output$fish_ab <- renderPlot({
-    ggplot(data = fish_select(), aes(x = year, y = n)) + 
-      geom_line(aes(color = taxonomy, group = taxonomy), size = 2) +
-      geom_point(aes(color = taxonomy)) +
-      scale_color_viridis_d(option = "plasma") +
-      labs(x = "Year", y = "Abundance", color = "Species") +
-      theme_classic()
-  }) # end output widget 3
-  
-  #output widget 4
-  bleach_percent <- reactive ({
+    })
     
-    bleaching <- if(input$bleach_switch == FALSE) {
-      filter(bleach_2016_sf, percent_bleached == 0)
-    } else {
-      filter(bleach_2016_sf, percent_bleached > 0)}
     
-    per_bleach <- bleaching %>%
-      filter(percent_bleached >= input$bleach_slider)
+    output$fish_ab <- renderPlot({
+        ggplot(data = fish_select(), aes(x = year, y = n)) + 
+        geom_line(aes(color = taxonomy, group = taxonomy), size = 2) +
+        geom_point(aes(color = taxonomy)) +
+        scale_color_viridis_d(option = "plasma") +
+        labs(x = "Year", y = "Abundance", color = "Species") +
+        theme_classic()
+            }) # end output widget 3
     
-    return(per_bleach)
-  })
-  #make a map
-  
-  output$bleach_perc <- renderTmap({
-    tmap_mode(mode = "view")
+    #output widget 4
+    bleach_percent <- reactive ({
+      
+      bleaching <- if(input$bleach_switch == FALSE) {
+        filter(bleach_2016_sf, percent_bleached == 0)
+      } else {
+          filter(bleach_2016_sf, percent_bleached > 0)}
+      
+      per_bleach <- bleaching %>%
+        filter(percent_bleached >= input$bleach_slider)
+
+      return(per_bleach)
+    })
+    #make a map
     
-    tm_shape(bleach_percent()) +
-      tm_dots(col = "taxa",
-              size = "colony_size_class",
-              alpha = 0.7,
-              popup.vars = c("size class" = "colony_size_class", "percent bleached" = "percent_bleached"),
-              id = "taxa")
-  }) # end output widget 4
-  
-  output$switch <- renderPrint(input$bleach_switch)
+    output$bleach_perc <- renderTmap({
+      tmap_mode(mode = "view")
+      
+      tm_shape(bleach_percent()) +
+        tm_dots(col = "taxa",
+                size = "colony_size_class",
+                alpha = 0.7,
+                popup.vars = c("size class" = "colony_size_class", "percent bleached" = "percent_bleached"),
+                id = "taxa")
+    }) # end output widget 4
+    
+    output$switch <- renderPrint(input$bleach_switch)
 }
 
 # Run the application 
