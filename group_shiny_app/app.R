@@ -205,6 +205,8 @@ ui <- fluidPage(
                                       bleaching from the 2016 bleaching event. Click on a colony 
                                       to view its class size and percent bleached.",
                                       br(), " ", br(), " ", br(),
+                                      "Click on a colony to find out its size class and percent bleached!",
+                                      br(), " ", br(), " ", br(),
                               tmapOutput(outputId = "bleach_perc"), #widget 4 output
                               br(), " ", br(),
                               "Between February and May of 2016, water temperature exceeded the 
