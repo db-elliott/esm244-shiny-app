@@ -8,6 +8,7 @@ library(sf)
 library(tmap)
 library(tmaptools)
 library(shinyWidgets)
+library(plotly)
 
 #reading in and wrangling data
 
@@ -260,7 +261,8 @@ server <- function(input, output) {
         scale_fill_viridis_d(option = "plasma") +
         labs(x = "Year", y = "% Cover",
              fill = "Genus") +
-        theme_classic()
+        theme_classic() +
+        scale_x_continuous(breaks = seq(2005, 2019, 1))
     })
     
     # widget 3 output
